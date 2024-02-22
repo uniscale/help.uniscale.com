@@ -49,7 +49,7 @@ Wherever you are in the specification you can always use type / to trigger the c
 
 You can start by simply just describing your solution overall in the solution description. If your plan includes the generative AI functionality you can easily get started by getting some ideas from the AI. This is very helpful for instance when wanting to get help on making your specification well articulated and readable.&#x20;
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Get help describing your solution with our generative AI functionality.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Get help describing your solution with our generative AI functionality.</p></figcaption></figure>
 
 Remember that even though the AI can help you express things more clearly you are the one responsible for making sure that your intentions and requirements are communicated.&#x20;
 
@@ -61,7 +61,7 @@ Communicating a new concept is much easier than communicating and aligning on ad
 
 To get started with creating your first module you can either use the / menu or you can use the Create module button in the top solution context bar. This is also where you can go into a specific module or service. This is important when working with revisions.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Create modules either through the / command or by using the solution context menu at the top.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Create modules either through the / command or by using the solution context menu at the top.</p></figcaption></figure>
 
 {% hint style="info" %}
 By selecting a module in the solution context dropdown you can get to the module focus view. In there, you can approve your module revision, look at previous revisions, and more.

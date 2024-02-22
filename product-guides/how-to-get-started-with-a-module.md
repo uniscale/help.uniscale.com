@@ -15,7 +15,7 @@ Modules are structured using Pages, Sections and Functional use cases. Pages and
 
 In addition to the structure of your product you will also use Functional use cases to define the user behaviour within the module. These functional use cases describes the high level user behaviour in its description while it breaks down the details of it through its UX flows (user experience flows). In this way the reader can choose to read the specification through the preferred level of detail. Even designer notes have their own sections within Functional use cases to explain details around look and feel.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Define Functional use cases within the module, Pages or Sections to describe user interaction. This is also the link into services.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Define Functional use cases within the module, Pages or Sections to describe user interaction. This is also the link into services.</p></figcaption></figure>
 
 The connection between the service documentation and the module specification happens through the UX flows in Functional use cases. Through them you can link to service flows which is a services way of expressing intent of usage to some of it's endpoints.
 
@@ -39,7 +39,7 @@ Type / or click the ... menu to start creating content within your specification
 
 An easy way of getting started with your module specification is to use user interface mocks as an entry point. Let's say that we paste a mock / screenshot / drawing right into our module specification.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Breaking your visual mocks down into pages and sections representing the structure of your product.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Breaking your visual mocks down into pages and sections representing the structure of your product.</p></figcaption></figure>
 
 It is then easy to use the information in the image to break down our module specification into Pages and Sections. When we get deeper into the mocks we can start defining Functional use cases. You can learn more about those in the next article.
 
