@@ -25,4 +25,3 @@ The UX product notes is where you can go into more detail regarding the user exp
 
 ### UI designer notes and designer notes
 
-lwkjef wefwef
