@@ -1,8 +1,8 @@
 ---
 description: >-
-  Let's look at how to nail the structure of your solution specification. Learn
-  how to break functionality down into modules. Learn about modules, services
-  and their impact on scaling your organization.
+  Lets look at how to nail the structure of your solution specification. Learn
+  how to break functionality down into modules. Learn about module, services and
+  their impact on scaling your organization.
 coverY: 0
 ---
 
