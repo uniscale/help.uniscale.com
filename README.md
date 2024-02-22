@@ -30,7 +30,7 @@ The boundary of a module or a service is defined by functionality that belongs t
 
 When trying to scale a software product organization it is almost impossible when multiple teams try to deliver functionality into the same modules and services. This results in parallel deliveries from multiple teams to the same functionality and always ends up in high organizational friction due to functionality conflicts and misalignments.
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>Modules and services should be owned by a single entity in your organization. This will provide you with good coherent specifications and effective deliveries.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Modules and services should be owned by a single entity in your organization. This will provide you with good coherent specifications and effective deliveries.</p></figcaption></figure>
 
 It is crucial that when functionality is split into modules the majority of your deliveries regard a single module and services delivered by the team or department owning that module.
 
@@ -62,7 +62,7 @@ Communicating a new concept is much easier than communicating and aligning on ad
 
 To get started with creating your first module you can either use the / menu or you can use the Create module button in the top solution context bar. This is also where you can go into a specific module or service. This is important when working with revisions.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Create modules either through the / command or by using the solution context menu at the top.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Create modules either through the / command or by using the solution context menu at the top.</p></figcaption></figure>
 
 {% hint style="info" %}
 By selecting a module in the solution context dropdown you can get to the module focus view. In there, you can approve your module revision, look at previous revisions, and more.
