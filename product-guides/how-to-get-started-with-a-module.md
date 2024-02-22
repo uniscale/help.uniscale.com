@@ -3,7 +3,6 @@ description: >-
   How to structure a module specification and separate high-level descriptions
   from detailed functionality specifications. Allow all stakeholders to
   communicate over the same specification.
-coverY: 0
 ---
 
 # 📪 How to get started with a module
