@@ -15,7 +15,7 @@ A solution consists of modules and services. The modules describe all your funct
 
 You will incrementally write parts of your specification as you deliver functionality through projects, sprints, or however you deliver functionality in your organization's process. This is achieved by making revisions of your modules and services.
 
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>Uniscale Designs relation to a product roadmap. Single source of through through many iterations over time.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>Uniscale Design's relation to a product roadmap. Single source of truth through many iterations over time.</p></figcaption></figure>
 
 Over time your solution specification will follow your product as the single source of truth for all intentions and decisions that went into making your product what it is today. This is key to being able to make good decisions in the future.
 
