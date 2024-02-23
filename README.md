@@ -5,7 +5,7 @@ description: >-
   their impact on scaling your organization.
 ---
 
-# 📎 How to get started with a solution
+# How to get started with a solution
 
 ## What does a solution consist of?
 
@@ -18,6 +18,8 @@ You will incrementally write parts of your specification as you deliver function
 <figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>Uniscale Designs relation to a product roadmap. Single source of through through many iterations over time.</p></figcaption></figure>
 
 Over time your solution specification will follow your product as the single source of truth for all intentions and decisions that went into making your product what it is today. This is key to being able to make good decisions in the future.
+
+
 
 ## How do I define my module and service boundaries?
 
@@ -37,6 +39,8 @@ It is crucial that when functionality is split into modules the majority of your
 Split the functionality so that you end up with deliveries mostly involving a single module and services owned by the same team or department.
 {% endhint %}
 
+
+
 ## Describing your first solution and creating your first module
 
 Let's dive straight into producing some valuable content. You will have the same rich text capabilities wherever you are within the Uniscale specification and documentation.
@@ -44,6 +48,8 @@ Let's dive straight into producing some valuable content. You will have the same
 {% hint style="info" %}
 Wherever you are in the specification you can always use type / to trigger the command menu. The command menu contains all the options within the element you are located in. For instance, in the solution description, you will have the command for creating a module. You will find the same information using the ... menu in the top right corner of the element you are in.
 {% endhint %}
+
+
 
 ### Describe your solution
 
@@ -57,6 +63,8 @@ Remember that even though the AI can help you express things more clearly you ar
 Communicating a new concept is much easier than communicating and aligning on ad-hoc changes to a concept.
 {% endhint %}
 
+
+
 ### Create your first module
 
 To get started with creating your first module you can either use the / menu or you can use the Create module button in the top solution context bar. This is also where you can go into a specific module or service. This is important when working with revisions.
@@ -68,6 +76,8 @@ By selecting a module in the solution context dropdown you can get to the module
 {% endhint %}
 
 As with the solution, you can also write a short introduction to the module before you start structuring your specification into Pages, Sections, and Functional use cases.
+
+
 
 ***
 

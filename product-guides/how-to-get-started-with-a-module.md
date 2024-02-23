@@ -5,7 +5,7 @@ description: >-
   communicate over the same specification.
 ---
 
-# 📪 How to get started with a module
+# How to get started with a module
 
 ## What is the building blocks of a module?
 
@@ -21,6 +21,8 @@ The connection between the service documentation and the module specification ha
 
 As the specifications over time grows large it is important to structure it right so that it is easy focus in on only parts of the specification. It is therefore important that you make yourself some thoughts around locating the parts of the specification that is meant to be read together in the same location.
 
+
+
 ## Cater to your audience
 
 As this is the functional requirements for your solution it is important that all your stakeholders can feel at home in the specification. This ensures optimal communication and alignment. To achieve this it is important that you define the right information within the right elements.&#x20;
@@ -30,6 +32,8 @@ Use Pages and Sections for high level explanations while using Functional use ca
 {% endhint %}
 
 Within Pages and sections you can describe high level specifications of your functionality. In this way all stakeholders can use this part of the specification to make sure that everyone has a high level alignment of the functionality and the intentions that led to its current state. From there the reader can enable Functional use cases or even UX flows and designer notes to dig into the details needed to implement the requirements.
+
+
 
 ## An easy way to specification breakdown
 
@@ -42,6 +46,10 @@ An easy way of getting started with your module specification is to use user int
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Breaking your visual mocks down into pages and sections representing the structure of your product.</p></figcaption></figure>
 
 It is then easy to use the information in the image to break down our module specification into Pages and Sections. When we get deeper into the mocks we can start defining Functional use cases. You can learn more about those in the next article.
+
+
+
+***
 
 ## Summary
 

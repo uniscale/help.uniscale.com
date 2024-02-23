@@ -5,11 +5,13 @@ description: >-
   iteratively build your specification.
 ---
 
-# 📪 Module revisions, readying and approving
+# Module revisions, readying and approving
 
 {% hint style="info" %}
 The module revisions are part of the module editor. This means that you need to select a specific module in the solution context menu to access revisions and approval.
 {% endhint %}
+
+
 
 ## Iteratively specifying and delivering your product
 
@@ -18,6 +20,8 @@ Building good products requires hard and focused effort over time. You will not 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Make your Uniscale solution the single source of truth to the intentions and decision that has made your product what it is. Use revisions to incrementally build your specification so that you can effectively release your functionality.</p></figcaption></figure>
 
 For each module you can work with the current revision and look back at any of your older revisions. In this way you have the complete overview of the product intention and decision history.
+
+
 
 ## The module revision flow
 
@@ -31,6 +35,8 @@ If you also use services in your solution the service documentation will happen 
 If you can lock down your service boundaries up front you have already discovered 95% of your unknowns.
 {% endhint %}
 
+
+
 ## Unlocking and readying
 
 When starting a new revision all elements will be in the locked state. This means that you have started a revision but you have not made a decision to make changes to any of the content yet. To make changes to existing content you have to unlock that element first. This allows you to keep track of what you have changed or is intending to make changes to.&#x20;
@@ -43,9 +49,13 @@ Use unlocking to both keep track of what you have changed but also as an alignme
 
 In the same way as using unlocking to align on what will change you can use the readying to keep track of the part of the specification that you are done with and what you have left. When writing larger and more complex specifications it is really helpful to be able to lock down parts of your specification as you go so that you systematically can approach the point where you know you are done.
 
+
+
 ## Approval
 
 The last step is to approve the specification. If you are also defining services you will complete your service revisions ahead of approving. If you are only using the functional specifications you will go on to approving the specification after everything has been marked as ready. When approved the specification is locked and you are ready to in the future start new revisions.
+
+
 
 ## Conclusion
 
