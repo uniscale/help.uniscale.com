@@ -75,6 +75,10 @@ To get started with creating your first module you can either use the / menu or 
 By selecting a module in the solution context dropdown you can get to the module focus view. In there, you can approve your module revision, look at previous revisions, and more.
 {% endhint %}
 
+## Specifying your first module revision
+
+Let's dive in an specify up the first revision of a module. We will go through the elements used to write it and some decisions behind why and how.
+
 {% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=VZkJOCtMGfI" %}
 Let's go through and write our first module revision specification
 {% endembed %}
