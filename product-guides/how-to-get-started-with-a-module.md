@@ -45,7 +45,11 @@ An easy way of getting started with your module specification is to use user int
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Breaking your visual mocks down into pages and sections representing the structure of your product.</p></figcaption></figure>
 
+## Specifying your first module revision
+
 {% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=VZkJOCtMGfI" %}
+Let's go through and write our first module revision specification
+{% endembed %}
 
 
 
