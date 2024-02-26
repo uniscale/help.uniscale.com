@@ -55,7 +55,13 @@ In the same way as using unlocking to align on what will change you can use the 
 
 The last step is to approve the specification. If you are also defining services you will complete your service revisions ahead of approving. If you are only using the functional specifications you will go on to approving the specification after everything has been marked as ready. When approved the specification is locked and you are ready to in the future start new revisions.
 
+## Starting and approving a module revision
 
+In this video we go through how we can add a new revision to our module. Each revision will incrementally add functionality to your module.
+
+{% embed url="https://www.youtube.com/watch?index=2&list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=Bc3auFzvn10" %}
+Let us add some functionality to a module through revisions
+{% endembed %}
 
 ## Conclusion
 
