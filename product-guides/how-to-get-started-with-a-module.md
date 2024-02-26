@@ -45,7 +45,7 @@ An easy way of getting started with your module specification is to use user int
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Breaking your visual mocks down into pages and sections representing the structure of your product.</p></figcaption></figure>
 
-It is then easy to use the information in the image to break down our module specification into Pages and Sections. When we get deeper into the mocks we can start defining Functional use cases. You can learn more about those in the next article.
+{% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=VZkJOCtMGfI" %}
 
 
 
