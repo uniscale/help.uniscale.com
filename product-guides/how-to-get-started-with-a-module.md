@@ -47,6 +47,8 @@ An easy way of getting started with your module specification is to use user int
 
 ## Specifying your first module revision
 
+Let's dive in an specify up the first revision of a module. We will go through the elements used to write it and some decisions behind why and how.
+
 {% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=VZkJOCtMGfI" %}
 Let's go through and write our first module revision specification
 {% endembed %}
