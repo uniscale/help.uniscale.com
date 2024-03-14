@@ -2,7 +2,8 @@
 
 ## 🚀 GETTING STARTED
 
-* [Page 1](README.md)
+* [How to use Uniscale: Quick start guide](README.md)
+* [Getting started for Workspace admins](getting-started/getting-started-for-workspace-admins.md)
 
 ## 💻 USING UNISCALE
 
