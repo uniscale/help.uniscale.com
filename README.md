@@ -16,6 +16,10 @@ Go to app.uniscale.com and click the sign-up link under the login form to create
 
 After logging in you will see your Personal Dashboard, this is where you can edit your account details and either access or create workspaces.
 
+{% content-ref url="workspace-administration/manage-workspaces/create-a-workspace.md" %}
+[create-a-workspace.md](workspace-administration/manage-workspaces/create-a-workspace.md)
+{% endcontent-ref %}
+
 
 
 ## **Step 3: Define your functional specification**
