@@ -11,11 +11,11 @@ description: >-
 
 Modules are structured using Pages, Sections and Functional use cases. Pages and Sections are the structural elements that you will use to make sure that you structure your application in the same way as the product. In that way it will be easier to navigate your way within a module in relation to the product.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>The structural breakdown of a module specification using Pages and sections.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>The structural breakdown of a module specification using Pages and sections.</p></figcaption></figure>
 
 In addition to the structure of your product you will also use Functional use cases to define the user behaviour within the module. These functional use cases describes the high level user behaviour in its description while it breaks down the details of it through its UX flows (user experience flows). In this way the reader can choose to read the specification through the preferred level of detail. Even designer notes have their own sections within Functional use cases to explain details around look and feel.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Define Functional use cases within the module, Pages or Sections to describe user interaction. This is also the link into services.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Define Functional use cases within the module, Pages or Sections to describe user interaction. This is also the link into services.</p></figcaption></figure>
 
 The connection between the service documentation and the module specification happens through the UX flows in Functional use cases. Through them you can link to service flows which is a services way of expressing intent of usage to some of it's endpoints.
 
