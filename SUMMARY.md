@@ -13,4 +13,8 @@
 
 ## 👤 YOUR ACCOUNT & PREFERENCES
 
-* [👨‍💻 WORKSPACE ADMINISTRATION](your-account-and-preferences/workspace-administration.md)
+* [page](your-account-and-preferences/page.md)
+
+## 🧑‍💻 WORKSPACE ADMINISTRATION
+
+* [Page 2](workspace-administration/page-2.md)
