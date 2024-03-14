@@ -15,10 +15,9 @@
 
 ## 👤 YOUR ACCOUNT & PREFERENCES
 
-* [How to Create an Account](your-account-and-preferences/how-to-create-an-account.md)
-* [Manage your Account](your-account-and-preferences/manage-your-account/README.md)
-  * [How to edit my account settings](your-account-and-preferences/manage-your-account/how-to-edit-my-account-settings.md)
-  * [How to reset my password](your-account-and-preferences/manage-your-account/how-to-reset-my-password.md)
+* [Create an Account](your-account-and-preferences/create-an-account.md)
+* [Manage your Account](your-account-and-preferences/manage-your-account.md)
+* [Reset my password](your-account-and-preferences/reset-my-password.md)
 
 ## 🧑‍💻 WORKSPACE ADMINISTRATION
 
