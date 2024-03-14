@@ -22,4 +22,6 @@
 
 ## 🧑‍💻 WORKSPACE ADMINISTRATION
 
-* [Page 2](workspace-administration/page-2.md)
+* [Manage Workspaces](workspace-administration/manage-workspaces/README.md)
+  * [Create a workspace](workspace-administration/manage-workspaces/create-a-workspace.md)
+  * [Invite to a workspace](workspace-administration/manage-workspaces/invite-to-a-workspace.md)

@@ -2,7 +2,7 @@
 description: Learn here how to reset your password
 ---
 
-# How to reset my password
+# Reset my password
 
 **Click here to reset your password:**&#x20;
 
@@ -16,10 +16,10 @@ From [Uniscale.com](https://www.uniscale.com/), select the option “You can als
 
 Insert your e-mail address and click on “Forgot Your Password?”.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 You will then receive an email where you can select the option “Reset Password”. See below an example:
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Please note that the “Reset Password” link expires after 60 minutes.
