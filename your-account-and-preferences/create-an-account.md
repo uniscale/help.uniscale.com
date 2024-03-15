@@ -47,7 +47,5 @@ Are you not receiving an email? Please check your spam folder. The email will be
 Once you verify your account, log in and get started!
 
 {% hint style="info" %}
-Are you curious to know how to manage your account? Read more about it in "[Manage your account](#user-content-fn-1)[^1]".
+Are you curious to know how to manage your account? Read more about it in ["Manage your account"](manage-your-account.md).
 {% endhint %}
-
-[^1]: 
