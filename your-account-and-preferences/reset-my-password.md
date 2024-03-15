@@ -10,9 +10,9 @@ description: Learn here how to reset your password
 
 <details>
 
-<summary>Step by step guide: Reset my password </summary>
+<summary>Step-by-step guide: Reset my password </summary>
 
-Is the link above broken? No worries, here is a short guide how to reset your password:&#x20;
+Is the link above broken? No worries, here is a short guide on how to reset your password:&#x20;
 
 From [Uniscale.com](https://www.uniscale.com/), select the option “You can also log in with email”.
 
