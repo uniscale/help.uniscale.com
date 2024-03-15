@@ -25,3 +25,9 @@
 * [Manage Workspaces](workspace-administration/manage-workspaces/README.md)
   * [Create a workspace](workspace-administration/manage-workspaces/create-a-workspace.md)
   * [Invite to a workspace](workspace-administration/manage-workspaces/invite-to-a-workspace.md)
+
+***
+
+* [Manage billing, payments & plans](manage-billing-payments-and-plans/README.md)
+  * [Plans and subscriptions](manage-billing-payments-and-plans/plans-and-subscriptions.md)
+  * [Billing](manage-billing-payments-and-plans/billing.md)
