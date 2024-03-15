@@ -12,13 +12,15 @@ description: >-
 
 From your workspace: **Go to "Solutions".**
 
-‍
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 09.57.48@2x.png" alt=""><figcaption><p>From the Workspace Dashboard - go to the Solutions</p></figcaption></figure>
 
 ### **Step 2: Click "Create solution"**
 
 And click the **"Create solution"** button in the top right corner.
 
-‍
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 10.00.38@2x.png" alt=""><figcaption><p>Create a solution</p></figcaption></figure>
+
+
 
 ### **Step 3: Fill out the solution details**
 
@@ -28,7 +30,7 @@ When you create a solution, you give it a name, owner, and description and then 
 2. **Owner:** The person responsible for decisions related to the solution.
 3. **Description:** A short description, or elevator pitch for the problem your solution addresses.
 
-
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 10.18.45@2x.png" alt=""><figcaption><p>Fill out your details</p></figcaption></figure>
 
 ## Writing your specification
 
