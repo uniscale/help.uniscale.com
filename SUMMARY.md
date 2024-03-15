@@ -34,4 +34,3 @@
 * [Manage billing, payments & plans](manage-billing-payments-and-plans/README.md)
   * [Plans and subscriptions](manage-billing-payments-and-plans/plans-and-subscriptions.md)
   * [Billing](manage-billing-payments-and-plans/billing.md)
-* [Manage billing, payments & plans](manage-billing-payments-and-plans-1.md)
