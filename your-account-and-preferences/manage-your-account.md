@@ -1,7 +1,5 @@
 ---
-description: >-
-  Learn here how to change your account settings; personal information,
-  notifications and how to delete your account.
+description: Learn here how to change your account settings
 ---
 
 # Manage your Account
@@ -43,3 +41,17 @@ Select "Notifications" from the left-hand side
 :warning: Danger zone: Select "Delete account"&#x20;
 
 <figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 14.18.27.png" alt=""><figcaption><p>Account deletion</p></figcaption></figure>
+
+***
+
+## How to link different accounts at log-in?&#x20;
+
+If you signed up using your email to create an account, you have the option to connect it with your Google, Microsoft, LinkedIn, or GitBook account later on, provided that the email you used matches. This will simplify the login process for you in the future.
+
+To link accounts, select the account you want to connect on the main log-in page.
+
+<figure><img src="../.gitbook/assets/CleanShot 2024-03-18 at 09.31.06@2x.png" alt=""><figcaption></figcaption></figure>
+
+Your computer will automatically detect that the email you have previously used is associated with another account and merge the two. This will enable you to log in using the new method, rather than having to enter your email address and password every time you log in.
+
+\
