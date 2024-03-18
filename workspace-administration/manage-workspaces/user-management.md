@@ -24,7 +24,7 @@ This will help you to maintain an overall idea of the roles you have directly wo
 
 ### How to add a user to your Workspace
 
-Check ["Invite to a workspace"](../invite-to-a-workspace.md) to see how you can add new users to your Workspace
+Check ["Invite to a workspace"](invite-to-a-workspace.md) to see how you can add new users to your Workspace
 
 ### How to remove a user from your Workspace
 
