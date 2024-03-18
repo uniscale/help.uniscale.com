@@ -1,5 +1,5 @@
 ---
-description: Learn here how to change your account settings
+description: Learn here how to change your account settings.
 ---
 
 # Manage your Account
@@ -38,7 +38,7 @@ Select "Notifications" from the left-hand side
 
 ### Delete account
 
-:warning: Danger zone: Select "Delete account"&#x20;
+Danger zone: Select "Delete account"&#x20;
 
 <figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 14.18.27.png" alt=""><figcaption><p>Account deletion</p></figcaption></figure>
 

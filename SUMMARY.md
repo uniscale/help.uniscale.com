@@ -1,11 +1,11 @@
 # Table of contents
 
-## 🚀 GETTING STARTED
+## GETTING STARTED
 
 * [How to use Uniscale: Quick start guide](README.md)
 * [Getting started for Workspace admins](getting-started/getting-started-for-workspace-admins.md)
 
-## 💻 USING UNISCALE
+## USING UNISCALE
 
 * [Specification](using-uniscale/specification/README.md)
   * [Guide: Create a Solution](using-uniscale/specification/guide-create-a-solution.md)
@@ -14,13 +14,13 @@
   * [How and when to define functional use cases](using-uniscale/specification/how-and-when-to-define-functional-use-cases.md)
   * [Module revisions, readying and approving](using-uniscale/specification/module-revisions-readying-and-approving.md)
 
-## 👤 YOUR ACCOUNT & PREFERENCES
+## YOUR ACCOUNT & PREFERENCES
 
 * [Create an Account](your-account-and-preferences/create-an-account.md)
 * [Manage your Account](your-account-and-preferences/manage-your-account.md)
 * [Reset my password](your-account-and-preferences/reset-my-password.md)
 
-## 🧑‍💻 WORKSPACE ADMINISTRATION
+## WORKSPACE ADMINISTRATION
 
 * [Manage Workspaces](workspace-administration/manage-workspaces/README.md)
   * [Create a workspace](workspace-administration/manage-workspaces/create-a-workspace.md)
