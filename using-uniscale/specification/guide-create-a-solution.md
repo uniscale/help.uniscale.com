@@ -24,7 +24,7 @@ From your workspace: **Go to "Solutions".**
 
 And click the **"Create solution"** button in the top right corner.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 11.36.06.png" alt=""><figcaption><p>Create a solution</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-18 at 13.38.11@2x.png" alt=""><figcaption><p>Click "Create solution"</p></figcaption></figure>
 
 ### **Step 3: Fill out the solution details**
 
