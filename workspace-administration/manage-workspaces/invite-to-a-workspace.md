@@ -4,7 +4,15 @@ description: Read here how to invite to a workspace
 
 # Invite to a workspace
 
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-14 at 15.09.14.gif" alt=""><figcaption><p>How to invite to a workspace</p></figcaption></figure>
+
+***
+
+## Step-by-step guide: How to invite users to a workspace&#x20;
+
 Follow these steps to make sure your colleagues can also access your Workspace:
+
+
 
 ### Step 1: Go to the Workspace Administration view
 
@@ -14,7 +22,7 @@ Navigate to the Workspace Administration view by clicking the icon next to the w
 
 ### Step 2: Click the "Invite User" button
 
-Go to "Users" and click the "Invite User" button and you will then be prompted to insert some extra details about the invitee
+Go to "Users" in your workspace settings and click the "Invite User" button and you will then be prompted to insert some extra details about the invitee
 
 
 
@@ -22,10 +30,20 @@ Go to "Users" and click the "Invite User" button and you will then be prompted t
 
 Add and select the required details about the invitee and send out the invitation
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-14 at 15.09.14.gif" alt=""><figcaption><p>GIF - How to invite to a workspace</p></figcaption></figure>
 
 
+## Email verification
 
-The _inivitee_ will now receive an email to join your workspace. See below what this email looks like:
+The _inivitee_ will now receive an email to join your workspace.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Email invitation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-18 at 15.26.32.png" alt=""><figcaption><p>Uniscale invitation - invitee verfication</p></figcaption></figure>
+
+### Next steps for admin and invitee:&#x20;
+
+{% content-ref url="../../getting-started/getting-started-for-workspace-admins.md" %}
+[getting-started-for-workspace-admins.md](../../getting-started/getting-started-for-workspace-admins.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../your-account-and-preferences/create-an-account.md" %}
+[create-an-account.md](../../your-account-and-preferences/create-an-account.md)
+{% endcontent-ref %}
