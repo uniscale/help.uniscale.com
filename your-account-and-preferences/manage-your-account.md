@@ -50,7 +50,7 @@ If you signed up using your email to create an account, you have the option to c
 
 To link accounts, select the account you want to connect on the main log-in page.
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-03-18 at 09.31.06@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-03-18 at 13.43.45@2x.png" alt=""><figcaption><p>Select the account you want to use</p></figcaption></figure>
 
 Your computer will automatically detect that the email you have previously used is associated with another account and merge the two. This will enable you to log in using the new method, rather than having to enter your email address and password every time you log in.
 
