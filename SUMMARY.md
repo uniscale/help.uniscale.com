@@ -30,5 +30,5 @@
 
 ***
 
-* [Plans and subscriptions](plans-and-subscriptions.md)
-* [Billing](billing.md)
+* [Plans and subscriptions](manage-billing-payments-and-plans/plans-and-subscriptions.md)
+* [Billing](manage-billing-payments-and-plans/billing.md)
