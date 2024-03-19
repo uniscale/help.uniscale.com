@@ -4,9 +4,23 @@ description: Read here how to manage the different users inside your workspace
 
 # User management
 
-You can access the User management page directly from your Administration Settings inside your Workspace.
+You can access the User Management page directly from your Administration Settings inside your Workspace. From the User Management page, you can see who is part of your Workspace, what accesses they have, and roles and delete or add any users to your Workspace.
 
-From the User management page you can see who is part of your Workspace, what accesses they have, roles and add or delete any users of your Workspace.
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-19 at 10.02.58.gif" alt=""><figcaption><p>Where to manage the different workspace users </p></figcaption></figure>
+
+### How to remove a user from your Workspace
+
+If you are the owner or admin of your Workspace, you can remove a user by going to the User Management page inside the Administration Settings of your Workspace.
+
+When inside the User Management page, remove a given user by clicking the red icon next to the user's name.
+
+### How to add a user to your Workspace
+
+Check to see how you can add new users to your Workspace
+
+{% content-ref url="invite-to-a-workspace.md" %}
+[invite-to-a-workspace.md](invite-to-a-workspace.md)
+{% endcontent-ref %}
 
 ### Account accesses&#x20;
 
@@ -16,18 +30,10 @@ An Admin user can both add or delete users to the Workspace as well as create an
 
 On the other hand, someone with User access can only create and write functional or technical specifications.
 
+
+
 ### Account Roles
 
-This section allows you to attribute roles that can match the different postions users have inside your organization.&#x20;
+This section allows you to attribute roles that can match the different positions users have inside your organization.&#x20;
 
 This will help you to maintain an overall idea of the roles you have directly working in your Workspace.
-
-### How to add a user to your Workspace
-
-Check ["Invite to a workspace"](invite-to-a-workspace.md) to see how you can add new users to your Workspace
-
-### How to remove a user from your Workspace
-
-If you are the owner or admin of your Workspace, you can remove a user by going to the User Management page inside the Administration Settings of your Workspace.
-
-When inside the User management page, remove a given user by clicking the red icon next to the user's name.
