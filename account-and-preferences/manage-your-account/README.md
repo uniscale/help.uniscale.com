@@ -46,7 +46,7 @@ Danger zone: Select "Delete account"&#x20;
 
 ***
 
-## Linking different accounts at log-in?&#x20;
+## Link multiple Accounts
 
 If you signed up using your email to create an account, you have the option to connect it with your Google, Microsoft, LinkedIn, or GitBook account later on, provided that the email you used matches. This will simplify the login process for you in the future.
 
