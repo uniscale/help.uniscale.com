@@ -43,5 +43,5 @@ You can create an account using email and a unique password. To do so, fill out 
 
 
 {% hint style="info" %}
-Are you curious to know how to manage your account? Read more about it in ["Manage your account"](manage-your-account.md).
+Are you curious to know how to manage your account? Read more about it in ["Manage your account"](manage-your-account/).
 {% endhint %}

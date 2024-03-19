@@ -8,7 +8,7 @@ description: >-
 
 ## Account settings&#x20;
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 13.42.08.gif" alt=""><figcaption><p>Account setting overview </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 13.42.08.gif" alt=""><figcaption><p>Account setting overview </p></figcaption></figure>
 
 ***
 
@@ -20,13 +20,13 @@ description: >-
 
 From the Uniscale Dashboard click the profile icon on the bottom left corner of the page.
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 14.12.19.png" alt=""><figcaption><p>From dashboard to account settings </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 14.12.19.png" alt=""><figcaption><p>From dashboard to account settings </p></figcaption></figure>
 
 ### Update personal information
 
 Select "Personal Information" from the left-hand side. Update any of the fields and press "Save changes" when done.
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 14.15.01.png" alt=""><figcaption><p>Personal information</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 14.15.01.png" alt=""><figcaption><p>Personal information</p></figcaption></figure>
 
 ***
 
@@ -34,7 +34,7 @@ Select "Personal Information" from the left-hand side. Update any of the fields 
 
 Select "Notifications" from the left-hand side
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 14.17.04.png" alt=""><figcaption><p>Notifications</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 14.17.04.png" alt=""><figcaption><p>Notifications</p></figcaption></figure>
 
 ***
 
@@ -42,7 +42,7 @@ Select "Notifications" from the left-hand side
 
 Danger zone: Select "Delete account"&#x20;
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 14.18.27.png" alt=""><figcaption><p>Account deletion</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 14.18.27.png" alt=""><figcaption><p>Account deletion</p></figcaption></figure>
 
 ***
 
@@ -52,7 +52,7 @@ If you signed up using your email to create an account, you have the option to c
 
 To link accounts, select the account you want to connect on the main log-in page.
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-03-18 at 13.43.45@2x.png" alt=""><figcaption><p>Select the account you want to use</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-18 at 13.43.45@2x.png" alt=""><figcaption><p>Select the account you want to use</p></figcaption></figure>
 
 Your computer will automatically detect that the email you have previously used is associated with another account and merge the two. This will enable you to log in using the new method, rather than having to enter your email address and password every time you log in.
 

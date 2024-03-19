@@ -44,6 +44,6 @@ The _inivitee_ will now receive an email to join your workspace.&#x20;
 [getting-started-for-workspace-admins.md](../../getting-started/getting-started-for-workspace-admins.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../your-account-and-preferences/create-an-account.md" %}
-[create-an-account.md](../../your-account-and-preferences/create-an-account.md)
+{% content-ref url="../../account-and-preferences/create-an-account.md" %}
+[create-an-account.md](../../account-and-preferences/create-an-account.md)
 {% endcontent-ref %}

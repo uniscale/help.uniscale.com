@@ -2,14 +2,14 @@
 description: Get an overview of how to get started with Uniscale
 ---
 
-# How to use Uniscale: Quick start guide
+# How to use Uniscale
 
 ## **Step 1: Create an Account**
 
 Go to app.uniscale.com and click the sign-up link under the login form to create your new account. You can either sign up using single sign-on (SSO) or via e-mail.
 
-{% content-ref url="your-account-and-preferences/create-an-account.md" %}
-[create-an-account.md](your-account-and-preferences/create-an-account.md)
+{% content-ref url="account-and-preferences/create-an-account.md" %}
+[create-an-account.md](account-and-preferences/create-an-account.md)
 {% endcontent-ref %}
 
 ## **Step 2: Create a Workspace**
