@@ -24,5 +24,5 @@ Follow the steps described above. From "Plans" select the option to Upgrade to a
 
 ### How to change the number of licenses in my workspace?
 
-Go to the Administration Settings in your workspace. Select "Plans" and change your team size next to "Select Team Size": You can also change the number of licenses by going to "Users" and selecting "Upgrade":
+Go to the Administration Settings in your workspace. Select "Plans" and change your team size next to "Select Team Size": You can also change the number of licenses by going to "Users" and selecting "Upgrade".
 
