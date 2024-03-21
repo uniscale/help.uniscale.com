@@ -19,7 +19,7 @@ You will incrementally write parts of your specification as you deliver function
 
 Over time your solution specification will follow your product as the single source of truth for all intentions and decisions that went into making your product what it is today. This is key to being able to make good decisions in the future.
 
-<figure><img src="../../.gitbook/assets/Final product roadmap (3_3).png" alt=""><figcaption><p>Uniscale Design's relation to a product roadmap. Single source of truth through many iterations over time.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/slide - 06.png" alt=""><figcaption><p>Uniscale Design's relation to a product roadmap. Single source of truth through many iterations over time.</p></figcaption></figure>
 
 ### How do I define my module and service boundaries?
 
