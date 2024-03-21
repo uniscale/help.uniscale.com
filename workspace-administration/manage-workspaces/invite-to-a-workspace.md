@@ -32,7 +32,7 @@ Add and select the required details about the invitee and send out the invitatio
 
 
 
-{% hint style="danger" %}
+{% hint style="info" %}
 Do you need to upgrade your license to add more users?&#x20;
 
 Please check this article on ["Plans and Subscriptions"](../../manage-billing-payments-and-plans/plans-and-subscriptions.md) or our [website ](https://www.uniscale.com/)for more information.

@@ -4,9 +4,9 @@ description: Learn here how to reset your password
 
 # Reset my password
 
-## **Click here to reset your password:**&#x20;
+Here is a manual link to reset your password. Click [**here to reset your password**](https://identity.uniscale.com/realms/uniscale/login-actions/reset-credentials?client\_id=lobby\&tab\_id=YVL\_d17Il4w)**.**&#x20;
 
-{% embed url="https://identity.uniscale.com/realms/uniscale/login-actions/reset-credentials?client_id=lobby&tab_id=YVL_d17Il4w" %}
+#### Alternatively, follow this guide if you are having issues:
 
 <details>
 
