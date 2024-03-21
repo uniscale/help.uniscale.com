@@ -17,7 +17,7 @@ The module revisions are part of the module editor. This means that you need to 
 
 Building good products requires hard and focused effort over time. You will not deliver it in one go and likely there are multiple teams involved through the lifecycle of building your product. In [How to get started with a solution](https://help.uniscale.com/product-guides/how-to-get-started-with-a-solution) we describe how splitting a solutions end user functionality into modules helps you scale your teams with your organization strategy. Each team will be able to define new functionality through starting, readying and approving revisions within the module.
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Make your Uniscale solution the single source of truth to the intentions and decision that has made your product what it is. Use revisions to incrementally build your specification so that you can effectively release your functionality.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Final product roadmap (3_3).png" alt=""><figcaption><p>Make your Uniscale solution the single source of truth to the intentions and decision that has made your product what it is. Use revisions to incrementally build your specification so that you can effectively release your functionality.</p></figcaption></figure>
 
 For each module you can work with the current revision and look back at any of your older revisions. In this way you have the complete overview of the product intention and decision history.
 
@@ -27,7 +27,7 @@ For each module you can work with the current revision and look back at any of y
 
 The first revision you write will take you into the "Write content" step. In the first revision all content is new so there would be nothing to unlock. However you will still go through the step of marking your content as ready so that you can incrementally lock down parts of your specification. Your last step when everything is marked as ready is to approve the revision. This is the flow you will go through for every time you want to release changes to your product.
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Every new revision will go through the same flow of initiating, unlocking content you wan to change, writing / editing content and then lastly readying content and approving it.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/_illustration_6.png" alt=""><figcaption><p>Every new revision will go through the same flow of initiating, unlocking content you wan to change, writing / editing content and then lastly readying content and approving it.</p></figcaption></figure>
 
 If you also use services in your solution the service documentation will happen between having marked your content as ready and approving. As such the module revision acts as an umbrella covering both the functional specification and the technical modelling. The reason for this is that often when defining the service documentation you find missing or unclear specification. Being able to lock this down up front will save you and your team from  a lot of frustration.
 

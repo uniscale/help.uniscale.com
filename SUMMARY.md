@@ -8,7 +8,7 @@
 ## USING UNISCALE
 
 * [Specification](using-uniscale/specification/README.md)
-  * [Guide: create a solution](using-uniscale/specification/guide-create-a-solution.md)
+  * [Guide: Create solution](using-uniscale/specification/guide-create-solution.md)
   * [How to get started with a solution](using-uniscale/specification/how-to-get-started-with-a-solution.md)
   * [How to get started with a module](using-uniscale/specification/how-to-get-started-with-a-module.md)
   * [How and when to define functional use cases](using-uniscale/specification/how-and-when-to-define-functional-use-cases.md)

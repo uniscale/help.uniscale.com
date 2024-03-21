@@ -11,7 +11,7 @@ Structure vs behaviour
 
 As explained in the previous guide Pages and sections are used to represent the structure and high level description of your specification. The Functional use cases are there for you to define the high level and in detail end user behaviour in your system. This is where you can go into detail on expected details down to contents of dropdowns, what happens when the user clicks a button or describing even cross page behaviour.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Define Functional use cases within the module, Pages or Sections to describe user interaction. This is also the link into services.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Concept - new.png" alt=""><figcaption><p>Define Functional use cases within the module, Pages or Sections to describe user interaction. This is also the link into services.</p></figcaption></figure>
 
 It is also helpful to look at Functional use cases as a level of detail. When someone reads the specification without showing Functional use cases they should be left with a high level overview of the solution for any stakeholder to align on. When then displaying the Functional use cases without UX flows and Designer notes the reader should be left with a high level over view of the solutions end user behaviour for stakeholders to align on. When displaying UX flows and designer notes the reader should be left with an in detail understanding of how the functionality should behave when the user interacts with it. Even one level deeper is to display the Service flows which describes the technical flow needed to implement the described functionality.
 
