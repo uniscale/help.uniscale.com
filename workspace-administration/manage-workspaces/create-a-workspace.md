@@ -6,7 +6,7 @@ description: Read here how you can create a workspace in Uniscale.
 
 ## What is a workspace?
 
-A space where you can invite your collaborators within or outside your company to contribute to different projects with their specific roles.
+Your workspace is the place where your team can specify, model and interact with solutions and services within in.
 
 {% hint style="info" %}
 Upon creating your initial workspace, you'll begin a 30-day free trial with Uniscale to ensure our services meet your needs.
