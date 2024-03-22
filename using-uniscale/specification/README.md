@@ -4,8 +4,8 @@ description: Build and deliver the right product the first time, every time.
 
 # Specification
 
-{% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=9vWNQiUQi1I" %}
-Uniscale Solution Design Flow
+{% embed url="https://www.youtube.com/watch?index=4&list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=SHpHH7qhk3Q" %}
+Uniscale Describe: Solution Design Flow \[3:31]
 {% endembed %}
 
 {% hint style="info" %}
