@@ -27,6 +27,7 @@
   * [Invite to a workspace](workspace-administration/manage-workspaces/invite-to-a-workspace.md)
   * [Workspace settings](workspace-administration/manage-workspaces/workspace-settings.md)
   * [User management](workspace-administration/manage-workspaces/user-management.md)
+  * [Join a Workspace](workspace-administration/manage-workspaces/join-a-workspace.md)
 
 ***
 
