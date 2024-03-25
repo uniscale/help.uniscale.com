@@ -16,32 +16,44 @@ Upon creating your initial workspace, you'll begin a 30-day free trial with Unis
 
 You can create a workspace by following these 4 simple steps:
 
-### Step 1: Click "Start your free trial"&#x20;
+### Step 1: Start your new workspace
 
-From your Personal Dashboard, click "Create Workspace" on the green icon or under the Get Started  section
+From your Personal Dashboard, click "Create new" on the blue icon on the right-hand side of the page
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 15.16.29.png" alt=""><figcaption><p>Personal dashboard </p></figcaption></figure>
 
-### Step 2: Insert your Workspace Details
+### Step 2: Give your workspace a name
 
-Fill out the required fields so you can have all the basic information on your new Workspace
+Type in your workspace's name and press "continue"
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 15.05.49.png" alt=""><figcaption><p>Information about your workspace</p></figcaption></figure>
 
-### Step 3: Select the right plan for you and your team
+### Step 3: Select a name for your Solution
 
-Choose your team size and select your new plan. You can learn more about plans and pricing here: [https://www.uniscale.com/pricing](https://www.uniscale.com/pricing)
+Choose a name for your very first solution inside the workspace you are creating.
+
+{% hint style="info" %}
+Want to learn more about solutions and how to work with them? Check our [Specification ](https://help.uniscale.com/using-uniscale/specification)chapter for more details.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 15.07.41.png" alt=""><figcaption><p>Select plan</p></figcaption></figure>
 
+### Step 4: Choose the right plan for you and your team
 
+&#x20;Choose one out of our two plans: Personal or Teams and select the amount of users you would like to have inside your workspace.
 
-### Step 4: Include your billing and payment details
-
-Update your billing and payment details. You will now be prompted into your new Workspace :tada:
+{% hint style="info" %}
+Check[ Plans and Subscription](https://help.uniscale.com/plans-and-subscriptions) for more details on the different plans Uniscale offer.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 15.10.11.png" alt=""><figcaption><p>Subscribtion details</p></figcaption></figure>
+
+
+
+
 
 {% hint style="info" %}
 It is now time to invite your colleagues to your new Workspace. Find [here](invite-to-a-workspace.md) how you can do this.&#x20;
 {% endhint %}
+
+##

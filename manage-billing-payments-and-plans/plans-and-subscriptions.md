@@ -8,19 +8,13 @@ description: Read here about the plans and subscriptions Uniscale offer
 Check [here ](https://www.uniscale.com/pricing)to see which plans we have available and which options to choose from to make the most out of Uniscale.
 {% endhint %}
 
-###
-
 ### Which plan am I currently on?
 
 Go to the Administration Settings from your dashboard. From the Administration Settings, go to "Plans" and check the plan you are currently on.
 
-
-
 ### How to change to a different plan?
 
 Follow the steps described above. From "Plans" select the option to Upgrade to a new available plan.
-
-
 
 ### How to change the number of licenses in my workspace?
 

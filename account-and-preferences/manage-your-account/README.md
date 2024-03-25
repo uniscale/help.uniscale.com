@@ -6,39 +6,39 @@ description: >-
 
 # Manage your account
 
-## Account settings&#x20;
+## Access Account settings&#x20;
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 13.42.08.gif" alt=""><figcaption><p>Account setting overview </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dashboard_account-settings_GIF.gif" alt=""><figcaption><p>How to change account settings </p></figcaption></figure>
 
 ***
 
 
 
-## How to edit account settings&#x20;
+## Edit account settings&#x20;
 
 ### Go to Account settings
 
-From the Uniscale Dashboard click the profile icon on the bottom left corner of the page.
+From the Uniscale Dashboard click the profile icon on the bottom left corner of the page and select "Account settings"
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 14.12.19.png" alt=""><figcaption><p>From dashboard to account settings </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dashboard_account-settings_Button.png" alt=""><figcaption></figcaption></figure>
 
 ### Update personal information
 
 Select "Personal Information" from the left-hand side. Update any of the fields and press "Save changes" when done.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 14.15.01.png" alt=""><figcaption><p>Personal information</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dashboard_account-settings_Personal-information.png" alt=""><figcaption><p>Personal information</p></figcaption></figure>
 
 ### Update email notifications
 
-Select "Notifications" from the left-hand side
+Select "Notifications" from the left-hand side menu and edit the field
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 14.17.04.png" alt=""><figcaption><p>Notifications</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dashboard_account-settings_Notifications.png" alt=""><figcaption><p>Email notifications</p></figcaption></figure>
 
 ### Delete account
 
-Danger zone: Select "Delete account"&#x20;
+Select "Delete account" if you wish to delete your account
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 14.18.27.png" alt=""><figcaption><p>Account deletion</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dashboard_account-settings_Acount-deletion.png" alt=""><figcaption><p>Delete account</p></figcaption></figure>
 
 ## Link multiple Accounts
 
@@ -46,7 +46,7 @@ If you signed up using your email to create an account, you have the option to c
 
 To link accounts, select the account you want to connect on the main log-in page.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-18 at 13.43.45@2x.png" alt=""><figcaption><p>Select the account you want to use</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-25 at 14.22.52.png" alt=""><figcaption><p>Connect different acounts for a simplified login process</p></figcaption></figure>
 
 Your computer will automatically detect that the email you have previously used is associated with another account and merge the two. This will enable you to log in using the new method, rather than having to enter your email address and password every time you log in.
 

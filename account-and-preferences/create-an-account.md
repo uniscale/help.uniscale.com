@@ -21,26 +21,29 @@ You can create an account using your SSO, by choosing one of your accounts below
 
 Select which one you would like to sign up with and select one of the options:
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 14.34.27.png" alt=""><figcaption><p>SSO option</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-03-25 at 14.22.52.png" alt=""><figcaption><p>Create account with SSO login method</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Email and Password" %}
 You can create an account using email and a unique password. To do so, fill out the required fields and select “Create account”:
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 14.31.36 (1).png" alt=""><figcaption><p>Create account - email and password </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-03-25 at 14.18.53.png" alt=""><figcaption><p>Create account with Email</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 
 
-### **Step 2: Email verification**
+## **Step 2: Email verification**
 
-* You will receive an email to verify your email address. Press _Verify email address_ to continue.
+You will receive an email to verify your email address. Press _Verify email address_ to continue.
 
 <figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 14.42.50.png" alt=""><figcaption><p>Email verification</p></figcaption></figure>
 
-* Are you not receiving an email? Please check your spam folder. The email will be sent from [no-reply@uniscale.com](mailto:no-reply@uniscale.com).
-* Once you verify your account, log in and get started!
+
+
+## Not receiving any email?
+
+Please check your spam folder. The email will be sent from [no-reply@uniscale.com](mailto:no-reply@uniscale.com).
 
 
 

@@ -4,41 +4,35 @@ description: Read here how to invite to a workspace
 
 # Invite to a workspace
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-14 at 15.09.14.gif" alt=""><figcaption><p>How to invite to a workspace</p></figcaption></figure>
-
-***
-
 ## Step-by-step guide: How to invite users to a workspace&#x20;
 
 Follow these steps to make sure your colleagues can also access your Workspace:
 
+<figure><img src="../../.gitbook/assets/Workspace_Dashboard_Invite-user.gif" alt=""><figcaption></figcaption></figure>
 
+***
 
-### Step 1: Go to the Workspace Administration view
+### Step 1: Select workspace
 
-Navigate to the Workspace Administration view by clicking the icon next to the workspace's name
+Select the workspace you wish to invite people to by clicking "Go To"
 
+### Step 2: Go to "settings"
 
+From the workspace dashboard, click on "settings" on the left-hand side of the page
 
-### Step 2: Click the "Invite User" button
+### Step 3: Go to "users"
 
-Go to "Users" in your workspace settings and click the "Invite User" button and you will then be prompted to insert some extra details about the invitee
+From inside the "settings" menu select "users"
 
+### Step 4: Invite User
 
-
-### Step 3: Send out the invitation
-
-Add and select the required details about the invitee and send out the invitation
-
-
+Select "invite user" on the right-hand side of the page, filled in with the required information and send out the invitation
 
 {% hint style="info" %}
 Do you need to upgrade your license to add more users?&#x20;
 
 Please check this article on ["Plans and Subscriptions"](../../manage-billing-payments-and-plans/plans-and-subscriptions.md) or our [website ](https://www.uniscale.com/)for more information.
 {% endhint %}
-
-##
 
 ***
 
