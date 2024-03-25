@@ -10,7 +10,7 @@ Check [here ](https://www.uniscale.com/pricing)to see which plans we have availa
 
 ## Which plan am I currently on?
 
-To get an overview of your current plan, go to your [Workspace settings](https://help.uniscale.com/workspace-administration/manage-workspaces/workspace-settings) and select "Plans"
+To get an overview of your current plan, go to your [workspace-settings.md](../workspace-administration/manage-workspaces/workspace-settings.md "mention") and select "Plans"
 
 <figure><img src="../.gitbook/assets/CleanShot 2024-03-25 at 17.15.55.png" alt=""><figcaption><p>Workspace Plans page</p></figcaption></figure>
 
