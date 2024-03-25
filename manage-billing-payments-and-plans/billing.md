@@ -10,17 +10,19 @@ You can choose between two options: monthly or yearly billing. Check out our [Pr
 
 ## Invoices
 
-To access your Invoices, go to the Administration Settings inside your Workspace.&#x20;
+To access your invoices, go to the [workspace-settings.md](../workspace-administration/manage-workspaces/workspace-settings.md "mention") and select the tab "Invoices"
 
-Go to "Invoices" and download your invoice by clicking the icon on the right-hand side of the invoice.
+{% hint style="info" %}
+If you have any questions regardig your invoice, please email hello@unisclae.com
+{% endhint %}
 
-We can only provide paid invoices. Any future invoices will not be automatically generated before their due date.
 
 
+### Editing billing information and payment methods
 
-### Editing my billing information and payment methods
+Go to [workspace-settings.md](../workspace-administration/manage-workspaces/workspace-settings.md "mention")and select "Billing information". Scroll to the bottom of the page and select "**+ Manage payment methods**". Follow the instructions on the screen to update your payment methods.
 
-Go to the Administration Settings inside your Workspace. Select "Billing information" and download your invoice(s).&#x20;
+<figure><img src="../.gitbook/assets/CleanShot 2024-03-25 at 22.04.37@2x.png" alt=""><figcaption></figcaption></figure>
 
 
 
