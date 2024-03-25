@@ -2,7 +2,7 @@
 description: Learn here how to create your Uniscale account.
 ---
 
-# Create an Account
+# Create an account
 
 ## Step 1: Create a Uniscale account
 
@@ -31,11 +31,13 @@ You can create an account using email and a unique password. To do so, fill out 
 {% endtab %}
 {% endtabs %}
 
+
+
 ### **Step 2: Email verification**
 
 * You will receive an email to verify your email address. Press _Verify email address_ to continue.
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 14.42.50.png" alt=""><figcaption><p>Email verfication</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-03-15 at 14.42.50.png" alt=""><figcaption><p>Email verification</p></figcaption></figure>
 
 * Are you not receiving an email? Please check your spam folder. The email will be sent from [no-reply@uniscale.com](mailto:no-reply@uniscale.com).
 * Once you verify your account, log in and get started!

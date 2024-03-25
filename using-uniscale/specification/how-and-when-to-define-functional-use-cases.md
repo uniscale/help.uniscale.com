@@ -7,7 +7,7 @@ description: >-
 
 # How and when to define functional use cases
 
-Structure vs behaviour
+## Structure vs behaviour
 
 As explained in the previous guide Pages and sections are used to represent the structure and high level description of your specification. The Functional use cases are there for you to define the high level and in detail end user behaviour in your system. This is where you can go into detail on expected details down to contents of dropdowns, what happens when the user clicks a button or describing even cross page behaviour.
 

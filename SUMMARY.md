@@ -4,6 +4,7 @@
 
 * [How to use Uniscale](README.md)
 * [Getting started for workspace admins](getting-started/getting-started-for-workspace-admins.md)
+* [Getting started for new users](getting-started/getting-started-for-new-users.md)
 
 ## USING UNISCALE
 

@@ -4,7 +4,7 @@ description: >-
   notifications and delete account) and how to link different account at log-in.
 ---
 
-# Manage your Account
+# Manage your account
 
 ## Account settings&#x20;
 
@@ -28,23 +28,17 @@ Select "Personal Information" from the left-hand side. Update any of the fields 
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 14.15.01.png" alt=""><figcaption><p>Personal information</p></figcaption></figure>
 
-***
-
 ### Update email notifications
 
 Select "Notifications" from the left-hand side
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 14.17.04.png" alt=""><figcaption><p>Notifications</p></figcaption></figure>
 
-***
-
 ### Delete account
 
 Danger zone: Select "Delete account"&#x20;
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 14.18.27.png" alt=""><figcaption><p>Account deletion</p></figcaption></figure>
-
-***
 
 ## Link multiple Accounts
 

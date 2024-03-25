@@ -7,7 +7,11 @@ description: >-
 
 # How to get started with a solution
 
-## Conceptual introduction&#x20;
+## Conceptual introduction
+
+Learn how a solution is broken down into each element.
+
+
 
 ### What does a solution consist of?
 
@@ -40,6 +44,8 @@ Split the functionality so that you end up with deliveries mostly involving a si
 {% endhint %}
 
 
+
+***
 
 ## Guide: Describing your first solution and creating your first module
 
@@ -74,6 +80,8 @@ To get started with creating your first module you can either use the / menu or 
 {% hint style="info" %}
 By selecting a module in the solution context dropdown you can get to the module focus view. In there, you can approve your module revision, look at previous revisions, and more.
 {% endhint %}
+
+
 
 ### Step 3: Specifying your first module revision
 
