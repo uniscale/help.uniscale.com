@@ -8,15 +8,25 @@ description: Read here about the plans and subscriptions Uniscale offer
 Check [here ](https://www.uniscale.com/pricing)to see which plans we have available and which options to choose from to make the most out of Uniscale.
 {% endhint %}
 
-### Which plan am I currently on?
+## Which plan am I currently on?
 
-Go to the Administration Settings from your dashboard. From the Administration Settings, go to "Plans" and check the plan you are currently on.
+To get an overview of your current plan, go to your [Workspace settings](https://help.uniscale.com/workspace-administration/manage-workspaces/workspace-settings) and select "Plans"
 
-### How to change to a different plan?
+<figure><img src="../.gitbook/assets/CleanShot 2024-03-25 at 17.15.55.png" alt=""><figcaption><p>Workspace Plans page</p></figcaption></figure>
 
-Follow the steps described above. From "Plans" select the option to Upgrade to a new available plan.
+## How to change your plan
 
-### How to change the number of licenses in my workspace?
+If you wish to change your subscription plan, you can do so from the Plans page.
 
-Go to the Administration Settings in your workspace. Select "Plans" and change your team size next to "Select Team Size": You can also change the number of licenses by going to "Users" and selecting "Upgrade".
+{% hint style="info" %}
+Note that downgrading your plan will only apply once the add the next billing date.&#x20;
+{% endhint %}
+
+
+
+## How to change number of seats
+
+Once you have selected a plan, you will be able to adjust the amount of seats. Note that there may be restrictions to the amount of seats available depending on your plan.&#x20;
+
+
 

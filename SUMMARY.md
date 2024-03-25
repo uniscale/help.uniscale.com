@@ -25,9 +25,9 @@
 
 * [Manage workspaces](workspace-administration/manage-workspaces/README.md)
   * [Create a workspace](workspace-administration/manage-workspaces/create-a-workspace.md)
-  * [Invite to a workspace](workspace-administration/manage-workspaces/invite-to-a-workspace.md)
   * [Workspace settings](workspace-administration/manage-workspaces/workspace-settings.md)
   * [User management](workspace-administration/manage-workspaces/user-management.md)
+  * [Invite to a workspace](workspace-administration/manage-workspaces/invite-to-a-workspace.md)
   * [Join a Workspace](workspace-administration/manage-workspaces/join-a-workspace.md)
 
 ***

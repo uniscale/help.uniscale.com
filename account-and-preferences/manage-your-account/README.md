@@ -38,7 +38,13 @@ Select "Notifications" from the left-hand side menu and edit the field
 
 Select "Delete account" if you wish to delete your account
 
+{% hint style="warning" %}
+Are you on a subscription? Please reach out to help@uniscale.com and request to cancel your subscription before deleting your account.
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/Dashboard_account-settings_Acount-deletion.png" alt=""><figcaption><p>Delete account</p></figcaption></figure>
+
+
 
 ## Link multiple Accounts
 

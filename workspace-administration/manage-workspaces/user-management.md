@@ -4,28 +4,44 @@ description: Read here how to manage the different users inside your workspace
 
 # User management
 
-You can access the User Management page directly from your Administration Settings inside your Workspace. From the User Management page, you can see who is part of your Workspace, what accesses they have, and roles and delete or add any users to your Workspace.
+You can manage all team members within your workspace by accessing the workspace settings page.&#x20;
 
-If you are the owner or admin of your Workspace, you can remove a user by going to the User Management page inside the Administration Settings of your Workspace.
+<figure><img src="../../.gitbook/assets/Workspace_Dashboard_Users.png" alt=""><figcaption><p>User management</p></figcaption></figure>
 
-When inside the User Management page, remove a given user by clicking the red icon next to the user's name.
+## Account access
 
-Check to see how you can add new users to your Workspace
+There are three types of Account access:
 
-{% content-ref url="invite-to-a-workspace.md" %}
-[invite-to-a-workspace.md](invite-to-a-workspace.md)
-{% endcontent-ref %}
+### Owner
 
-A single user can either have Admin or User access.
+Every workspace can only have one owner who will have access to everything within the workspace.
+
+### Admin
 
 An Admin user can both add or delete users to the Workspace as well as create and write functional and technical specifications.
 
+### User
+
 On the other hand, someone with User access can only create and write functional or technical specifications.
 
+***
+
+## Role
+
+The roles will help you get an overview of what role the user has within your organization. This do not impact their permission level within the Uniscale workspace.
 
 
-### Account Roles
 
-This section allows you to attribute roles that can match the different positions users have inside your organization.&#x20;
+***
 
-This will help you to maintain an overall idea of the roles you have directly working in your Workspace.
+## Status
+
+There are two types of status:
+
+### Active
+
+This indicates that the user has accepted the invite and have access to the workspace.
+
+### Invitation sent
+
+This indicates that the user has received the invitation email.
