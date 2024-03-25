@@ -17,7 +17,7 @@ The module revisions are part of the module editor. This means that you need to 
 
 Building good products requires hard and focused effort over time. You will not deliver it in one go and likely there are multiple teams involved through the lifecycle of building your product. In [How to get started with a solution](https://help.uniscale.com/product-guides/how-to-get-started-with-a-solution) we describe how splitting a solutions end user functionality into modules helps you scale your teams with your organization strategy. Each team will be able to define new functionality through starting, readying and approving revisions within the module.
 
-<figure><img src="../../.gitbook/assets/Final product roadmap (3_3).png" alt=""><figcaption><p>Make your Uniscale solution the single source of truth to the intentions and decision that has made your product what it is. Use revisions to incrementally build your specification so that you can effectively release your functionality.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/slide - 06 (1).png" alt=""><figcaption><p>Make your Uniscale solution the single source of truth to the intentions and decision that has made your product what it is. Use revisions to incrementally build your specification so that you can effectively release your functionality.</p></figcaption></figure>
 
 For each module you can work with the current revision and look back at any of your older revisions. In this way you have the complete overview of the product intention and decision history.
 
