@@ -8,13 +8,13 @@ description: Read here about the plans and subscriptions Uniscale offer
 Check [here ](https://www.uniscale.com/pricing)to see which plans we have available and which options to choose from to make the most out of Uniscale.
 {% endhint %}
 
-## Which plan am I currently on?
+## Which plan is my Workspace currently on?
 
 To get an overview of your current plan, go to your [workspace-settings.md](../workspace-administration/manage-workspaces/workspace-settings.md "mention") and select "Plans"
 
 <figure><img src="../.gitbook/assets/CleanShot 2024-03-25 at 17.15.55.png" alt=""><figcaption><p>Workspace Plans page</p></figcaption></figure>
 
-## How to change your plan
+## How to change Workspace plan
 
 If you wish to change your subscription plan, you can do so from the Plans page.
 
@@ -24,7 +24,7 @@ Note that downgrading your plan will only apply once the add the next billing da
 
 
 
-## How to change number of seats
+## How to change number of seats to your Workspace
 
 Once you have selected a plan, you will be able to adjust the amount of seats. Note that there may be restrictions to the amount of seats available depending on your plan.&#x20;
 
