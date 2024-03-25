@@ -6,7 +6,7 @@ description: >-
 
 # Manage your account
 
-## Access Account settings&#x20;
+## Access account settings&#x20;
 
 <figure><img src="../../.gitbook/assets/Dashboard_account-settings_GIF.gif" alt=""><figcaption><p>How to change account settings </p></figcaption></figure>
 
@@ -22,21 +22,21 @@ From the Uniscale Dashboard click the profile icon on the bottom left corner of 
 
 <figure><img src="../../.gitbook/assets/Dashboard_account-settings_Button.png" alt=""><figcaption></figcaption></figure>
 
-### Update personal information
+### Personal information
 
 Select "Personal Information" from the left-hand side. Update any of the fields and press "Save changes" when done.
 
 <figure><img src="../../.gitbook/assets/Dashboard_account-settings_Personal-information.png" alt=""><figcaption><p>Personal information</p></figcaption></figure>
 
-### Update email notifications
+### Notifications
 
-Select "Notifications" from the left-hand side menu and edit the field
+To update your email notifications, select "Notifications" from the left-hand side menu and edit the field
 
 <figure><img src="../../.gitbook/assets/Dashboard_account-settings_Notifications.png" alt=""><figcaption><p>Email notifications</p></figcaption></figure>
 
-### Delete account
+### Account deletion
 
-Select "Delete account" if you wish to delete your account
+To delete your account, select "Delete account".
 
 {% hint style="warning" %}
 Are you on a subscription? Please reach out to help@uniscale.com and request to cancel your subscription before deleting your account.
@@ -46,14 +46,12 @@ Are you on a subscription? Please reach out to help@uniscale.com and request to 
 
 
 
-## Link multiple Accounts
+## Link multiple accounts
 
-If you signed up using your email to create an account, you have the option to connect it with your Google, Microsoft, LinkedIn, or GitBook account later on, provided that the email you used matches. This will simplify the login process for you in the future.
+If you signed up using your email to create an account, you have the option to connect it with your Google, Microsoft, LinkedIn, or GitHub account. This will simplify the login process for you in the future.
 
 To link accounts, select the account you want to connect on the main log-in page.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-25 at 14.22.52.png" alt=""><figcaption><p>Connect different acounts for a simplified login process</p></figcaption></figure>
 
-Your computer will automatically detect that the email you have previously used is associated with another account and merge the two. This will enable you to log in using the new method, rather than having to enter your email address and password every time you log in.
-
-\
+Your computer will automatically detect that the email you have previously used is associated with another account and merge the two. This will enable you to log in using the new method, rather than having to enter your email address and password every time you log in.\
