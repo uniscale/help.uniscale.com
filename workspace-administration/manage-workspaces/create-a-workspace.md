@@ -6,11 +6,9 @@ description: Read here how you can create a workspace in Uniscale.
 
 ## What is a workspace?
 
-Your workspace is the place where your team can specify, model, and interact with solutions and services within.
+A workspace is the home for all your solutions and services. You can be part of multiple workspaces and each will have its subscription plan.
 
-{% hint style="info" %}
-Upon creating your initial workspace, you'll begin a 30-day free trial with Uniscale to ensure our services meet your needs.
-{% endhint %}
+
 
 ## How to create a workspace
 
@@ -32,6 +30,8 @@ Optional: You can also add a logo to personalize your workspace.
 
 <figure><img src="../../.gitbook/assets/Create-workspcae.png" alt=""><figcaption><p>Name your workspace</p></figcaption></figure>
 
+
+
 ### Step 3: Select a name for your Solution
 
 Choose a name for your very first solution inside the workspace you are creating.
@@ -42,6 +42,8 @@ Want to learn more about solutions and how to work with them? Check our [Specifi
 
 <figure><img src="../../.gitbook/assets/create-workspace_solution.png" alt=""><figcaption><p>Name your solution</p></figcaption></figure>
 
+
+
 ### Step 4: Choose the right plan for you and your team
 
 Choose one out of our two plans: Personal or Teams and select the amount of seats you would like to have inside your workspace.&#x20;
@@ -51,6 +53,8 @@ Check[ Plans and Subscription](https://help.uniscale.com/plans-and-subscriptions
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-25 at 18.16.29@2x.png" alt=""><figcaption><p>Choose your plan and select amount of seats</p></figcaption></figure>
+
+
 
 ### Step 5: Complete checkout
 
@@ -64,4 +68,3 @@ You can now complete your payment and subscribe.&#x20;
 It is now time to invite your colleagues to your new Workspace. Find [here](invite-to-a-workspace.md) how you can do this.&#x20;
 {% endhint %}
 
-##
