@@ -11,6 +11,12 @@ description: >-
 The module revisions are part of the module editor. This means that you need to select a specific module in the solution context menu to access revisions and approval.
 {% endhint %}
 
+## Starting and approving a module revision
+
+{% embed url="https://www.youtube.com/watch?index=2&list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=Bc3auFzvn10" %}
+Let us add some functionality to a module through revisions
+{% endembed %}
+
 
 
 ## Iteratively specifying and delivering your product
@@ -27,7 +33,7 @@ For each module, you can work with the current revision and look back at any of 
 
 ## The module revision flow
 
-The first revision you write will take you into the "Write content" step. In the first revision all content is new so there would be nothing to unlock. However, you will still go through the step of marking your content as ready so that you can incrementally lock down parts of your specification. Your last step when everything is marked as ready is to approve the revision. This is the flow you will go through every time you want to release changes to your product.
+The first revision you write will take you into the "Write content" step. In the first revision, all content is new so there would be nothing to unlock. However, you will still go through the step of marking your content as ready so that you can incrementally lock down parts of your specification. Your last step when everything is marked as ready is to approve the revision. This is the flow you will go through every time you want to release changes to your product.
 
 <figure><img src="../../.gitbook/assets/_illustration_6.png" alt=""><figcaption><p>Every new revision will go through the same flow of initiating, unlocking content you wan to change, writing / editing content and then lastly readying content and approving it.</p></figcaption></figure>
 
@@ -59,13 +65,9 @@ The last step is to approve the specification. If you are also defining services
 
 
 
-## Starting and approving a module revision
+***
 
-In this video, we go through how we can add a new revision to our module. Each revision will incrementally add functionality to your module.
 
-{% embed url="https://www.youtube.com/watch?index=2&list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=Bc3auFzvn10" %}
-Let us add some functionality to a module through revisions
-{% endembed %}
 
 ## Conclusion
 
