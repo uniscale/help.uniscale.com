@@ -20,9 +20,9 @@ Look for an email invitation from Uniscale sent by the workspace admin. If you c
 
 ### Step 2: Create a Uniscale account
 
-Follow the instructions to create your Uniscale account. You will need to provide some basic information such as your name, email address, and a password.
+Follow the instructions to create your Uniscale account. You can sign up using single sign-on (SSO) or via e-mail.
 
-If you already have a Uniscale account, skip this step and jump to step 2.
+If you already have a Uniscale account, skip this step and jump to step 3.
 
 {% content-ref url="../account-and-preferences/create-an-account.md" %}
 [create-an-account.md](../account-and-preferences/create-an-account.md)
@@ -32,7 +32,7 @@ If you already have a Uniscale account, skip this step and jump to step 2.
 
 ### Step 3: Accept the invitation to join a workspace
 
-Once your Uniscale is created, you will be now ready to start working in a specific workspace. Click on the invitation link provided in the email and log in to Uniscale.
+Once your Uniscale is created, you will be ready to start working in a specific workspace. Click on the invitation link provided in the email and log in to Uniscale.
 
 {% content-ref url="../workspace-administration/manage-workspaces/join-a-workspace.md" %}
 [join-a-workspace.md](../workspace-administration/manage-workspaces/join-a-workspace.md)
@@ -44,8 +44,6 @@ Once your Uniscale is created, you will be now ready to start working in a speci
 
 Now that you have joined a workspace, you are ready to start using Uniscale.
 
-### Explore the features
-
 Explore Uniscale features and learn how to get started with your functional specifications and start building your first solution.
 
 {% content-ref url="../using-uniscale/specification/how-to-get-started-with-a-solution.md" %}
@@ -54,7 +52,7 @@ Explore Uniscale features and learn how to get started with your functional spec
 
 
 
-### Reach out for help
+### Need help?
 
 If you have any questions or encounter any issues while getting started, don't hesitate to reach out to the workspace admin or consult Uniscale's [Help Center](https://help.uniscale.com/) for assistance.
 

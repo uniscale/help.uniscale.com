@@ -6,7 +6,7 @@ description: Get an overview of how to get started with Uniscale.
 
 ## **Create an account**
 
-Go to [app.uniscale.com](https://app.uniscale.com/) and click the sign-up link under the login form to create your new account. You can either sign up using single sign-on (SSO) or via e-mail.
+Go to [app.uniscale.com](https://app.uniscale.com/) and click the sign-up link. You can sign up using single sign-on (SSO) or via e-mail.
 
 {% content-ref url="account-and-preferences/create-an-account.md" %}
 [create-an-account.md](account-and-preferences/create-an-account.md)
@@ -16,7 +16,7 @@ Go to [app.uniscale.com](https://app.uniscale.com/) and click the sign-up link u
 
 ## **Create a Workspace**
 
-After logging in you will see your Personal Dashboard, this is where you can edit your account details and either access or create workspaces.
+After logging in you will see your Dashboard, this is where you can edit your account details and either access or create workspaces.
 
 {% content-ref url="workspace-administration/manage-workspaces/create-a-workspace.md" %}
 [create-a-workspace.md](workspace-administration/manage-workspaces/create-a-workspace.md)
@@ -24,9 +24,9 @@ After logging in you will see your Personal Dashboard, this is where you can edi
 
 
 
-## **Define your functional specification**
+## **Define functional specification**
 
-After creating a workspace, you can **create a Solution**. This is where you will describe your product and break down your functional specification
+After creating a workspace, you can **create a Solution**. This is where you describe your product and break down your functional specifications.
 
 Read more articles and guides on **Solution Editor** here:
 
@@ -36,7 +36,7 @@ Read more articles and guides on **Solution Editor** here:
 
 
 
-## **Describe your technical documentation**
+## **Describe technical documentation**
 
 Create services to address the needs of your solution’s modules and give them use cases with features that will satisfy the UI flow requests.
 
