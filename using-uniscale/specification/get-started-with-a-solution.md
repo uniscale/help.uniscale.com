@@ -7,9 +7,7 @@ description: >-
 
 # Get started with a solution
 
-## Conceptual introduction
-
-Learn how a solution is broken down into each element. You can watch the video or read the explanation below:
+You can watch the video or read the explanation below:
 
 {% embed url="https://www.youtube.com/watch?index=1&list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=SHpHH7qhk3Q" %}
 Video: Uniscale Describe: Solution Design Flow \[3:31]
@@ -17,7 +15,7 @@ Video: Uniscale Describe: Solution Design Flow \[3:31]
 
 
 
-### What does a solution consist of?
+## What does a solution consist of?
 
 A solution consists of modules and services:
 

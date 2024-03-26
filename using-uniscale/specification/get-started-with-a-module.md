@@ -1,13 +1,21 @@
 ---
 description: >-
-  How to structure a module specification and separate high level descriptions
+  How to structure a module specification and separate high-level descriptions
   from detailed functionality specifications. Allow all stakeholders to
   communicate over the same specification.
 ---
 
 # Get started with a module
 
-## What does a solution consist of?
+You can watch the video or read the explanation below:
+
+{% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=VZkJOCtMGfI" %}
+Let's go through and write our first module revision specification
+{% endembed %}
+
+
+
+## What does a module consist of?
 
 Modules are structured using Pages, Sections, and Functional use cases.&#x20;
 
@@ -73,11 +81,9 @@ By selecting a module in the solution context dropdown, you can get to the modul
 
 ### Step 2: Specify the first module revision
 
-Let's dive in and specify the first revision of a module. We will go through the elements used to write it and some decisions behind why and how.
+To start specifying your module, please watch the video at the top of this page where we will go through the elements used to write it and some decisions behind why and how.
 
-{% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=VZkJOCtMGfI" %}
-Let's go through and write our first module revision specification
-{% endembed %}
+You can also continue to learn about [#functional-use-cases](get-started-with-a-module.md#functional-use-cases "mention")
 
 
 

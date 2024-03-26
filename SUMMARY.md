@@ -9,7 +9,6 @@
 ## USING UNISCALE
 
 * [Specification](using-uniscale/specification/README.md)
-  * [Guide: Create solution](using-uniscale/specification/guide-create-solution.md)
   * [Get started with a solution](using-uniscale/specification/get-started-with-a-solution.md)
   * [Get started with a module](using-uniscale/specification/get-started-with-a-module.md)
   * [Functional use cases](using-uniscale/specification/functional-use-cases.md)
