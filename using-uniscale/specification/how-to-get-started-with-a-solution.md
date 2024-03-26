@@ -15,77 +15,105 @@ Learn how a solution is broken down into each element.
 
 ### What does a solution consist of?
 
-A solution consists of modules and services. The modules describe all your functional requirements for the end user while the services describe the requirements to the underlying technical flows that will enable you to build this functionality.
+A solution consists of modules and services:
+
+* **Solution:** The overall product or project that you are working on.
+* **Modules:** It is the grouping of the end user functionality in your solution that belongs together and changes together. We will dive into modules further in this article: [how-to-get-started-with-a-module.md](how-to-get-started-with-a-module.md "mention")
+* **Services:** Describe the requirements for the underlying technical flows that will enable you to build this functionality.
 
 <figure><img src="../../.gitbook/assets/Concept - new.png" alt=""><figcaption><p>Solution components </p></figcaption></figure>
 
-You will incrementally write parts of your specification as you deliver functionality through projects, sprints, or however you deliver functionality in your organization's process. This is achieved by making revisions of your modules and services.
 
-Over time your solution specification will follow your product as the single source of truth for all intentions and decisions that went into making your product what it is today. This is key to being able to make good decisions in the future.
+
+### Continuous development
+
+You will incrementally write parts of your specifications as you deliver functionality through projects or sprints. In Uniscale, this is achieved by making revisions to your modules and services to plan each project or sprint and ensure a smooth transition into the code phase.
+
+{% hint style="info" %}
+Learn more about about revisions here: [module-revisions-readying-and-approving.md](module-revisions-readying-and-approving.md "mention")
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-26 at 10.45.02.png" alt=""><figcaption><p>Uniscale in the DevOps process</p></figcaption></figure>
+
+
+
+### Uniscale as the single source of truth
+
+Over time, your solution specification will follow your product as the single source of truth for all intentions and decisions that went into making your product what it is today. This is key to being able to make good decisions in the future.
 
 <figure><img src="../../.gitbook/assets/slide - 06.png" alt=""><figcaption><p>Uniscale Design's relation to a product roadmap. Single source of truth through many iterations over time.</p></figcaption></figure>
 
-### How do I define my module and service boundaries?
 
-The key to succeeding with your Uniscale solution design is the way you split the solution functionality into modules and services. First of all, a module is a grouping of the end user functionality in your solution that: belongs together and changes together.
 
-{% hint style="info" %}
-The boundary of a module or a service is defined by functionality that belongs together and frequently changes together, and that is owned by a single team or department in your organization. This minimizes the risk of having cross-team projects which again reduces friction.
-{% endhint %}
+## How to define module and service boundaries
 
-When trying to scale a software product organization it is almost impossible when multiple teams try to deliver functionality into the same modules and services. This results in parallel deliveries from multiple teams to the same functionality and always ends up in high organizational friction due to functionality conflicts and misalignments.
+The key to succeeding with your Uniscale solution design is the way you split the solution functionality into modules and services.&#x20;
+
+<details>
+
+<summary>The challenge explained</summary>
+
+When attempting to scale a software product organization, it becomes challenging when multiple teams attempt to deliver functionality into the same modules and services. This leads to parallel deliveries from multiple teams to the same functionality, resulting in high organizational friction due to conflicts and misalignments in functionality.
+
+</details>
+
+#### The boundary of a module or a service is defined by:
+
+* Functionality that belongs together and frequently changes together.
+* Is owned by a single team or department in your organization.&#x20;
+
+When the functionality of your solution is divided into modules, the majority of your functionalities should pertain to only a single module. Additionally, the services should follow the same structure and follow the team or department that owns that module.
 
 <figure><img src="../../.gitbook/assets/slide - 36 - new.png" alt=""><figcaption><p>Modules and services should be owned by a single entity in your organization. This will provide you with good coherent specifications and effective deliveries.</p></figcaption></figure>
-
-It is crucial that when functionality is split into modules the majority of your deliveries regard a single module and services delivered by the team or department owning that module.
-
-{% hint style="info" %}
-Split the functionality so that you end up with deliveries mostly involving a single module and services owned by the same team or department.
-{% endhint %}
 
 
 
 ***
 
-## Guide: Describing your first solution and creating your first module
+## Guide: Create and describe the first solution and module
 
-Let's dive straight into producing some valuable content. You will have the same rich text capabilities wherever you are within the Uniscale specification and documentation.
+If you haven't already, start by creating a solution [guide-create-solution.md](guide-create-solution.md "mention").
+
+Now, let's dive into producing some valuable content. You will have the same rich text capabilities wherever you are within the Uniscale specification and documentation.
 
 {% hint style="info" %}
-Wherever you are in the specification you can always use type / to trigger the command menu. The command menu contains all the options within the element you are located in. For instance, in the solution description, you will have the command for creating a module. You will find the same information using the ... menu in the top right corner of the element you are in.
+Type "/" or use the "..." to trigger the command menu. \
+The command menu contains all the options within the element you are located in.&#x20;
 {% endhint %}
 
-
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-26 at 11.09.55.png" alt=""><figcaption><p>Using command menu to create a new element</p></figcaption></figure>
 
 ### Step 1: Describe your solution
 
-You can start by simply just describing your solution overall in the solution description. If your plan includes the generative AI functionality you can easily get started by getting some ideas from the AI. This is very helpful for instance when wanting to get help on making your specification well articulated and readable.&#x20;
+Start by providing a high-level description of your solution. This will help set the scene for you and others.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-21 at 10.54.27.gif" alt=""><figcaption><p>Get help describing your solution with our generative AI functionality.</p></figcaption></figure>
+<details>
+
+<summary>Using generative AI to write</summary>
+
+If your plan includes the generative AI functionality you can get started by getting some ideas from the AI. This is helpful for instance when wanting to get help on making your specification well articulated and readable.&#x20;
 
 Remember that even though the AI can help you express things more clearly you are the one responsible for making sure that your intentions and requirements are communicated.&#x20;
 
-{% hint style="info" %}
-Communicating a new concept is much easier than communicating and aligning on ad-hoc changes to a concept.
-{% endhint %}
+</details>
 
 
 
 ### Step 2: Create your first module
 
-To get started with creating your first module you can either use the / menu or you can use the Create module button in the top solution context bar. This is also where you can go into a specific module or service. This is important when working with revisions.
+To create a module, you can either use the "/" menu or you can use the "Create module" button in the top solution context bar.
 
 <figure><img src="../../.gitbook/assets/image (2) - new - new.png" alt=""><figcaption><p>Create modules either through the / command or by using the solution context menu at the top.</p></figcaption></figure>
 
 {% hint style="info" %}
-By selecting a module in the solution context dropdown you can get to the module focus view. In there, you can approve your module revision, look at previous revisions, and more.
+By selecting a module in the solution context dropdown, you can get to the module focus view. In there, you can approve your module revision, look at previous revisions, and more.
 {% endhint %}
 
 
 
 ### Step 3: Specifying your first module revision
 
-Let's dive in an specify up the first revision of a module. We will go through the elements used to write it and some decisions behind why and how.
+Let's dive in and specify the first revision of a module. We will go through the elements used to write it and some decisions behind why and how.
 
 {% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=VZkJOCtMGfI" %}
 Let's go through and write our first module revision specification
