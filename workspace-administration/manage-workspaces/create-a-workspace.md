@@ -6,7 +6,7 @@ description: Read here how you can create a workspace in Uniscale.
 
 ## What is a workspace?
 
-Your workspace is the place where your team can specify, model and interact with solutions and services within in.
+Your workspace is the place where your team can specify, model, and interact with solutions and services within.
 
 {% hint style="info" %}
 Upon creating your initial workspace, you'll begin a 30-day free trial with Uniscale to ensure our services meet your needs.
@@ -47,7 +47,7 @@ Want to learn more about solutions and how to work with them? Check our [Specifi
 Choose one out of our two plans: Personal or Teams and select the amount of seats you would like to have inside your workspace.&#x20;
 
 {% hint style="info" %}
-Check[ Plans and Subscription](https://help.uniscale.com/plans-and-subscriptions) for more details on the different plans Uniscale offer.
+Check[ Plans and Subscription](https://help.uniscale.com/plans-and-subscriptions) for more details on the different plans Uniscale offers.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-25 at 18.16.29@2x.png" alt=""><figcaption><p>Choose your plan and select amount of seats</p></figcaption></figure>
