@@ -21,9 +21,9 @@ Modules are structured using Pages, Sections, and Functional use cases.&#x20;
 
 ### Pages and Sections&#x20;
 
-These are the elements that you will use to align the structure of your application in the same way as the product. In that way, it will be easier to navigate your way within a module in relation to your product.
+These are the elements that you will use to align the **structure** of your application in the same way as the product. In that way, it will be easier to navigate your way within a module in relation to your product.
 
-<figure><img src="../../.gitbook/assets/slide - 37 - new.png" alt=""><figcaption><p>The structural breakdown of a module specification using Pages and sections.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Frame 10314.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -41,13 +41,17 @@ Read more in this article: [functional-use-cases.md](functional-use-cases.md "me
 
 ### Cater to your audience
 
-As these are the functional requirements for your solution, it is important that all your stakeholders can easily navigate and make sense of your specifications. This ensures optimal communication and alignment. To achieve this you must define the right information within the right elements.&#x20;
+To ensure effective communication and alignment, your solution's functional requirements must be easy for all stakeholders to understand and navigate. Make sure to define the right information within the right elements for optimal communication.
 
-{% hint style="info" %}
-Use Pages and Sections for high-level explanations while using Functional use cases for more detailed explanations. In this way, when filtering out Functional use cases, you have a high-level point of view for aligning all stakeholders.
-{% endhint %}
+#### Using Filters&#x20;
 
-Within Pages and Sections, you can describe high-level specifications of your functionality. In this way, all stakeholders can use this part of the specification to make sure that everyone has a high-level alignment of the functionality and the intentions that led to its current state. From there the reader can enable Functional use cases or even UX flows and designer notes to dig into the details needed to implement the requirements.
+Use Pages and Sections for high-level explanations while using Functional use cases for more detailed explanations.&#x20;
+
+The Filter function allows the reader to choose the number of details from only looking at Pages and Sections to Functional use cases or even UX flows and Designer notes to dig into the details needed to implement the requirements.
+
+Even one level deeper is to display the Service flows which describes the technical flow needed to implement the described functionality.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-26 at 20.43.06@2x.png" alt=""><figcaption></figcaption></figure>
 
 
 

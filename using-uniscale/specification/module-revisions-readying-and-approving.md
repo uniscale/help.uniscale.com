@@ -21,9 +21,9 @@ Let us add some functionality to a module through revisions
 
 ## Iteratively specifying and delivering your product
 
-Building good products requires hard and focused effort over time. You will not deliver it in one go and likely there are multiple teams involved throughout the lifecycle of building your product.&#x20;
+In [How to get started with a solution](https://help.uniscale.com/product-guides/how-to-get-started-with-a-solution), we describe how splitting a solution's end-user functionality into modules helps you scale your teams with your organization strategy.&#x20;
 
-In [How to get started with a solution](https://help.uniscale.com/product-guides/how-to-get-started-with-a-solution) we describe how splitting a solution's end-user functionality into modules helps you scale your teams with your organization strategy. Each team will be able to define new functionality by starting, readying, and approving revisions within the module.
+Each team will be able to define new functionality by starting, readying, and approving revisions within the module.
 
 <figure><img src="../../.gitbook/assets/slide - 06 (1).png" alt=""><figcaption><p>Make your Uniscale solution the single source of truth to the intentions and decision that has made your product what it is. Use revisions to incrementally build your specification so that you can effectively release your functionality.</p></figcaption></figure>
 
