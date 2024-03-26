@@ -1,15 +1,19 @@
 ---
 description: >-
-  Lets look at how to nail the structure of your solution specification. Learn
+  Let's look at how to nail the structure of your solution specification. Learn
   how to break functionality down into modules. Learn about module, services and
   their impact on scaling your organization.
 ---
 
-# How to get started with a solution
+# Get started with a solution
 
 ## Conceptual introduction
 
-Learn how a solution is broken down into each element.
+Learn how a solution is broken down into each element. You can watch the video or read the explanation below:
+
+{% embed url="https://www.youtube.com/watch?index=1&list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=SHpHH7qhk3Q" %}
+Video: Uniscale Describe: Solution Design Flow \[3:31]
+{% endembed %}
 
 
 
@@ -18,7 +22,7 @@ Learn how a solution is broken down into each element.
 A solution consists of modules and services:
 
 * **Solution:** The overall product or project that you are working on.
-* **Modules:** It is the grouping of the end user functionality in your solution that belongs together and changes together. We will dive into modules further in this article: [how-to-get-started-with-a-module.md](how-to-get-started-with-a-module.md "mention")
+* **Modules:** It is the grouping of the end user functionality in your solution that belongs together and changes together. We will dive into modules further in this article: [get-started-with-a-module.md](get-started-with-a-module.md "mention")
 * **Services:** Describe the requirements for the underlying technical flows that will enable you to build this functionality.
 
 <figure><img src="../../.gitbook/assets/Concept - new.png" alt=""><figcaption><p>Solution components </p></figcaption></figure>

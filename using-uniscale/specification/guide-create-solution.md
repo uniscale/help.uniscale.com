@@ -4,7 +4,7 @@ description: >-
   specification in the Solution Editor.
 ---
 
-# Guide: Create a Solution
+# Guide: Create solution
 
 ## **How to Create a Solution**&#x20;
 
@@ -42,7 +42,7 @@ When you create a solution, you give it a name, owner, and description and then 
 
 Now you're ready to start breaking down your specification. You can do so by reading this article:
 
-{% content-ref url="how-to-get-started-with-a-solution.md" %}
-[how-to-get-started-with-a-solution.md](how-to-get-started-with-a-solution.md)
+{% content-ref url="get-started-with-a-solution.md" %}
+[get-started-with-a-solution.md](get-started-with-a-solution.md)
 {% endcontent-ref %}
 

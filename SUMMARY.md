@@ -10,9 +10,9 @@
 
 * [Specification](using-uniscale/specification/README.md)
   * [Guide: Create solution](using-uniscale/specification/guide-create-solution.md)
-  * [How to get started with a solution](using-uniscale/specification/how-to-get-started-with-a-solution.md)
-  * [How to get started with a module](using-uniscale/specification/how-to-get-started-with-a-module.md)
-  * [How and when to define functional use cases](using-uniscale/specification/how-and-when-to-define-functional-use-cases.md)
+  * [Get started with a solution](using-uniscale/specification/get-started-with-a-solution.md)
+  * [Get started with a module](using-uniscale/specification/get-started-with-a-module.md)
+  * [Guide: Define functional use cases](using-uniscale/specification/guide-define-functional-use-cases.md)
   * [Module revisions, readying and approving](using-uniscale/specification/module-revisions-readying-and-approving.md)
 
 ## ACCOUNT & PREFERENCES

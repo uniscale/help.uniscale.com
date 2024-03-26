@@ -46,8 +46,8 @@ Now that you have joined a workspace, you are ready to start using Uniscale.
 
 Explore Uniscale features and learn how to get started with your functional specifications and start building your first solution.
 
-{% content-ref url="../using-uniscale/specification/how-to-get-started-with-a-solution.md" %}
-[how-to-get-started-with-a-solution.md](../using-uniscale/specification/how-to-get-started-with-a-solution.md)
+{% content-ref url="../using-uniscale/specification/get-started-with-a-solution.md" %}
+[get-started-with-a-solution.md](../using-uniscale/specification/get-started-with-a-solution.md)
 {% endcontent-ref %}
 
 
