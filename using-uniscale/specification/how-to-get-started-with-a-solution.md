@@ -126,4 +126,4 @@ Let's go through and write our first module revision specification
 ## Summary
 
 Solutions consist of modules and services where modules describe end-user functionality and services describe the technical requirements needed to deliver that functionality. It is crucial to put thought into how you split a solution into modules and services. It relates to the ownership within your organization and the ability of your organization to scale with your product.\
-You can create new modules by either using the / command or creating one from the solution context menu at the top of the page.
+You can create new modules by either using the "/" command or creating one from the solution context menu at the top of the page.
