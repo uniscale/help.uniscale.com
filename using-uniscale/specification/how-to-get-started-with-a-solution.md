@@ -45,7 +45,7 @@ Over time, your solution specification will follow your product as the single so
 
 
 
-## How to define module and service boundaries
+### How to define module and service boundaries
 
 The key to succeeding with your Uniscale solution design is the way you split the solution functionality into modules and services.&#x20;
 

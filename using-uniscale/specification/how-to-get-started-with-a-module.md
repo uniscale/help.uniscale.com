@@ -7,47 +7,63 @@ description: >-
 
 # How to get started with a module
 
-## What is the building blocks of a module?
+## What are the building blocks of a module?
 
-Modules are structured using Pages, Sections and Functional use cases. Pages and Sections are the structural elements that you will use to make sure that you structure your application in the same way as the product. In that way it will be easier to navigate your way within a module in relation to the product.
+Modules are structured using Pages, Sections, and Functional use cases.&#x20;
+
+### Pages and Sections&#x20;
+
+These are the elements that you will use to align the structure of your application in the same way as the product. In that way, it will be easier to navigate your way within a module in relation to your product.
 
 <figure><img src="../../.gitbook/assets/slide - 37 - new.png" alt=""><figcaption><p>The structural breakdown of a module specification using Pages and sections.</p></figcaption></figure>
 
-In addition to the structure of your product you will also use Functional use cases to define the user behaviour within the module. These functional use cases describes the high level user behaviour in its description while it breaks down the details of it through its UX flows (user experience flows). In this way the reader can choose to read the specification through the preferred level of detail. Even designer notes have their own sections within Functional use cases to explain details around look and feel.
+
+
+### Functional use cases
+
+Functional use cases are used to define the user behavior within the module. Each functional use case consists of a description, where you can describe the high-level user behavior.&#x20;
+
+#### UX flows
+
+UX flows (user experience flows) are used to further break down your Functional use case. In this way, the reader can choose to read the specification through the preferred level of detail. Even designer notes have a section within Functional use cases to explain details around look and feel.
 
 <figure><img src="../../.gitbook/assets/Concept - new.png" alt=""><figcaption><p>Define Functional use cases within the module, Pages or Sections to describe user interaction. This is also the link into services.</p></figcaption></figure>
 
-The connection between the service documentation and the module specification happens through the UX flows in Functional use cases. Through them you can link to service flows which is a services way of expressing intent of usage to some of it's endpoints.
+The connection between the service documentation and the module specification happens through the UX flows in Functional use cases. Through them, you can link to service flows which is a service's way of expressing intent of usage to some of its endpoints.
 
-As the specifications over time grows large it is important to structure it right so that it is easy focus in on only parts of the specification. It is therefore important that you make yourself some thoughts around locating the parts of the specification that is meant to be read together in the same location.
+{% hint style="info" %}
+As the specification will evolve, it is helpful to be thoughtful of the structure. It should be easy to focus only on parts of the specification while having all the contextual information available.
+{% endhint %}
 
 
 
 ## Cater to your audience
 
-As this is the functional requirements for your solution it is important that all your stakeholders can feel at home in the specification. This ensures optimal communication and alignment. To achieve this it is important that you define the right information within the right elements.&#x20;
+As these are the functional requirements for your solution, it is important that all your stakeholders can easily navigate and make sense of your specifications. This ensures optimal communication and alignment. To achieve this you must define the right information within the right elements.&#x20;
 
 {% hint style="info" %}
-Use Pages and Sections for high level explanations while using Functional use cases for more detailed explanations. In this way when filtering out Functional use cases you have a high level point of view for aligning all stakeholders.
+Use Pages and Sections for high-level explanations while using Functional use cases for more detailed explanations. In this way, when filtering out Functional use cases, you have a high-level point of view for aligning all stakeholders.
 {% endhint %}
 
-Within Pages and sections you can describe high level specifications of your functionality. In this way all stakeholders can use this part of the specification to make sure that everyone has a high level alignment of the functionality and the intentions that led to its current state. From there the reader can enable Functional use cases or even UX flows and designer notes to dig into the details needed to implement the requirements.
+Within Pages and Sections, you can describe high-level specifications of your functionality. In this way, all stakeholders can use this part of the specification to make sure that everyone has a high-level alignment of the functionality and the intentions that led to its current state. From there the reader can enable Functional use cases or even UX flows and designer notes to dig into the details needed to implement the requirements.
 
 
 
-## An easy way to specification breakdown
+## Make use of visuals
 
 {% hint style="info" %}
-Type / or click the ... menu to start creating content within your specification.
+Type "/" or click the "..." menu to start creating content within your specification.
 {% endhint %}
 
-An easy way of getting started with your module specification is to use user interface mocks as an entry point. Let's say that we paste a mock / screenshot / drawing right into our module specification.
+To start your module specification, we recommend using mocks of the user interface. You can insert images of your mock, screenshot, or even drawing right into your module specification.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-21 at 11.40.52.gif" alt=""><figcaption><p>Breaking your visual mocks down into pages and sections representing the structure of your product.</p></figcaption></figure>
+This helps the reader better have the context and understand what you are trying to achieve with your solution.&#x20;
 
-## Specifying your first module revision
 
-Let's dive in an specify up the first revision of a module. We will go through the elements used to write it and some decisions behind why and how.
+
+## Specify the first module revision
+
+Let's dive in and specify the first revision of a module. We will go through the elements used to write it and some decisions behind why and how.
 
 {% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=VZkJOCtMGfI" %}
 Let's go through and write our first module revision specification
@@ -59,4 +75,4 @@ Let's go through and write our first module revision specification
 
 ## Summary
 
-Modules consists of Pages and sections to define the overall and structural build-up. They are used to communicate the high level functionality for all stakeholders. The details about the user interaction is described in Functional use cases. Read more about those in the next article.
+Modules consist of Pages and sections to define the overall and structural build-up. They are used to communicate high-level functionality for all stakeholders. The details about the user interaction are described in Functional use cases. Read more about those in the next article.
