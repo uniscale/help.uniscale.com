@@ -42,8 +42,8 @@ The _invitee_ will now receive an email to join your workspace.&#x20;
 
 ### Next steps for admin and invitee:&#x20;
 
-{% content-ref url="../../getting-started/getting-started-for-workspace-admins.md" %}
-[getting-started-for-workspace-admins.md](../../getting-started/getting-started-for-workspace-admins.md)
+{% content-ref url="../../getting-started/get-started-for-workspace-admins.md" %}
+[get-started-for-workspace-admins.md](../../getting-started/get-started-for-workspace-admins.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../account-and-preferences/create-an-account.md" %}

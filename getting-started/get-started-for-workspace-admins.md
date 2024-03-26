@@ -2,7 +2,7 @@
 description: Learn how to get started with Uniscale as a workspace admin.
 ---
 
-# Getting started for workspace admins
+# Get started for workspace admins
 
 If you are tasked with managing a team and overseeing the solution your team is building, you will likely serve as the owner and admin of the Workspace created in Uniscale. Here's a comprehensive guide to help you kickstart your journey:
 
@@ -18,24 +18,22 @@ Click on the "Create new" workspace button highlighted in blue and follow the pr
 
 
 
-### Step 2: Configure Workspace permissions
-
-Customize your workspace permissions, users and contact information.
-
-{% content-ref url="../workspace-administration/manage-workspaces/workspace-settings.md" %}
-[workspace-settings.md](../workspace-administration/manage-workspaces/workspace-settings.md)
-{% endcontent-ref %}
-
-{% content-ref url="../workspace-administration/manage-workspaces/user-management.md" %}
-[user-management.md](../workspace-administration/manage-workspaces/user-management.md)
-{% endcontent-ref %}
-
-### Step 3: Invite your team to join the workspace
+### Step 2: Invite your team to join the workspace
 
 Send invitations to your colleagues, enabling them to join and collaborate within your Workspace.
 
 {% content-ref url="../workspace-administration/manage-workspaces/invite-to-a-workspace.md" %}
 [invite-to-a-workspace.md](../workspace-administration/manage-workspaces/invite-to-a-workspace.md)
+{% endcontent-ref %}
+
+
+
+### Step 3: Configure user permissions
+
+Customize your workspace permissions, users, and contact information.
+
+{% content-ref url="../workspace-administration/manage-workspaces/user-management.md" %}
+[user-management.md](../workspace-administration/manage-workspaces/user-management.md)
 {% endcontent-ref %}
 
 
@@ -46,16 +44,8 @@ Now that the workspace has been set up, you are all set to begin with Uniscale.
 
 Explore Uniscale features and learn how to get started with your functional specifications and start building your first solution.
 
-You can also check the chapters below for more information on how to manage your Workspace.
-
-&#x20;
-
 {% content-ref url="../using-uniscale/specification/" %}
 [specification](../using-uniscale/specification/)
-{% endcontent-ref %}
-
-{% content-ref url="../workspace-administration/manage-workspaces/" %}
-[manage-workspaces](../workspace-administration/manage-workspaces/)
 {% endcontent-ref %}
 
 

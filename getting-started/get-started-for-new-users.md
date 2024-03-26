@@ -4,11 +4,11 @@ description: >-
   recently invited by an admin to a new workspace
 ---
 
-# Getting started for new users
+# Get started for new users
 
 ## Join a workspace
 
-You have been invited to join a workspace in Uniscale. To get started, follow the three steps outlined below:
+If you have been invited to join a workspace in Uniscale, follow the three steps  below:
 
 
 
