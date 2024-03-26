@@ -8,7 +8,7 @@ description: >-
 
 ## **How to Create a Solution**&#x20;
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 11.04.58.gif" alt=""><figcaption><p>Guide how to create a solution</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 11.04.58 (1).gif" alt=""><figcaption><p>Guide how to create a solution</p></figcaption></figure>
 
 ***
 

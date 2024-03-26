@@ -5,11 +5,11 @@ description: >-
   away.
 ---
 
-# Guide: Define functional use cases
+# Functional use cases
 
 ## Structure vs behaviour
 
-As explained in the previous guide [get-started-with-a-module.md](get-started-with-a-module.md "mention"): Pages and Sections are used to represent the structure and high-level description of your specification. The Functional use cases are there for you to define the high-level and in detail end-user behaviour in your system. This is where you can go into detail on expected details down to contents of dropdowns, what happens when the user clicks a button, or describing even cross-page behaviour.
+As explained in the previous guide [get-started-with-a-module.md](get-started-with-a-module.md "mention"), Pages and Sections are used to represent the structure and high-level description of your specification. The Functional use cases are there for you to define the high-level and in detail end-user behaviour in your system. This is where you can go into detail on expected details down to contents of dropdowns, what happens when the user clicks a button, or describing even cross-page behaviour.
 
 <figure><img src="../../.gitbook/assets/Concept - new.png" alt=""><figcaption><p>Define Functional use cases within the module, Pages or Sections to describe user interaction. This is also the link into services.</p></figcaption></figure>
 
@@ -19,29 +19,53 @@ It is also helpful to look at Functional use cases as a level of detail. When so
 
 ## What does a Functional use case consist of?
 
-At the top level, a functional use case consists of a description where you can describe the high-level functionality provided to the end user. The intention for defining it may be that you need to explain a flow that the user can go through like searching for something. It could also be that you need to describe some data being loaded into the user interface or some UI design guidelines for a user interface.
+A Functional use case can be broken down into the following:
 
-{% hint style="info" %}
-Functional use cases are split into UX product notes and UI designer notes to separate the graphical element specification from the user interaction. They can both be specified in detail using UX flows and designer notes.
-{% endhint %}
+* [#description](functional-use-cases.md#description "mention")
+* [#ux-product-notes-and-ux-flows](functional-use-cases.md#ux-product-notes-and-ux-flows "mention")
+  * [#functional-acceptance-criteria](functional-use-cases.md#functional-acceptance-criteria "mention")
+  * [#service-flows](functional-use-cases.md#service-flows "mention")
+* [#ui-designer-notes-and-designer-notes](functional-use-cases.md#ui-designer-notes-and-designer-notes "mention")
+
+### Description
+
+A functional use case consists of a description where you can describe the high-level functionality provided to the end user. The intention for defining it may be that you need to explain a flow that the user can go through like searching for something. It could also be that you need to describe some data being loaded into the user interface or some UI design guidelines for a user interface.
 
 
 
 ### UX product notes and UX flows
 
-The UX product notes are where you can go into more detail regarding the user experience part of the use case if required. This can also be left blank if you have no additional information to add. Under the UX product notes you can also add one or more UX flows. These are used both to describe details of the flow with acceptance criteria and the link into Service flows.
+This is where you go into more detail with the user experience of the use case. This can also be left blank if you have no additional information to add.&#x20;
+
+In addition, you can add UX flows that are used both to describe details of the flow with functional acceptance criteria and link into Service flows:
+
+#### Functional acceptance criteria
+
+This is what allows you to explain exactly how the UX flow should behave.&#x20;
+
+#### Service flows
+
+Functional use cases can be broken into UX flows that can further be linked to Service flows. This is what connects the module specification and the service documentation.
+
+By linking a Service flow to a UX flow, you can express how a service is intended to use some of its endpoints.
+
+<figure><img src="../../.gitbook/assets/image.avif" alt=""><figcaption><p>Define Functional use cases within the module, Pages or Sections to describe user interaction. This is also the link into services.</p></figcaption></figure>
 
 
 
 ### UI designer notes and designer notes
 
-It is important to distinguish user experience from user design as it is not necessarily the same person accountable for it. As such we have split UI designer notes out so that UI design specifications can be handled separately. As with UX product notes it consists of a general description which can be utilized if needed and a list of designer notes describing the different points to communicate regarding the design.
+It is important to distinguish user experience (UX) from user interface (UI) design as it is not necessarily the same person accountable for it.&#x20;
+
+As such we have split UI designer notes out so that UI design specifications can be handled separately. As with UX product notes it consists of a general description which can be utilized if needed and a list of designer notes describing the different points to communicate regarding the design.
 
 
 
-## Defining Functional use cases
+***
 
-As with all other parts of the specification you can use the / command and the ... menu of elements to create new Functional use cases. They can be placed directly on the module, under a page or a section. This allows you to place them structurally where they belong.&#x20;
+## How to define Functional use cases
+
+You can use the "/" command or the "..." menu to create new Functional use cases. They can be placed directly on the module, under a page or a section. This allows you to place them structurally where they belong.&#x20;
 
 For instance, the ones placed on the level of a module or a page might define a high-level flow of a user navigating through pages/sections of the module. Further down in sections you might place Functional use cases describing exactly how buttons, dropdowns, collapsible areas or any other element behaves. This allows you to drill down to the necessary details you want to express.
 

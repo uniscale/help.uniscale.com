@@ -74,11 +74,45 @@ When the functionality of your solution is divided into modules, the majority of
 
 ***
 
-## Guide: Create and describe the first solution and module
+## Guide: Create and describe your solution
 
-If you haven't already, start by creating a solution [guide-create-solution.md](guide-create-solution.md "mention").
+### Step 1: Create your solution
 
-Now, let's dive into producing some valuable content. You will have the same rich text capabilities wherever you are within the Uniscale specification and documentation.
+<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 11.04.58.gif" alt=""><figcaption><p>Guide how to create a solution</p></figcaption></figure>
+
+<details>
+
+<summary>Step-by-step guide to create a solution</summary>
+
+**Step 1: Go to Solutions**
+
+From your workspace: **Go to "Solutions".**
+
+<img src="../../.gitbook/assets/CleanShot 2024-03-15 at 11.12.02.png" alt="Go to the solution table from the workspace dashboard " data-size="original">
+
+**Step 2: Click "Create solution"**
+
+And click the **"Create solution"** button in the top right corner.
+
+<img src="../../.gitbook/assets/CleanShot 2024-03-18 at 13.38.11@2x.png" alt="Click &#x22;Create solution&#x22;" data-size="original">
+
+**Step 3: Fill out the solution details**
+
+When you create a solution, you give it a name, owner, and description and then click "**Submit**".
+
+1. **Name**: The name of your solution, it can be a code name or product name.
+2. **Owner:** The person responsible for decisions related to the solution.
+3. **Description:** A short description, or elevator pitch for the problem your solution addresses.
+
+<img src="../../.gitbook/assets/CleanShot 2024-03-15 at 11.19.00.png" alt="Fill out your solution details " data-size="original">
+
+</details>
+
+
+
+### Step 2: Describe your solution
+
+Start by providing a high-level description of your solution. This will help set the scene for you and others.&#x20;
 
 {% hint style="info" %}
 Type "/" or use the "..." to trigger the command menu. \
@@ -86,12 +120,6 @@ The command menu contains all the options within the element you are located in.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-26 at 11.09.55.png" alt=""><figcaption><p>Using command menu to create a new element</p></figcaption></figure>
-
-
-
-### Step 1: Describe your solution
-
-Start by providing a high-level description of your solution. This will help set the scene for you and others.
 
 <details>
 
@@ -105,25 +133,9 @@ Remember that even though the AI can help you express things more clearly you ar
 
 
 
-### Step 2: Create your first module
+### Step 3: Create your first module
 
-To create a module, you can either use the "/" menu or you can use the "Create module" button in the top solution context bar.
-
-<figure><img src="../../.gitbook/assets/image (2) - new - new.png" alt=""><figcaption><p>Create modules either through the / command or by using the solution context menu at the top.</p></figcaption></figure>
-
-{% hint style="info" %}
-By selecting a module in the solution context dropdown, you can get to the module focus view. In there, you can approve your module revision, look at previous revisions, and more.
-{% endhint %}
-
-
-
-### Step 3: Specifying your first module revision
-
-Let's dive in and specify the first revision of a module. We will go through the elements used to write it and some decisions behind why and how.
-
-{% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyEWGiAWXFbh1ncy2rbimVGi&v=VZkJOCtMGfI" %}
-Let's go through and write our first module revision specification
-{% endembed %}
+Now that you have created your solution, you can break it down into modules. To do so, please go to the following page: [get-started-with-a-module.md](get-started-with-a-module.md "mention")
 
 
 
@@ -131,5 +143,4 @@ Let's go through and write our first module revision specification
 
 ## Summary
 
-Solutions consist of modules and services where modules describe end-user functionality and services describe the technical requirements needed to deliver that functionality. It is crucial to put thought into how you split a solution into modules and services. It relates to the ownership within your organization and the ability of your organization to scale with your product.\
-You can create new modules by either using the "/" command or creating one from the solution context menu at the top of the page.
+Solutions consist of modules and services where modules describe end-user functionality and services describe the technical requirements needed to deliver that functionality. It is crucial to put thought into how you split a solution into modules and services. It relates to the ownership within your organization and the ability of your organization to scale with your product.

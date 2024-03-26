@@ -7,7 +7,7 @@ description: >-
 
 # Get started with a module
 
-## What are the building blocks of a module?
+## What does a solution consist of?
 
 Modules are structured using Pages, Sections, and Functional use cases.&#x20;
 
@@ -25,21 +25,13 @@ Functional use cases are used to define the user behavior within the module. Eac
 
 Read more in this article: [functional-use-cases.md](functional-use-cases.md "mention")
 
-#### UX flows
-
-UX flows (user experience flows) are used to further break down your Functional use case. In this way, the reader can choose to read the specification through the preferred level of detail. Even designer notes have a section within Functional use cases to explain details around look and feel.
-
-<figure><img src="../../.gitbook/assets/Concept - new.png" alt=""><figcaption><p>Define Functional use cases within the module, Pages or Sections to describe user interaction. This is also the link into services.</p></figcaption></figure>
-
-The connection between the service documentation and the module specification happens through the UX flows in Functional use cases. Through them, you can link to service flows which is a service's way of expressing intent of usage to some of its endpoints.
-
-{% hint style="info" %}
-As the specification will evolve, it is helpful to be thoughtful of the structure. It should be easy to focus only on parts of the specification while having all the contextual information available.
-{% endhint %}
 
 
+***
 
-## Cater to your audience
+## Best practices when describing a module
+
+### Cater to your audience
 
 As these are the functional requirements for your solution, it is important that all your stakeholders can easily navigate and make sense of your specifications. This ensures optimal communication and alignment. To achieve this you must define the right information within the right elements.&#x20;
 
@@ -51,7 +43,7 @@ Within Pages and Sections, you can describe high-level specifications of your fu
 
 
 
-## Make use of visuals
+### Make use of visuals
 
 {% hint style="info" %}
 Type "/" or click the "..." menu to start creating content within your specification.
@@ -63,7 +55,23 @@ This helps the reader better have the context and understand what you are trying
 
 
 
-## Specify the first module revision
+***
+
+## Guide: Create and describe your modules
+
+### Step 1: Create a module
+
+To create a module, you can either use the "/" menu or you can use the "Create module" button in the top solution context bar.
+
+{% hint style="info" %}
+By selecting a module in the solution context dropdown, you can get to the module focus view. In there, you can approve your module revision, look at previous revisions, and more.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image.webp" alt=""><figcaption><p>Create modules either through the / command or by using the solution context menu at the top.</p></figcaption></figure>
+
+
+
+### Step 2: Specify the first module revision
 
 Let's dive in and specify the first revision of a module. We will go through the elements used to write it and some decisions behind why and how.
 
