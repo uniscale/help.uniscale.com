@@ -66,7 +66,7 @@ When attempting to scale a software product organization, it becomes challenging
 * Functionality that belongs together and frequently changes together.
 * Is owned by a single team or department in your organization.&#x20;
 
-When the functionality of your solution is divided into modules, the majority of your functionalities should pertain to only a single module. Additionally, the services should follow the same structure and follow the team or department that owns that module.
+When the functionality of your solution is divided into modules, the majority of your functionalities should pertain to only a single module. Additionally, the services should use the same structure and follow the team or department that owns that module.
 
 <figure><img src="../../.gitbook/assets/slide - 36 - new.png" alt=""><figcaption><p>Modules and services should be owned by a single entity in your organization. This will provide you with good coherent specifications and effective deliveries.</p></figcaption></figure>
 
@@ -86,6 +86,8 @@ The command menu contains all the options within the element you are located in.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-26 at 11.09.55.png" alt=""><figcaption><p>Using command menu to create a new element</p></figcaption></figure>
+
+
 
 ### Step 1: Describe your solution
 

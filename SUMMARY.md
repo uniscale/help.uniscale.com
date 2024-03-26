@@ -12,7 +12,7 @@
   * [Guide: Create solution](using-uniscale/specification/guide-create-solution.md)
   * [Get started with a solution](using-uniscale/specification/get-started-with-a-solution.md)
   * [Get started with a module](using-uniscale/specification/get-started-with-a-module.md)
-  * [Define functional use cases](using-uniscale/specification/define-functional-use-cases.md)
+  * [Functional use cases](using-uniscale/specification/functional-use-cases.md)
   * [Module revisions, readying and approving](using-uniscale/specification/module-revisions-readying-and-approving.md)
 
 ## ACCOUNT & PREFERENCES

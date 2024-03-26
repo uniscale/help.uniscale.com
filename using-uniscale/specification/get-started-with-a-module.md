@@ -5,7 +5,7 @@ description: >-
   communicate over the same specification.
 ---
 
-# How to get started with a module
+# Get started with a module
 
 ## What are the building blocks of a module?
 
@@ -22,6 +22,8 @@ These are the elements that you will use to align the structure of your applicat
 ### Functional use cases
 
 Functional use cases are used to define the user behavior within the module. Each functional use case consists of a description, where you can describe the high-level user behavior.&#x20;
+
+Read more in this article: [functional-use-cases.md](functional-use-cases.md "mention")
 
 #### UX flows
 
