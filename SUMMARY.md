@@ -28,6 +28,7 @@
   * [User management](workspace-administration/manage-workspaces/user-management.md)
   * [Invite to a workspace](workspace-administration/manage-workspaces/invite-to-a-workspace.md)
   * [Join a Workspace](workspace-administration/manage-workspaces/join-a-workspace.md)
+  * [Transfer ownership](workspace-administration/manage-workspaces/transfer-ownership.md)
 
 ***
 
