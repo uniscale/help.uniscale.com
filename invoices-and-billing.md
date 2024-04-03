@@ -9,7 +9,7 @@ description: Read more about Uniscale billing information here.
 To access your invoices, go to the [workspace-settings.md](workspace-administration/manage-workspaces/workspace-settings.md "mention") and select the tab "Invoices"
 
 {% hint style="info" %}
-If you have any questions regardig your invoice, please email hello@unisclae.com
+If you have any questions regarding your invoice, please email **hello@uniscale.com**  &#x20;
 {% endhint %}
 
 

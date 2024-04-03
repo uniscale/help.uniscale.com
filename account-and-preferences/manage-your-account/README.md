@@ -38,7 +38,7 @@ To update your email notifications, select "Notifications" from the left-hand si
 
 To delete your account, select "Delete account".
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Are you on a subscription? Please reach out to help@uniscale.com and request to cancel your subscription before deleting your account.
 {% endhint %}
 
