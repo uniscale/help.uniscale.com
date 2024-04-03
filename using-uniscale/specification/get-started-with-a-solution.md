@@ -76,25 +76,19 @@ When the functionality of your solution is divided into modules, the majority of
 
 ### Step 1: Create your solution
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-03-15 at 11.04.58.gif" alt=""><figcaption><p>Guide how to create a solution</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-04-03 at 09.08.36.gif" alt=""><figcaption><p>Guide how to create a solution</p></figcaption></figure>
 
 <details>
 
 <summary>Step-by-step guide to create a solution</summary>
 
-**Step 1: Go to Solutions**
+**Step 1: Click "Create new"**
 
-From your workspace: **Go to "Solutions".**
+And click the **"Solution"** button in the dropdown.
 
-<img src="../../.gitbook/assets/CleanShot 2024-03-15 at 11.12.02.png" alt="Go to the solution table from the workspace dashboard " data-size="original">
+<img src="../../.gitbook/assets/CleanShot 2024-04-03 at 12.36.45.png" alt="Click &#x22;Create solution&#x22;" data-size="original">
 
-**Step 2: Click "Create solution"**
-
-And click the **"Create solution"** button in the top right corner.
-
-<img src="../../.gitbook/assets/CleanShot 2024-03-18 at 13.38.11@2x.png" alt="Click &#x22;Create solution&#x22;" data-size="original">
-
-**Step 3: Fill out the solution details**
+**Step 2: Fill out the solution details**
 
 When you create a solution, you give it a name, owner, and description and then click "**Submit**".
 
@@ -102,7 +96,7 @@ When you create a solution, you give it a name, owner, and description and then 
 2. **Owner:** The person responsible for decisions related to the solution.
 3. **Description:** A short description, or elevator pitch for the problem your solution addresses.
 
-<img src="../../.gitbook/assets/CleanShot 2024-03-15 at 11.19.00.png" alt="Fill out your solution details " data-size="original">
+<img src="../../.gitbook/assets/CleanShot 2024-04-03 at 12.45.19.png" alt="Fill out your solution details " data-size="original">
 
 </details>
 
