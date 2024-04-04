@@ -8,7 +8,7 @@ description: >-
 # Module revisions, readying and approving
 
 {% hint style="info" %}
-The module revisions are part of the module editor. This means that you need to select a specific module in the solution context menu to access revisions and approval.
+The module revisions are part of the solution editor. This means that you need to select a specific module in the solution context menu to access revisions and approval.
 {% endhint %}
 
 ## Starting and approving a module revision
