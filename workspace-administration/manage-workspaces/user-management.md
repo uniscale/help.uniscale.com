@@ -6,7 +6,7 @@ description: Read here how to manage the different users inside your workspace
 
 You can manage all team members within your workspace by accessing the workspace settings page.&#x20;
 
-<figure><img src="../../.gitbook/assets/Workspace_Dashboard_Users.png" alt=""><figcaption><p>User management</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-04-05 at 08.39.10@2x.png" alt=""><figcaption><p>User Management</p></figcaption></figure>
 
 ## Account access
 

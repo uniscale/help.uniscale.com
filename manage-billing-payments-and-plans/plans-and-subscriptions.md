@@ -12,7 +12,7 @@ Check [here ](https://www.uniscale.com/pricing)to see which plans we have availa
 
 To get an overview of your current plan, go to your [workspace-settings.md](../workspace-administration/manage-workspaces/workspace-settings.md "mention") and select "Plans"
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-03-25 at 17.15.55.png" alt=""><figcaption><p>Workspace Plans page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-04-05 at 08.45.59@2x.png" alt=""><figcaption><p>Workspace settings - Plans</p></figcaption></figure>
 
 ## How to change Workspace plan
 
