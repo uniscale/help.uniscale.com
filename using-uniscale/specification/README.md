@@ -1,5 +1,16 @@
 ---
 description: Build and deliver the right product the first time, every time.
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # Specification
