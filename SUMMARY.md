@@ -23,8 +23,7 @@
 * [Implementation](using-uniscale/implementation/README.md)
   * [Introduction to SDK](using-uniscale/implementation/introduction-to-sdk.md)
   * [SDK portal overview](using-uniscale/implementation/sdk-portal-overview.md)
-  * [Library implementation basics](using-uniscale/implementation/library-implementation-basics/README.md)
-    * [Forwarding session basics](using-uniscale/implementation/library-implementation-basics/forwarding-session-basics.md)
+  * [Library implementation basics](using-uniscale/implementation/library-implementation-basics.md)
   * [Quick Start: Front-end with Uniscale SDK](using-uniscale/implementation/quick-start-front-end-with-uniscale-sdk.md)
 
 ## ACCOUNT & PREFERENCES

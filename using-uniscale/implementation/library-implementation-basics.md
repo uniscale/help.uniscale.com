@@ -829,7 +829,7 @@ return result.toJson();
 {% endtab %}
 {% endtabs %}
 
-You can use the created dispatcher to make multiple requests and fetch Terminologies that you have defined into your model. You can find a more complex sample of how forwarding works in [forwarding-session-basics.md](forwarding-session-basics.md "mention").
+You can use the created dispatcher to make multiple requests and fetch Terminologies that you have defined into your model.&#x20;
 
 ## Conclusion
 
