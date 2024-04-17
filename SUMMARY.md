@@ -1,18 +1,31 @@
 # Table of contents
 
+* [Welcome to Uniscale!](README.md)
+
 ## GETTING STARTED
 
-* [How to use Uniscale](README.md)
-* [Get started for workspace admins](getting-started/get-started-for-workspace-admins.md)
-* [Get started for new users](getting-started/get-started-for-new-users.md)
+* [Quick start guide](getting-started/quick-start-guide.md)
+* [How to replicate your project](getting-started/how-to-replicate-your-project.md)
 
 ## USING UNISCALE
 
 * [Specification](using-uniscale/specification/README.md)
-  * [Get started with a solution](using-uniscale/specification/get-started-with-a-solution.md)
-  * [Get started with a module](using-uniscale/specification/get-started-with-a-module.md)
-  * [Functional use cases](using-uniscale/specification/functional-use-cases.md)
-  * [Module revisions, readying and approving](using-uniscale/specification/module-revisions-readying-and-approving.md)
+  * [Solution basics](using-uniscale/specification/solution-basics.md)
+  * [Solution editor overview](using-uniscale/specification/solution-editor-overview.md)
+  * [Module revision](using-uniscale/specification/module-revision.md)
+* [Documentation](using-uniscale/documentation/README.md)
+  * [Service basics](using-uniscale/documentation/service-basics.md)
+  * [Service Introduction](using-uniscale/documentation/service-introduction.md)
+  * [Service editor overview](using-uniscale/documentation/service-editor-overview.md)
+  * [Service revisions](using-uniscale/documentation/service-revisions.md)
+  * [Upstream & downstream dependencies](using-uniscale/documentation/upstream-and-downstream-dependencies.md)
+  * [Service Linking](using-uniscale/documentation/service-linking.md)
+* [Implementation](using-uniscale/implementation/README.md)
+  * [Introduction to SDK](using-uniscale/implementation/introduction-to-sdk.md)
+  * [SDK portal overview](using-uniscale/implementation/sdk-portal-overview.md)
+  * [Library implementation basics](using-uniscale/implementation/library-implementation-basics/README.md)
+    * [Forwarding session basics](using-uniscale/implementation/library-implementation-basics/forwarding-session-basics.md)
+  * [Quick Start: Front-end with Uniscale SDK](using-uniscale/implementation/quick-start-front-end-with-uniscale-sdk.md)
 
 ## ACCOUNT & PREFERENCES
 

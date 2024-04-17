@@ -36,7 +36,7 @@ Here is how the email looks if you already have an account. Click to join the wo
 
 Once you have joined a workspace, you can start using Uniscale. Follow the instructions inside Uniscale or learn more in this article:
 
-{% content-ref url="../../" %}
-[..](../../)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
