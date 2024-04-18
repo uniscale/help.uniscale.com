@@ -8,7 +8,7 @@ description: >-
 # Solution basics
 
 {% hint style="info" %}
-Click [here](broken-reference) for a deeper dive into Solutions
+Click [here](solution-editor-overview.md) for a deep dive into the solution editor overview
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

@@ -2,9 +2,11 @@
 
 ### Prerequisites
 
+{% hint style="info" %}
 * You understand the architecture of the SDK
 * You have generated an SDK and downloaded it with one of the supported package managers
 * You are able to locate endpoints and contracts of the SDK  for imports
+{% endhint %}
 
 ## Introduction
 
@@ -830,6 +832,8 @@ return result.toJson();
 {% endtabs %}
 
 You can use the created dispatcher to make multiple requests and fetch Terminologies that you have defined into your model.&#x20;
+
+***
 
 ## Conclusion
 
