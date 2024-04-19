@@ -823,15 +823,15 @@ const session = await Platform.builder()
 
 
 // In your endpoint handler (Http endpoint or similar)
-const result = await session.acceptGatewayRequest(requestJson);
-return result.toJson();
+const result = await session.acceptGatewayRequest(requestJson)
+return result.toJson()
 
 ```
 {% endcode %}
 {% endtab %}
 {% endtabs %}
 
-You can use the created dispatcher to make multiple requests and fetch Terminologies that you have defined into your model.&#x20;
+You can use the created dispatcher to make multiple requests and fetch Terminologies that you have defined into your model. You can find a more complex sample of how forwarding works in [forwarding-session-basics.md](forwarding-session-basics.md "mention").
 
 ***
 
