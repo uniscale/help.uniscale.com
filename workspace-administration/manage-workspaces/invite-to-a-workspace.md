@@ -40,10 +40,10 @@ The _invitee_ will now receive an email to join your workspace.&#x20;
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-18 at 15.26.32.png" alt=""><figcaption><p>Uniscale invitation - invitee verfication</p></figcaption></figure>
 
-### Next steps for admin and invitee:&#x20;
+### Next steps for the invitee:&#x20;
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../../getting-started/quick-start-guide.md" %}
+[quick-start-guide.md](../../getting-started/quick-start-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../account-and-preferences/create-an-account.md" %}
