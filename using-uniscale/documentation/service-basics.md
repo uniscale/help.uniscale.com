@@ -157,7 +157,7 @@ An endpoint will be defined by:
 
 ### Payloads
 
-Depending on the type, and endpoint can contain **one** ( Message)  or **two** payloads (Request - Response):
+Depending on the type, and endpoint can contain **one** ( Message) or **two** payloads (Request - Response):
 
 <figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
@@ -225,7 +225,7 @@ Value objects are placed under a namespace which acts as its owner.
 
 There are 2 types of value objects
 
-* type alias: a type alias is a native type with a specific meaning (ex. Gender). For instance if an endpoint wants to use a native type as it's input/output it must declare a type alias value object and use that.&#x20;
+* type alias: a type alias is a native type with a specific meaning (ex. Gender). For instance if an endpoint wants to use a native type as its input/output it must declare a type alias value object and use that.&#x20;
 * type structure: a nested structure of properties  (ex. SearchPayload). This is encountered in situations where the request of an endpoint is a fixed structure that is always the same but it is not necessarily an aggregate.
 
 
