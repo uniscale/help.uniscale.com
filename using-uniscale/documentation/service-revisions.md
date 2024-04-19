@@ -57,10 +57,10 @@ Namespaces, technical use case flows and use case flows are all process items th
 
 
 
-Exploring step by step the process, we have :&#x20;
+Exploring step by step the process, we have:&#x20;
 
 * When a new item is created, it has the status of **`"edited"`**
-* once all requirements are met, it can now be **`"marked as ready"`**
+* Once all requirements are met, it can now be **`"marked as ready"`**
 * When the owning module is **`Approved`**, all items are moved to **`"locked"`**
 * Later, when a new revision is made, all items are still in **`"locked"`**
 * From here, one can manually **`"unlock"`** the items that are intended for changes, and move them to **`"unlocked"`**
@@ -74,15 +74,15 @@ Service approval is a collation of all the above processes and loops. Let's take
 
 <figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
-1. As things progress in the service modeling, all items are now **`completed`** and the process items are **`ready to be locked.`**
+2. As things progress in the service modeling, all items are now **`completed`** and the process items are **`ready to be locked.`**
 
 <figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
-1. With everything in place, the service has now been approved, and Revision 1.0 has been created. This means all items are moved to **`locked`** state and the others remain **`completed`**.
+3. With everything in place, the service has now been approved, and Revision 1.0 has been created. This means all items are moved to **`locked`** state and the others remain **`completed`**.
 
 <figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
-1. From here on, of course, the service will grow towards a new revision, and to initiate one, the service will need to be opened, and various items will be **`unlocked.`** As such, all items that are downward dependencies of such item will be marked as **`Opened`**, marking the intent to add changes. Once changes are made, the cycle goes back to step 1 in this guide.
+4. From here on, of course, the service will grow towards a new revision, and to initiate one, the service will need to be opened, and various items will be **`unlocked.`** As such, all items that are downward dependencies of such item will be marked as **`Opened`**, marking the intent to add changes. Once changes are made, the cycle goes back to step 1 in this guide.
 
 <figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 

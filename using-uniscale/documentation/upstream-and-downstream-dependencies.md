@@ -1,6 +1,6 @@
 # Upstream & downstream dependencies
 
-As your documentation grows, it can be quite hard to get an overview of its complexity. As such you might end up having questions like the following
+As your documentation grows, it can be quite hard to get an overview of its complexity. As such you might end up having questions like the following:
 
 > `If I change this, how do I know what will break?`
 
@@ -12,7 +12,7 @@ As your documentation grows, it can be quite hard to get an overview of its comp
 
 These are all valid day-to-day questions and to provide an answer to them, the service editor provides quick access to such dependencies.
 
-Each of the following elements can be inspected for their dependencies via the action menu or various other quick-access UI explained below.
+Each of the following elements can be inspected for their dependencies via the action menu or various other quick-access UI explained below:
 
 * Technical use cases
 * Use case flows ( Standalone and technical )
@@ -23,7 +23,7 @@ Each of the following elements can be inspected for their dependencies via the a
 
 ### Upstream vs downstream
 
-There are 2 types of dependency in software development and in Uniscale
+There are 2 types of dependency in software development and in Uniscale:
 
 "Who is dependent on me" - <mark style="color:purple;">**`upstream dependency`**</mark>
 
@@ -43,7 +43,7 @@ Each item above that supports can be hovered and via the actions menu, upwards o
 
 When inspecting any item in any dependency mode, you will see a filtered view of the documentation or the Functional view, with only the items relevant to the dependency.&#x20;
 
-Any item that matches that criteria is also highlighted further in a <mark style="color:purple;">Blue accent</mark> in the Overview, and also in the Main content
+Any item that matches that criteria is also highlighted further in a <mark style="color:purple;">Blue accent</mark> in the Overview, and also in the Main content.
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
@@ -61,11 +61,11 @@ Each item is dependent on various items in the hierarchical order. Let's break t
 Note: namespaces are always shown any of the following items located inside of them in the structure, but are not considered a dependency.&#x20;
 {% endhint %}
 
-**Upwards dependencies**
+**Upwards dependencies:**
 
 <table><thead><tr><th width="376">Item</th><th width="421">Upwards</th></tr></thead><tbody><tr><td>Technical use cases</td><td><em><mark style="color:blue;">None</mark></em></td></tr><tr><td>Use case flows ( Standalone and technical ) </td><td>Technical Use cases &#x26;  UX flows</td></tr><tr><td>Endpoints </td><td>Use case flows</td></tr><tr><td>Data contracts ( aggregates, Value objects, Property groups)</td><td>Other data contracts &#x26; Properties</td></tr></tbody></table>
 
-**Downwards dependencies**
+**Downwards dependencies:**
 
 | Item                                                         | Downwards                         |
 | ------------------------------------------------------------ | --------------------------------- |
@@ -84,7 +84,7 @@ Meaning, that if I inspect upwards an endpoint, it is dependent on use case flow
 
 ### Usage indicators
 
-Another great helpful functionality to indicate dependencies via usage are small counter indicators on&#x20;
+Another great helpful functionality to indicate dependencies via usage are small counter indicators on:
 
 * use case flows
 * endpoints

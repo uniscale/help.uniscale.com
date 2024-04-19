@@ -66,7 +66,7 @@ The interface allows to
 
 ### Overview
 
-Here, as your service grows, you will see a hierarchical representation of your service. Very similar to what most IDEs have, but in this case with the elements of a service.&#x20;
+Here, as your service grows, you will see a hierarchical representation of your service. Very similar to what most IDEs have but in this case with the elements of a service.&#x20;
 
 The list can be filtered or searched via the top inputs.
 
@@ -84,13 +84,13 @@ The center of your work. Here is where your documentation will take place and be
 
 <figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
-On a high level, the content will show all elements in your documentation. Further from that, you can browse into specific views, which contain the following elements
+On a high level, the content will show all its elements in your documentation. Further from that, you can browse into specific views, which contain the following elements
 
 <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
-Depending on which view you are on, different elements will appear. As such various filters for those items's **completion** or **lockable** state will be shown.
+Depending on which view you are on, different elements will appear. As such various filters for those items' **completion** or **lockable** state will be shown.
 
-For the most relevant statuses within a revision, the interface shows a badge indicating the number of items that match that filter ( Draft & opened and Edited & Unlocked)&#x20;
+For the most relevant statuses within a revision, the interface shows a badge indicating the number of items that match that filter ( Draft & opened and Edited & Unlocked).
 
 <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 

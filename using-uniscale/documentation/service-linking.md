@@ -2,8 +2,6 @@
 
 This article assumes that you have covered knowledge around [specification](../specification/) and concepts in [service basics](./).  If not, it is recommended to follow those first to better understand this article.
 
-
-
 Service linking allows you to start defining your service outside in. It gives you the possibility to first define the requirements that the defined functionality has to the specified service before diving into the details on how to model the service. Having a look at the following illustration, we recognise the specification elements, and individually the Services on the side of it.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
@@ -16,7 +14,7 @@ The process is more detailed than this so let's break it down with interface exa
 
 ### Defining the services process&#x20;
 
-As a process, this is where you will invite the one responsible for the overall technical service/solution architecture as splitting up this functionality is initial solution architecture.
+In this process, you'll invite the individual responsible for the overall technical service or solution architecture. This step is crucial as it involves the initial architecture of splitting up the functionality.
 
 ***
 
@@ -32,13 +30,13 @@ After being linked, the UX flow will show under the linked Service flow. With th
 
 <figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
-Once a Service flow is linked (and this process is repeated from many other UX flows), from within the Service linking tab, you can now export all changes, service by service. This can happen in the UI in 2 ways
+Once a Service flow is linked (and this process is repeated from many other UX flows), from within the Service linking tab, you can now export all changes, service by service. This can happen in the UI in 2 ways:
 
-**Via text command actions**
+* **Via text command actions**
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-04-16 at 16.53.33.png" alt=""><figcaption></figcaption></figure>
 
-**Via drag & drop in the service linking tab**
+* **Via drag & drop in the service linking tab**
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-04-16 at 16.55.26.png" alt=""><figcaption></figcaption></figure>
 
@@ -78,11 +76,11 @@ Inside, a filtered representation of the solution specification is shown with on
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-04-16 at 16.56.52.png" alt=""><figcaption></figcaption></figure>
 
-Next step in this process is to now go over the technical modelling of your usecase flows, meeting them with endpoints, modell their payloads.  This is a quite complex task, but we have plenty of guides to go through each step.
+Next step in this process is to now go over the technical modelling of your usecase flows, meeting them with endpoints, modell their payloads.  This is a quite complex task but we have plenty of guides to go through each step.
 
-If you havent done so
+If you havent done so:
 
-* &#x20;[cover the basics of service](service-basics.md)
+* [cover the basics of service](service-basics.md)
 * [familiarise yourself with the upstream and downstream dependencies](upstream-and-downstream-dependencies.md)
 * [and lastly learn about service revisions](service-revisions.md)
 
