@@ -15,11 +15,11 @@ Visit [app.uniscale.com](https://app.uniscale.com/) and sign up using single sig
 
 SSO:&#x20;
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-04-16 at 11.36.39.png" alt=""><figcaption><p>Create account - SSO</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-04-22 at 08.44.39@2x.png" alt=""><figcaption></figcaption></figure>
 
 Email:
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-04-16 at 11.37.24.png" alt=""><figcaption><p>Create account - Email</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-04-22 at 08.46.55@2x.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Create workspace" %}
