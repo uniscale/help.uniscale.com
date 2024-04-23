@@ -24,7 +24,7 @@ Once you have created an account, you will be directed to this page and can now 
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-22 at 12.36.33@2x.png" alt=""><figcaption><p>Invitation to Workspace after you create an account</p></figcaption></figure>
 
-
+***
 
 ## Inviting an existing account
 

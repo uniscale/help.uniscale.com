@@ -4,33 +4,43 @@ description: Read here how to invite to a workspace
 
 # Invite to a workspace
 
-## Step-by-step guide: How to invite users to a workspace&#x20;
+Follow these steps to make sure your colleagues can also access your workspace:
 
-Follow these steps to make sure your colleagues can also access your Workspace:
+## Invite to a workspace
 
-<figure><img src="../../.gitbook/assets/Workspace_Dashboard_Invite-user.gif" alt=""><figcaption></figcaption></figure>
+* From the sidebar of your workspace dashboard, find the "**Settings**" icon
+* Navigate to the **Users tab** (visible only for admins & workspace owners)
 
-### Step 1: Select workspace
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Select the workspace you wish to invite people to by clicking "Go to"
+From here, notice at the top of the table
 
-### Step 2: Go to "settings"
+<figure><img src="../../.gitbook/assets/CleanShot 2024-04-22 at 11.33.18.png" alt=""><figcaption></figcaption></figure>
 
-From the workspace dashboard, click on "settings" on the left-hand side of the page
-
-### Step 3: Go to "Users"
-
-From inside the "settings" menu select "users"
-
-### Step 4: Invite User
-
-Select "invite user" on the right-hand side of the page, filled in with the required information and send out the invitation
+* an overview of your available users usage
+* quick link to upgrade your plan if you need more users
+* action to invite more users
 
 {% hint style="info" %}
 Do you need to upgrade your license to add more users?&#x20;
 
 Please check this article on ["Plans and Subscriptions"](../../manage-billing-payments-and-plans/plans-and-subscriptions.md) or our [website ](https://www.uniscale.com/)for more information.
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-04-22 at 11.35.12.png" alt=""><figcaption></figcaption></figure>
+
+You can then invite users by providing&#x20;
+
+* an email to send an invite to
+* their role in the workspace
+* the account type they will have in the workspace once they accept the invite
+  * only **admin** & **user** types are available.
+
+
+
+Once the users receive their invite, it will be in their email inbox and also in their dashboard if they already have an account. For a full overview of accepting invites, [see here](invite-to-a-workspace.md).
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-04-22 at 11.41.33.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -40,7 +50,7 @@ The _invitee_ will now receive an email to join your workspace.&#x20;
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-03-18 at 15.26.32.png" alt=""><figcaption><p>Uniscale invitation - invitee verfication</p></figcaption></figure>
 
-### Next steps for the invitee:&#x20;
+#### **Next steps for the invitee:**&#x20;
 
 {% content-ref url="../../getting-started/quick-start-guide.md" %}
 [quick-start-guide.md](../../getting-started/quick-start-guide.md)
