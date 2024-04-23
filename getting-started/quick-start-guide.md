@@ -19,7 +19,7 @@ SSO:&#x20;
 
 Email:
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-04-22 at 08.46.55@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-04-23 at 09.50.31@2x.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Create workspace" %}
