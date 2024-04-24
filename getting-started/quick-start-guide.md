@@ -27,7 +27,7 @@ Upon creating your account, access your dashboard to manage account details and 
 
 <figure><img src="../.gitbook/assets/CleanShot 2024-04-16 at 11.38.10.png" alt=""><figcaption><p>Create workspace</p></figcaption></figure>
 
-See our [Create a Workspace](quick-start-guide.md#id-2.-create-your-workspace) article for more details on how to create a workspace.
+See our [Create a Workspace](quick-start-guide.md#create-workspace) article for more details on how to create a workspace.
 {% endtab %}
 {% endtabs %}
 
@@ -49,6 +49,20 @@ Check the [Specification Basics](../using-uniscale/specification/solution-basics
 
 <figure><img src="../.gitbook/assets/CleanShot 2024-04-16 at 11.43.24.png" alt=""><figcaption><p>Write your functional specifications</p></figcaption></figure>
 {% endtab %}
+
+{% tab title="Linking your services" %}
+This is where you start to document your services.&#x20;
+
+Within the UX flows in your Solution, the process of linking your services begins by selecting "Service Flow."&#x20;
+
+From here, navigate to the Service Linking Tab, where you can establish connections between your UX flows (integral components of your Solution) and newly developed services, thereby initiating your service journey.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Service Linking in Uniscale</p></figcaption></figure>
+
+Check out our [Service Linking article](https://help.uniscale.com/using-uniscale/documentation/service-linking) for detailed guidance on how to link services.
+
+_Tip: Consider inviting a technical expert, such as a Lead Developer or Software Architect, to guide you as you develop your services._
+{% endtab %}
 {% endtabs %}
 
 
@@ -61,11 +75,9 @@ By breaking down your specifications, you can now document your services based o
 
 This will give you a clear overview of what is needed from the services and enable you to quickly iterate on future versions.
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-04-16 at 11.44.59.png" alt=""><figcaption><p>Conceptual visualisation of the functional needs towards services</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Preview of modelling view tab for the "Account" service in the Demo solution</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
-
-
 
 ## Generate and implement your SDK
 

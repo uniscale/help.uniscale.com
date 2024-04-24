@@ -11,7 +11,7 @@ Follow these steps to make sure your colleagues can also access your workspace:
 * From the sidebar of your workspace dashboard, find the "**Settings**" icon
 * Navigate to the **Users tab** (visible only for admins & workspace owners)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 From here, notice at the top of the table
 

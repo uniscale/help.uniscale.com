@@ -47,7 +47,7 @@ As an inspiration, they can mirror the structure of the “Messages” module in
 
 <summary>Initiate the create module flow either by slash or by clicking on the suggested help icons</summary>
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 ![](<../.gitbook/assets/CleanShot 2024-04-16 at 11.22.59.png>)
 
