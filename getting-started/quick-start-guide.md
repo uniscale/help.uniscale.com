@@ -57,7 +57,7 @@ Within the UX flows in your Solution, the process of linking your services begin
 
 From here, navigate to the Service Linking Tab, where you can establish connections between your UX flows (integral components of your Solution) and newly developed services, thereby initiating your service journey.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Service Linking in Uniscale</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption><p>Service Linking in Uniscale</p></figcaption></figure>
 
 Check out our [Service Linking article](https://help.uniscale.com/using-uniscale/documentation/service-linking) for detailed guidance on how to link services.
 
@@ -75,7 +75,7 @@ By breaking down your specifications, you can now document your services based o
 
 This will give you a clear overview of what is needed from the services and enable you to quickly iterate on future versions.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Preview of modelling view tab for the "Account" service in the Demo solution</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Preview of modelling view tab for the "Account" service in the Demo solution</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

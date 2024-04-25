@@ -11,9 +11,9 @@ description: >-
 Click [here](solution-editor-overview.md) for a deep dive into the solution editor overview
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Solution
 
@@ -42,7 +42,7 @@ Solution
 * A web application for organizing shifts for staff in a grocery store
 * A communication system for an elementary school’s teachers and parents
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module
 
