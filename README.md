@@ -1,7 +1,7 @@
 ---
 description: >-
   Find what you are looking for by browsing the different articles in the Help
-  Center.
+  Center and watch the explainer video.
 cover: .gitbook/assets/LinkedIn_Cover_Private (1).png
 coverY: 0
 layout:
@@ -24,7 +24,7 @@ layout:
 
 **What do you need help with?**
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>I WANT TO GET STARTED</strong></td><td align="center"><p>Read more on how to get started using </p><p>your Uniscale account!</p></td><td><a href=".gitbook/assets/image (34).png">image (34).png</a></td><td><a href="getting-started/quick-start-guide.md">quick-start-guide.md</a></td></tr><tr><td align="center"><strong>NEED SOME GUIDANCE</strong></td><td align="center"><p>Read the article on best practices</p><p> when using Uniscale.</p></td><td><a href=".gitbook/assets/image (35).png">image (35).png</a></td><td><a href="getting-started/how-to-replicate-your-project.md">how-to-replicate-your-project.md</a></td></tr><tr><td align="center"><strong>BOOK AN ONBOARDING CALL</strong></td><td align="center"><p>Maximize your use of Uniscale with</p><p>the assistance of our CX team.</p></td><td><a href=".gitbook/assets/image (36).png">image (36).png</a></td><td><a href="https://www.uniscale.com/onboarding">https://www.uniscale.com/onboarding</a></td></tr><tr><td align="center"><strong>WORKSPACE ADMINISTRATION</strong></td><td align="center">See how to share your solutions, invite others, and change settings.</td><td><a href=".gitbook/assets/image (1) (1).png">image (1) (1).png</a></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>I WANT TO GET STARTED</strong></td><td align="center"><p>Read more on how to get started using </p><p>your Uniscale account!</p></td><td><a href=".gitbook/assets/image (34).png">image (34).png</a></td><td><a href="getting-started/quick-start-guide.md">quick-start-guide.md</a></td></tr><tr><td align="center"><strong>NEED SOME GUIDANCE</strong></td><td align="center"><p>Read the article on best practices</p><p> when using Uniscale.</p></td><td><a href=".gitbook/assets/image (35).png">image (35).png</a></td><td><a href="getting-started/how-to-replicate-your-project.md">how-to-replicate-your-project.md</a></td></tr><tr><td align="center"><strong>BOOK AN ONBOARDING CALL</strong></td><td align="center"><p>Maximize your use of Uniscale with</p><p>the assistance of our CX team.</p></td><td><a href=".gitbook/assets/image (36).png">image (36).png</a></td><td><a href="https://www.uniscale.com/onboarding">https://www.uniscale.com/onboarding</a></td></tr><tr><td align="center"><strong>WORKSPACE ADMINISTRATION</strong></td><td align="center">See how to share your solutions, invite others, and change settings.</td><td><a href=".gitbook/assets/image (1) (1) (1) (1).png">image (1) (1) (1) (1).png</a></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
 
 
 
@@ -32,7 +32,13 @@ layout:
 
 With Uniscale Describe you will empower your organization with seamless domain-driven specification, documentation, and implementation. You will be able to ensure stakeholders are always in sync through a single source of truth, reducing misunderstandings and miscommunications. Additionally, you can guarantee that implementations perfectly match functional requirements every time.
 
+### Demo Solution video:
 
+Watch the video below taking you through an example solution to see what you can achieve using Uniscale.&#x20;
+
+{% embed url="https://www.youtube.com/watch?v=ulH6WXko67o" %}
+Demo Solution explainer video
+{% endembed %}
 
 {% tabs %}
 {% tab title="Specification" %}
