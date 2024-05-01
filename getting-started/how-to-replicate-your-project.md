@@ -8,6 +8,14 @@ description: >-
 
 If you have an existing project, you can replicate it in Uniscale by following the tutorial below and by using our Demo solution as an example of how to structure your solution, modules, pages and UX flows.
 
+Check the **"Functional Specifications: step-by-step"** **video** for a more detailed explanation of how to write your functional specifications and follow the steps below to replicate your project.
+
+
+
+{% embed url="https://www.youtube.com/watch?v=J58GjG8Ukgc" %}
+Functional specifications: Step-by-step
+{% endembed %}
+
 ## 1. Create your solution
 
 Begin by establishing your solution in Uniscale and labeling it to align with your project.
