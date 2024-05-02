@@ -123,7 +123,7 @@ Now you have created a functional use case and are ready for the next step.
 
 ## 5. Replicate your UX flows
 
-See “List messages” as an example of the [UX flows](broken-reference) to be set up.
+See “List messages” as an example of the [#ux-flow](../using-uniscale/specification/solution-basics.md#ux-flow "mention") to be set up.
 
 Prior to adding your UX flows, best practices are to&#x20;
 
