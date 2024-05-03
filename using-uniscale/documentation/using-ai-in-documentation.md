@@ -14,7 +14,7 @@ Tip: Write "AI" after typing slash for a quicker selection.&#x20;
 
 The AI can take any input and will aim to provide an as-meaningfull-as-possible response. Once an input is given, the AI will process the information received while formulating an answer. This is dependent on the nature of your request and the data available in your specification.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 While the AI is thinking, you can **cancel** the request if it is taking too long. This will cancel only the last request in the conversation.  But it will not close the conversation with the AI
 
@@ -39,7 +39,7 @@ Once a reply is provided, it will come in the following format:
 
 Additionally, you can review the entire conversation with the AI by clicking on the "clock" icon and previewing it in a "chat-like" functionality.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Writing new text
 

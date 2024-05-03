@@ -15,6 +15,7 @@
   * [Module revision](using-uniscale/specification/module-revision.md)
   * [Tutorial: Using comments](using-uniscale/specification/tutorial-using-comments.md)
   * [Using AI in Specification](using-uniscale/specification/using-ai-in-specification.md)
+  * [Advanced concepts](using-uniscale/specification/advanced-concepts.md)
 * [Documentation](using-uniscale/documentation/README.md)
   * [Service basics](using-uniscale/documentation/service-basics.md)
   * [Service Introduction](using-uniscale/documentation/service-introduction.md)
