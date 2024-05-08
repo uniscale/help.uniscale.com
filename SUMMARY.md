@@ -30,6 +30,8 @@
   * [Library implementation basics](using-uniscale/implementation/library-implementation-basics/README.md)
     * [Forwarding session basics](using-uniscale/implementation/library-implementation-basics/forwarding-session-basics.md)
   * [Quick Start: Front-end with Uniscale SDK](using-uniscale/implementation/quick-start-front-end-with-uniscale-sdk.md)
+  * [Tutorial: Using SDK in backend to handle endpoints](using-uniscale/implementation/tutorial-using-sdk-in-backend-to-handle-endpoints.md)
+  * [Tutorial: Using SDK for service to service](using-uniscale/implementation/tutorial-using-sdk-for-service-to-service.md)
 
 ## ACCOUNT & PREFERENCES
 
