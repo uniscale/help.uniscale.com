@@ -347,4 +347,4 @@ app.all("/", async (req, res) => {
 {% endtab %}
 {% endtabs %}
 
-And with just couple of steps like that we have created backend that can be easily called with a front end client that was created based on [quick-start-front-end-with-uniscale-sdk.md](quick-start-front-end-with-uniscale-sdk.md "mention").
+And with just couple of steps like that we have created backend that can be easily called with a front end client that was created based on [quick-start-front-end-with-uniscale-sdk](quick-start-front-end-with-uniscale-sdk/ "mention").

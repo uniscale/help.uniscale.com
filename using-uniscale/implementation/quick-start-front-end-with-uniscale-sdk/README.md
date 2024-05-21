@@ -6,7 +6,7 @@ description: >-
 
 # Quick Start: Front-end with Uniscale SDK
 
-This tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [Library Implementation Basics](library-implementation-basics/)
+This tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [Library Implementation Basics](../library-implementation-basics/)
 
 ## Installation
 
@@ -76,7 +76,7 @@ const initializeDispatcher = async (): Promise<DispatcherSession> => {
             const headers = { 'Content-Type': 'application/json' }
             const response = await axios.post(
               `${URL}/api/service-to-module/` + ctx.featureId,
-              GatewayRequest.from(input, ctx),
+              GatewayRequest.from(input, ctx).toJson(),
               { headers }
             )
             return Result.fromJson(response.data)
@@ -86,7 +86,7 @@ const initializeDispatcher = async (): Promise<DispatcherSession> => {
             const headers = { 'Content-Type': 'application/json' }
             const response = await axios.post(
                `${URL}/api/service-to-module/` + ctx.featureId,
-              GatewayRequest.from(input, ctx),
+              GatewayRequest.from(input, ctx).toJson(),
               { headers }
             )
             return Result.fromJson(response.data)
