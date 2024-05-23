@@ -1,5 +1,13 @@
 # Using AI in Specification
 
+Watch the video below for an in-depth guide on using the Uniscale AI add-on to help you write your functional specifications
+
+{% embed url="https://www.youtube.com/watch?v=Sb0TiNOEhdc" %}
+How to use the Uniscale AI: tutorial
+{% endembed %}
+
+##
+
 ## Accessing the interface
 
 Inside any specification item's description, you can press **`/`** and select **`Ask AI`** from the list of commands that appear.
@@ -66,6 +74,12 @@ _Note: we are working to add more._
 {% endhint %}
 
 #### AI-generated acceptance criteria
+
+Watch the tutorial video below for a detailed guide on how to effectively use the AI acceptance criteria feature.
+
+{% embed url="https://www.youtube.com/watch?v=kYkgKyUPDkw" %}
+Using the Uniscale AI for Acceptance Criteria: tutorial
+{% endembed %}
 
 For UX flows that already have a description, a new prompt will appear:
 
