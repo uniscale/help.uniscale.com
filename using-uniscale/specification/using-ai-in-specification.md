@@ -6,7 +6,7 @@ Watch the video below for an in-depth guide on using the Uniscale AI add-on to h
 How to use the Uniscale AI: tutorial
 {% endembed %}
 
-##
+
 
 ## Accessing the interface
 
