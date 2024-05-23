@@ -103,7 +103,21 @@ Page
     - child section
 ```
 
+Check the tutorial video below for a more comprehensive overview of how to write your solution, modules and pages:
+
+
+
+{% embed url="https://www.youtube.com/watch?v=xtzqXVHMjpM" %}
+High level specifications: Tutorial
+{% endembed %}
+
+
+
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
 
 ## Functional use case
 
@@ -163,6 +177,16 @@ Examples of acceptance criteria could be:
 
 
 After all the UI flow’s expected behavior is documented, the functional specification should be complete. The next step is to start linking the functional specification to a set of underlying services to achieve the desired functionality.
+
+
+
+Check the tutorial video below for how to write your detailed specifications - Sections, Functional Use Cases, UI Designer Descriptions, UX Product Notes and Acceptance Criteria.
+
+
+
+{% embed url="https://www.youtube.com/watch?v=m2ZrQtW60Vc" %}
+Detailed Specifications: Tutorial
+{% endembed %}
 
 
 
