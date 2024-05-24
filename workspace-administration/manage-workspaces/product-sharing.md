@@ -17,12 +17,7 @@ There are **2 methods:**&#x20;
 {% tab title="1. Sharing from the product overview" %}
 When sharing a solution from the workspace dashboard, the invitee will have access to the workspace as well.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-22 at 13.04.58@2x.png" alt=""><figcaption></figcaption></figure>
-
 * Press the button "**Share**" and invite users to the solution
-
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-22 at 11.11.08 (1).png" alt=""><figcaption></figcaption></figure>
-
 * You can invite:&#x20;
   * &#x20;**Existing users** in the workspace by their email
   * **OR** type in the email address of a **new user** you would like to invite to your solution&#x20;
@@ -30,26 +25,23 @@ When sharing a solution from the workspace dashboard, the invitee will have acce
   * Read more on the differences : [#product-access-levels](workspace-basics.md#product-access-levels "mention")
 * You can then click “**Add**” and the invitee will receive their invitation via email. &#x20;
 * You have now successfully shared a solution! :tada:&#x20;
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-05-24 at 07.49.02.gif" alt=""><figcaption><p>Sharing from the product overview</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="2. Sharing from the editor" %}
 When sharing a product in the editor you are sharing the solution as a whole. You are also sharing the workspace as well, with the account type of **`user`**(by default). Read more about [#workspace-account-types](workspace-basics.md#workspace-account-types "mention")
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-19 at 10.19.36 (1).png" alt=""><figcaption><p>Sharing a solution in the editor by pressing the topbar button on the right </p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption><p>Closeup of the "Share" button</p></figcaption></figure>
-
 **Press "Share" on the button on the right side of the topbar**
 
 * You can share a solution, module or lower elements in the solution. The permission(s) will be at the same solution level.&#x20;
-
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-22 at 13.25.01@2x.png" alt=""><figcaption></figcaption></figure>
-
 * Type in the email address of the person you would like to invite to your solution&#x20;
 * Choose their access level in the dropdown menu.&#x20;
   * Read more on the differences : [#product-access-levels](workspace-basics.md#product-access-levels "mention")
 * You can then click “**Add**” and the invitee will receive their invitation via email. &#x20;
 * You have now successfully shared a solution! :tada:&#x20;
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-05-24 at 07.50.39.gif" alt=""><figcaption><p>Sharing from the editor</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
