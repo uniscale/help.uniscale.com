@@ -50,9 +50,10 @@ At the topbar, you will find the main navigation and core functionalities such a
 * Service linking&#x20;
 * Approval&#x20;
 * SDK Portal&#x20;
-*
 
-    <figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+
+
+<img src="../../.gitbook/assets/image (81).png" alt="" data-size="original">
 
 </details>
 
@@ -65,9 +66,10 @@ At the topbar, you will find the main navigation and core functionalities such a
 * Workspace settings&#x20;
 * Comments&#x20;
 * Notifications&#x20;
-*
 
-    <figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+
+
+<img src="../../.gitbook/assets/image (82).png" alt="" data-size="original">
 
 </details>
 

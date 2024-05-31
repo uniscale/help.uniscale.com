@@ -22,7 +22,7 @@ Please check this article on ["Plans and Subscriptions"](../../manage-billing-pa
 
 
 
-Once the users receive their invite, it will be in their email inbox and also in their dashboard if they already have an account. For a full overview of accepting invites, [see here](invite-to-a-workspace.md).
+Once the users receive their invite, it will be in their email inbox and also in their dashboard if they already have an account.&#x20;
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-04-22 at 11.41.33.png" alt=""><figcaption></figcaption></figure>
 

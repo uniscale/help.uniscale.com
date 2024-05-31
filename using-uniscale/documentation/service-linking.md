@@ -1,6 +1,6 @@
 # Service Linking
 
-This article assumes that you have covered knowledge around [specification](../specification/) and concepts in [service basics](./).  If not, it is recommended to follow those first to better understand this article.
+This article assumes that you have covered knowledge around [specification](../specification/) and concepts in [service basics](service-basics.md).  If not, it is recommended to follow those first to better understand this article.
 
 Service linking allows you to start defining your service outside in. It gives you the possibility to first define the requirements that the defined functionality has to the specified service before diving into the details on how to model the service. Having a look at the following illustration, we recognise the specification elements, and individually the Services on the side of it.&#x20;
 
