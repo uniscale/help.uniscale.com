@@ -27,7 +27,7 @@ Upon creating your account, access your dashboard to manage account details and 
 
 <figure><img src="../.gitbook/assets/CleanShot 2024-04-16 at 11.38.10.png" alt=""><figcaption><p>Create workspace</p></figcaption></figure>
 
-See our [Create a Workspace](quick-start-guide.md#create-workspace) article for more details on how to create a workspace.
+See our [Create a Workspace](../workspace-administration/manage-workspaces/create-a-workspace.md) article for more details on how to create a workspace.
 {% endtab %}
 {% endtabs %}
 
@@ -45,7 +45,7 @@ Within your workspace, create a solution to describe your product and outline th
 {% tab title="Define functional specifications" %}
 Clearly outline your project needs and how it should work, providing a roadmap for development available to all stakeholders.&#x20;
 
-Check the [Specification Basics](../using-uniscale/specification/solution-basics.md#module) article for more details on how to write your functional specifications and have a look at the video in the [How to Replicate your project](how-to-replicate-your-project.md) article.
+Check the [Specification Basics](../using-uniscale/specification/solution-basics.md) article for more details on how to write your functional specifications and have a look at the video in the [How to Replicate your project](how-to-replicate-your-project.md) article.
 
 <figure><img src="../.gitbook/assets/CleanShot 2024-04-16 at 11.43.24.png" alt=""><figcaption><p>Write your functional specifications</p></figcaption></figure>
 {% endtab %}
