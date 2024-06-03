@@ -42,7 +42,7 @@ Intro to Uniscale
 
 
 
-You can also check out our video, "Uniscale Demo Solution," for a detailed overview of how we've developed a demo solution using Uniscale and learn how Uniscale can assist you in building better software.
+You can also check out our video, **"Uniscale Demo Solution"** for a detailed overview of how we've developed a demo solution using Uniscale and learn how Uniscale can assist you in building better software.
 
 {% embed url="https://www.youtube.com/watch?v=ulH6WXko67o" %}
 Demo Solution explainer video
