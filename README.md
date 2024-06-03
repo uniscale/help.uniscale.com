@@ -28,17 +28,27 @@ layout:
 
 
 
-## Quick introduction: What is Uniscale Describe?
+## Quick introduction: What is Uniscale?
 
-With Uniscale Describe you will empower your organization with seamless domain-driven specification, documentation, and implementation. You will be able to ensure stakeholders are always in sync through a single source of truth, reducing misunderstandings and miscommunications. Additionally, you can guarantee that implementations perfectly match functional requirements every time.
+With Uniscale you will empower your organization with seamless domain-driven specification, documentation, and implementation. You will be able to ensure stakeholders are always in sync through a single source of truth, reducing misunderstandings and miscommunications. Additionally, you can guarantee that implementations perfectly match functional requirements every time.
 
-### Demo Solution video:
 
-Watch the video below taking you through an example solution to see what you can achieve using Uniscale.&#x20;
+
+**Curious to know more? Check out below our Intro to Uniscale video:**
+
+{% embed url="https://www.youtube.com/watch?v=anL_ge_y5H0" %}
+Intro to Uniscale
+{% endembed %}
+
+
+
+You can also check out our video, "Uniscale Demo Solution," for a detailed overview of how we've developed a demo solution using Uniscale and learn how Uniscale can assist you in building better software.
 
 {% embed url="https://www.youtube.com/watch?v=ulH6WXko67o" %}
 Demo Solution explainer video
 {% endembed %}
+
+
 
 {% tabs %}
 {% tab title="Specification" %}
