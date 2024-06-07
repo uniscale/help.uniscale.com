@@ -24,8 +24,6 @@ Here you will find the main navigation tabs, revisions, settings, and quick acce
 * home button leading to the main dashboard
 * and a quick selector for other services
 
-
-
 <img src="broken-reference" alt="" data-size="original">
 
 </details>
@@ -35,7 +33,7 @@ Here you will find the main navigation tabs, revisions, settings, and quick acce
 <summary>Center tabs</summary>
 
 * Functional view: all the requirements coming from the solution&#x20;
-  * Note: the tab is disabled for [Standalone service](broken-reference)
+  * Note: the tab is disabled for [Standalone service](service-introduction.md#standalone-vs-part-of-a-solution)
 * Technical view: here you will spend most of your time modeling and breaking down your data&#x20;
 * SDK portal
 
@@ -95,5 +93,5 @@ For the most relevant statuses within a revision, the interface shows a badge in
 <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-For a full explanation of the Completion cycle and the Locking cycles, [read more here.](broken-reference)
+For a full explanation of the Completion cycle and the Locking cycles, [read more here.](service-revisions.md)
 {% endhint %}

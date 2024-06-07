@@ -91,7 +91,7 @@ It does not describe the end user functionality, that will always be described t
 
 #### Revision cycle & update cycle
 
-UCs are subject to the [locking/unlocking/readying](broken-reference) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
+UCs are subject to the [locking/unlocking/readying](service-revisions.md#lockable-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
 ## Use case flows&#x20;
 
@@ -121,7 +121,7 @@ A  technical UCF contains:&#x20;
 
 #### Revision cycle & update cycle
 
-UCFs are subject to the [locking/unlocking/readying](broken-reference) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
+UCFs are subject to the [locking/unlocking/readying](service-revisions.md#lockable-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
@@ -186,7 +186,7 @@ Structuring your data can be done in multiple ways in Uniscale, and as such we h
 
 #### Revision cycle & update cycle
 
-Data contracts are subject to the [completion](broken-reference) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
+Data contracts are subject to the [completion](service-revisions.md#completion-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
