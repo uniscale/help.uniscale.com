@@ -64,3 +64,4 @@
 * [Submit an idea](https://share-eu1.hsforms.com/1E\_9PYP09SbCA89scOVOEnQfzj5t)
 * [Report a bug](https://share-eu1.hsforms.com/1-mnpYzXSSwKrf41lsEavTgfzj5t)
 * [Book onboarding](https://www.uniscale.com/onboarding)
+* [Change Log](resources/change-log.md)
