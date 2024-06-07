@@ -1,11 +1,11 @@
 ---
 description: >-
-  The Uniscale Change Log page provides detailed updates on all recent changes,
+  The Uniscale Changelog page provides detailed updates on all recent changes,
   improvements, and bug fixes to the Uniscale platform. Stay informed about the
-  latest features, enhancements, and performa
+  latest features and improvements.
 ---
 
-# Change Log
+# Changelog
 
 
 
