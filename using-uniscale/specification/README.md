@@ -15,11 +15,9 @@ layout:
 
 # Specification
 
-### **Map your functional product specifications**
+### Describe your **functional specifications**
 
-Simplify the creation of structured, high-quality functional product specifications for the entire product quickly and easily with generative AI support and third-party integrations.
-
-
+Simplify the creation of structured, high-quality functional specifications for the entire product quickly and easily with generative AI support and third-party integrations.
 
 {% embed url="https://www.youtube.com/watch?embeds_referring_euri=https://cdn.iframe.ly/&feature=emb_title&source_ve_path=MjM4NTE&time_continue=155&v=SHpHH7qhk3Q" %}
 
