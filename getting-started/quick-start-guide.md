@@ -9,29 +9,15 @@ description: >-
 
 ## Get started
 
-{% tabs %}
-{% tab title="Create account" %}
-Visit [app.uniscale.com](https://app.uniscale.com/) and sign up using single sign-on (SSO) or via email.
+{% hint style="info" %}
+Before kick-starting your Uniscale journey you should have:
 
-SSO:&#x20;
+1. [create-an-account.md](../account-and-preferences/create-an-account.md "mention")
+2. [create-a-workspace.md](../workspace-administration/manage-workspaces/create-a-workspace.md "mention")
+3. [invite-to-a-workspace.md](../workspace-administration/manage-workspaces/invite-to-a-workspace.md "mention")
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-04-22 at 08.44.39@2x.png" alt=""><figcaption></figcaption></figure>
-
-Email:
-
-<figure><img src="../.gitbook/assets/CleanShot 2024-04-23 at 09.50.31@2x.png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Create workspace" %}
-Upon creating your account, access your dashboard to manage account details and create a workspace.&#x20;
-
-<figure><img src="../.gitbook/assets/CleanShot 2024-04-16 at 11.38.10.png" alt=""><figcaption><p>Create workspace</p></figcaption></figure>
-
-See our [Create a Workspace](../workspace-administration/manage-workspaces/create-a-workspace.md) article for more details on how to create a workspace.
-{% endtab %}
-{% endtabs %}
-
-
+When this is done, you are ready to follow the guide below on how to build better software!&#x20;
+{% endhint %}
 
 ## Design your solution
 
