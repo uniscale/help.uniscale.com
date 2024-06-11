@@ -72,7 +72,7 @@ The list can be filtered or searched via the top inputs.
 The structure will grow in size as your service develops as well.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Example from the solution editor of how the service editor similarly will grow over time with the revisions.</p></figcaption></figure>
 
 ### Main content
 

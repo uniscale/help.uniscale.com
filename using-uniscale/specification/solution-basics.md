@@ -115,13 +115,9 @@ High level specifications: Tutorial
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
 ## Functional use case
 
-A functional use case (UC) consists of a description where you can the high-level functionality is provided to the end user. For example:&#x20;
+A functional use case (UC) consists of a description where you can write the high-level functionality provided to the end user. For example:&#x20;
 
 > The user searches for a travel destination in a search box, and the user uploads contact details to their profile.
 

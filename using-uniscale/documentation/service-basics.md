@@ -244,7 +244,7 @@ Example:
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-04-16 at 17.05.00.png" alt=""><figcaption></figcaption></figure>
 
-Property groups can be explain as a way of composing data from different value objects and aggregates to be used in Endpoint payloads. The only place and main place to use property groups is as a payload for  endpoints, being in a **Message** or a **Request-response** situation.
+Property groups can be explained as a way of composing data from different value objects and aggregates to be used in Endpoint payloads. The only place and main place to use property groups is as a payload for  endpoints, being in a **Message** or a **Request-response** situation.
 
 ***
 
