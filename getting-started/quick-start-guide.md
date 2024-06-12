@@ -1,8 +1,5 @@
 ---
-description: >-
-  In this guide, we will show you the basics of getting started with Uniscale,
-  from signing up to defining your project's requirements. Whether you are new
-  to digital solutions or a seasoned developer,
+description: In this guide, we will show you the basics of getting started with Uniscale.
 ---
 
 # Quick start guide
@@ -19,7 +16,7 @@ Before kick-starting your Uniscale journey you should have:
 When this is done, you are ready to follow the guide below on how to build better software!&#x20;
 {% endhint %}
 
-## Design your solution
+## Describe your solution
 
 {% tabs %}
 {% tab title="Create solution" %}
@@ -64,6 +61,8 @@ This will give you a clear overview of what is needed from the services and enab
 <figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Preview of modelling view tab for the "Account" service in the Demo solution</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
+
+
 
 ## Generate and implement your SDK
 
