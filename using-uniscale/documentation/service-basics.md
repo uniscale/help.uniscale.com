@@ -37,7 +37,7 @@ Service
 Namespaces play a crucial role in the hierarchical organization of your service. Initially, they function to provide a structured framework. However, as your library evolves, namespaces become pivotal for identification purposes.
 
 {% hint style="info" %}
-Because we want to enable you to express your domain you should make sure that the hierarchy and naming of your namespace reflects the problem domain you intend to fulfil through this service.
+Because we want to enable you to express your domain you should make sure that the hierarchy and naming of your namespace reflect the problem domain you intend to fulfill through this service.
 {% endhint %}
 
 #### Examples of namespace structure for a service:
@@ -73,7 +73,7 @@ In Uniscale, the main differentiation factor for the UCs is their technical inte
 
 {% tabs %}
 {% tab title="Functional use cases" %}
-The difference is Functional use cases are defined in and owned by the Module as it is describing end user functionality. The functional use cases can be connected to either standalone or technical use case flows. However only standalone and technical use case flows defined within Service To Module.
+The difference is Functional use cases are defined in and owned by the module as it is describing end-user functionality. The functional use cases can be connected to either standalone or technical use case flows. However, only standalone and technical use case flows are defined within the Service To Module.
 {% endtab %}
 
 {% tab title="Technical use cases" %}
@@ -83,9 +83,9 @@ They are use cases owned and maintained by the service itself.
 
 ### Technical use cases&#x20;
 
-The technical use case does not describe how the end user interacts. It rather is a group of flows that the services exposes as a larger group of functionality that belongs together. For instance a use case for a service could be mail sending management where it exposes flows for sending mail, checking status of sent mails and for instance hourly stats.
+The technical use case does not describe how the end user interacts. It rather is a group of flows that the services exposes as a larger group of functionality that belongs together. For instance, a use case for a service could be mail-sending management where it exposes flows for sending mail, checking the status of sent emails, and for instance hourly stats.
 
-It does not describe the end user functionality, that will always be described through a module but it describes a larger set of technical functionality that the service wants to expose to its users (developers for other services / frontends).
+It does not describe the end-user functionality, that will always be described through a module but it describes a larger set of technical functionality that the service wants to expose to its users (developers for other services/frontends).
 
 
 
@@ -95,7 +95,7 @@ UCs are subject to the [locking/unlocking/readying](service-revisions.md#lockabl
 
 ## Use case flows&#x20;
 
-Different types of flows (technical / standalone) form the specification of endpoints. They represent the intention of use of an endpoint and if an endpoint is not linked into at least one flow it will not become part of the SDK as it has no intention of use.
+Different types of flows (technical/standalone) form the specification of endpoints. They represent the intention of use of an endpoint and if an endpoint is not linked into at least one flow it will not become part of the SDK as it has no intention of use.
 
 ### Standalone use case flow
 
@@ -125,7 +125,7 @@ UCFs are subject to the [locking/unlocking/readying](service-revisions.md#lockab
 
 <figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
-## End points
+## Endpoints
 
 In Uniscale, we follow the same understanding and concept around endpoints as the industry.&#x20;
 
@@ -137,9 +137,9 @@ It’s important to note that **endpoints** and **APIs** are different.&#x20;
 
 An endpoint is a component of an API, while an API is a set of rules that allow two applications to share resources.&#x20;
 
-An Endpoint is the definition, structure and traits of a services exposed functionality. An API is the concrete implementation of that Endpoint determining location and means of transport. Endpoint is abstract API is concrete.
+An Endpoint is the definition, structure, and traits of a service's exposed functionality. An API is the concrete implementation of that Endpoint determining location and means of transport. An endpoint is abstract API is concrete.
 
-Example, an Endpoint exposed over HTTP is an HTTP API. An endpoint handled in a Uniscale Interceptor is a Uniscale API
+For example, an Endpoint exposed over HTTP is an HTTP API. An endpoint handled in a Uniscale Interceptor is a Uniscale API
 
 ***
 
@@ -157,7 +157,7 @@ An endpoint will be defined by:
 
 ### Payloads
 
-Depending on the type, and endpoint can contain **one** ( Message) or **two** payloads (Request - Response):
+Depending on the type, an endpoint can contain **one** ( Message) or **two** payloads (Request - Response):
 
 <figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
@@ -174,7 +174,7 @@ In Uniscale you can enrich each endoints with direct Error codes to cover those 
 * a system code
 * a user message
 
-If you use the Uniscale session and interceptors the error response management is automatically handled through call chains. Meaning a frontend calling a service, calling another service.
+If you use the Uniscale session and interceptors the error response management is automatically handled through call chains. This means a frontend calling a service, calling another service.
 
 <figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 

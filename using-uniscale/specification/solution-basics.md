@@ -8,33 +8,38 @@ description: >-
 # Solution basics
 
 {% hint style="info" %}
-Click [here](solution-editor-overview.md) for a deep dive into the solution editor overview
+This article will explain each of the elements in Uniscale that allows you to break describe and structure your specification. \
+\
+If you want to start using Uniscale, please check our [quick-start-guide.md](../../getting-started/quick-start-guide.md "mention")
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+
+## Solution elements
+
+In this article, we will explain each of the elements in Uniscale that allows you to break describe and structure your specification.&#x20;
+
+In this video you will get a short introduction to the structure of a specification:&#x20;
+
+{% embed url="https://www.youtube.com/watch?v=SHpHH7qhk3Q" %}
+Video: Uniscale Describe: Solution Design Flow
+{% endembed %}
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Solution
 
-A solution is a term used for an end-user application or system. It intends to solve a problem for your end users. This is the top-level view of a software product.‍
+{% hint style="info" %}
+A solution is the product, project, or system that you are working on. It contains all the information such as your functional specification and technical documentation.&#x20;
+{% endhint %}
 
-In describing a solution, you are in essence defining how your software functions towards the user. What struggles in the domain does the solution seek to address and how does the solution propose to solve it?
+In Uniscale, we provide various elements to describe and structure your solution. In this article, we will go through each of the elements and explain their purpose and functionality.
 
-This is also the place where you establish your team’s common understanding of your domain definitions, and the language used in the solution industry so that both the design and the services can be constructed in a language that the business can understand and evaluate.
-
-```
-// Solution structure
-Solution 
-├─ Module A
-|   └─ Page 
-|   └─ Page
-|      └─ Section
-|         └─ Functional use case
-|             └─ UX flow
-|      └─ Section
-└─ Module B
-```
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Illustration of the elements of a solution and how they are related.</p></figcaption></figure>
 
 **Examples of different solutions:**&#x20;
 
@@ -42,17 +47,21 @@ Solution
 * A web application for organizing shifts for staff in a grocery store
 * A communication system for an elementary school’s teachers and parents
 
+
+
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module
 
-When the description of your solution is satisfactory, your designers and product leads can start documenting the proposed designs and prototypes of the product.
+{% hint style="info" %}
+A module is a functionally isolated part of the software that has distinct ownership over its functionality and revision lifecycle.&#x20;
 
-A module is a functionally isolated part of the software that has distinct ownership over its functionality and revision lifecycle. Placing a boundary in the application at points where it makes sense to divide responsibilities for parts of the software.&#x20;
+Modules let you place a boundary in the solution at points where it makes sense to divide responsibilities for parts of the software.&#x20;
+{% endhint %}
 
+<figure><img src="../../.gitbook/assets/CleanShot 2024-04-26 at 15.07.50.png" alt=""><figcaption><p>Illustration of how a solution consits of multiple modules.</p></figcaption></figure>
 
-
-Examples of modules could be:
+#### Examples of modules could be:
 
 * User and account
 * Payment
@@ -61,55 +70,76 @@ Examples of modules could be:
 
 
 
-Modules are specified with their functionality, the work that needs to be done within the boundaries of the module.
+### Best practices for creating modules
+
+<details>
+
+<summary>Modules: Advanced concepts</summary>
+
+**Defining module boundaries**
+
+Create clear boundaries in your software where responsibilities naturally divide. Modules are self-contained parts of the software with specific ownership and independent updates.&#x20;
+
+Clear module boundaries are crucial for your organization.
+
+
+
+**Modules to follow your product structure**
+
+Each module update should be treated as a separate project. Keep changes mostly within one module. Group elements that evolve together. This makes your application easier to update and maintain.
+
+This approach allows you to scale as your solution evolves.
+
+
+
+**Organize modules based on ownership**
+
+Defining your module boundaries allows you to shape how your organization will grow. Grouping functionality through module and service boundaries affects the future structure of the organization. It's best to have a single team own an entire module to avoid shared ownership issues.&#x20;
+
+This prevents the need for separate projects that are tightly coupled and must be released together.
+
+
+
+<img src="../../.gitbook/assets/Module_boundaries.png" alt="" data-size="original">
+
+
+
+</details>
+
+
+
+
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-## Page
+## Pages
 
-A page represents a single screen or view that users interact with. Each page within the application can be described in the solution specification and/or functional use case, including its layout, content, navigation elements, and functionality. Additionally, wireframes or mockups may be provided to visualize the design of each page.
+{% hint style="info" %}
+Pages define the top-level structure of a module.&#x20;
+{% endhint %}
 
-User Interface (UI) mockups can be uploaded for a visual reference. Both high and low-fidelity designs can work to give enough details for describing UI Flows.
+Use pages to break down the structure of your solution. In the image below, you will see an example of two pages: Timeline and Direct message. These are both created as pages in the Uniscale solution.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-06-13 at 14.50.15.png" alt=""><figcaption></figcaption></figure>
+
+Creating pages is part of the detailed specification that is described further here: [describe-your-detailed-specification.md](describe-your-detailed-specification.md "mention")
+
+
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### Sections
 
-A section refers to a subdivision within the document that focuses on a specific aspect of the use case. Each section provides detailed information and guidance related to that aspect, contributing to the overall clarity and comprehensiveness of the specification.&#x20;
+{% hint style="info" %}
+Sections help break pages into manageable chunks, ensuring every detail in your description is captured.
+{% endhint %}
 
 The idea is to keep breaking them down into a structure of nested sections to define the interface.&#x20;
 
-#### Sibling section
+A section can be further broken down into:
 
-A section can be added on the same level as others, and we refer to them as Siblings
-
-```
-Page
-- section
-- section
-```
-
-#### Child/nested section
-
-In other scenarios where your UI requires it due to complexity, you can also **nest** underneath sections under sections.
-
-```
-Page
-- section
-    - child section
-- section
-    - child section
-```
-
-Check the tutorial video below for a more comprehensive overview of how to write your solution, modules and pages:
-
-
-
-{% embed url="https://www.youtube.com/watch?v=xtzqXVHMjpM" %}
-High level specifications: Tutorial
-{% endembed %}
+* **Sibling section**: A section that can be added on the same level as others.&#x20;
+* **Child section**: A subsection to a section for further breaking down the structure.
 
 
 
@@ -117,24 +147,33 @@ High level specifications: Tutorial
 
 ## Functional use case
 
-A functional use case (UC) consists of a description where you can write the high-level functionality provided to the end user. For example:&#x20;
+{% hint style="info" %}
+Functional use cases describe the user **behavior** within a module or page. This is in contrast to pages and sections that describe the **structure**.
+{% endhint %}
 
-> The user searches for a travel destination in a search box, and the user uploads contact details to their profile.
+A functional use case (FUC) can be used for two purposes:
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+* **Abstract**: To describe the high-level user behavior of a module. An example can be to describe how a new user to your product should be onboarded.
+* **Concrete**: To describe the concrete behavior of a page or section. An example can be to describe concrete steps for what should happen when clicking on a button.
 
-Further, it can contain more elements of the UC such as&#x20;
+A Functional use case can further be broken down into the following elements:
 
 * UI Designer notes
 * UX Product notes
+  * UX Flows
+    * Functional acceptance criteria
+    * Service flow
+      * Functional acceptance criteria
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-#### **UI Designer notes**
 
-For every User Interface (UI) element there’s a UI designer note where your designer and product lead can describe the functionality and the restrictions you envision for that part of the UI.
+### **UI Designer notes**
 
-An example of a UI designer note could be:
+For every User Interface (UI) element there is a UI designer note where your designer or product lead can describe the functionality and the restrictions you envision for that part of the UI.
+
+<details>
+
+<summary>Examples of a UI designer notes</summary>
 
 * Displayed information
 * Buttons
@@ -142,17 +181,17 @@ An example of a UI designer note could be:
 * Drag and drop interfaces
 * Popups and triggered displays of information
 
-You can also enrich the UI designer note with functional acceptance criteria that serve as hard boundaries for the implementation of the element. These can even be foundational for testing later on.
+</details>
 
 <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-#### UX Product notes
+### UX Product notes
 
-The UX Product notes allow you to add notes and provide a more detailed description regarding the intended user experience for a specific functional case.
+The UX Product notes allow you to add notes and provide a detailed description regarding the intended user experience for a specific functional use case.
 
 #### UX flow
 
-The UX flow represents a specific path intended for the user.
+UX flows describe the detailed behaviors within functional use cases.
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
@@ -160,29 +199,21 @@ The UX flow represents a specific path intended for the user.
 
 ### Functional acceptance criteria
 
-A list of qualifications that the implementation of the UX flow needs to fulfill. Usually, functional details are not easily communicated through the illustrated UI.
+A list of qualifications that the implementation of the UX flow needs to fulfill.&#x20;
 
+<details>
 
-
-Examples of acceptance criteria could be:
+<summary>Examples of functional acceptance criteria</summary>
 
 * Assurances for accessibility of variable screen types and sizes (don't show on mobile, etc)
 * Front-end effects and animations  (disabled buttons, etc)
 * Error handling such as password length not matching, etc
 
+</details>
 
-
-After all the UI flow’s expected behavior is documented, the functional specification should be complete. The next step is to start linking the functional specification to a set of underlying services to achieve the desired functionality.
-
-
-
-Check the tutorial video below for how to write your detailed specifications - Sections, Functional Use Cases, UI Designer Descriptions, UX Product Notes and Acceptance Criteria.
-
-
-
-{% embed url="https://www.youtube.com/watch?v=m2ZrQtW60Vc" %}
-Detailed Specifications: Tutorial
-{% endembed %}
+{% hint style="info" %}
+You can use our generative AI to help suggest acceptance criteria. Learn more here: [using-ai-in-specification.md](using-ai-in-specification.md "mention")
+{% endhint %}
 
 
 
@@ -190,23 +221,21 @@ Detailed Specifications: Tutorial
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-### **Linked Use Cases flows**
+### **Service flow**
 
-#### **The starting point for service design in a solution**
+{% hint style="info" %}
+Service flows are the first steps towards creating your technical documentation.&#x20;
 
-{% hint style="warning" %}
-_This part should be done by people familiar with your existing services. Like a system architect or product manager._
+This part should be done by people familiar with your existing services, like a Solution Architect or Tech Lead.
 {% endhint %}
 
-
-
-The UX flows within your Solution rely on functionality from the service, which will be provided through service flows.
+For each UX flow in your solution, you can create a Service flow to begin to link your functional specification directly to your services.
 
 ***
 
 ### Service
 
-A service refers to a discrete unit of functionality or capability provided by a system or application. &#x20;
+A service refers to a discrete unit of functionality or capability provided by a system or application.
 
 Each service is defined by its inputs, outputs, behavior, and interactions with other components of the system. Describe the requirements for the underlying technical flows that will enable you to build the desired functionality.
 

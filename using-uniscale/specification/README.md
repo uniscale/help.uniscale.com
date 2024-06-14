@@ -1,5 +1,8 @@
 ---
-description: Build and deliver the right product the first time, every time.
+description: >-
+  The specification, also known as “Functional Requirement Specification”, is a
+  document used to describe a solution's intended capabilities, appearance, and
+  interactions with users.
 layout:
   title:
     visible: true
@@ -15,13 +18,23 @@ layout:
 
 # Specification
 
-### Describe your **functional specifications**
+## Introduction to specification
 
-Simplify the creation of structured, high-quality functional specifications for the entire product quickly and easily with generative AI support and third-party integrations.
+Specification is the first of three phases for maximizing the use of Uniscale.
 
-{% embed url="https://www.youtube.com/watch?embeds_referring_euri=https://cdn.iframe.ly/&feature=emb_title&source_ve_path=MjM4NTE&time_continue=155&v=SHpHH7qhk3Q" %}
+<figure><img src="../../.gitbook/assets/CleanShot 2024-06-14 at 20.14.39@2x (1).png" alt=""><figcaption><p><a href="https://www.uniscale.com/products/uniscale-describe">https://www.uniscale.com/products/uniscale-describe</a></p></figcaption></figure>
 
-### Articles:
+
+
+## Start describing your specification
+
+1. Before describing your specification, check our article for an overview of the elements and functionalities: [solution-basics.md](solution-basics.md "mention")
+2. You can now begin to [describe-your-high-level-specification.md](describe-your-high-level-specification.md "mention")
+3. Lastly, you will [describe-your-detailed-specification.md](describe-your-detailed-specification.md "mention")
+
+
+
+### Articles
 
 Learn about core concepts of specification and the introduction to solution.
 
