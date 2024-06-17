@@ -122,7 +122,7 @@ Use pages to break down the structure of your solution. In the image below, you 
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-06-13 at 14.50.15.png" alt=""><figcaption></figcaption></figure>
 
-Creating pages is part of the detailed specification that is described further here: [describe-your-detailed-specification.md](describe-your-detailed-specification.md "mention")
+Creating pages is part of the detailed specification that is described further here: [describe-detailed-specification.md](describe-detailed-specification.md "mention")
 
 
 

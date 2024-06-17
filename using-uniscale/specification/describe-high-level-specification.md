@@ -2,7 +2,7 @@
 description: Learn how to describe your high-level specification along with best practices.
 ---
 
-# Describe your high-level specification
+# Describe high-level specification
 
 {% hint style="info" %}
 Before kick-starting your Uniscale journey you should have:
@@ -62,7 +62,7 @@ To help you get started, here are some inspirations for what to include in your 
 * What are the high-level functionalities and features of your solution?
   * Come up with 3-5 bullets that explains overall what your solution will be doing.
   * What are the main requirements from your actors?
-  * Try to write in a few sentences how you will solve this problem without going into details.
+  * Try to write in a few sentences how you will solve this problem without going into detail.
 
 </details>
 
@@ -92,9 +92,9 @@ Start by listing all the actors that will be involved in your solution. Here is 
 * Partners
 * Distributors
 
-Now can you group the listed actors based on for example their type and interactions with each functionality?&#x20;
+Now can you group the listed actors based on eg. their type and interactions with each functionality?&#x20;
 
-This is to identify patterns of your actors, like roles and people that interact with the solution, fx the end-users (customers), and stakeholders like system administrators, suppliers, third-party contributors etc.&#x20;
+This is to identify patterns of your actors, like roles and people that interact with the solution, fx the end-users (customers), and stakeholders like system administrators, suppliers, third-party contributors, etc.&#x20;
 
 </details>
 
@@ -129,7 +129,7 @@ The description of your module is where you describe the purpose and intention f
 Here are relevant things to include:&#x20;
 
 * Intended functionality for the specific module.
-* What is the exact action that this module intends to achieve
+* What is the exact action that this module intends to achieve?
 * Detailed explanation of what this module is supposed to do and how it proposes to achieve it
 * Actors: Who is going to interact with this module?
 
@@ -177,4 +177,4 @@ You can read more here: [#functional-use-case](solution-basics.md#functional-use
 ## Next steps
 
 * You can already now choose to approve your first revision: [module-revision.md](module-revision.md "mention")
-* Involve your product designer and begin the [describe-your-detailed-specification.md](describe-your-detailed-specification.md "mention")
+* Involve your product designer and begin the [describe-detailed-specification.md](describe-detailed-specification.md "mention")

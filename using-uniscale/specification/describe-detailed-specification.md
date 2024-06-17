@@ -5,10 +5,10 @@ description: >-
   UI/UX designer.
 ---
 
-# Describe your detailed specification
+# Describe detailed specification
 
 {% hint style="success" %}
-Before you begin to describe your detailed specification, please make sure to have completed the high-level specification: [describe-your-high-level-specification.md](describe-your-high-level-specification.md "mention")
+Before you begin to describe your detailed specification, please make sure to have completed the high-level specification: [describe-high-level-specification.md](describe-high-level-specification.md "mention")
 {% endhint %}
 
 

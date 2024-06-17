@@ -6,7 +6,7 @@ description: In this guide, we will show you the basics of getting started with 
 
 ## New to Uniscale?
 
-Get a quick introduction and watch our video here: [#what-is-uniscale](../#what-is-uniscale "mention")
+Get a quick introduction and watch our product video here: [#what-is-uniscale](../#what-is-uniscale "mention")
 
 
 
@@ -76,7 +76,7 @@ Begin with an introduction to your solution:&#x20;
 3. Who: Who will be using your product? List the various actors.
 4. High-level requirements
 
-For a detailed overview of how to describe your specification: [describe-your-high-level-specification.md](../using-uniscale/specification/describe-your-high-level-specification.md "mention")
+For a detailed overview of how to describe your specification: [describe-high-level-specification.md](../using-uniscale/specification/describe-high-level-specification.md "mention")
 
 </details>
 
@@ -89,7 +89,7 @@ For a detailed overview of how to describe your specification: [describe-your-hi
 3. Describe the high-level end-user behavior: This is done by creating a `Functional use case` inside your module
 4. Enrich your `Functional use case` with `Acceptance criteria.`&#x20;
 
-For a detailed overview of how to describe your specification: [describe-your-high-level-specification.md](../using-uniscale/specification/describe-your-high-level-specification.md "mention")
+For a detailed overview of how to describe your specification: [describe-high-level-specification.md](../using-uniscale/specification/describe-high-level-specification.md "mention")
 
 </details>
 
@@ -116,7 +116,7 @@ This is where you will start to design how the actual product will look and feel
 * Should it be an app, website, software, physical paper, or a combination?
 * How should the user interface look and feel?
 * The overall layout of your solution including visuals (mockups or wireframes),
-* How the product should work - For example what pages you will need, what buttons to include, what should happen when clicking on each button, and what should happen in case of errors?
+* How should the product work - eg. what pages will you need, what buttons to include, what should happen when clicking on each button, and what should happen in case of errors?
 
 For this part, you will involve a product designer (eg. UX/UI designer) who will start to break down the high-level specification and design the product.
 
@@ -184,7 +184,7 @@ Watch the video below or read more here: [service-linking](../using-uniscale/doc
 
 #### Next step
 
-Proceed to further document your services [#phase-3-documentation](quick-start-guide.md#phase-3-documentation "mention")
+* Proceed to further document your services [#phase-3-documentation](quick-start-guide.md#phase-3-documentation "mention")
 
 ***
 
