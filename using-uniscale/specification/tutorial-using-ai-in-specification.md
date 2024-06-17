@@ -1,10 +1,18 @@
-# Using AI in Specification
+---
+description: Lean how to leverage generative AI when describing your specification.
+---
+
+# Tutorial: Using AI in Specification
 
 Watch the video below for an in-depth guide on using the Uniscale AI add-on to help you write your functional specifications
 
 {% embed url="https://www.youtube.com/watch?v=Sb0TiNOEhdc" %}
 How to use the Uniscale AI: tutorial
 {% endembed %}
+
+{% hint style="info" %}
+Note that "AI for Describe" is sold as an addon for our Teams plan and is included on our Business plan.
+{% endhint %}
 
 
 
@@ -17,6 +25,8 @@ Inside any specification item's description, you can press **`/`** and select **
 {% hint style="info" %}
 Tip: Write "AI" after typing slash for a quicker selection.&#x20;
 {% endhint %}
+
+
 
 ### States of the AI
 
@@ -49,6 +59,8 @@ Additionally, you can review the entire conversation with the AI by clicking on 
 
 <figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>The "history" icon with AI</p></figcaption></figure>
 
+
+
 ## Writing new text
 
 Inside any specification item description, you can press **`/`** and select **`Ask AI`** from the list of commands that appear.&#x20;
@@ -56,6 +68,8 @@ Inside any specification item description, you can press **`/`** and select **`A
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Writing new text with AI</p></figcaption></figure>
 
 The AI can take any input and will aim to provide an as-meaningfull-as-possible response. Because the input was done on a new line, the AI will take the rest of the description as a bounded context for how to answer best your question or request.
+
+
 
 ## Improving based on existing text
 
@@ -65,6 +79,8 @@ Another option to work with AI is by selecting with your cursor an existing text
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-04-24 at 07.28.04.png" alt=""><figcaption><p>AI by selection existing text </p></figcaption></figure>
 
+
+
 ## Generating formatted answers
 
 In some instances, you will notice a more specific AI custom prompt.&#x20;
@@ -73,13 +89,17 @@ In some instances, you will notice a more specific AI custom prompt.&#x20;
 _Note: we are working to add more._
 {% endhint %}
 
-#### AI-generated acceptance criteria
+### AI-generated acceptance criteria
 
 Watch the tutorial video below for a detailed guide on how to effectively use the AI acceptance criteria feature.
+
+
 
 {% embed url="https://www.youtube.com/watch?v=kYkgKyUPDkw" %}
 Using the Uniscale AI for Acceptance Criteria: tutorial
 {% endembed %}
+
+
 
 For UX flows that already have a description, a new prompt will appear:
 

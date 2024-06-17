@@ -212,7 +212,7 @@ A list of qualifications that the implementation of the UX flow needs to fulfill
 </details>
 
 {% hint style="info" %}
-You can use our generative AI to help suggest acceptance criteria. Learn more here: [using-ai-in-specification.md](using-ai-in-specification.md "mention")
+You can use our generative AI to help suggest acceptance criteria. Learn more here: [tutorial-using-ai-in-specification.md](tutorial-using-ai-in-specification.md "mention")
 {% endhint %}
 
 

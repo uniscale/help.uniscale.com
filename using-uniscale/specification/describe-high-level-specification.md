@@ -35,7 +35,7 @@ Cater to your audience
 
 Aim for a short and concise description. Cater the message to your audience whether this is for internal or external stakeholders.
 
-Tip: Make use of our Generative AI to help improve your writing. Learn more here: [using-ai-in-specification.md](using-ai-in-specification.md "mention")
+Tip: Make use of our Generative AI to help improve your writing. Learn more here: [tutorial-using-ai-in-specification.md](tutorial-using-ai-in-specification.md "mention")
 {% endhint %}
 
 {% hint style="success" %}
@@ -165,7 +165,7 @@ You can read more here: [#functional-use-case](solution-basics.md#functional-use
 <summary>Add Acceptance criteria to your Functional use cases</summary>
 
 * Describe what this is and how it will work
-* Note; Our Generative AI can help write suggestions for what acceptance criteria to include: [#ai-generated-acceptance-criteria](using-ai-in-specification.md#ai-generated-acceptance-criteria "mention")
+* Note; Our Generative AI can help write suggestions for what acceptance criteria to include: [#ai-generated-acceptance-criteria](tutorial-using-ai-in-specification.md#ai-generated-acceptance-criteria "mention")
 * Definition: a list of qualifications that the functional use case (UX flow if detailed specification?) needs to fulfill
 
 </details>
