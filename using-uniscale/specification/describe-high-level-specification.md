@@ -31,7 +31,7 @@ This is typically defined by the Founder, Visionary, Product Owner, or someone w
 ### Best practice when describing your high-level specification
 
 {% hint style="success" %}
-#### Cater to your audience
+Cater to your audience
 
 Aim for a short and concise description. Cater the message to your audience whether this is for internal or external stakeholders.
 
@@ -39,7 +39,7 @@ Tip: Make use of our Generative AI to help improve your writing. Learn more here
 {% endhint %}
 
 {% hint style="success" %}
-#### Keep it at an abstract level
+Keep it at an abstract level
 
 Focus on describing the key challenge and purpose of your specification and leave the concrete steps to solving the issue for later. This will help you make sure that people are aligned on the overall goals and that your solution will meet the customer's requirements.
 {% endhint %}

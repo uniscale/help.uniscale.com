@@ -94,12 +94,12 @@ For a detailed overview of how to describe your specification: [describe-high-le
 </details>
 
 {% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyGOAVoZxLdRIG6ti7yXqlbs&v=xtzqXVHMjpM" %}
-Tutorial: High level specification
+Tutorial: High-level specification
 {% endembed %}
 
 #### **Next steps:**
 
-* Learn how to approve and lock your modules:[module-revision.md](../using-uniscale/specification/module-revision.md "mention")
+* Learn how to approve and lock your modules: [module-revision.md](../using-uniscale/specification/module-revision.md "mention")
 * Generate the SDK: [introduction-to-sdk.md](../using-uniscale/implementation/introduction-to-sdk.md "mention")
 * Continue to [#detailed-documentation](quick-start-guide.md#detailed-documentation "mention")
 
@@ -184,7 +184,7 @@ Watch the video below or read more here: [service-linking](../using-uniscale/doc
 
 #### Next step
 
-* Proceed to further document your services [#phase-3-documentation](quick-start-guide.md#phase-3-documentation "mention")
+* Proceed to further document your services in [#phase-3-documentation](quick-start-guide.md#phase-3-documentation "mention")
 
 ***
 
