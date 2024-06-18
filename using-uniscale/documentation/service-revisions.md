@@ -8,16 +8,16 @@ To do so in a better manner, we have provided each item in your documentation wi
 
 
 
-For that, we distinguish between :
+For that, we distinguish between:
 
-* "items" that are to be reused ( endpoints, data contracts, properties )
-* items that are single declarations ( namespaces, Use case flows, Technical use cases)
+* "items" that are to be reused (endpoints, data contracts, properties).
+* items that are single declarations (namespaces, Use case flows, Technical use cases)
 
 As a whole, a service has revisions and is approved. This is symbolized via the revisions dropdown where you can see a list of your past revisions titles and numbers.
 
 
 
-Listing the structure of a service, we can have ( for a more detailed breakdown, read [here](service-basics.md))
+Listing the structure of a service, we can have:
 
 * namespaces
 * technical use cases
@@ -29,6 +29,10 @@ Listing the structure of a service, we can have ( for a more detailed breakdown,
   * property groups&#x20;
   * properties
 
+{% hint style="info" %}
+For a more detailed breakdown, read [service-basics.md](service-basics.md "mention")
+{% endhint %}
+
 Each of them is subjected to a lifecycle, with different meanings.
 
 <figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
@@ -39,7 +43,7 @@ Each of them is subjected to a lifecycle, with different meanings.
 
 <figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-Endpoints, data contracts and properties are considered items that are agnostic of the entire status of the service. As a whole, they can be "completed" before the overall approval status and as such, their cycle reflects their state of being "done" or "completed".
+Endpoints, data contracts, and properties are considered items that are agnostic of the entire status of the service. As a whole, they can be "completed" before the overall approval status and as such, their cycle reflects their state of being "done" or "completed".
 
 Exploring step by step the process, we have :
 
@@ -53,7 +57,7 @@ Exploring step by step the process, we have :
 
 <figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
-Namespaces, technical use case flows and use case flows are all process items that are relevant to what the end goal of the service is. As such, rather than a completion intention, they have a "is this final", or "is this locked" cycle.
+Namespaces, technical use case flows, and use case flows are all process items that are relevant to what the end goal of the service is. As such, rather than a completion intention, they have a "is this final", or "is this locked" cycle.
 
 
 
@@ -65,6 +69,8 @@ Exploring step by step the process, we have:&#x20;
 * Later, when a new revision is made, all items are still in **`"locked"`**
 * From here, one can manually **`"unlock"`** the items that are intended for changes, and move them to **`"unlocked"`**
 * If any change is made to a **`"unlocked"`** item, it gets automatically moved to the status **`"edited"`**
+
+
 
 ## Approval of the service & revisions
 
@@ -82,7 +88,7 @@ Service approval is a collation of all the above processes and loops. Let's take
 
 <figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
-4. From here on, of course, the service will grow towards a new revision, and to initiate one, the service will need to be opened, and various items will be **`unlocked.`** As such, all items that are downward dependencies of such item will be marked as **`Opened`**, marking the intent to add changes. Once changes are made, the cycle goes back to step 1 in this guide.
+4. From here on, of course, the service will grow towards a new revision, and to initiate one, the service will need to be opened, and various items will be **`unlocked.`** As such, all items that are downward dependencies of such items will be marked as **`Opened`**, marking the intent to add changes. Once changes are made, the cycle goes back to step 1 in this guide.
 
 <figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
