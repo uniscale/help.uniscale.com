@@ -31,7 +31,7 @@ When this is done, you are ready to follow the guide below on how to build bette
 {% hint style="info" %}
 The specification, also known as “Functional Requirement Specification”, is a document used to describe a solution's intended capabilities, appearance, and interactions with users.&#x20;
 
-Learn more: [#design-your-solution](quick-start-guide.md#design-your-solution "mention")
+Learn more: [specification](../using-uniscale/specification/ "mention")
 {% endhint %}
 
 <details>
