@@ -1,4 +1,21 @@
+---
+description: >-
+  This article provides an overview of the elements related to your technical
+  documentation which all lives in the Service editor in Uniscale.
+---
+
 # Service basics
+
+## Introduction to services
+
+In Uniscale, Services are created for two possible usages. For a solution or as a standalone service.
+
+* <mark style="color:purple;">**`Solution-owned-services`**</mark> are, as the name suggests, services created only to provide functionality within the bounded context of a solution. Their functionality is exposed via revisions to all the modules inside the owning solution.
+* <mark style="color:purple;">**`Standalone services`**</mark> are the specification of an individual service without any links into it's surrounding eco-system.
+
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## Overall structure
 

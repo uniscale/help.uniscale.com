@@ -19,7 +19,6 @@
   * [Tutorial: Using AI in Specification](using-uniscale/specification/tutorial-using-ai-in-specification.md)
 * [Documentation](using-uniscale/documentation/README.md)
   * [Service basics](using-uniscale/documentation/service-basics.md)
-  * [Service introduction](using-uniscale/documentation/service-introduction.md)
   * [Service editor overview](using-uniscale/documentation/service-editor-overview.md)
   * [Service linking](using-uniscale/documentation/service-linking/README.md)
     * [Service linking: Advanced concepts](using-uniscale/documentation/service-linking/service-linking-advanced-concepts.md)

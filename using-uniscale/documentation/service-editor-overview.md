@@ -33,7 +33,7 @@ Here you will find the main navigation tabs, revisions, settings, and quick acce
 <summary>Center tabs</summary>
 
 * Functional view: all the requirements coming from the solution&#x20;
-  * Note: the tab is disabled for [Standalone service](service-introduction.md#standalone-vs-part-of-a-solution)
+  * Note: the tab is disabled for [Standalone service](broken-reference)
 * Technical view: here you will spend most of your time modeling and breaking down your data&#x20;
 * SDK portal
 
