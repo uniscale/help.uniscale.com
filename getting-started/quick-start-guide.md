@@ -97,7 +97,7 @@ For a detailed overview of how to describe your specification: [describe-high-le
 Tutorial: High-level specification
 {% endembed %}
 
-#### **Next steps:**
+#### **Next steps**
 
 * Learn how to approve and lock your modules: [module-revision.md](../using-uniscale/specification/module-revision.md "mention")
 * Generate the SDK: [introduction-to-sdk.md](../using-uniscale/implementation/introduction-to-sdk.md "mention")
