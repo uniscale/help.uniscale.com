@@ -93,6 +93,8 @@ It does not describe the end-user functionality, that will always be described t
 
 UCs are subject to the [locking/unlocking/readying](service-revisions.md#lockable-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
+***
+
 ## Use case flows&#x20;
 
 Different types of flows (technical/standalone) form the specification of endpoints. They represent the intention of use of an endpoint and if an endpoint is not linked into at least one flow it will not become part of the SDK as it has no intention of use.
@@ -257,6 +259,8 @@ A **native data type** is a classification of data that tells the library genera
 {% hint style="info" %}
 Note: UTF is used as an variable-length character encoding standard.
 {% endhint %}
+
+
 
 ## Technical intentions&#x20;
 
