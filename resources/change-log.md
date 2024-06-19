@@ -15,7 +15,7 @@ description: >-
 
 **New features:**
 
-* [Visual Studio Plugin](https://marketplace.visualstudio.com/items?itemName=Uniscale.uniscaledevelop): added plugin to the Uniscale Develop suite so you can bring the Uniscale generated SDK inside Microsoft's Visual Studio IDE so you can produce high-quality code based on your specifications
+* [visual-studio-code.md](../using-uniscale/implementation/ide-plugins/visual-studio-code.md "mention"): added plugin to the Uniscale Develop suite so you can bring the Uniscale generated SDK inside Microsoft's Visual Studio IDE so you can produce high-quality code based on your specifications
 
 **Improvements:**
 
