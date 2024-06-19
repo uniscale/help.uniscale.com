@@ -34,6 +34,9 @@
     * [Tutorial: React with Uniscale SDK](using-uniscale/implementation/quick-start-front-end-with-uniscale-sdk/tutorial-react-with-uniscale-sdk.md)
   * [Tutorial: Using SDK in backend to handle endpoints](using-uniscale/implementation/tutorial-using-sdk-in-backend-to-handle-endpoints.md)
   * [Tutorial: Using SDK for service to service](using-uniscale/implementation/tutorial-using-sdk-for-service-to-service.md)
+  * [IDE plugins](using-uniscale/implementation/ide-plugins/README.md)
+    * [Visual Studio Code](using-uniscale/implementation/ide-plugins/visual-studio-code.md)
+    * [Visual Studio](using-uniscale/implementation/ide-plugins/visual-studio.md)
 
 ## ACCOUNT & PREFERENCES
 
