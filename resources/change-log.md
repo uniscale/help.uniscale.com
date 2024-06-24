@@ -11,6 +11,44 @@ description: >-
 
 ***
 
+## Week 24 (June 17)
+
+**New features:**
+
+* None this time
+
+**Improvements:**
+
+* Allow the user to enter full-screen mode for pictures in editing mode when double-clicking the picture
+* Added a spinner for critical buttons to show that it is loading
+
+**Bug fixes:**
+
+* Workspace solution and service count can exceed the subscription quantity
+* React query updates
+* Other minor bug fixes and performance optimization
+
+## Week 23 (June 10)
+
+**New features:**
+
+* None this time
+
+**Improvements:**
+
+* Groups entity actions and commands into structured lists
+* Add CLI command instruction to install TypeScript
+
+**Bug fixes:**
+
+* Show service flows located in the root namespace in the service tree inside the solution design
+* Other minor bug fixes and performance optimization
+* Fix the latest version reference in the SDK portal to match the last successful revision
+* Fix .NET not showing for demo solution in SDK portal
+* Workspace sorting issues
+
+
+
 ## Week 22 (June 3)
 
 **New features:**
