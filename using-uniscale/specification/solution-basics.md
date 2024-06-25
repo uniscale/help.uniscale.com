@@ -8,7 +8,7 @@ description: >-
 # Solution basics
 
 {% hint style="info" %}
-This article will explain each of the elements in Uniscale that allows you to break describe and structure your specification. \
+This article will explain each of the elements in Uniscale that allows you to describe and structure your specification. \
 \
 If you want to start using Uniscale, please check our [quick-start-guide.md](../../getting-started/quick-start-guide.md "mention")
 {% endhint %}
