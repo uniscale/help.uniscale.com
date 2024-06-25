@@ -115,7 +115,7 @@ List here where the different types of data will come from. Here is some inspira
 ## Create and describe your first modules
 
 {% hint style="info" %}
-Before creating modules, we recommend reading our guide for best practices: [#defining-module-boundaries](solution-basics.md#defining-module-boundaries "mention")
+Before creating modules, we recommend reading our guide for best practices: [#best-practices-for-creating-modules](solution-basics.md#best-practices-for-creating-modules "mention")
 {% endhint %}
 
 <details>
