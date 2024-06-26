@@ -36,7 +36,7 @@ You will get this screen after a successful login. You are now logged in and you
 
 All commands are prefixed with "Uniscale develop" so you can see all available commands by typing that into the command palette (⇧ + (⌘/ctrl) + P):
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-06-05 at 12.38.12.png" alt=""><figcaption><p>VS Code command palette</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-06-05 at 12.38.12.png" alt=""><figcaption><p>Command palette</p></figcaption></figure>
 
 The description for all the available generative commands can be found from the [main page for IDE plugins.](./)
 

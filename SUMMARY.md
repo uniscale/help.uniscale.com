@@ -37,6 +37,7 @@
   * [IDE plugins](using-uniscale/implementation/ide-plugins/README.md)
     * [Visual Studio Code](using-uniscale/implementation/ide-plugins/visual-studio-code.md)
     * [Visual Studio](using-uniscale/implementation/ide-plugins/visual-studio.md)
+    * [JetBrains IDEs](using-uniscale/implementation/ide-plugins/jetbrains-ides.md)
 
 ## ACCOUNT & PREFERENCES
 

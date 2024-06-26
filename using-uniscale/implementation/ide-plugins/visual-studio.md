@@ -4,19 +4,19 @@
 
 Install the plugin from Visual Studio extension manager:
 
-<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>Visual Studio Extension manager</p></figcaption></figure>
 
 After installation you can see available commands under Tools > Uniscale
 
-<figure><img src="../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>Locating Uniscale menu</p></figcaption></figure>
 
-Use Tools > Uniscale > Login to Uniscale to start login process. You will be redirected to login page in your browser. You will get this screen after succesfull login. You are now logged in and you can start using Uniscale Develop:
+Use Tools > Uniscale > Login to Uniscale to start login process. You will be redirected to login page in your browser. You will get this screen after successful login. You are now logged in and you can start using Uniscale Develop:
 
-<figure><img src="../../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p>Successful login</p></figcaption></figure>
 
-The description for all the available generative commands can be found from the [main page for IDE plugins](./):
+All commands are displayed in the "Snippets and generative code" ToolWindow (Alt + J). The description for all the available generative commands can be found from the [main page for IDE plugins](./):
 
-<figure><img src="../../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (2).png" alt=""><figcaption><p>Command ToolWindow</p></figcaption></figure>
 
 If you haven't logged in or you don't have any SDK selected you will be prompted options to do so in Uniscale Develop console:&#x20;
 

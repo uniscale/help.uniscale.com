@@ -16,6 +16,8 @@ See all the available features for the IDE of your choice in the respective subp
 
 [visual-studio.md](visual-studio.md "mention")
 
+[jetbrains-ides.md](jetbrains-ides.md "mention")
+
 
 
 ### Requirements <a href="#requirements" id="requirements"></a>
