@@ -15,7 +15,7 @@ description: >-
 
 **New features:**
 
-* J[etBrains IDE plugin release](https://plugins.jetbrains.com/plugin/24665-uniscale-develop) - Deliver Plugin for JetBrains in order to utilize Uniscale Develop for multiple IDEs within the JetBrains ecosystem.
+* [JetBrains IDE plugin release](https://plugins.jetbrains.com/plugin/24665-uniscale-develop) - added plugin to the Uniscale Develop suite for JetBrains in order to utilize Uniscale Develop within the JetBrains ecosystem.
 
 **Improvements:**
 
