@@ -1,6 +1,10 @@
 # Introduction to SDK
 
-{% embed url="https://youtu.be/USJnZ6Egzhw" %}
+
+
+{% embed url="https://www.youtube.com/watch?v=nFra8I6CuJI" %}
+Getting Started with the Uniscale SDK
+{% endembed %}
 
 ## Introduction to SDK
 
