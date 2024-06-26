@@ -48,11 +48,11 @@
 ## WORKSPACE ADMINISTRATION
 
 * [Manage workspaces](workspace-administration/manage-workspaces/README.md)
-  * [User management](workspace-administration/manage-workspaces/user-management/README.md)
-    * [Change workspace owner](workspace-administration/manage-workspaces/user-management/change-workspace-owner.md)
   * [Create a workspace](workspace-administration/manage-workspaces/create-a-workspace.md)
   * [Workspace settings](workspace-administration/manage-workspaces/workspace-settings.md)
   * [Invite to Uniscale](workspace-administration/manage-workspaces/invite-to-uniscale.md)
+  * [User management](workspace-administration/manage-workspaces/user-management/README.md)
+    * [Change workspace owner](workspace-administration/manage-workspaces/user-management/change-workspace-owner.md)
   * [Join a Workspace](workspace-administration/manage-workspaces/join-a-workspace.md)
 
 ***
