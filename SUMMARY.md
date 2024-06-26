@@ -48,14 +48,12 @@
 ## WORKSPACE ADMINISTRATION
 
 * [Manage workspaces](workspace-administration/manage-workspaces/README.md)
-  * [Workspace basics](workspace-administration/manage-workspaces/workspace-basics.md)
+  * [User management](workspace-administration/manage-workspaces/user-management/README.md)
+    * [Change workspace owner](workspace-administration/manage-workspaces/user-management/change-workspace-owner.md)
   * [Create a workspace](workspace-administration/manage-workspaces/create-a-workspace.md)
   * [Workspace settings](workspace-administration/manage-workspaces/workspace-settings.md)
-  * [User management](workspace-administration/manage-workspaces/user-management/README.md)
-    * [Transfer ownership](workspace-administration/manage-workspaces/user-management/transfer-ownership.md)
   * [Invite to Uniscale](workspace-administration/manage-workspaces/invite-to-uniscale.md)
   * [Join a Workspace](workspace-administration/manage-workspaces/join-a-workspace.md)
-  * [Product sharing](workspace-administration/manage-workspaces/product-sharing.md)
 
 ***
 
