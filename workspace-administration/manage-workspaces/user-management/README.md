@@ -16,15 +16,19 @@ There are three types of Account access:
 * **Admin**: Can add or delete users to the Workspace as well as create Solutions and Services.
 * **User:** Can only create and write Solutions and Services.
 
+{% hint style="info" %}
+Learn more about account types: [workspace-basics.md](../workspace-basics.md "mention")
+{% endhint %}
+
 ## Role
 
-The roles will help you get an overview of what role the user has within your organization. This do not impact their permission level within the Uniscale workspace.
+The roles will help you get an overview of what role the user has within your organization. This does not impact their permission level within the Uniscale workspace.
 
 ## Status
 
 There are two types of status:
 
-* **Active:** This indicates that the user has accepted the invite and have access to the workspace.
+* **Active:** This indicates that the user has accepted the invite and has access to the workspace.
 * **Invitation sent:** This indicates that the user has received the invitation email.
 
 
@@ -37,7 +41,7 @@ There are two types of status:
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2024-04-22 at 11.26.19 (2).png" alt=""><figcaption></figcaption></figure>
 
-From the modal than opens, you can&#x20;
+From the modal that opens, you can&#x20;
 
 * view the information coming from the user account
   * name, email & phone ( view only fields)

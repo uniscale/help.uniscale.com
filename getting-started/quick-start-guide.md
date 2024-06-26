@@ -120,7 +120,7 @@ This is where you will start to design how the actual product will look and feel
 
 For this part, you will involve a product designer (eg. UX/UI designer) who will start to break down the high-level specification and design the product.
 
-Learn how to invite people:[invite-to-a-workspace.md](../workspace-administration/manage-workspaces/invite-to-a-workspace.md "mention")
+Learn how to invite people:[invite-to-uniscale.md](../workspace-administration/manage-workspaces/invite-to-uniscale.md "mention")
 
 </details>
 
@@ -166,7 +166,7 @@ Service linking is where you bridge your functional specification to your techni
 
 Typically, a Solution Architect or Technical Lead handles this phase. They translate customer requirements into logical service boundaries by developing the services needed to meet the specified requirements.
 
-Learn how to invite people:[invite-to-a-workspace.md](../workspace-administration/manage-workspaces/invite-to-a-workspace.md "mention")
+Learn how to invite people:[invite-to-uniscale.md](../workspace-administration/manage-workspaces/invite-to-uniscale.md "mention")
 
 </details>
 

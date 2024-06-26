@@ -1,24 +1,30 @@
 # Workspace basics
 
-## Workspace account types
+## Workspace access and product access
+
+In Uniscale, a workspace can have multiple solutions. You can customize the permission level for each user in the workspace and their access to each solution.
+
+Get an overview below&#x20;
 
 {% hint style="info" %}
-The amount of users is associated with your [subscription plan](../../manage-billing-payments-and-plans/plans-and-subscriptions.md).&#x20;
+Workspace _owners_, _admins_, and _users_ require a subscription seat. Clients, however, do not require a seat and the amount of clients may be limited based on your subscription plan. \
+\
+Learn how to invite: [invite-to-uniscale.md](invite-to-uniscale.md "mention")
 {% endhint %}
 
-In a workspace, users can have the following account types
 
-* The owner (the person who owns the workspace)
-  * only one Owner at the time per workspace
-* Admins (many )
-* Users (many )
+
+## Workspace account access
+
+In a workspace, users can have the following account access:
+
+<table><thead><tr><th width="173">Account access</th><th>Description</th></tr></thead><tbody><tr><td>Owner</td><td>Access to everything in the workspace</td></tr><tr><td>Admin</td><td>Can manage workspace settings and see all solutions</td></tr><tr><td>User</td><td>Will only have access to individual products.</td></tr><tr><td>Client</td><td>Can only have viewer access to products. <br>This type does not count towards subscription seats.</td></tr></tbody></table>
+
+
 
 ## Product access levels
 
-* An user with the access of <mark style="color:purple;">**`admin`**</mark> can invite others to the product, has edit and delete rights to all\*
-* An user with the access of <mark style="color:purple;">**`client`**</mark> can read the product even though the user is not invited to the workspace itself - typically used when you want to share your product with someone external to the organization&#x20;
-* An user with the access of <mark style="color:purple;">**`editor`**</mark> has edit and limited delete rights.
-* An user with the access of <mark style="color:purple;">**`viewer`**</mark> has only view/read rights.
+You can customize the permission levels for each solution or service.
 
-\*Then user is selected when creating the product, and it can be the user creating, or another user that has been assigned at the time. This can be changed at any point per product.
+<table><thead><tr><th width="169">Product access</th><th>Description</th></tr></thead><tbody><tr><td>Admin</td><td>Can invite others to, has edit and delete rights.</td></tr><tr><td>Editor</td><td>Has edit and limited delete rights.</td></tr><tr><td>Viewer</td><td>Can only view and not edit.</td></tr><tr><td>Client</td><td><p>Can only view and not edit.</p><p>Does not need to be invited to the workspace but only to individual products. Does not count towards subscription seats.</p></td></tr></tbody></table>
 

@@ -7,7 +7,7 @@ description: Learn how to join an existing workspace.
 Once a Workspace is created, you can join it and start working. To do this, the owner or administrator of the Workspace needs to send you an invitation.
 
 {% hint style="info" %}
-Learn how to invite to a workspace: [invite-to-a-workspace.md](invite-to-a-workspace.md "mention")
+Learn how to invite to a workspace: [invite-to-uniscale.md](invite-to-uniscale.md "mention")
 {% endhint %}
 
 Once invited, you will receive an email with instructions to proceed. Below you can see the steps depending on whether you already have a Uniscale account or not.

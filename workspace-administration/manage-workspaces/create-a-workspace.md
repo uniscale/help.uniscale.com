@@ -61,6 +61,6 @@ You can now complete your payment and subscribe.&#x20;
 
 
 {% hint style="info" %}
-It is now time to invite your colleagues to your workspace. Find [invite-to-a-workspace.md](invite-to-a-workspace.md "mention")   how you can do this.&#x20;
+It is now time to invite your colleagues to your workspace. Find [invite-to-uniscale.md](invite-to-uniscale.md "mention")   how you can do this.&#x20;
 {% endhint %}
 
