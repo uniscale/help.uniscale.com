@@ -11,6 +11,23 @@ description: >-
 
 ***
 
+## Week 25 (June 24)
+
+**New features:**
+
+* J[etBrains IDE plugin release](https://plugins.jetbrains.com/plugin/24665-uniscale-develop) - Deliver Plugin for JetBrains in order to utilize Uniscale Develop for multiple IDEs within the JetBrains ecosystem.
+
+**Improvements:**
+
+* Adds the help center tool for solution & service design toolbars
+* BE improvement, no UI - Implemented feature to return workspace information per user
+* Display selected add-ons and license count on the payment page
+
+**Bug fixes:**
+
+* Fix the latest version reference in the SDK portal to match the last successful revision
+* Fix .NET not showing for demo solution in SDK portal
+
 ## Week 24 (June 17)
 
 **New features:**
