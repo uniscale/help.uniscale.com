@@ -14,7 +14,7 @@ You can manage all users within your workspace by accessing the workspace settin
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2024-06-26 at 10.54.36.png" alt=""><figcaption><p>Workspace user management</p></figcaption></figure>
 
-## Role
+### Role
 
 The roles will help you get an overview of what role the user has within your organization. This does not impact their permission level within the Uniscale workspace.
 
