@@ -24,8 +24,6 @@ Here you will find the main navigation tabs, revisions, settings, and quick acce
 * home button leading to the main dashboard
 * and a quick selector for other services
 
-<img src="broken-reference" alt="" data-size="original">
-
 </details>
 
 <details>
@@ -36,10 +34,6 @@ Here you will find the main navigation tabs, revisions, settings, and quick acce
   * Note: the tab is disabled for [Standalone service](broken-reference)
 * Technical view: here you will spend most of your time modeling and breaking down your data&#x20;
 * SDK portal
-
-
-
-<img src="broken-reference" alt="" data-size="original">
 
 </details>
 
@@ -53,10 +47,6 @@ The interface allows to
 * share your service
 * configure via settings
 * and lastly, review your notifications for this service.
-
-
-
-<img src="broken-reference" alt="" data-size="original">
 
 </details>
 
