@@ -109,7 +109,7 @@ Tutorial: High-level specification
 
 <details>
 
-<summary><strong>Introduction to detailed specification</strong></summary>
+<summary>Introduction to detailed specification</summary>
 
 This is where you will start to design how the actual product will look and feel. Where high-level specification is abstract, here you will define concretely how the product will work:
 
