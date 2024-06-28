@@ -41,12 +41,6 @@ In Uniscale, we provide various elements to describe and structure your solution
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Illustration of the elements of a solution and how they are related.</p></figcaption></figure>
 
-**Examples of different solutions:**&#x20;
-
-* A desktop application for keeping inventory of a storage space&#x20;
-* A web application for organizing shifts for staff in a grocery store
-* A communication system for an elementary school’s teachers and parents
-
 
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
@@ -59,18 +53,13 @@ A module is a functionally isolated part of the software that has distinct owner
 Modules let you place a boundary in the solution at points where it makes sense to divide responsibilities for parts of the software.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-26 at 15.07.50.png" alt=""><figcaption><p>Illustration of how a solution consits of multiple modules.</p></figcaption></figure>
-
-#### Examples of modules could be:
-
-* User and account
-* Payment
-* Inventory
-* Content management‍
+<figure><img src="../../.gitbook/assets/CleanShot 2024-04-26 at 15.07.50.png" alt=""><figcaption><p>Illustration of how a solution consists of multiple modules.</p></figcaption></figure>
 
 
 
 ### Best practices for creating modules
+
+To to create a module: [#create-and-describe-your-first-modules](describe-high-level-specification.md#create-and-describe-your-first-modules "mention")
 
 <details>
 
@@ -104,6 +93,8 @@ This prevents the need for separate projects that are tightly coupled and must b
 
 
 
+
+
 </details>
 
 
@@ -120,7 +111,7 @@ Pages define the top-level structure of a module.&#x20;
 
 Use pages to break down the structure of your solution. In the image below, you will see an example of two pages: Timeline and Direct message. These are both created as pages in the Uniscale solution.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-06-13 at 14.50.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-06-28 at 13.12.18.png" alt=""><figcaption><p>Illustration of how a page fits into a module.</p></figcaption></figure>
 
 Creating pages is part of the detailed specification that is described further here: [describe-detailed-specification.md](describe-detailed-specification.md "mention")
 
