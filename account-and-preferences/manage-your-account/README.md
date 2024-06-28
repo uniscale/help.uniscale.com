@@ -1,7 +1,7 @@
 ---
 description: >-
-  Learn here how to change your account settings (personal information, email
-  notifications and delete account) and how to link different account at log-in.
+  Learn here how to change your account settings and how to link different
+  account at log-in.
 ---
 
 # Manage your account
@@ -39,7 +39,7 @@ To update your email notifications, select "Notifications" from the left-hand si
 To delete your account, select "Delete account".
 
 {% hint style="info" %}
-Are you on a subscription? Please reach out to help@uniscale.com and request to cancel your subscription before deleting your account.
+Are you on a subscription? Please reach out to hello@uniscale.com and request to cancel your subscription before deleting your account.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Dashboard_account-settings_Acount-deletion.png" alt=""><figcaption><p>Delete account</p></figcaption></figure>
