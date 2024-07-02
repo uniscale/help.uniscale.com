@@ -64,6 +64,8 @@ To help you get started, here are some inspirations for what to include in your 
   * What are the main requirements from your actors?
   * Try to write in a few sentences how you will solve this problem without going into detail.
 
+<img src="../../.gitbook/assets/image (100).png" alt="Template - &#x22;What is our solution?&#x22;" data-size="original">
+
 </details>
 
 <details>
@@ -78,7 +80,9 @@ Describe to your audience what the purpose of your solution is.
 * What is your motivation for building this solution?
 * What are the struggles and challenges that you see for example in the market?
 * What are the problems or needs that people have?
-* Why are we the right people to solve this problem compared to others?&#x20;
+* Why are we the right people to solve this problem compared to others?
+
+![Template - "Why are we building this solution?"](<../../.gitbook/assets/CleanShot 2024-07-02 at 09.04.55.png>)
 
 </details>
 
@@ -94,7 +98,9 @@ Start by listing all the actors that will be involved in your solution. Here is 
 
 Now can you group the listed actors based on eg. their type and interactions with each functionality?&#x20;
 
-This is to identify patterns of your actors, like roles and people that interact with the solution, fx the end-users (customers), and stakeholders like system administrators, suppliers, third-party contributors, etc.&#x20;
+This is to identify patterns of your actors, like roles and people that interact with the solution, for example, the end-users (customers), and stakeholders like system administrators, suppliers, third-party contributors, etc.&#x20;
+
+![Template - "Who are the actors of this solution?"](<../../.gitbook/assets/CleanShot 2024-07-02 at 09.42.47.png>)
 
 </details>
 
@@ -107,6 +113,8 @@ List here where the different types of data will come from. Here is some inspira
 * Manually inputting data
 * Integration with systems or service providers
 * Does the customer have to provide their details or personal information?
+
+
 
 </details>
 
@@ -133,6 +141,8 @@ Here are relevant things to include:&#x20;
 * Detailed explanation of what this module is supposed to do and how it proposes to achieve it
 * Actors: Who is going to interact with this module?
 
+![Template - Module Description](<../../.gitbook/assets/CleanShot 2024-07-02 at 10.01.51.png>)
+
 </details>
 
 <details>
@@ -140,6 +150,8 @@ Here are relevant things to include:&#x20;
 <summary>Break your modules into pages for grouping functionality</summary>
 
 Pages are an element for structure, where you can organize and group your functional use cases. Often used (if needed) when you have locked in the first revision.&#x20;
+
+![Template - Pages](<../../.gitbook/assets/CleanShot 2024-07-02 at 10.02.58.png>)
 
 You can read more about Pages here: [#page](solution-basics.md#page "mention")
 
@@ -156,6 +168,8 @@ You can read more about Pages here: [#page](solution-basics.md#page "mention")
   * Define their desired outcome.
 * Examples: House cleaning app: As a house owner, when my house is dirty, I want to book a cleaner, so that my house is cleaned.
 
+![Template - Functional use cases](<../../.gitbook/assets/CleanShot 2024-07-02 at 10.04.56 (1).png>)
+
 You can read more here: [#functional-use-case](solution-basics.md#functional-use-case "mention")
 
 </details>
@@ -167,6 +181,8 @@ You can read more here: [#functional-use-case](solution-basics.md#functional-use
 * Describe what this is and how it will work
 * Note; Our Generative AI can help write suggestions for what acceptance criteria to include: [#ai-generated-acceptance-criteria](tutorial-using-ai-in-specification.md#ai-generated-acceptance-criteria "mention")
 * Definition: a list of qualifications that the functional use case (UX flow if detailed specification?) needs to fulfill
+
+![Template - Acceptance Criteria](<../../.gitbook/assets/CleanShot 2024-07-02 at 10.05.54.png>)
 
 </details>
 
