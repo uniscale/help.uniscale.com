@@ -6,7 +6,7 @@ description: >-
 
 # Template: Solution description
 
-Copy paste the text below into your solution description:
+Copy paste the text below into your solution description - please refer to the screenshot below to better visualize where this template needs to be pasted within Uniscale.
 
 > #### **What - Solution description**
 >
@@ -52,3 +52,4 @@ Copy paste the text below into your solution description:
 >
 > _\*Note: The named list of functionality groupings are likely your modules._
 
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-07-03 at 09.40.39@2x.png" alt=""><figcaption><p>Template: Solution description inside the Uniscale product</p></figcaption></figure>
