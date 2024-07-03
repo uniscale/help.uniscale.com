@@ -76,7 +76,7 @@ Begin with an introduction to your solution:&#x20;
 3. Who: Who will be using your product? List the various actors.
 4. High-level requirements
 
-For a detailed overview of how to describe your specification: [describe-high-level-specification.md](../using-uniscale/specification/describe-high-level-specification.md "mention")
+For a detailed overview of how to describe your specification: [describe-high-level-specification](../using-uniscale/specification/describe-high-level-specification/ "mention")
 
 </details>
 
@@ -89,7 +89,7 @@ For a detailed overview of how to describe your specification: [describe-high-le
 3. Describe the high-level end-user behavior: This is done by creating a `Functional use case` inside your module
 4. Enrich your `Functional use case` with `Acceptance criteria.`&#x20;
 
-For a detailed overview of how to describe your specification: [describe-high-level-specification.md](../using-uniscale/specification/describe-high-level-specification.md "mention")
+For a detailed overview of how to describe your specification: [describe-high-level-specification](../using-uniscale/specification/describe-high-level-specification/ "mention")
 
 </details>
 

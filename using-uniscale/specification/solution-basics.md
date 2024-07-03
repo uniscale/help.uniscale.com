@@ -59,7 +59,7 @@ Modules let you place a boundary in the solution at points where it makes sense 
 
 ### Best practices for creating modules
 
-To to create a module: [#create-and-describe-your-first-modules](describe-high-level-specification.md#create-and-describe-your-first-modules "mention")
+To to create a module: [#create-and-describe-your-first-modules](describe-high-level-specification/#create-and-describe-your-first-modules "mention")
 
 <details>
 
