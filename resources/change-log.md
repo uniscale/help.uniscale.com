@@ -11,6 +11,20 @@ description: >-
 
 ***
 
+## Week 26 (July 1)
+
+**New features:**
+
+* Filter use case flows in Service design
+
+**Improvements:**
+
+* Delete entities in the Solution design by emptying the title and pressing backspace or pressing the delete key
+
+**Bug fixes:**
+
+* Other minor bug fixes and performance optimization
+
 ## Week 25 (June 24)
 
 **New features:**
