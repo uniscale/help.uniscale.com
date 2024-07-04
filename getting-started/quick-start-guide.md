@@ -61,7 +61,7 @@ Things you may include:
 * High-level requirements
 * High-level end-user behavior
 
-This is typically defined by the Founder, Visionary, Product Owner, or someone who understands the solution.
+This is typically defined by the Founder, Visionary, Product Owner, or someone who understands the [solution](https://help.uniscale.com/using-uniscale/specification/solution-basics).
 
 </details>
 
@@ -78,6 +78,8 @@ Begin with an introduction to your solution:&#x20;
 
 For a detailed overview of how to describe your specification: [describe-high-level-specification](../using-uniscale/specification/describe-high-level-specification/ "mention")
 
+You can also use our [template-solution-description.md](../using-uniscale/specification/describe-high-level-specification/template-solution-description.md "mention")t to help you better structure and articulate your solution.
+
 </details>
 
 <details>
@@ -85,8 +87,8 @@ For a detailed overview of how to describe your specification: [describe-high-le
 <summary>Define and describe your modules</summary>
 
 1. Define and create your modules: For best practices on what modules to create, visit this article: [#module](../using-uniscale/specification/solution-basics.md#module "mention")
-2. Describe your modules: Write a short description and include the relevant high-level functionalities and actors related to this module.
-3. Describe the high-level end-user behavior: This is done by creating a `Functional use case` inside your module
+2. Describe your modules: Write a short description and include the relevant high-level functionalities and actors related to this module. See [#create-and-describe-your-first-modules](../using-uniscale/specification/describe-high-level-specification/#create-and-describe-your-first-modules "mention")for more details.
+3. Describe the high-level end-user behavior: This is done by creating a `Functional use case` inside your module. See [#describe-the-user-behavior-with-functional-use-cases](../using-uniscale/specification/describe-detailed-specification.md#describe-the-user-behavior-with-functional-use-cases "mention")for more details.
 4. Enrich your `Functional use case` with `Acceptance criteria.`&#x20;
 
 For a detailed overview of how to describe your specification: [describe-high-level-specification](../using-uniscale/specification/describe-high-level-specification/ "mention")
@@ -120,7 +122,7 @@ This is where you will start to design how the actual product will look and feel
 
 For this part, you will involve a product designer (eg. UX/UI designer) who will start to break down the high-level specification and design the product.
 
-Learn how to invite people:[invite-to-uniscale.md](../workspace-administration/manage-workspaces/invite-to-uniscale.md "mention")
+Learn here how to invite people:[invite-to-uniscale.md](../workspace-administration/manage-workspaces/invite-to-uniscale.md "mention")
 
 </details>
 
@@ -130,13 +132,13 @@ Learn how to invite people:[invite-to-uniscale.md](../workspace-administration/m
 
 1. Use `Pages` and `Sections` to break down the layout and structure of your solution
 2. A best practice is to include mockups or wireframes for each part of your solution
-3. Include UX requirements
+3. Include UX requirements:
    1. Break down your modules and pages into `Functional use cases.`
    2. Include relevant `UX flows`
    3. Describe your `UX flows` and include `Functional acceptance criteria`
 4. Include UI requirements: Use `Designer notes` to describe the look and feel in addition to other descriptions that are helpful to the front-end developer.
 
-Watch the video below or read more here: [#describe-your-detailed-specification](quick-start-guide.md#describe-your-detailed-specification "mention")
+Watch the video below or read more here: [describe-detailed-specification.md](../using-uniscale/specification/describe-detailed-specification.md "mention")
 
 </details>
 
@@ -166,7 +168,7 @@ Service linking is where you bridge your functional specification to your techni
 
 Typically, a Solution Architect or Technical Lead handles this phase. They translate customer requirements into logical service boundaries by developing the services needed to meet the specified requirements.
 
-Learn how to invite people:[invite-to-uniscale.md](../workspace-administration/manage-workspaces/invite-to-uniscale.md "mention")
+Learn how to invite people: [invite-to-uniscale.md](../workspace-administration/manage-workspaces/invite-to-uniscale.md "mention")
 
 </details>
 
@@ -291,9 +293,15 @@ This is the toolbox that the developers can use to build the product. The toolbo
 
 <img src="../.gitbook/assets/CleanShot 2024-06-12 at 11.02.38@2x.png" alt="" data-size="original">
 
-1. You can now select from your approved modules and services. If you do not see anything, please check the steps [module-revision.md](../using-uniscale/specification/module-revision.md "mention") and [service-revisions.md](../using-uniscale/documentation/service-revisions.md "mention")
-2. Select your preferred development language
-3. Select "Save changes". This will start generating the SDK.
+2. You can now select from your approved modules and services. If you do not see anything, please check the steps [module-revision.md](../using-uniscale/specification/module-revision.md "mention") and [service-revisions.md](../using-uniscale/documentation/service-revisions.md "mention")
+
+<!---->
+
+3. Select your preferred development language
+
+<!---->
+
+4. Select "Save changes". This will start generating the SDK.
 
 Read the detailed steps here: [introduction-to-sdk.md](../using-uniscale/implementation/introduction-to-sdk.md "mention")
 
