@@ -4,17 +4,14 @@ description: Build and deliver the right product the first time, every time.
 
 # Implementation
 
-### **Auto-generated documentation and SDKs**
+## **Auto-generated documentation and SDKs**
 
 Automatically generate technical documentation and SDKs that align perfectly with your functional product specifications, saving time and reducing errors.
 
-### **Articles**
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-09 at 12.07.44.png" alt=""><figcaption></figcaption></figure>
 
-<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:purple;"><strong>INTRODUCTION TO SDK</strong></mark></td><td><a href="../../.gitbook/assets/image (32).png">image (32).png</a></td><td><a href="introduction-to-sdk.md">introduction-to-sdk.md</a></td></tr><tr><td align="center"><mark style="color:purple;"><strong>SDK PORTAL OVERVIEW</strong></mark></td><td><a href="../../.gitbook/assets/image (32).png">image (32).png</a></td><td><a href="sdk-portal-overview.md">sdk-portal-overview.md</a></td></tr></tbody></table>
+## Begin implementation
 
-### Tutorials
-
-<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>FRONT-END WITH UNISCALE SDK</strong></td><td><a href="../../.gitbook/assets/image (33).png">image (33).png</a></td><td><a href="quick-start-front-end-with-uniscale-sdk/">quick-start-front-end-with-uniscale-sdk</a></td></tr><tr><td align="center"><strong>LIBRARY IMPLEMENTATION</strong></td><td><a href="../../.gitbook/assets/image (33).png">image (33).png</a></td><td><a href="library-implementation-basics/">library-implementation-basics</a></td></tr></tbody></table>
-
-
-
+* For an overview and introduction: [introduction-to-sdk.md](introduction-to-sdk.md "mention")
+* To learn about how to implement: [library-implementation-basics](library-implementation-basics/ "mention")
+* Lastly, for learning how to integration Uniscale with your IDE: [ide-plugins](ide-plugins/ "mention")

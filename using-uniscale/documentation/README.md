@@ -4,15 +4,14 @@ description: Build and deliver the right product the first time, every time.
 
 # Documentation
 
-### Articles
+## Introduction
 
-Learn about core concepts of documentation, the introduction to services, and the overall service editor.
+This is defining the requirements and the building blocks to support your functional specification.
 
-<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:purple;"><strong>SERVICE BASICS</strong></mark></td><td><a href="../../.gitbook/assets/image (32).png">image (32).png</a></td><td><a href="service-basics.md">service-basics.md</a></td></tr><tr><td align="center"><mark style="color:purple;"><strong>EDITOR OVERVIEW</strong></mark></td><td><a href="../../.gitbook/assets/image (32).png">image (32).png</a></td><td><a href="service-editor-overview.md">service-editor-overview.md</a></td></tr></tbody></table>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-09 at 12.02.57.png" alt=""><figcaption></figcaption></figure>
 
-### Tutorials
+## Start describing your documentation
 
-In-depth walkthroughs of more complex concepts across our editors.
-
-<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td align="center"><strong>SERVICE LINKING</strong></td><td><a href="service-linking/">service-linking</a></td><td><a href="../../.gitbook/assets/image (33).png">image (33).png</a></td></tr><tr><td align="center"><strong>SERVICE REVISIONS</strong></td><td><a href="service-revisions.md">service-revisions.md</a></td><td><a href="../../.gitbook/assets/image (33).png">image (33).png</a></td></tr><tr><td align="center"><strong>DEPENCENCIES</strong></td><td><a href="upstream-and-downstream-dependencies.md">upstream-and-downstream-dependencies.md</a></td><td><a href="../../.gitbook/assets/image (33).png">image (33).png</a></td></tr></tbody></table>
-
+* Before describing your documentation, check our article for an overview of the elements and functionalities: [service-basics.md](service-basics.md "mention")
+* The next step is to link your specifications to your services:[service-linking](service-linking/ "mention")
+* When ready, ging to lock and approve your service: [service-revisions.md](service-revisions.md "mention")
