@@ -39,7 +39,7 @@ To update your email notifications, select "Notifications" from the left-hand si
 To delete your account, select "Delete account".
 
 {% hint style="info" %}
-Are you on a subscription? Please reach out to hello@uniscale.com and request to cancel your subscription before deleting your account.
+Are you on a subscription? Please cancel your subscription before deleting your account: [workspace-settings.md](../../workspace-administration/manage-workspaces/workspace-settings.md "mention")
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Dashboard_account-settings_Acount-deletion.png" alt=""><figcaption><p>Delete account</p></figcaption></figure>
