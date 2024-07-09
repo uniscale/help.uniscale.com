@@ -8,7 +8,7 @@ description: Build and deliver the right product the first time, every time.
 
 Automatically generate technical documentation and SDKs that align perfectly with your functional product specifications, saving time and reducing errors.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-07-09 at 12.07.44.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-09 at 12.07.44 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Begin implementation
 
