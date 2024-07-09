@@ -59,7 +59,7 @@ Modules let you place a boundary in the solution at points where it makes sense 
 
 ### Best practices for creating modules
 
-To to create a module: [#create-and-describe-your-first-modules](describe-high-level-specification/#create-and-describe-your-first-modules "mention")
+To to create a module: [#create-and-describe-your-first-modules](tutorial-high-level-specification/#create-and-describe-your-first-modules "mention")
 
 <details>
 
@@ -113,7 +113,7 @@ Use pages to break down the structure of your solution. In the image below, you 
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-06-28 at 13.12.18.png" alt=""><figcaption><p>Illustration of how a page fits into a module.</p></figcaption></figure>
 
-Creating pages is part of the detailed specification that is described further here: [describe-detailed-specification.md](describe-detailed-specification.md "mention")
+Creating pages is part of the detailed specification that is described further here: [tutorial-detailed-specification.md](tutorial-detailed-specification.md "mention")
 
 
 

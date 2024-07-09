@@ -5,11 +5,11 @@ description: >-
   solution and involving a UI/UX designer.
 ---
 
-# Describe detailed specification
+# Tutorial: detailed specification
 
-Before you begin to describe your detailed specification, please make sure to have completed the high-level specification: [describe-high-level-specification](describe-high-level-specification/ "mention")
+Before you begin to describe your detailed specification, please make sure to have completed the high-level specification: [tutorial-high-level-specification](tutorial-high-level-specification/ "mention")
 
-## Introduction to detailed specification
+## Introduction
 
 At this stage, your idea is ready to make the transition from "abstract" to "concrete" and this is where you will involve a Product Designer (eg. UX or UI designer) who will start to break down the specification and design the product. This includes:
 

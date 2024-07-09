@@ -2,7 +2,7 @@
 description: Learn how to describe your high-level specification along with best practices.
 ---
 
-# Describe high-level specification
+# Tutorial: high-level specification
 
 {% hint style="info" %}
 Before kick-starting your Uniscale journey you should have:
@@ -16,7 +16,7 @@ When this is done, you are ready to follow the guide below on how to build bette
 
 
 
-## Introduction to high-level specification
+## Introduction
 
 The specification, or functional requirement specification, is where you specify the overall idea. This includes an introduction, the main challenge, why you are going to solve this, and on a high level your approach to solving this.
 
@@ -28,7 +28,7 @@ This is typically defined by the Founder, Visionary, Product Owner, or someone w
 
 
 
-### Best practice when describing your high-level specification
+### Best practice
 
 {% hint style="success" %}
 Cater to your audience
@@ -62,7 +62,7 @@ See template: [template-solution-description.md](template-solution-description.m
 
 * Short description: Explain in a few sentences what your product is doing.
 * What are the high-level functionalities and features of your solution?
-  * Come up with 3-5 bullets that explains overall what your solution will be doing.
+  * Come up with 3-5 bullets that explain overall what your solution will be doing.
   * What are the main requirements from your actors?
   * Try to write in a few sentences how you will solve this problem without going into detail.
 
@@ -195,4 +195,4 @@ You can read more here: [#functional-use-case](../solution-basics.md#functional-
 ## Next steps
 
 * You can already now choose to approve your first revision: [module-revision.md](../module-revision.md "mention")
-* Involve your product designer and begin the [describe-detailed-specification.md](../describe-detailed-specification.md "mention")
+* Involve your product designer and begin the [tutorial-detailed-specification.md](../tutorial-detailed-specification.md "mention")
