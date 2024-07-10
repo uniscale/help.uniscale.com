@@ -6,6 +6,7 @@
 
 * [Quick start guide](getting-started/quick-start-guide.md)
 * [How to replicate your project](getting-started/how-to-replicate-your-project.md)
+* [Uniscale Method](getting-started/uniscale-method.md)
 
 ## USING UNISCALE
 
