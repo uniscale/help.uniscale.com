@@ -16,7 +16,7 @@ Each stage has its own requirements, details, and results. Understanding these i
 
 <div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-07-10 at 09.30.36.png" alt=""><figcaption><p>Phases of the Uniscale Method</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-07-10 at 10.15.00.png" alt=""><figcaption><p>Phases of the Uniscale Method</p></figcaption></figure>
 
 </div>
 
