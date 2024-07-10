@@ -1,5 +1,7 @@
 ---
-description: Build and deliver the right product the first time, every time.
+description: >-
+  This is defining the requirements and the building blocks to support your
+  functional specification.
 ---
 
 # Documentation

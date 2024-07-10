@@ -1,5 +1,7 @@
 ---
-description: Build and deliver the right product the first time, every time.
+description: >-
+  Moving from planning to “doing”, meaning that you will start to build your
+  solution.
 ---
 
 # Implementation
