@@ -4,7 +4,7 @@ description: Learn the concept of service linking and the steps for doing this i
 
 # Service linking
 
-## Introduction to service linking
+## Introduction
 
 {% hint style="success" %}
 This article assumes that you have covered knowledge around [specification](../../specification/ "mention") and concepts in [service-basics.md](../service-basics.md "mention").
@@ -18,10 +18,10 @@ Having a look at the following illustration, we recognise the specification elem
 
 
 
-## Defining the services process&#x20;
+## Tutorial: Service linking
 
 {% hint style="info" %}
-In this process, you'll invite the individual responsible for the overall technical service or solution architecture. This step is crucial as it involves the initial architecture of splitting up the functionality.
+In this process, you will invite the individual responsible for the overall technical service or solution architecture. This step is crucial as it involves the initial architecture of splitting up the functionality.
 {% endhint %}
 
 ***
@@ -32,7 +32,7 @@ Distribute your service functionality appropriately within your application. Man
 
 ### Linking to services from solution specification
 
-[UX flows](../../specification/solution-basics.md#ux-flow) acts as the lowest level of detail you have towards the end-user behavior. They can either just describe plain end-user behavior but this is also where you define or link in the service flows that is needed to implement the use case.
+[UX flows](../../specification/solution-basics.md#ux-flow) act as the lowest level of detail you have towards the end-user behavior. They can either just describe plain end-user behavior but this is also where you define or link in the service flows that are needed to implement the use case.
 
 <figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption><p>Service flow within a functional use case</p></figcaption></figure>
 
@@ -42,7 +42,7 @@ After being linked, the UX flow will show under the linked Service flow. With th
 
 
 
-### Navigate to service linking
+### Navigate to Service linking
 
 Please note that you will have to navigate to a module to see the "Service linking" tab.
 
@@ -108,13 +108,13 @@ Here, a filtered representation of the solution specification is shown with only
 
 ## Next steps
 
-The next step in this process is to go over the technical modeling of your usecase flows, meeting them with endpoints, and model their payloads.  This is a quite complex task but we have plenty of guides to go through each step.
+The next step in this process is to go over the technical modeling of your usecase flows, enrich them with endpoints, and model their payloads.  This is a quite complex task but we have plenty of guides to go through each step.
 
 If you haven't done so:
 
-* [cover the basics of service](../service-basics.md)
-* [familiarise yourself with the upstream and downstream dependencies](../upstream-and-downstream-dependencies.md)
-* [and lastly, learn about service revisions](../service-revisions.md)
+* Cover the [service-basics.md](../service-basics.md "mention")
+* Familiarize yourself with [upstream-and-downstream-dependencies.md](../upstream-and-downstream-dependencies.md "mention")
+* Lastly, proceed to [service-revisions.md](../service-revisions.md "mention")
 
 This should get you covered through your first revision and thus completing your first service documentation!
 
