@@ -10,7 +10,7 @@ In Uniscale you do not necessarily have to think of a single service as a single
 
 The way you define your service boundaries allows you to decide how you want to grow your organization in the future as the organization of functionality through module and service boundaries will impact the future structure of the organization maintaining them.
 
-
+<figure><img src="../../../.gitbook/assets/image (1).avif" alt=""><figcaption></figcaption></figure>
 
 ### Defining service boundaries
 
