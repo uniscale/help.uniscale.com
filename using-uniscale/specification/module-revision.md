@@ -6,47 +6,46 @@ description: >-
 
 # Module revision
 
-{% hint style="info" %}
-This article assumes that you have covered knowledge around [specification](./) and concepts in [solution basics](solution-basics.md).  If not, it is recommended to follow those first in order to better understand this article.
+{% hint style="success" %}
+This article assumes that you have covered knowledge around [.](./ "mention") and concepts like [solution-basics.md](solution-basics.md "mention")
 {% endhint %}
 
-## The module revision flow <a href="#the-module-revision-flow" id="the-module-revision-flow"></a>
 
-Your specification is written through multiple deliveries.&#x20;
 
-Whether you use an **agile-based**, **waterfall** or other methodology, this way of creating module revisions will allow you to iteratively build your specification.&#x20;
+## Introduction to module revisions <a href="#the-module-revision-flow" id="the-module-revision-flow"></a>
 
-In this article, we will do a breakdown and tutorial of the module revision flow.&#x20;
+{% hint style="info" %}
+A solution consists of modules, each having its own revision and approval flow.
+{% endhint %}
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FGm4FsIEaw1uBtZauyirr%2Fuploads%2FQtmxO2WW8lTd8Pblkl46%2F_illustration_6.png?alt=media&#x26;token=d5927f85-7c47-41e8-8437-8032c7191dc6" alt=""><figcaption><p>The module revision cycle (writing content, readying and approving, new revisions and unlocking content)</p></figcaption></figure>
+As your product develops, your specification is written through multiple deliveries.&#x20;
 
-### First cycle&#x20;
+Whether you use agile, waterfall, or other methodologies, this way of creating module revisions will allow you to iteratively build your specification.&#x20;
 
-* The first revision you write will take you into the "**Write content**" step.&#x20;
-* In the first revision, all content is new **so there would be nothing to unlock**. However, you will still go through the **step of marking your content as ready** so that you can incrementally lock down parts of your specification.&#x20;
-* When everything is marked as ready - **click the "Approve" button**, to approve the revision. This is the flow you will go through every time you want to release changes to your product.
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FGm4FsIEaw1uBtZauyirr%2Fuploads%2FQtmxO2WW8lTd8Pblkl46%2F_illustration_6.png?alt=media&#x26;token=d5927f85-7c47-41e8-8437-8032c7191dc6" alt=""><figcaption><p>Illustration of the module revision cycle.</p></figcaption></figure>
 
-### General process afterwards
+### The four phases of module revisions
 
 Every revision will go through the same flow of initiating; &#x20;
 
-* **Unlocking content** you want to change&#x20;
-* **Writing/editing** content and&#x20;
-* Then lastly **readying content** and **approving** it.
+* **Write content:** Update, remove, or add new content.
+* **Ready and Approve:** Lock in your new changes.
+* **New revision:** To make a change, create a new revision.
+* **Unlock content** that you want to change.&#x20;
 
-## Processes
 
-### Lockable cycle&#x20;
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption><p>Visual representation of the cycle of locking and unlocking content</p></figcaption></figure>
+### Lockable cycle
 
-Your modules, pages, sections, functional use cases and UX flows are all subject to the locking cycle.
+<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption><p>Illustration of the cycle of locking and unlocking content</p></figcaption></figure>
 
-Exploring step by step the process, we have :&#x20;
+Your modules, pages, sections, functional use cases, and UX flows are all subject to the locking cycle.
+
+Exploring step by step the process, we have:&#x20;
 
 * When a new item is created, it has the status of **`"edited"`**
 * Once all requirements are met, it can now be **`"marked as ready"`**
-* When the owning module is **`Approved`**, all items are moved to **`"locked"`**
+* When the owning module is **`"Approved"`**, all items are moved to **`"locked"`**
 * Later, when a new revision is made, all items are still in **`"locked"`**
 * From here, one can manually **`"unlock"`** the items that are intended for changes, and move them to **`"unlocked"`**
 * If any change is made to a **`"unlocked"`** item, it gets automatically moved to the status **`"edited"`**
@@ -86,7 +85,7 @@ From here on, you can start a new revision
 {% tab title="Unlocking for a new revision" %}
 Once a new revision (1.1) is made, that is reflected in the revision number.
 
-When starting a new revision - all content will ALWAYS start locked
+When starting a new revision - all content will always start as locked.
 
 <figure><img src="../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
@@ -100,39 +99,91 @@ In your new revision, 'Rev 1.1' you have to manually unlock the content you want
 
 
 
-## Interface walkthrough
-
-Up next, we will illustrate the above cycle with interface screenshots and examples.
+## How to: Module revisions
 
 {% hint style="info" %}
-When utilizing services in your solution, service documentation occurs between content readiness and approval.&#x20;
+When utilising services in your solution, service documentation occurs between content readiness and approval.&#x20;
 {% endhint %}
 
-### Unlocking and readying <a href="#unlocking-and-readying" id="unlocking-and-readying"></a>
 
-When you start a new revision, everything is initially locked, meaning you haven't decided to make changes yet. To make changes, you must unlock the elements first. This helps you track what you've changed or plan to change.
 
-Filters let you focus on unlocked or changed elements, especially useful as your specification grows. Unlocking can serve as an agreement with stakeholders on intended changes. Use it to track changes and align expectations.
+### Edit an existing module
 
-Similarly, you can use readiness to track what's complete and what's left in your specification. Locking down parts of your specification as you progress helps you approach completion systematically.
+{% tabs %}
+{% tab title="Select a module" %}
+1. Click on the name of your solution in the upper left corner.
+2. Select a module.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-12 at 16.19.19.gif" alt=""><figcaption><p>GIF: Staring a new revision, unlocking page content, editing and approving revision</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-06-17 at 14.15.08@2x.png" alt=""><figcaption><p>Illustration of how to select a module</p></figcaption></figure>
+{% endtab %}
 
-### Approval <a href="#approval" id="approval"></a>
+{% tab title="Create a new revision" %}
+1. Click on "Start new revision"&#x20;
+2. Give your revision a title
+3. Write a short description
+4. Select "Start new revision"
 
-For approval, if you're defining services, complete service revisions before approval. If you're only using functional specifications, you'll approve the specification after everything is marked ready. Once approved, the specification is locked, and you can start new revisions in the future.
+<figure><img src="../../.gitbook/assets/CleanShot 2024-06-17 at 14.20.09@2x.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
-For each module in your solution editor, you can work with the current revision and look back at any of your older revisions. In this way, you have a complete overview of the product intention and decision history.&#x20;
+{% tab title="Unlock elements" %}
+1. Unlock each element that you want to edit
+2. You can now edit the content.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-06-17 at 14.32.42@2x.png" alt=""><figcaption><p>Illustration of how to unlock an element.</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+
+
+### Approve a new module revision
+
+{% tabs %}
+{% tab title="Ready all at once" %}
+When you are done editing your module revision you will begin to approve your new revision.&#x20;
+
+This option will allow you to manually select multiple items and ready at once.
+
+1. Click on "Ready all"
+2. Select desired items.
+3. Click "Set all to ready".
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-06-17 at 14.44.04@2x.png" alt=""><figcaption><p>Illustration of "Ready all"</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Ready individually" %}
+1. In the filter bar, navigate to "Unlocked & Edited". This will only show edited content.
+2. Go through each item and click on "Mark as ready"
+3. Select either "Only item" or "Mark as ready (with children)"
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-06-17 at 16.08.17.png" alt=""><figcaption><p>Illustration of "Ready" an item</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Approve" %}
+With all items marked as ready, you are ready to approve your module revision:
 
 {% hint style="info" %}
-When using "**`Mark as ready`**" or "**`Mark as unready`**" you can lock and unlock content bit-by-bit or bulk content within the editor. This can be useful if some parts are finished or more than one person is working on the same solution. See the how-to in GIF below:
+If you are defining services, complete service revisions before approval.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-12 at 16.08.50.gif" alt=""><figcaption><p>GIF: Where to find previous module revisions </p></figcaption></figure>
+1. Click "Approve"
+2. Give your revision a title and description
+3. Click "Save and approve revision"
 
-{% hint style="info" %}
-By pressing "Approve" you generate a new revision and save the entire solution&#x20;
-{% endhint %}
+<figure><img src="../../.gitbook/assets/CleanShot 2024-06-17 at 16.11.50.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+
+
+## Explore previous revisions
+
+You can look up all previous revisions to compare your content
+
+1. Select a specific module
+2. Click on the dropdown and get a list of all revisions
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-06-17 at 16.15.29.png" alt=""><figcaption><p>Module revision overview</p></figcaption></figure>
 
 ***
 
