@@ -1,16 +1,20 @@
+---
+description: Learn how to use the SDK for a service to service.
+---
+
 # Tutorial: Using SDK for service to service
 
-Real world applications often need to call another service from the initial one that is called. We have created `ForwardingSession` to make service to service calls. Forwarding session related tools help you with handling context and transaction errors.&#x20;
+Real-world applications often need to call another service from the initial one that is called. We have created `ForwardingSession` to make service-to-service calls. Forwarding session-related tools help you with handling context and transaction errors.&#x20;
 
 {% hint style="warning" %}
-It is important that you use the `ForwardingSession` for service to service calls to properly connect your services and the requests sent between those.
+It is important that you use the `ForwardingSession` for service-to-service calls to properly connect your services and the requests sent between those.
 {% endhint %}
 
-Below is a sample where we have `clientSession` that is used to create a request into account service (represented by `accountServiceSession`) which in turn makes service-to-service call into message service (represented by `messageServiceSession`).&#x20;
+Below is a sample where we have `clientSession` that is used to create a request into account service (represented by `accountServiceSession`) which in turn makes service-to-service calls into message service (represented by `messageServiceSession`).&#x20;
 
 ### Creating a sample in stages
 
-Let's go through the flow, starting from the `clientSession`. We want to register a new user with the handle "AwesomeUserHandle". First we create a pattern interceptor that sends a request to our account service, initialize the dispatcher and make a request.
+Let's go through the flow, starting from the `clientSession`. We want to register a new user with the handle "AwesomeUserHandle". First, we create a pattern interceptor that sends a request to our account service, initialize the dispatcher, and make a request.
 
 {% tabs %}
 {% tab title="C# .NET" %}
@@ -592,7 +596,7 @@ const response = messageServiceSession.acceptGatewayRequest(requestJson);
 
 ### Error handling
 
-Forwarding session has built in support for gathering errors from all levels of the service-to-service flow. In other words, errors from outgoing calls are automatically added to the handlers response. In the sample we've created above, if we were to send empty message into message service, the original caller would receive Error that would look similar to this in JSON:
+Forwarding sessions have built-in support for gathering errors from all levels of the service-to-service flow. In other words, errors from outgoing calls are automatically added to the handler's response. In the sample we've created above, if we were to send an empty message into the message service, the original caller would receive an Error that would look similar to this in JSON:
 
 {% code title="Sample error as JSON" %}
 ```json
@@ -632,13 +636,13 @@ Forwarding session has built in support for gathering errors from all levels of 
 ```
 {% endcode %}
 
-So the errors from deeper into the service-to-service call will be stored inside parent's related errors for each level.
+So the errors from deeper into the service-to-service call will be stored inside the parent's related errors for each level.
 
 
 
 ### Fully working single file sample
 
-Below is everything put together in a working sample with imports. In this sample the http calls have been simplified to direct references into the created sessions.
+Below is everything put together in a working sample with imports. In this sample, the HTTP calls have been simplified to direct references into the created sessions.
 
 {% tabs %}
 {% tab title="C# .NET" %}

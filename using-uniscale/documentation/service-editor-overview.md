@@ -1,3 +1,7 @@
+---
+description: Get an overview and learn how to navigate the service editor.
+---
+
 # Service editor overview
 
 ## Interface breakdown

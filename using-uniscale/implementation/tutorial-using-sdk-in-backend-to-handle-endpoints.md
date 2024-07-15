@@ -1,6 +1,10 @@
+---
+description: Learn how to use the SDK in your backend to handle endpoints.
+---
+
 # Tutorial: Using SDK in backend to handle endpoints
 
-On this page you will learn how to use the SDK with your back-end application. The tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [library-implementation-basics](library-implementation-basics/ "mention").
+On this page, you will learn how to use the SDK with your back-end application. The tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [library-implementation-basics](library-implementation-basics/ "mention").
 
 You can find similar complete code samples with running instructions in our GitHub for every language:
 
@@ -9,19 +13,21 @@ You can find similar complete code samples with running instructions in our GitH
 * [https://github.com/uniscale/demo-java-backend](https://github.com/uniscale/demo-java-backend)
 * [https://github.com/uniscale/demo-ts-backend](https://github.com/uniscale/demo-ts-backend)
 
+
+
 ## SDK Installation
 
-You can find guide with correct SDK information for your generated languages in your solution or service's SDK Portal in Uniscale.
+You can find a guide with correct SDK information for your generated languages in your solution or service's SDK Portal in Uniscale.
 
 ## Implementing the endpoint logic
 
-Your SDK is built with the endpoints that you have defined.  In order to get started with your backend you will need to implement the logic of endpoint and create an interceptor for it that you register inside `PlatformSession`.&#x20;
+Your SDK is built with the endpoints that you have defined.  In order to get started with your backend you will need to implement the logic of the endpoint and create an interceptor for it that you register inside `PlatformSession`.&#x20;
 
-In this sample we will implement basic logic for `GetOrRegister` endpoint. This endpoint will simply return the pre-generated sample data for return type. We then register that interceptor into instance of session, which can be injected/passed to our endpoint/controller.
+In this sample, we will implement basic logic for `GetOrRegister` the endpoint. This endpoint will simply return the pre-generated sample data for return type. We then register that interceptor into an instance of a session, which can be injected/passed to our endpoint/controller.
 
 {% tabs %}
 {% tab title="C# .NET" %}
-For example if we create ASP.NET Core WebAPI. We will need to add PlatformSession into services when building the `WebApplication`.
+For example, if we create ASP.NET Core WebAPI. We will need to add PlatformSession into services when building the `WebApplication`.
 
 {% code title="Program.cs" %}
 ```csharp
@@ -53,7 +59,7 @@ builder.Services.AddSingleton<PlatformSession>(_ =>
 {% endtab %}
 
 {% tab title="Python" %}
-For example creating a simple Quart backend app. We will need to initialize the Quart app and setup the PlatformSession with our interceptor logic before serving.
+For example, creating a simple Quart backend app. We will need to initialize the Quart app and setup the PlatformSession with our interceptor logic before serving.
 
 {% code title="app.py" %}
 ```python
@@ -100,7 +106,7 @@ async def setup_session():
 {% endtab %}
 
 {% tab title="Java" %}
-For example if we were creating spring boot app with the web starter.
+For example, if we were creating spring boot app with the web starter.
 
 {% code title="pom.xml" %}
 ```xml
@@ -153,7 +159,7 @@ public class DemoApplication {
 {% endtab %}
 
 {% tab title="TypeScript" %}
-For example if we create an express backend web application. First we export a PlatformSession and create initialized function for it.
+For example, if we create an express backend web application. First we export a PlatformSession and create initialized function for it.
 
 ```typescript
 import express from "express"
@@ -214,21 +220,21 @@ app()
 {% endtab %}
 {% endtabs %}
 
-Now there is server running with PlatformSession ready to be injected/passed.
+Now there is a server running with PlatformSession ready to be injected/passed.
 
 ## Create network endpoint
 
-With server running and SDK endpoint logic implemented into your session, you're still missing the network endpoint. You will only need to be able to inject/pass instance of PlatformSession into your controller/ network endpoint definition. Then inside your network endpoint  you need to pass the GatewayRequest json data into the session's acceptGatewayRequest function and return the output of that function in json.&#x20;
+With the server running and SDK endpoint logic implemented into your session, you're still missing the network endpoint. You will only need to be able to inject/pass an instance of PlatformSession into your controller/ network endpoint definition. Then inside your network endpoint, you need to pass the GatewayRequest JSON data into the session's acceptGatewayRequest function and return the output of that function in JSON.&#x20;
 
 {% hint style="warning" %}
 Use the `.toJson` function of `Result` to avoid any serialization issues.
 {% endhint %}
 
-These endpoints can be created using any library or protocol fits your needs. You'll just need to be able to pass the content. We will select a library for each language and showcase an example, but this does not mean it would only work with these showcased techniques.
+These endpoints can be created using any library or protocol that fits your needs. You'll just need to be able to pass the content. We will select a library for each language and showcase an example, but this does not mean it would only work with these showcased techniques.
 
 {% tabs %}
 {% tab title="C# .NET" %}
-For basic ASP.NET WebAPI this means injecting the PlatformSession into your controller and creating single HTTP endpoint that serves the app based on the created instance of PlatformSession.
+For basic ASP.NET WebAPI, this means injecting the PlatformSession into your controller and creating single HTTP endpoint that serves the app based on the created instance of PlatformSession.
 
 {% code title="GatewayController.cs" %}
 ```csharp
@@ -347,4 +353,4 @@ app.all("/", async (req, res) => {
 {% endtab %}
 {% endtabs %}
 
-And with just couple of steps like that we have created backend that can be easily called with a front end client that was created based on [quick-start-front-end-with-uniscale-sdk](quick-start-front-end-with-uniscale-sdk/ "mention").
+And with just a couple of steps like that, we have created a backend that can be easily called with a front-end client that was created based on [quick-start-front-end-with-uniscale-sdk](quick-start-front-end-with-uniscale-sdk/ "mention").

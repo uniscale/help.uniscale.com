@@ -1,3 +1,7 @@
+---
+description: Learn how to use our IDE plugins for JetBrain
+---
+
 # JetBrains IDEs
 
 ### Installation
@@ -26,7 +30,7 @@ Use Tools > Uniscale > Login to Uniscale to start the login process. You will be
 
 </div>
 
-Commands are displayed in the "Snippets and generative code" window (⌥ + ⌘ + U | Alt + Ctrl + U). The description for all the available generative commands can be found on the [main page for IDE plugins](./):
+Commands are displayed in the "Snippets and generative code" window (⌥ + ⌘ + U | Alt + Ctrl + U). The description for all the available generative commands can be found on the main page for [.](./ "mention")
 
 <div align="left">
 
@@ -42,7 +46,7 @@ If you don't have any SDKs installed at this point you will see this prompt:
 
 </div>
 
-This can be resolved by installing an SDK. The [Uniscale SDK portal ](../sdk-portal-overview.md)will provide you with instructions for your target language.
+This can be resolved by installing an SDK. The [sdk-portal-overview.md](../sdk-portal-overview.md "mention") will provide you with instructions for your target language.
 
 If you haven't logged in yet or your session cannot be refreshed anymore, you will see this prompt:
 

@@ -8,7 +8,7 @@ description: >-
 
 ### Step 1: Create a React app and install the SDK
 
-Start a new React project using your preferred method. In this tutorial we are using React + Next.js with TypeScript, but since we are only building a simple one page app with very little functionality, the framework itself doesn't matter.
+Start a new React project using your preferred method. In this tutorial, we are using React + Next.js with TypeScript, but since we are only building a simple one-page app with very little functionality, the framework itself doesn't matter.
 
 Run the following command and choose all default options:
 
@@ -16,7 +16,7 @@ Run the following command and choose all default options:
 npx create-next-app@latest
 ```
 
-To use the sdk with our tutorial application, we will add an `.npmrc` file to the root of our project folder. The tutorial uses Uniscale Demo solution's SDK. Copy and paste the following block inside the `.npmrc` file you created:
+To use the SDK with our tutorial application, we will add an `.npmrc` file to the root of our project folder. The tutorial uses Uniscale Demo solution's SDK. Copy and paste the following block inside the `.npmrc` file you created:
 
 ```
 @uniscale-sdk:registry=https://sdk.uniscale.com/api/packages/8c68f0da-8a3c-45bb-abba-2b6d36aa6b3c/npm/
@@ -43,7 +43,7 @@ app
 
 ### Step 2: Implement the platform dispatcher
 
-Create a `dispatcher.ts` file inside your `app` folder. We will only use sample data from the SDK in this tutorial, so we will add a dispatcher and intercept only the features we want to use. Copy and paste this code block inside the `dispatcher.ts` file you created:
+Create a `dispatcher.ts` file inside your `app` folder. We will only use sample data from the SDK in this tutorial, so we will add a dispatcher and intercept only the features we want to use. Copy and paste this code block into the `dispatcher.ts` file you created:
 
 ```typescript
 import {
@@ -72,7 +72,7 @@ export const initializeDispatcher = async (): Promise<DispatcherSession> => {
 };
 ```
 
-This function will return a `DispatcherSession` which we can later use to call any features specified in the SDK. See [#step-2-add-interceptors](./#step-2-add-interceptors "mention") from the Quick start tutorial on how to use interceptors to call real services. In a real-life scenario you would replace the solution uuid with your own solution's uuid. See more information here: [.](./ "mention")
+This function will return a `DispatcherSession` which we can later use to call any features specified in the SDK. See [#step-2-add-interceptors](./#step-2-add-interceptors "mention") from the Quick start tutorial on how to use interceptors to call real services. In a real-life scenario, you would replace the solution's UUID with your own solution's UUID. See more information here: [.](./ "mention")
 
 Now your folder structure looks like this:
 
@@ -88,9 +88,9 @@ Now your folder structure looks like this:
 
 ### Step 3: Initialize the dispatcher
 
-It is recommended that you initialize the dispatcher only once when starting up your app. For the purpose of this tutorial, we will initialize the dispatcher inside our one page application's top component, which is the `Home` component inside `page.tsx`. After successful initialization, we give the session to our app context, which will then allow any component within that context to use it.&#x20;
+It is recommended that you initialize the dispatcher only once when starting up your app. For the purpose of this tutorial, we will initialize the dispatcher inside our one-page application's top component, which is the `Home` component inside `page.tsx`. After successful initialization, we give the session to our app context, which will then allow any component within that context to use it.&#x20;
 
-If you are using Next.js in a real life scenario, you may want to handle the session builder very differently, but for the sake of a general solution that works with a basic react app, we are initializing the session here. The dispatcher could also be implemented in a singleton class.
+If you are using Next.js in a real-life scenario, you may want to handle the session builder very differently, but for the sake of a general solution that works with a basic react app, we are initializing the session here. The dispatcher could also be implemented in a singleton class.
 
 Replace the content of your `page.tsx` with the following code block:
 
@@ -221,15 +221,15 @@ export const MessageList = () => {
 };
 ```
 
-This component will get any direct messages returned by the `GetDirectMessageList` endpoint. In this case it only returns the sample data from the sdk, but in a real life scenario the session would make a `POST` request to a service.
+This component will get any direct messages returned by the `GetDirectMessageList` endpoint. In this case, it only returns the sample data from the SDK, but in a real-life scenario, the session would make a `POST` request to a service.
 
 Now replace the empty `<div />` inside page.tsx with `<MessageList />`
 
 ### Step 5: Run the app
 
-Run the app with `npm run dev` or any script which works for your chosen environment.
+Run the app with `npm run dev` or any script that works for your chosen environment.
 
-You will now get a page with this text the middle:
+You will now get a page with this text in the middle:
 
 ```
 2020-02-28T08:09:10Z
@@ -237,7 +237,7 @@ You will now get a page with this text the middle:
 Hello all
 ```
 
-This is sample data returned from the session dispatcher. If you want to call a real api, you can modify `dispatcher.ts` to look like this:
+This is sample data returned from the session dispatcher. If you want to call a real API, you can modify `dispatcher.ts` to look like this:
 
 ```typescript
 import {
@@ -282,7 +282,7 @@ export const initializeDispatcher = async (): Promise<DispatcherSession> => {
 };
 ```
 
-At the end of this tutorial your folder structure should look like this:
+At the end of this tutorial, your folder structure should look like this:
 
 <pre><code>app
   app.context.tsx

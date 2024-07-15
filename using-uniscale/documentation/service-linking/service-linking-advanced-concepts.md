@@ -1,3 +1,7 @@
+---
+description: Learn best practices for how to structure your services.
+---
+
 # Service linking: Advanced concepts
 
 ## Setting service boundaries
@@ -22,7 +26,7 @@ The recommended way when using the functional specification in Uniscale is to mo
 
 
 
-### Service boundaries through Service Linking
+### Service boundaries through Service linking
 
 Through this flow you will first go through all defined UX flows in your specification and define which ones require functionality from a service. If the functionality exists in the service from before, you can just go ahead and find it in the services tab in the left sidebar and drop it onto the UX flow.
 

@@ -1,3 +1,7 @@
+---
+description: Learn how to use AI in the service editor.
+---
+
 # Using AI in Documentation
 
 ## Accessing the interface

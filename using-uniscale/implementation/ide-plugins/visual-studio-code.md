@@ -1,3 +1,7 @@
+---
+description: Learn how to use our IDE plugin for Visual Studio Code.
+---
+
 # Visual Studio Code
 
 ### Installation
@@ -38,7 +42,7 @@ All commands are prefixed with "Uniscale develop" so you can see all available c
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-06-05 at 12.38.12.png" alt=""><figcaption><p>Command palette</p></figcaption></figure>
 
-The description for all the available generative commands can be found from the [main page for IDE plugins.](./)
+The description for all the available generative commands can be found on the main page for [.](./ "mention")
 
 If you don't have any SDKs installed at this point you will see this prompt:
 
@@ -48,7 +52,7 @@ If you don't have any SDKs installed at this point you will see this prompt:
 
 </div>
 
-This can be resolved by installing an SDK. The [Uniscale SDK portal ](../sdk-portal-overview.md)will provide you with instructions for your target language.
+This can be resolved by installing an SDK. The [sdk-portal-overview.md](../sdk-portal-overview.md "mention")[ ](../sdk-portal-overview.md)will provide you with instructions for your target language.
 
 
 
@@ -66,7 +70,7 @@ If you have multiple SDKs installed you can use this command to select the one t
 
 `Uniscale Develop: Snippets and generative code`
 
-This is the main command to retrieve a list of available generative commands. You might not see all the commands described here depending on what you have modeled in your solution and/or services. The full list can be seen in the section [Commands](./#commands) on the main page for more details.
+This is the main command to retrieve a list of available generative commands. You might not see all the commands described here depending on what you have modeled in your solution and/or services. The full list can be seen in the section [#commands](./#commands "mention")on the main page for more details.
 
 
 

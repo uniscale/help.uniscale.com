@@ -1,20 +1,26 @@
+---
+description: Learn about the library generated via Uniscale.
+---
+
 # Library implementation basics
 
 ### Prerequisites
 
 {% hint style="info" %}
-* You understand the architecture of the SDK
-* You have generated an SDK and downloaded it with one of the supported package managers
-* You are able to locate endpoints and contracts of the SDK  for imports
+* You understand the architecture of the SDK.
+* You have generated an SDK and downloaded it with one of the supported package managers.
+* You can locate endpoints and contracts of the SDK  for imports.
 {% endhint %}
 
 ## Introduction
 
-You now have the SDK at hand and you're wondering how to get started. To utilise your endpoints you can use the generated `Platform`. You will need to start by initializing a `PlatformSession` that will work as a base for your actions. Depending on the needs of your specific service, you will then use the session to initialize a dispatcher, create forwarding sessions, accept gateway requests etc.&#x20;
+You now have the SDK at hand and you're wondering how to get started. To utilize your endpoints you can use the generated `Platform`. You will need to start by initializing a `PlatformSession` that will work as a base for your actions. Depending on the needs of your specific service, you will then use the session to initialize a dispatcher, create forwarding sessions, accept gateway requests, etc.&#x20;
 
-Our sessions come bundled with support for client-server usage and request forwarding tools for when you're working with multiple services at once. Interceptors make life easy for you defining exactly what needs to be implemented and what data you have in use. On top of that with pattern interceptors you can implement a bunch at a time. This gives you the opportunity to implement your authentication and transport mechanisms in a way that works for you.
+Our sessions come bundled with support for client-server usage and request forwarding tools for when you're working with multiple services at once. Interceptors make life easy for you defining exactly what needs to be implemented and what data you have in use. On top of that with pattern interceptors, you can implement a bunch at a time. This allows you to implement your authentication and transport mechanisms in a way that works for you.
 
 You can use the library to test out and prototype your service interfaces ahead of building your service by using the generated sample data. When you have finished your implementation, you move from samples into proper implementations without having to change the interactions.
+
+
 
 ## Initialize session
 
@@ -22,7 +28,7 @@ To get started you will first have to create your `PlatformSession`. It will all
 
 {% tabs %}
 {% tab title="C# .NET" %}
-Starter for session initialisation. Create from builder and define interceptors.
+Starter for session initialisation. Create from the builder and define interceptors.
 
 {% code lineNumbers="true" fullWidth="true" %}
 ```csharp
@@ -63,7 +69,7 @@ var session = await Platform.Builder()
 {% endtab %}
 
 {% tab title="Python" %}
-Starter for session initialisation. Create from builder and define interceptors.
+Starter for session initialisation. Create from the builder and define interceptors.
 
 {% code lineNumbers="true" fullWidth="true" %}
 ```python
@@ -106,7 +112,7 @@ session = (
 {% endtab %}
 
 {% tab title="Java" %}
-Starter for session initialisation. Create from builder and define interceptors.
+Starter for session initialisation. Create from the builder and define interceptors.
 
 {% code lineNumbers="true" fullWidth="true" %}
 ```java
@@ -152,7 +158,7 @@ var session =
 {% endtab %}
 
 {% tab title="TypeScript" %}
-Starter for session initialisation. Create from builder and define interceptors.
+Starter for session initialisation. Create from the builder and define interceptors.
 
 {% code lineNumbers="true" fullWidth="true" %}
 ```typescript
@@ -195,6 +201,8 @@ const session = await Platform.builder()
 {% endtab %}
 {% endtabs %}
 
+
+
 ## Defining interceptors
 
 Define the functionality of your endpoints inside the interceptors. You can intercept each function separately and have the data typed, or intercept whole namespaces and deal with untyped data.
@@ -203,11 +211,11 @@ Your interceptor's `handle` function has two parameters:
 
 1. The input model defined for your endpoint
 2. FeatureContext
-   * This context will follow any request you make and contains the information about which solution, characters, language, data tenant and more this request was made with.
+   * This context will follow any request you make and contains the information about which solution, characters, language, data tenant, and more this request was made with.
 
 {% tabs %}
 {% tab title="C# .NET" %}
-In a typical situation you can write interceptors for each endpoint
+In a typical situation, you can write interceptors for each endpoint
 
 {% code lineNumbers="true" fullWidth="true" %}
 ```csharp
@@ -536,15 +544,17 @@ const session = await Platform.builder()
 {% endtab %}
 {% endtabs %}
 
+
+
 ## Handle endpoints and make requests
 
-With the platform session you have a setup that knows how to handle your endpoints. To utilise that and call your endpoints you need to get a `DispatcherSession` through which you can interact with your endpoints. Dispatchers are designed to be set up in a way where _one_ dispatcher can handle all your solution/service's endpoints.
+With the platform session, you have a setup that knows how to handle your endpoints. To utilize that and call your endpoints you need to get a `DispatcherSession` through which you can interact with your endpoints. Dispatchers are designed to be set up in a way where _one_ dispatcher can handle all your solution/service's endpoints.
 
 {% hint style="info" %}
 Making a request: PlatformSession -> DispatcherSession -> Request()
 {% endhint %}
 
-Platform session can also be used to receive requests. If in your endpoint you can turn your data into a GatewayRequest (or you sent the data with our helpers), you use AcceptGatewayRequest in your session and let the platform handle the request based on your interceptor implementations.
+Platform sessions can also be used to receive requests. If in your endpoint you can turn your data into a GatewayRequest (or you sent the data with our helpers), you use AcceptGatewayRequest in your session and let the platform handle the request based on your interceptor implementations.
 
 {% hint style="info" %}
 Receiving a request: PlatformSession -> AcceptGatewayRequest()
@@ -591,7 +601,7 @@ else
 ```
 {% endcode %}
 
-And a quick sample on how one would receive such request.
+And a quick sample of how one would receive such a request.
 
 <pre class="language-csharp" data-line-numbers><code class="lang-csharp"><strong>using Uniscale.Core;
 </strong>using UniscaleDemo.Account_1_0.Functionality.ServiceToModule.
@@ -837,4 +847,4 @@ You can use the created dispatcher to make multiple requests and fetch Terminolo
 
 ## Conclusion
 
-This tutorial has information on everything you need to consider when getting started with your minimalistic implementation. If you want to see all of it come together, you can find samples based on our Demo solution in: [https://github.com/uniscale?q=demo-](https://github.com/uniscale?q=demo-).  You can test it out, mix and match frontend and backend demos as you want.
+This tutorial has information on everything you need to consider when getting started with your minimalistic implementation. If you want to see all of it come together, you can find samples based on our Demo solution at: [https://github.com/uniscale?q=demo-](https://github.com/uniscale?q=demo-).  You can test it out, and mix and match frontend and backend demos as you want.

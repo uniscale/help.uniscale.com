@@ -1,12 +1,16 @@
+---
+description: >-
+  Learn how to make use of upstream and downstream dependencies. This will help
+  you trace any product changes.
+---
+
 # Upstream & downstream dependencies
 
 As your documentation grows, it can be quite hard to get an overview of its complexity. As such you might end up having questions like the following:
 
-> `If I change this, how do I know what will break?`
-
-> `Is it safe to change this now?`
-
-> `Can I delete this aggregate, what if its used somewhere?`
+* "If I change this, how do I know what will break?"
+* "Is it safe to change this now?"
+* "Can I delete this aggregate, what if it's used somewhere?"
 
 
 
@@ -84,7 +88,7 @@ Meaning, that if I inspect upwards an endpoint, it is dependent on use case flow
 
 ### Usage indicators
 
-Another great helpful functionality to indicate dependencies via usage are small counter indicators on:
+Another great helpful functionality to indicate dependencies via usage is small counter indicators on:
 
 * use case flows
 * endpoints

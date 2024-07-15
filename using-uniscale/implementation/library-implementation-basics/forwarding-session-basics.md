@@ -1,10 +1,16 @@
+---
+description: Learn the basics of forwarding sessions.
+---
+
 # Forwarding session basics
 
-Real world applications often need to call another service from the initial one that is called. We have created `ForwardingSession` to make this easier. Forwarding session related tools help you with handling context, errors and following transactions. Below is a sample where we have `clientSession` that is used to create a request into `registerServiceSession` which in turn creates a `ForwardingSession` and calls `messageServiceSession`.&#x20;
+Real-world applications often need to call another service from the initial one that is called. We have created `ForwardingSession` to make this easier. Forwarding session-related tools help you with handling context, errors, and following transactions. Below is a sample where we have `clientSession` that is used to create a request into `registerServiceSession` which in turn creates a `ForwardingSession` and calls `messageServiceSession`.&#x20;
+
+
 
 ### Creating a sample in stages
 
-Let's go through the flow, starting from the `clientSession`. We want to register a new user with the handle "AwesomeUserHandle". First we create a pattern interceptor that sends a request to our account service, initialize the dispatcher and make a request.
+Let's go through the flow, starting from the `clientSession`. We want to register a new user with the handle "AwesomeUserHandle". First, we create a pattern interceptor that sends a request to our account service, initialize the dispatcher, and make a request.
 
 {% tabs %}
 {% tab title="C# .NET" %}
@@ -443,7 +449,7 @@ const response = accountServiceSession.acceptGatewayRequest(requestJson);
 
 
 
-And then the only thing left is the message service. We create a `messageServiceSession`. This service only needs to implement its features and then accept the incoming requests.
+And then the only thing left is the message service. We create a `messageServiceSession`. This service only needs to implement its features and then accept incoming requests.
 
 {% tabs %}
 {% tab title="C# .NET" %}
@@ -552,7 +558,7 @@ const response = messageServiceSession.acceptGatewayRequest(requestJson);
 
 ### Full working sample
 
-Below is everything put together in a working sample with imports. In this sample the http calls have been simplified to direct references into the created sessions.
+Below is everything put together in a working sample with imports. In this sample, the HTTP calls have been simplified to direct references into the created sessions.
 
 {% tabs %}
 {% tab title="C# .NET" %}

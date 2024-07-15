@@ -6,7 +6,9 @@ description: >-
 
 # Quick Start: Front-end with Uniscale SDK
 
-This tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [Library Implementation Basics](../library-implementation-basics/)
+This tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [library-implementation-basics](../library-implementation-basics/ "mention")
+
+
 
 ## Installation
 
@@ -24,6 +26,8 @@ Install SDK
 ```
 npm i @uniscale-sdk/ActorCharacter-Messagethreads@1.0.6
 ```
+
+
 
 ## Tutorial: Using the SDK with your front-end application
 
@@ -110,11 +114,13 @@ At the base of your application, call your initialize function to get the dispat
 const dispatcher = await initializeDispatcher()
 ```
 
-After this you can use endpoints to fetch your data:
+After this, you can use endpoints to fetch your data:
 
 ```typescript
 const messages = await dispatcher.request(GetDirectMessageList.with(userIdentifier))
 ```
+
+
 
 ## Tutorial: Using sample data from the SDK
 
