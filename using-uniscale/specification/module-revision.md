@@ -183,7 +183,7 @@ You can look up all previous revisions to compare your content
 1. Select a specific module
 2. Click on the dropdown and get a list of all revisions
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-06-17 at 16.15.29.png" alt=""><figcaption><p>Module revision overview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption><p>Module revision overview</p></figcaption></figure>
 
 ***
 
