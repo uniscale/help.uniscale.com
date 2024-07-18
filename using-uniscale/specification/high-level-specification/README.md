@@ -2,7 +2,7 @@
 description: Learn how to describe your high-level specification along with best practices.
 ---
 
-# Tutorial: high-level specification
+# High-level specification
 
 {% hint style="info" %}
 Before kick-starting your Uniscale journey you should have:
@@ -54,71 +54,43 @@ Video: Tutorial: High-level specification
 
 To help you get started, here are some inspirations for what to include in your specifications.
 
-See template: [template-solution-description.md](template-solution-description.md "mention")
+{% hint style="info" %}
+This template is for you to copy into your solution description. This will guide you to include the essential parts of your high-level specification
 
-<details>
-
-<summary>What - Describe what you're building</summary>
-
-* Short description: Explain in a few sentences what your product is doing.
-* What are the high-level functionalities and features of your solution?
-  * Come up with 3-5 bullets that explain overall what your solution will be doing.
-  * What are the main requirements from your actors?
-  * Try to write in a few sentences how you will solve this problem without going into detail.
-
-<img src="../../../.gitbook/assets/image (100).png" alt="Template - &#x22;What is our solution?&#x22;" data-size="original">
-
-</details>
-
-<details>
-
-<summary>Why - Purpose and motivation: Why are you building this solution?</summary>
-
-Describe to your audience what the purpose of your solution is.
-
-* What is the purpose
-* What value does it bring?
-* What are the desired outcomes that you want to achieve?
-* What is your motivation for building this solution?
-* What are the struggles and challenges that you see for example in the market?
-* What are the problems or needs that people have?
-* Why are we the right people to solve this problem compared to others?
-
-![Template - "Why are we building this solution?"](<../../../.gitbook/assets/CleanShot 2024-07-02 at 09.04.55.png>)
-
-</details>
-
-<details>
-
-<summary>Who - Roles that will be using our solution</summary>
-
-Start by listing all the actors that will be involved in your solution. Here is some inspiration:
-
-* Different roles and personas
-* Partners
-* Distributors
-
-Now can you group the listed actors based on eg. their type and interactions with each functionality?&#x20;
-
-This is to identify patterns of your actors, like roles and people that interact with the solution, for example, the end-users (customers), and stakeholders like system administrators, suppliers, third-party contributors, etc.&#x20;
-
-![Template - "Who are the actors of this solution?"](<../../../.gitbook/assets/CleanShot 2024-07-02 at 09.42.47.png>)
-
-</details>
-
-<details>
-
-<summary>Data sources - Where does your data come from?</summary>
-
-List here where the different types of data will come from. Here is some inspiration:
-
-* Manually inputting data
-* Integration with systems or service providers
-* Does the customer have to provide their details or personal information?
-
-
-
-</details>
+> **What - Solution description**
+>
+> * Short description: Explain in a few sentences what your solution is doing.
+> * List 3-5 high-level functionalities and features of your solution.
+>
+> **Why - Purpose and motivation**
+>
+> Describe to your audience what the purpose of your solution is.
+>
+> * What value does it bring?
+> * What are the desired outcomes that you want to achieve?
+> * What are the struggles and challenges you see for example in the market?
+>
+> **Who - Actors in the solution**
+>
+> * Name and list all the different types of actors that use his solution.
+>
+> **Data sources in the solution**
+>
+> * This data may come as actor input to the system, external data sources where information is imported from, or any other sources.
+> * When listing the data sources you might just discover some missing actors.
+>
+> **Grouped actors**
+>
+> Do some of your actors belong to specific named groupings?
+>
+> **High-level functionality and divided by actors or grouped actors\***
+>
+> * \[Insert high-level functionality] - \[insert actor or grouped actor]
+> * \[Insert high-level functionality] - \[insert actor or grouped actor]
+> * \[Insert high-level functionality] - \[insert actor or grouped actor]
+>
+> _\*Note: The named list of functionality groupings are likely your modules._
+{% endhint %}
 
 
 
@@ -195,4 +167,4 @@ You can read more here: [#functional-use-case](../solution-basics/#functional-us
 ## Next steps
 
 * You can already now choose to approve your first revision: [module-revision.md](../module-revision.md "mention")
-* Involve your product designer and begin the [tutorial-detailed-specification.md](../tutorial-detailed-specification.md "mention")
+* Involve your product designer and begin the [detailed-specification.md](../detailed-specification.md "mention")

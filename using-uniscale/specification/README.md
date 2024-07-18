@@ -29,6 +29,6 @@ Specification is the first of three phases for maximizing the use of Uniscale.
 ## Start describing your specification
 
 1. Before describing your specification, check our article for an overview of the elements and functionalities: [solution-basics](solution-basics/ "mention")
-2. Now start with: [tutorial-high-level-specification](tutorial-high-level-specification/ "mention")
-3. Lastly, proceed to: [tutorial-detailed-specification.md](tutorial-detailed-specification.md "mention")
+2. Now start with: [high-level-specification](high-level-specification/ "mention")
+3. Lastly, proceed to: [detailed-specification.md](detailed-specification.md "mention")
 

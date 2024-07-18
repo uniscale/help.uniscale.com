@@ -5,9 +5,9 @@ description: >-
   solution and involving a UI/UX designer.
 ---
 
-# Tutorial: detailed specification
+# Detailed specification
 
-Before you begin to describe your detailed specification, please make sure to have completed the high-level specification: [tutorial-high-level-specification](tutorial-high-level-specification/ "mention")
+Before you begin to describe your detailed specification, please make sure to have completed the high-level specification: [high-level-specification](high-level-specification/ "mention")
 
 ## Introduction
 

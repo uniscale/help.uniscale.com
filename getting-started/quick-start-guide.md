@@ -76,9 +76,9 @@ Begin with an introduction to your solution:&#x20;
 3. Who: Who will be using your product? List the various actors.
 4. High-level requirements
 
-For a detailed overview of how to describe your specification: [tutorial-high-level-specification](../using-uniscale/specification/tutorial-high-level-specification/ "mention")
+For a detailed overview of how to describe your specification: [high-level-specification](../using-uniscale/specification/high-level-specification/ "mention")
 
-You can also use our [template-solution-description.md](../using-uniscale/specification/tutorial-high-level-specification/template-solution-description.md "mention")t to help you better structure and articulate your solution.
+You can also use our [template-solution-description.md](../using-uniscale/specification/high-level-specification/template-solution-description.md "mention")t to help you better structure and articulate your solution.
 
 </details>
 
@@ -87,11 +87,11 @@ You can also use our [template-solution-description.md](../using-uniscale/specif
 <summary>Define and describe your modules</summary>
 
 1. Define and create your modules: For best practices on what modules to create, visit this article: [#module](../using-uniscale/specification/solution-basics/#module "mention")
-2. Describe your modules: Write a short description and include the relevant high-level functionalities and actors related to this module. See [#create-and-describe-your-first-modules](../using-uniscale/specification/tutorial-high-level-specification/#create-and-describe-your-first-modules "mention")for more details.
-3. Describe the high-level end-user behavior: This is done by creating a `Functional use case` inside your module. See [#describe-the-user-behavior-with-functional-use-cases](../using-uniscale/specification/tutorial-detailed-specification.md#describe-the-user-behavior-with-functional-use-cases "mention")for more details.
+2. Describe your modules: Write a short description and include the relevant high-level functionalities and actors related to this module. See [#create-and-describe-your-first-modules](../using-uniscale/specification/high-level-specification/#create-and-describe-your-first-modules "mention")for more details.
+3. Describe the high-level end-user behavior: This is done by creating a `Functional use case` inside your module. See [#describe-the-user-behavior-with-functional-use-cases](../using-uniscale/specification/detailed-specification.md#describe-the-user-behavior-with-functional-use-cases "mention")for more details.
 4. Enrich your `Functional use case` with `Acceptance criteria.`&#x20;
 
-For a detailed overview of how to describe your specification: [tutorial-high-level-specification](../using-uniscale/specification/tutorial-high-level-specification/ "mention")
+For a detailed overview of how to describe your specification: [high-level-specification](../using-uniscale/specification/high-level-specification/ "mention")
 
 </details>
 
@@ -138,7 +138,7 @@ Learn here how to invite people:[invite-to-uniscale.md](../workspace-administrat
    3. Describe your `UX flows` and include `Functional acceptance criteria`
 4. Include UI requirements: Use `Designer notes` to describe the look and feel in addition to other descriptions that are helpful to the front-end developer.
 
-Watch the video below or read more here: [tutorial-detailed-specification.md](../using-uniscale/specification/tutorial-detailed-specification.md "mention")
+Watch the video below or read more here: [detailed-specification.md](../using-uniscale/specification/detailed-specification.md "mention")
 
 </details>
 
