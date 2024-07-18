@@ -10,7 +10,7 @@ description: >-
 {% hint style="info" %}
 This article will explain each of the elements in Uniscale that allows you to describe and structure your specification. \
 \
-If you want to start using Uniscale, please check our [quick-start-guide.md](../../getting-started/quick-start-guide.md "mention")
+If you want to start using Uniscale, please check our [quick-start-guide.md](../../../getting-started/quick-start-guide.md "mention")
 {% endhint %}
 
 
@@ -29,7 +29,7 @@ Video: Uniscale Describe: Solution Design Flow
 
 
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Solution
 
@@ -39,11 +39,11 @@ A solution is the product, project, or system that you are working on. It contai
 
 In Uniscale, we provide various elements to describe and structure your solution. In this article, we will go through each of the elements and explain their purpose and functionality.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Illustration of the elements of a solution and how they are related.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Illustration of the elements of a solution and how they are related.</p></figcaption></figure>
 
 
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Module
 
@@ -53,13 +53,13 @@ A module is a functionally isolated part of the software that has distinct owner
 Modules let you place a boundary in the solution at points where it makes sense to divide responsibilities for parts of the software.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-26 at 15.07.50.png" alt=""><figcaption><p>Illustration of how a solution consists of multiple modules.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-04-26 at 15.07.50.png" alt=""><figcaption><p>Illustration of how a solution consists of multiple modules.</p></figcaption></figure>
 
 
 
 ### Best practices for creating modules
 
-To to create a module: [#create-and-describe-your-first-modules](tutorial-high-level-specification/#create-and-describe-your-first-modules "mention")
+To to create a module: [#create-and-describe-your-first-modules](../tutorial-high-level-specification/#create-and-describe-your-first-modules "mention")
 
 <details>
 
@@ -89,7 +89,7 @@ This prevents the need for separate projects that are tightly coupled and must b
 
 
 
-<img src="../../.gitbook/assets/Module_boundaries.png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/Module_boundaries.png" alt="" data-size="original">
 
 
 
@@ -99,7 +99,7 @@ This prevents the need for separate projects that are tightly coupled and must b
 
 
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## Pages
 
@@ -109,13 +109,13 @@ Pages define the top-level structure of a module.&#x20;
 
 Use pages to break down the structure of your solution. In the image below, you will see an example of two pages: Timeline and Direct message. These are both created as pages in the Uniscale solution.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-06-28 at 13.12.18.png" alt=""><figcaption><p>Illustration of how a page fits into a module.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-06-28 at 13.12.18.png" alt=""><figcaption><p>Illustration of how a page fits into a module.</p></figcaption></figure>
 
-Creating pages is part of the detailed specification that is described further here: [tutorial-detailed-specification.md](tutorial-detailed-specification.md "mention")
+Creating pages is part of the detailed specification that is described further here: [tutorial-detailed-specification.md](../tutorial-detailed-specification.md "mention")
 
 
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### Sections
 
@@ -132,7 +132,7 @@ A section can be further broken down into:
 
 
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## Functional use case
 
@@ -147,11 +147,11 @@ A functional use case (FUC) can be used for two purposes:
 
 A Functional use case can further be broken down into the following elements:
 
-* [#ui-designer-notes](solution-basics.md#ui-designer-notes "mention")
-* [#ux-product-notes](solution-basics.md#ux-product-notes "mention")
-  * [#ux-flow](solution-basics.md#ux-flow "mention")
-    * [#functional-acceptance-criteria](solution-basics.md#functional-acceptance-criteria "mention")
-    * [#service-flow](solution-basics.md#service-flow "mention")
+* [#ui-designer-notes](./#ui-designer-notes "mention")
+* [#ux-product-notes](./#ux-product-notes "mention")
+  * [#ux-flow](./#ux-flow "mention")
+    * [#functional-acceptance-criteria](./#functional-acceptance-criteria "mention")
+    * [#service-flow](./#service-flow "mention")
 
 
 
@@ -171,7 +171,7 @@ For every User Interface (UI) element there is a UI designer note where your des
 
 </details>
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 ### UX Product notes
 
@@ -181,9 +181,9 @@ The UX Product notes allow you to add notes and provide a detailed description r
 
 UX flows describe the detailed behaviors within functional use cases.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ### Functional acceptance criteria
 
@@ -207,7 +207,7 @@ You can use our generative AI to help suggest acceptance criteria. Learn more he
 
 ***
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ### **Service flow**
 
@@ -228,7 +228,7 @@ A service refers to a discrete unit of functionality or capability provided by a
 Each service is defined by its inputs, outputs, behavior, and interactions with other components of the system. Describe the requirements for the underlying technical flows that will enable you to build the desired functionality.
 
 {% hint style="info" %}
-To learn more about Services, visit our detailed [Service basics](../documentation/service-basics.md) article
+To learn more about Services, visit our detailed [Service basics](../../documentation/service-basics.md) article
 {% endhint %}
 
 ***

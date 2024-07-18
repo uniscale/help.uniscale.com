@@ -35,7 +35,7 @@ Cater to your audience
 
 Aim for a short and concise description. Cater the message to your audience whether this is for internal or external stakeholders.
 
-Tip: Make use of our Generative AI to help improve your writing. Learn more here: [tutorial-using-ai-in-specification.md](../tutorial-using-ai-in-specification.md "mention")
+Tip: Make use of our Generative AI to help improve your writing. Learn more here: [tutorial-using-ai-in-specification.md](../solution-basics/tutorial-using-ai-in-specification.md "mention")
 {% endhint %}
 
 {% hint style="success" %}
@@ -125,7 +125,7 @@ List here where the different types of data will come from. Here is some inspira
 ## Create and describe your first modules
 
 {% hint style="info" %}
-Before creating modules, we recommend reading our guide for best practices: [#best-practices-for-creating-modules](../solution-basics.md#best-practices-for-creating-modules "mention")
+Before creating modules, we recommend reading our guide for best practices: [#best-practices-for-creating-modules](../solution-basics/#best-practices-for-creating-modules "mention")
 {% endhint %}
 
 <details>
@@ -155,7 +155,7 @@ Pages are an element for structure, where you can organize and group your functi
 
 ![Template - Pages](<../../../.gitbook/assets/CleanShot 2024-07-02 at 10.02.58.png>)
 
-You can read more about Pages here: [#page](../solution-basics.md#page "mention")
+You can read more about Pages here: [#page](../solution-basics/#page "mention")
 
 </details>
 
@@ -172,7 +172,7 @@ You can read more about Pages here: [#page](../solution-basics.md#page "mention"
 
 ![Template - Functional use cases](<../../../.gitbook/assets/CleanShot 2024-07-02 at 10.04.56 (1).png>)
 
-You can read more here: [#functional-use-case](../solution-basics.md#functional-use-case "mention")
+You can read more here: [#functional-use-case](../solution-basics/#functional-use-case "mention")
 
 </details>
 
@@ -181,7 +181,7 @@ You can read more here: [#functional-use-case](../solution-basics.md#functional-
 <summary>Add Acceptance criteria to your Functional use cases</summary>
 
 * Describe what this is and how it will work
-* Note; Our Generative AI can help write suggestions for what acceptance criteria to include: [#ai-generated-acceptance-criteria](../tutorial-using-ai-in-specification.md#ai-generated-acceptance-criteria "mention")
+* Note; Our Generative AI can help write suggestions for what acceptance criteria to include: [#ai-generated-acceptance-criteria](../solution-basics/tutorial-using-ai-in-specification.md#ai-generated-acceptance-criteria "mention")
 * Definition: a list of qualifications that the functional use case (UX flow if detailed specification?) needs to fulfill
 
 ![Template - Acceptance Criteria](<../../../.gitbook/assets/CleanShot 2024-07-02 at 10.05.54.png>)

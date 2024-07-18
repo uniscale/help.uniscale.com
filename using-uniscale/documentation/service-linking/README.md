@@ -32,7 +32,7 @@ Distribute your service functionality appropriately within your application. Man
 
 ### Linking to services from solution specification
 
-[UX flows](../../specification/solution-basics.md#ux-flow) act as the lowest level of detail you have towards the end-user behavior. They can either just describe plain end-user behavior but this is also where you define or link in the service flows that are needed to implement the use case.
+[UX flows](../../specification/solution-basics/#ux-flow) act as the lowest level of detail you have towards the end-user behavior. They can either just describe plain end-user behavior but this is also where you define or link in the service flows that are needed to implement the use case.
 
 <figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption><p>Service flow within a functional use case</p></figcaption></figure>
 

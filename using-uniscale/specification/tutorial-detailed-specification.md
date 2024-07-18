@@ -22,7 +22,7 @@ At this stage, your idea is ready to make the transition from "abstract" to "con
 ## Describe the detailed specification
 
 {% hint style="info" %}
-To begin describing the detailed specification, we recommend familiarizing yourself with the elements in a solution. These are all explained here: [solution-basics.md](solution-basics.md "mention")
+To begin describing the detailed specification, we recommend familiarizing yourself with the elements in a solution. These are all explained here: [solution-basics](solution-basics/ "mention")
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=m2ZrQtW60Vc" %}
@@ -41,7 +41,7 @@ If you haven't already, a good place to start is by inserting images with mockup
 
 With your visuals created, you will begin to form the layout and interface of your solution.&#x20;
 
-To break down your solution, make use of [#pages](solution-basics.md#pages "mention") and [#sections](solution-basics.md#sections "mention"). This will represent the structure of your solution.
+To break down your solution, make use of [#pages](solution-basics/#pages "mention") and [#sections](solution-basics/#sections "mention"). This will represent the structure of your solution.
 
 For each element created, add a short description and an image to highlight that specific part of the solution.
 
@@ -111,10 +111,10 @@ UX flows are the lowest level of detail in your functional specification. When t
 * Generate the SDK: [introduction-to-sdk.md](../implementation/introduction-to-sdk.md "mention")
 * Proceed to [service-linking](../documentation/service-linking/ "mention")
 
-[^1]: [#ui-designer-notes](solution-basics.md#ui-designer-notes "mention")
+[^1]: [#ui-designer-notes](solution-basics/#ui-designer-notes "mention")
 
-[^2]: [#ux-product-notes](solution-basics.md#ux-product-notes "mention")
+[^2]: [#ux-product-notes](solution-basics/#ux-product-notes "mention")
 
-[^3]: [#ux-flow](solution-basics.md#ux-flow "mention")
+[^3]: [#ux-flow](solution-basics/#ux-flow "mention")
 
-[^4]: [#functional-acceptance-criteria](solution-basics.md#functional-acceptance-criteria "mention")
+[^4]: [#functional-acceptance-criteria](solution-basics/#functional-acceptance-criteria "mention")

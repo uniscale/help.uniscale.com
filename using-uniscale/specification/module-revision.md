@@ -7,7 +7,7 @@ description: >-
 # Module revision
 
 {% hint style="success" %}
-This article assumes that you have covered knowledge around [.](./ "mention") and concepts like [solution-basics.md](solution-basics.md "mention")
+This article assumes that you have covered knowledge around [.](./ "mention") and concepts like [solution-basics](solution-basics/ "mention")
 {% endhint %}
 
 

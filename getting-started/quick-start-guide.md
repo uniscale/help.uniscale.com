@@ -86,7 +86,7 @@ You can also use our [template-solution-description.md](../using-uniscale/specif
 
 <summary>Define and describe your modules</summary>
 
-1. Define and create your modules: For best practices on what modules to create, visit this article: [#module](../using-uniscale/specification/solution-basics.md#module "mention")
+1. Define and create your modules: For best practices on what modules to create, visit this article: [#module](../using-uniscale/specification/solution-basics/#module "mention")
 2. Describe your modules: Write a short description and include the relevant high-level functionalities and actors related to this module. See [#create-and-describe-your-first-modules](../using-uniscale/specification/tutorial-high-level-specification/#create-and-describe-your-first-modules "mention")for more details.
 3. Describe the high-level end-user behavior: This is done by creating a `Functional use case` inside your module. See [#describe-the-user-behavior-with-functional-use-cases](../using-uniscale/specification/tutorial-detailed-specification.md#describe-the-user-behavior-with-functional-use-cases "mention")for more details.
 4. Enrich your `Functional use case` with `Acceptance criteria.`&#x20;

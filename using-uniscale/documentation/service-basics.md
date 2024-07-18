@@ -83,7 +83,7 @@ Use cases ( UC) come in two forms <mark style="color:purple;background-color:pur
 Functional UCs paint a more general picture of how a user might interact with your business to reach their goals. Instead of focusing on technical detail, it’s a cause-and-effect description of different inputs.
 
 {% hint style="info" %}
-This type of UC is encountered and created from inside the [specification](../specification/solution-basics.md#functional-use-case).&#x20;
+This type of UC is encountered and created from inside the [specification](../specification/solution-basics/#functional-use-case).&#x20;
 {% endhint %}
 
 In Uniscale, the main differentiation factor for the UCs is their technical intention.

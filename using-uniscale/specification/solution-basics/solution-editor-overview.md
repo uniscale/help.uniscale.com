@@ -24,7 +24,7 @@ When looking at the Solution editor for the first time you will be presented wit
 
 At the topbar, you will find the main navigation and core functionalities such as sharing and settings, all related to the specification.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Topbar interface</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Topbar interface</p></figcaption></figure>
 
 <details>
 
@@ -36,7 +36,7 @@ At the topbar, you will find the main navigation and core functionalities such a
     * Home button leading to the main dashboard
     * Solution dropdown trigger
 
-    <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -53,7 +53,7 @@ At the topbar, you will find the main navigation and core functionalities such a
 
 
 
-<img src="../../.gitbook/assets/image (81).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (81).png" alt="" data-size="original">
 
 </details>
 
@@ -69,9 +69,11 @@ At the topbar, you will find the main navigation and core functionalities such a
 
 
 
-<img src="../../.gitbook/assets/image (82).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (82).png" alt="" data-size="original">
 
 </details>
+
+
 
 ## Overview&#x20;
 
@@ -81,13 +83,15 @@ In the overview, you can follow the hierarchical representation of your solution
 The structure will grow in size as your solution develops as well.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>The overview over time </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>The overview over time </p></figcaption></figure>
+
+
 
 ## Content&#x20;
 
 ### Elements of the Solution&#x20;
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Elements in the Solution editor</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Elements in the Solution editor</p></figcaption></figure>
 
 #### Elements of the Solution&#x20;
 
@@ -100,13 +104,13 @@ The structure will grow in size as your solution develops as well.
 
 #### Want to learn more about the different terms and elements? Go to this explainer article:&#x20;
 
-{% content-ref url="solution-basics.md" %}
-[solution-basics.md](solution-basics.md)
+{% content-ref url="./" %}
+[.](./)
 {% endcontent-ref %}
 
 ### Functional use case functionalities&#x20;
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Functional use case breakdown</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Functional use case breakdown</p></figcaption></figure>
 
 * Functional use case
   * UI Designer notes
@@ -118,19 +122,21 @@ The structure will grow in size as your solution develops as well.
 
 #### Want to learn more about the functional use cases? Go to this explainer article:&#x20;
 
-{% content-ref url="solution-basics.md" %}
-[solution-basics.md](solution-basics.md)
+{% content-ref url="./" %}
+[.](./)
 {% endcontent-ref %}
+
+
 
 ## Locking cycles  &#x20;
 
 For the most relevant statuses within a revision, the interface shows a badge indicating the number of items that match the **filter** (All, Edited, Unlock & Edited and Ready).&#x20;
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>The revision filters </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p>The revision filters </p></figcaption></figure>
 
 #### For the full explanation of the Locking & Completion cycles, go to the article below:
 
-{% content-ref url="module-revision.md" %}
-[module-revision.md](module-revision.md)
+{% content-ref url="../module-revision.md" %}
+[module-revision.md](../module-revision.md)
 {% endcontent-ref %}
 

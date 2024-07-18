@@ -11,14 +11,14 @@
 ## USING UNISCALE
 
 * [Specification](using-uniscale/specification/README.md)
-  * [Solution basics](using-uniscale/specification/solution-basics.md)
-  * [Solution editor overview](using-uniscale/specification/solution-editor-overview.md)
+  * [Solution basics](using-uniscale/specification/solution-basics/README.md)
+    * [Solution editor overview](using-uniscale/specification/solution-basics/solution-editor-overview.md)
+    * [Tutorial: Using comments](using-uniscale/specification/solution-basics/tutorial-using-comments.md)
+    * [Tutorial: Using AI in Specification](using-uniscale/specification/solution-basics/tutorial-using-ai-in-specification.md)
   * [Tutorial: high-level specification](using-uniscale/specification/tutorial-high-level-specification/README.md)
     * [Template: Solution description](using-uniscale/specification/tutorial-high-level-specification/template-solution-description.md)
   * [Tutorial: detailed specification](using-uniscale/specification/tutorial-detailed-specification.md)
   * [Module revision](using-uniscale/specification/module-revision.md)
-  * [Tutorial: Using comments](using-uniscale/specification/tutorial-using-comments.md)
-  * [Tutorial: Using AI in Specification](using-uniscale/specification/tutorial-using-ai-in-specification.md)
 * [Documentation](using-uniscale/documentation/README.md)
   * [Service basics](using-uniscale/documentation/service-basics.md)
   * [Service editor overview](using-uniscale/documentation/service-editor-overview.md)

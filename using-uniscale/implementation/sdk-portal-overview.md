@@ -10,7 +10,7 @@ description: Learn about the SDK portal and how to navigate this.
 
 ## Topbar
 
-In similar manner to the ones found in specification and documentation. For a more detailed breakdown, check [`here`](../specification/solution-editor-overview.md#topbar)
+In similar manner to the ones found in specification and documentation. For a more detailed breakdown, check [`here`](../specification/solution-basics/solution-editor-overview.md#topbar)
 
 ## Library setup
 
