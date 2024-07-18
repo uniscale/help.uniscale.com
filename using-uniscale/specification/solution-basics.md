@@ -99,8 +99,6 @@ This prevents the need for separate projects that are tightly coupled and must b
 
 
 
-
-
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## Pages
@@ -149,12 +147,11 @@ A functional use case (FUC) can be used for two purposes:
 
 A Functional use case can further be broken down into the following elements:
 
-* UI Designer notes
-* UX Product notes
-  * UX Flows
-    * Functional acceptance criteria
-    * Service flow
-      * Functional acceptance criteria
+* [#ui-designer-notes](solution-basics.md#ui-designer-notes "mention")
+* [#ux-product-notes](solution-basics.md#ux-product-notes "mention")
+  * [#ux-flow](solution-basics.md#ux-flow "mention")
+    * [#functional-acceptance-criteria](solution-basics.md#functional-acceptance-criteria "mention")
+    * [#service-flow](solution-basics.md#service-flow "mention")
 
 
 
@@ -240,7 +237,7 @@ To learn more about Services, visit our detailed [Service basics](../documentati
 
 <details>
 
-<summary>Richt text editor</summary>
+<summary>Rich text editor</summary>
 
 Our Rich text editor allows you to write your specifications using advanced styling options (heading, bold, italic, bullet points, and many more) and to embed media, images, and hyperlinks.
 
