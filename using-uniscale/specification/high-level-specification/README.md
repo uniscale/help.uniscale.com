@@ -55,7 +55,8 @@ Video: Tutorial: High-level specification
 To help you get started, here are some inspirations for what to include in your specifications.
 
 {% hint style="info" %}
-This template is for you to copy into your solution description. This will guide you to include the essential parts of your high-level specification
+Copy the template below into your solution description. This will guide you to include the essential parts of your high-level specification
+{% endhint %}
 
 > **What - Solution description**
 >
@@ -90,7 +91,6 @@ This template is for you to copy into your solution description. This will guide
 > * \[Insert high-level functionality] - \[insert actor or grouped actor]
 >
 > _\*Note: The named list of functionality groupings are likely your modules._
-{% endhint %}
 
 
 
