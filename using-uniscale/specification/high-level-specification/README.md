@@ -117,7 +117,7 @@ Here are relevant things to include:&#x20;
 
 
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-07-02 at 10.01.51.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/CleanShot 2024-07-02 at 10.01.51.png" alt="" data-size="original">
 
 
 
@@ -168,7 +168,11 @@ You can read more here: [#functional-use-case](../solution-basics/#functional-us
 * Note; Our Generative AI can help write suggestions for what acceptance criteria to include: [#ai-generated-acceptance-criteria](../solution-basics/tutorial-using-ai-in-specification.md#ai-generated-acceptance-criteria "mention")
 * Definition: a list of qualifications that the functional use case (UX flow if detailed specification?) needs to fulfill
 
-![Template - Acceptance Criteria](<../../../.gitbook/assets/CleanShot 2024-07-02 at 10.05.54.png>)
+
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-07-02 at 10.05.54.png" alt=""><figcaption></figcaption></figure>
+
+
 
 </details>
 
