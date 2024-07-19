@@ -4,8 +4,6 @@ description: Learn how to get started with the Uniscale SDK.
 
 # Introduction to SDK
 
-
-
 ## Introduction to SDK
 
 {% embed url="https://www.youtube.com/watch?v=nFra8I6CuJI" %}
@@ -18,7 +16,11 @@ For solutions, the SDK serves as a single source of truth for the developers cre
 
 Services can be made in the languages most capable of delivering the functionality to the application. Developers working from the perspective of another service only need to rely on the endpoints being exposed by the service.
 
-‍
+
+
+<table><thead><tr><th width="130"></th><th></th></tr></thead><tbody><tr><td>What</td><td>Collection of tools, code samples, and documentation that will be used by developers to build your solution.</td></tr><tr><td>Why</td><td>Allows for a decoupled backend and frontend and helps your developers to write better code.</td></tr><tr><td>Who</td><td>Software Developer</td></tr><tr><td>Outcome</td><td>Fully generated SDK library in the language of your choice.</td></tr><tr><td>How</td><td><a data-mention href="./#generating-the-sdk">#generating-the-sdk</a></td></tr></tbody></table>
+
+
 
 ## **Generating the SDK**
 

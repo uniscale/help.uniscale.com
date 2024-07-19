@@ -4,13 +4,11 @@ description: Learn the concept and steps for service revisions.
 
 # Service revisions
 
-## Introduction to process
+## Introduction
 
 Within the cycles of modeling and producing well-written documentation, you will find yourself completing items and getting them to a stage where you can lock things in place before a revision.
 
 To do so in a better manner, we have provided each item in your documentation with its lifecycle related to its meaning.
-
-
 
 For that, we distinguish between:
 

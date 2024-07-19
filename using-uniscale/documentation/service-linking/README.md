@@ -18,6 +18,10 @@ Having a look at the following illustration, we recognise the specification elem
 
 
 
+<table><thead><tr><th width="127"></th><th width="601"></th></tr></thead><tbody><tr><td>What</td><td><p>Define the requirements for all technical functionality needed to build the intended user experience.</p><ul><li>Identify what functionality you would need from services to be able to implement this user experience</li><li>Define the initial architecture for your services.</li><li>Define your services' boundaries.</li><li>Outline how the services will interact with one another.</li></ul></td></tr><tr><td>Why</td><td>Ensure a sustainable product architecture with low technical debt and an optimized services dependency for better ownership distribution.</td></tr><tr><td>Who</td><td>Software architect or Tech Lead</td></tr><tr><td>Outcome</td><td>Having each UX flow linked to a service draft that is ready to be further described and modeled.</td></tr><tr><td>How</td><td><a data-mention href="./">.</a></td></tr></tbody></table>
+
+
+
 ## Tutorial: Service linking
 
 {% hint style="info" %}

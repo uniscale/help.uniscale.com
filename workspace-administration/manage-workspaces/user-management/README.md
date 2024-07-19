@@ -29,7 +29,7 @@ Get an overview below&#x20;
 {% hint style="info" %}
 Workspace _owners_, _admins_, and _users_ require a subscription seat. Clients, however, do not require a seat and the amount of clients may be limited based on your subscription plan. \
 \
-Learn how to invite: [invite-to-uniscale.md](../invite-to-uniscale.md "mention")
+Learn how to invite: [invite-to-uniscale.md](../../invite-to-uniscale.md "mention")
 {% endhint %}
 
 
