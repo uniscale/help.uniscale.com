@@ -13,13 +13,13 @@ In Uniscale, Services are created for two possible usages. For a solution or as 
 * <mark style="color:purple;">**`Solution-owned-services`**</mark> are, as the name suggests, services created only to provide functionality within the bounded context of a solution. Their functionality is exposed via revisions to all the modules inside the owning solution.
 * <mark style="color:purple;">**`Standalone services`**</mark> are the specification of an individual service without any links into it's surrounding eco-system.
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ## Overall structure
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 ## Service Composition: Understanding the Key Elements
 
@@ -45,7 +45,7 @@ Service
       └─ Property group
 ```
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 ## Namespaces
 
@@ -70,7 +70,7 @@ Account (root level)
 
 #### Revision cycle & update cycle
 
-Namespaces are subject to the [locking/unlocking/readying](../specification/module-revision.md) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
+Namespaces are subject to the [locking/unlocking/readying](../../specification/module-revision.md) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
 The name of a namespace is strictly managed through locking and unlocking while the description is easily editable. The reason being that the namespace forms the location of endpoints and data contracts all the way into the SDK so changing a namespace name structurally changes the location of things in the SDK.
 
@@ -83,7 +83,7 @@ Use cases ( UC) come in two forms <mark style="color:purple;background-color:pur
 Functional UCs paint a more general picture of how a user might interact with your business to reach their goals. Instead of focusing on technical detail, it’s a cause-and-effect description of different inputs.
 
 {% hint style="info" %}
-This type of UC is encountered and created from inside the [specification](../specification/solution-basics/#functional-use-case).&#x20;
+This type of UC is encountered and created from inside the [specification](../../specification/solution-basics/#functional-use-case).&#x20;
 {% endhint %}
 
 In Uniscale, the main differentiation factor for the UCs is their technical intention.
@@ -108,7 +108,7 @@ It does not describe the end-user functionality, that will always be described t
 
 #### Revision cycle & update cycle
 
-UCs are subject to the [locking/unlocking/readying](service-revisions.md#lockable-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
+UCs are subject to the [locking/unlocking/readying](../service-revisions.md#lockable-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
 ***
 
@@ -140,9 +140,9 @@ A  technical UCF contains:&#x20;
 
 #### Revision cycle & update cycle
 
-UCFs are subject to the [locking/unlocking/readying](service-revisions.md#lockable-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
+UCFs are subject to the [locking/unlocking/readying](../service-revisions.md#lockable-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 ## Endpoints
 
@@ -178,7 +178,7 @@ An endpoint will be defined by:
 
 Depending on the type, an endpoint can contain **one** ( Message) or **two** payloads (Request - Response):
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 ## Error codes
 
@@ -186,7 +186,7 @@ Once your endpoints are configured and set up with their payloads, they can be e
 
 Initially, every endpoint assumes a happy scenario where no complications or bad scenarios can occur. The reality is different, of course, and for various reasons, your frontend can present various scenarios where the data is wrong, or missing, or the backend cannot process the requested information.
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 In Uniscale you can enrich each endoints with direct Error codes to cover those exact scenarios. For each error code, you can provide:
 
@@ -195,7 +195,7 @@ In Uniscale you can enrich each endoints with direct Error codes to cover those 
 
 If you use the Uniscale session and interceptors the error response management is automatically handled through call chains. This means a frontend calling a service, calling another service.
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -205,9 +205,9 @@ Structuring your data can be done in multiple ways in Uniscale, and as such we h
 
 #### Revision cycle & update cycle
 
-Data contracts are subject to the [completion](service-revisions.md#completion-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
+Data contracts are subject to the [completion](../service-revisions.md#completion-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 ### Aggregates
 
@@ -215,7 +215,7 @@ Within DDD, aggregates represent the main data containers for your properties an
 
 Aggregates are unique by identifier, which is automatically generated based on the aggregate name.  As such checking if two aggregates are equal is done by comparing their identifiers.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-16 at 17.11.16@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-04-16 at 17.11.16@2x.png" alt=""><figcaption></figcaption></figure>
 
 Aggregates are placed under a namespace which acts as its owner.
 
@@ -227,9 +227,9 @@ Aggregates are placed under a namespace which acts as its owner.
 
 In Uniscale, aggregates have by default an aggregate identifier created automatically which follows the aggregate name. Afterward, an aggregate can be expanded with a flat or nested structure of properties.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 ### Value objects&#x20;
 
@@ -251,9 +251,9 @@ There are 2 types of value objects
 
 Value objects can be referred to as other aggregates, value objects and property groups. Editing them anywhere in the interface will also update the source of truth at its origin.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-16 at 17.04.46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-04-16 at 17.04.46.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 ### Property groups
 
@@ -261,7 +261,7 @@ Once further into your modelling, you will reuse certain properties from across 
 
 Example:
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-16 at 17.05.00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-04-16 at 17.05.00.png" alt=""><figcaption></figcaption></figure>
 
 Property groups can be explained as a way of composing data from different value objects and aggregates to be used in Endpoint payloads. The only place and main place to use property groups is as a payload for  endpoints, being in a **Message** or a **Request-response** situation.
 
@@ -283,7 +283,7 @@ Note: UTF is used as an variable-length character encoding standard.
 
 At its baseline, every functionality in a service should exist for a purpose and intent. That intent can be internal or external. Towards functionality (solution or module), or another system ( service or infrastructure)
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:purple;">**`Service to module`**</mark>
 

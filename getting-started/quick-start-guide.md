@@ -102,7 +102,7 @@ Tutorial: High-level specification
 #### **Next steps**
 
 * Learn how to approve and lock your modules: [module-revision.md](../using-uniscale/specification/module-revision.md "mention")
-* Generate the SDK: [introduction-to-sdk.md](../using-uniscale/implementation/introduction-to-sdk.md "mention")
+* Generate the SDK: [introduction-to-sdk](../using-uniscale/implementation/introduction-to-sdk/ "mention")
 * Continue to [#detailed-documentation](quick-start-guide.md#detailed-documentation "mention")
 
 
@@ -149,7 +149,7 @@ Tutorial: Detailed specification
 #### **Next steps**
 
 * Learn how to approve and lock your modules:[module-revision.md](../using-uniscale/specification/module-revision.md "mention")
-* Generate the SDK: [introduction-to-sdk.md](../using-uniscale/implementation/introduction-to-sdk.md "mention")
+* Generate the SDK: [introduction-to-sdk](../using-uniscale/implementation/introduction-to-sdk/ "mention")
 * Proceed to [#phase-2-service-linking](quick-start-guide.md#phase-2-service-linking "mention")
 
 ***
@@ -222,7 +222,7 @@ Now you can include a description of each service to document the service functi
 
 ![](<../.gitbook/assets/CleanShot 2024-06-12 at 10.45.23@2x.png>)
 
-See a detailed guide to describing your documentation: [service-basics.md](../using-uniscale/documentation/service-basics.md "mention")
+See a detailed guide to describing your documentation: [service-basics](../using-uniscale/documentation/service-basics/ "mention")
 
 </details>
 
@@ -261,7 +261,7 @@ This part includes:
 
 <img src="../.gitbook/assets/image (1) (3).png" alt="Preview of modelling view tab for the &#x22;Account&#x22; service in the Demo solution" data-size="original">
 
-See a detailed guide to describing your documentation: [service-basics.md](../using-uniscale/documentation/service-basics.md "mention")
+See a detailed guide to describing your documentation: [service-basics](../using-uniscale/documentation/service-basics/ "mention")
 
 </details>
 
@@ -303,7 +303,7 @@ This is the toolbox that the developers can use to build the product. The toolbo
 
 4. Select "Save changes". This will start generating the SDK.
 
-Read the detailed steps here: [introduction-to-sdk.md](../using-uniscale/implementation/introduction-to-sdk.md "mention")
+Read the detailed steps here: [introduction-to-sdk](../using-uniscale/implementation/introduction-to-sdk/ "mention")
 
 </details>
 

@@ -6,11 +6,11 @@ description: Learn about the SDK portal and how to navigate this.
 
 ## Interface breakdown
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-16 at 18.42.47.png" alt=""><figcaption><p>Breakdown of the SDK portal interface</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-04-16 at 18.42.47.png" alt=""><figcaption><p>Breakdown of the SDK portal interface</p></figcaption></figure>
 
 ## Topbar
 
-In similar manner to the ones found in specification and documentation. For a more detailed breakdown, check [`here`](../specification/solution-basics/solution-editor-overview.md#topbar)
+In similar manner to the ones found in specification and documentation. For a more detailed breakdown, check [`here`](../../specification/solution-basics/solution-editor-overview.md#topbar)
 
 ## Library setup
 
@@ -23,7 +23,7 @@ Quite an important section as it will allow the user to&#x20;
 Changes made here will trigger the library generation process, so make sure you review the changes prior to commiting them.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-16 at 18.52.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-04-16 at 18.52.59.png" alt=""><figcaption></figcaption></figure>
 
 ## Library acces
 
@@ -39,7 +39,7 @@ For each tab, you will find a general information section, where you can quickly
 
 Up next, you will find custom per language installation guides in various steps.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-16 at 18.57.20.png" alt=""><figcaption><p>Example of instructions in .NET</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-04-16 at 18.57.20.png" alt=""><figcaption><p>Example of instructions in .NET</p></figcaption></figure>
 
 ## SDK history
 
@@ -49,4 +49,4 @@ The SDK history represent a timeline of your Library generation versions. They s
 * the library name
 * logos per each language enable in that version
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-04-16 at 18.59.03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-04-16 at 18.59.03.png" alt=""><figcaption></figcaption></figure>

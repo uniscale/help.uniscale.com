@@ -52,7 +52,7 @@ If you don't have any SDKs installed at this point you will see this prompt:
 
 </div>
 
-This can be resolved by installing an SDK. The [sdk-portal-overview.md](../sdk-portal-overview.md "mention")[ ](../sdk-portal-overview.md)will provide you with instructions for your target language.
+This can be resolved by installing an SDK. The [sdk-portal-overview.md](../introduction-to-sdk/sdk-portal-overview.md "mention")[ ](../introduction-to-sdk/sdk-portal-overview.md)will provide you with instructions for your target language.
 
 
 

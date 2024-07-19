@@ -39,21 +39,21 @@ There are 2 types of dependency in software development and in Uniscale:
 
 Each item above that supports can be hovered and via the actions menu, upwards or downwards dependencies can be inspected.
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
 ### Understanding the dependency inspection view
 
-<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
 When inspecting any item in any dependency mode, you will see a filtered view of the documentation or the Functional view, with only the items relevant to the dependency.&#x20;
 
 Any item that matches that criteria is also highlighted further in a <mark style="color:purple;">Blue accent</mark> in the Overview, and also in the Main content.
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 The user can also show the full specification via the action at the bottom, or exit and go back to the original view from the dependencies view.
 
-<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -95,6 +95,6 @@ Another great helpful functionality to indicate dependencies via usage is small 
 
 Clicking on them will show the upwards dependencies.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>

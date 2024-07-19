@@ -7,7 +7,7 @@ description: Learn the concept of service linking and the steps for doing this i
 ## Introduction
 
 {% hint style="success" %}
-This article assumes that you have covered knowledge around [specification](../../specification/ "mention") and concepts in [service-basics.md](../service-basics.md "mention").
+This article assumes that you have covered knowledge around [specification](../../specification/ "mention") and concepts in [service-basics](../service-basics/ "mention").
 {% endhint %}
 
 Service linking allows you to define a service outside-in. It gives you the possibility to first define the requirements that the defined functionality has for the specified service before diving into the details of how to model the service.&#x20;
@@ -112,8 +112,8 @@ The next step in this process is to go over the technical modeling of your useca
 
 If you haven't done so:
 
-* Cover the [service-basics.md](../service-basics.md "mention")
-* Familiarize yourself with [upstream-and-downstream-dependencies.md](../upstream-and-downstream-dependencies.md "mention")
+* Cover the [service-basics](../service-basics/ "mention")
+* Familiarize yourself with [upstream-and-downstream-dependencies.md](../service-basics/upstream-and-downstream-dependencies.md "mention")
 * Lastly, proceed to [service-revisions.md](../service-revisions.md "mention")
 
 This should get you covered through your first revision and thus completing your first service documentation!

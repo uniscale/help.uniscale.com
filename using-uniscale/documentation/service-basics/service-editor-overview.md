@@ -8,17 +8,17 @@ description: Get an overview and learn how to navigate the service editor.
 
 Once inside the service editor, you will be presented with the following view:
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 Breaking it down, we can identify 3 main elements which will be your helping items in navigating, orienting and defining your service.
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 ### Topbar
 
 Here you will find the main navigation tabs, revisions, settings, and quick access to other items related to the service.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -66,7 +66,7 @@ The list can be filtered or searched via the top inputs.
 The structure will grow in size as your service develops as well.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Example from the solution editor of how the service editor similarly will grow over time with the revisions.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Example from the solution editor of how the service editor similarly will grow over time with the revisions.</p></figcaption></figure>
 
 ### Main content
 
@@ -74,18 +74,18 @@ The center of your work. Here is where your documentation will take place and be
 
 ### Predefined views
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 On a high level, the content will show all its elements in your documentation. Further from that, you can browse into specific views, which contain the following elements
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 Depending on which view you are on, different elements will appear. As such various filters for those items' **completion** or **lockable** state will be shown.
 
 For the most relevant statuses within a revision, the interface shows a badge indicating the number of items that match that filter ( Draft & opened and Edited & Unlocked).
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-For a full explanation of the Completion cycle and the Locking cycles, [read more here.](service-revisions.md)
+For a full explanation of the Completion cycle and the Locking cycles, [read more here.](../service-revisions.md)
 {% endhint %}

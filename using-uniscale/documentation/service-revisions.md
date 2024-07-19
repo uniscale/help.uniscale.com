@@ -34,7 +34,7 @@ Listing the structure of a service, we can have:
   * properties
 
 {% hint style="info" %}
-For a more detailed breakdown, read [service-basics.md](service-basics.md "mention")
+For a more detailed breakdown, read [service-basics](service-basics/ "mention")
 {% endhint %}
 
 Each of them is subjected to a lifecycle, with different meanings.

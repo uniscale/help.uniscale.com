@@ -14,6 +14,6 @@ Automatically generate technical documentation and SDKs that align perfectly wit
 
 ## Begin implementation
 
-* For an overview and introduction: [introduction-to-sdk.md](introduction-to-sdk.md "mention")
+* For an overview and introduction: [introduction-to-sdk](introduction-to-sdk/ "mention")
 * To learn about how to implement: [library-implementation-basics](library-implementation-basics/ "mention")
 * Lastly, to learn how to integrate Uniscale with your IDE: [ide-plugins](ide-plugins/ "mention")

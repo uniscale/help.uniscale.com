@@ -14,6 +14,6 @@ This is defining the requirements and the building blocks to support your functi
 
 ## Start describing your documentation
 
-* Before describing your documentation, check our article for an overview of the elements and functionalities: [service-basics.md](service-basics.md "mention")
+* Before describing your documentation, check our article for an overview of the elements and functionalities: [service-basics](service-basics/ "mention")
 * The next step is to link your specifications to your services:[service-linking](service-linking/ "mention")
 * When ready, lock and approve your services: [service-revisions.md](service-revisions.md "mention")
