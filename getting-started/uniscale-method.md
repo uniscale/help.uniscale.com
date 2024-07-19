@@ -8,6 +8,10 @@ description: >-
 
 ## Introduction
 
+{% hint style="info" %}
+Before reading this article, we recommend watching our brief video introduction: [#what-is-uniscale](../#what-is-uniscale "mention")
+{% endhint %}
+
 The Uniscale Method uses a systematic breakdown approach that allows you to utilize domain-driven AI. This ensures that problems are accurately identified and solutions are cost-effective.\
 \
 By using this method, you'll understand the reasoning behind Uniscale and the different stages of software development. This gives you a framework to break a specification down across multiple roles into a single source of truth.\
