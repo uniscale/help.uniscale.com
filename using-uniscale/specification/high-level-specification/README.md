@@ -115,7 +115,11 @@ Here are relevant things to include:&#x20;
 * Detailed explanation of what this module is supposed to do and how it proposes to achieve it
 * Actors: Who is going to interact with this module?
 
-![Template - Module Description](<../../../.gitbook/assets/CleanShot 2024-07-02 at 10.01.51.png>)
+
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-07-02 at 10.01.51.png" alt=""><figcaption></figcaption></figure>
+
+
 
 </details>
 
@@ -125,7 +129,11 @@ Here are relevant things to include:&#x20;
 
 Pages are an element for structure, where you can organize and group your functional use cases. Often used (if needed) when you have locked in the first revision.&#x20;
 
-![Template - Pages](<../../../.gitbook/assets/CleanShot 2024-07-02 at 10.02.58.png>)
+
+
+<img src="../../../.gitbook/assets/CleanShot 2024-07-02 at 10.02.58.png" alt="" data-size="original">
+
+
 
 You can read more about Pages here: [#page](../solution-basics/#page "mention")
 
@@ -142,7 +150,11 @@ You can read more about Pages here: [#page](../solution-basics/#page "mention")
   * Define their desired outcome.
 * Examples: House cleaning app: As a house owner, when my house is dirty, I want to book a cleaner, so that my house is cleaned.
 
-![Template - Functional use cases](<../../../.gitbook/assets/CleanShot 2024-07-02 at 10.04.56 (1).png>)
+
+
+<img src="../../../.gitbook/assets/CleanShot 2024-07-02 at 10.04.56 (1).png" alt="" data-size="original">
+
+
 
 You can read more here: [#functional-use-case](../solution-basics/#functional-use-case "mention")
 
