@@ -75,15 +75,15 @@ It outlines the steps involved, the actors, the conditions under which the inter
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-07-02 at 14.28.46@2x.png" alt=""><figcaption><p>Describe your functional use case</p></figcaption></figure>
 
-3. Add [UI Designer notes](#user-content-fn-1)[^1].&#x20;
+3. Add UI Designer notes.&#x20;
 
-Your UI Designed notes should include the detailed annotations and explanations provided by a UI  designer to convey design decisions, guidelines, and specific instructions for implementing a user interface.
+Your UI Designer notes should include the detailed annotations and explanations provided by a UI  designer to convey design decisions, guidelines, and specific instructions for implementing a user interface.
 
 
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-07-02 at 14.32.46@2x.png" alt=""><figcaption><p>UI Desginer notes</p></figcaption></figure>
 
-4. Add [UX Product](#user-content-fn-2)[^2] notes with [UX flows](#user-content-fn-3)[^3].&#x20;
+4. Add UX Product notes with [UX flows](#user-content-fn-1)[^1].&#x20;
 
 The UX Product notes allow you to add notes and provide a detailed description regarding the intended user experience for a specific functional use case.
 
@@ -91,11 +91,9 @@ On the other hand, the UX flows describe the detailed behaviors within functiona
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-07-02 at 14.33.42@2x.png" alt=""><figcaption><p>UX Product notes</p></figcaption></figure>
 
-5. Enrich your UX flows with [Functional acceptance criteria](#user-content-fn-4)[^4].
+5. Enrich your UX flows with Functional acceptance criteria.
 
-Your acceptance criteria will be a list of qualifications that the implementation of the UX flow needs to fulfill.
-
-
+Your acceptance criteria will be a list of qualifications that the implementation of the UX flow needs to fulfil.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-07-02 at 14.35.53@2x.png" alt=""><figcaption><p>Functional acceptance criteria</p></figcaption></figure>
 
@@ -111,10 +109,4 @@ UX flows are the lowest level of detail in your functional specification. When t
 * Generate the SDK: [introduction-to-sdk.md](../implementation/introduction-to-sdk.md "mention")
 * Proceed to [service-linking](../documentation/service-linking/ "mention")
 
-[^1]: [#ui-designer-notes](solution-basics/#ui-designer-notes "mention")
-
-[^2]: [#ux-product-notes](solution-basics/#ux-product-notes "mention")
-
-[^3]: [#ux-flow](solution-basics/#ux-flow "mention")
-
-[^4]: [#functional-acceptance-criteria](solution-basics/#functional-acceptance-criteria "mention")
+[^1]: [#ux-flow](solution-basics/#ux-flow "mention")
