@@ -30,7 +30,7 @@ Video: Tutorial: Detailed specification
 {% endembed %}
 
 {% hint style="info" %}
-### Create visuals for your modules
+**Create visuals for your modules**
 
 If you haven't already, a good place to start is by inserting images with mockups or wireframes of your solution. Adding visuals will help get a clear overview of what needs to be broken down.
 {% endhint %}
