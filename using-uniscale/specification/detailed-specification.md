@@ -53,6 +53,8 @@ And one for a Section:
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-07-03 at 08.51.11@2x.png" alt=""><figcaption><p>Template - "New posts" section</p></figcaption></figure>
 
+
+
 ### Describe the user behavior with Functional use cases
 
 With your structure defined, it is time to describe the behavior of your solution.
@@ -61,13 +63,13 @@ With your structure defined, it is time to describe the behavior of your solutio
 In the high-level specification, the purpose of the Functional use case is to describe the high-level user behavior **abstractly**. Now, you will begin to describe the **concrete** use cases for each page and section.&#x20;
 {% endhint %}
 
-1. Begin by creating Functional use cases.
+#### Create a Functional use cases.
 
 A Functional use case represents the user beahvior within a module and page.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-07-02 at 14.25.33@2x.png" alt=""><figcaption><p>Create a functional use case</p></figcaption></figure>
 
-2. Create a description for your Functional use case.&#x20;
+#### Describe your Functional use case.&#x20;
 
 This description should include a detailed explanation of a specific interaction between a user and an application to achieve a particular goal.&#x20;
 
@@ -75,15 +77,13 @@ It outlines the steps involved, the actors, the conditions under which the inter
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-07-02 at 14.28.46@2x.png" alt=""><figcaption><p>Describe your functional use case</p></figcaption></figure>
 
-3. Add UI Designer notes.&#x20;
+#### Add UI Designer notes.&#x20;
 
 Your UI Designer notes should include the detailed annotations and explanations provided by a UI  designer to convey design decisions, guidelines, and specific instructions for implementing a user interface.
 
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-02 at 14.32.46@2x.png" alt=""><figcaption><p>UI Designer notes</p></figcaption></figure>
 
-
-<figure><img src="../../.gitbook/assets/CleanShot 2024-07-02 at 14.32.46@2x.png" alt=""><figcaption><p>UI Desginer notes</p></figcaption></figure>
-
-4. Add UX Product notes with [UX flows](#user-content-fn-1)[^1].&#x20;
+#### Add UX Product notes with UX flows
 
 The UX Product notes allow you to add notes and provide a detailed description regarding the intended user experience for a specific functional use case.
 
@@ -91,7 +91,7 @@ On the other hand, the UX flows describe the detailed behaviors within functiona
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-07-02 at 14.33.42@2x.png" alt=""><figcaption><p>UX Product notes</p></figcaption></figure>
 
-5. Enrich your UX flows with Functional acceptance criteria.
+#### Enrich UX flows with Functional acceptance criteria.
 
 Your acceptance criteria will be a list of qualifications that the implementation of the UX flow needs to fulfil.
 
@@ -108,5 +108,3 @@ UX flows are the lowest level of detail in your functional specification. When t
 * Approve your first revision: [module-revision.md](module-revision.md "mention")
 * Generate the SDK: [introduction-to-sdk](../implementation/introduction-to-sdk/ "mention")
 * Proceed to [service-linking](../documentation/service-linking/ "mention")
-
-[^1]: [#ux-flow](solution-basics/#ux-flow "mention")

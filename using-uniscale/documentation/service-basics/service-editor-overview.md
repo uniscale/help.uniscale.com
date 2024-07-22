@@ -10,7 +10,7 @@ Once inside the service editor, you will be presented with the following view:
 
 <figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-Breaking it down, we can identify 3 main elements which will be your helping items in navigating, orienting and defining your service.
+Breaking it down, we can identify three main elements which will be your helping items in navigating, orienting, and defining your service.
 
 <figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 

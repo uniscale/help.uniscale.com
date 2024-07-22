@@ -84,7 +84,7 @@ Click on the three dots and select "Link usecase flow":
 
 ### Export your service draft
 
-Once you have processed your use case flows, you can now "distribute" , and create your services, along the nested namespaces and use case flows.
+Once you have processed your use case flows, you can now "distribute", and create your services, along the nested namespaces and use case flows.
 
 <figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
@@ -112,7 +112,7 @@ Here, a filtered representation of the solution specification is shown with only
 
 ## Next steps
 
-The next step in this process is to go over the technical modeling of your usecase flows, enrich them with endpoints, and model their payloads.  This is a quite complex task but we have plenty of guides to go through each step.
+The next step in this process is to go over the technical modeling of your use case flows, enrich them with endpoints, and model their payloads.  This is a quite complex task but we have plenty of guides to go through each step.
 
 If you haven't done so:
 

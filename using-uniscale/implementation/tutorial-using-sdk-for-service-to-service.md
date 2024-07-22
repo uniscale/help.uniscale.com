@@ -12,9 +12,13 @@ It is important that you use the `ForwardingSession` for service-to-service call
 
 Below is a sample where we have `clientSession` that is used to create a request into account service (represented by `accountServiceSession`) which in turn makes service-to-service calls into message service (represented by `messageServiceSession`).&#x20;
 
-### Creating a sample in stages
 
-Let's go through the flow, starting from the `clientSession`. We want to register a new user with the handle "AwesomeUserHandle". First, we create a pattern interceptor that sends a request to our account service, initialize the dispatcher, and make a request.
+
+
+
+## Creating a sample in stages
+
+Let's go through the flow, starting from the `clientSession`. We want to register a new user with the handle "AwesomeUserHandle". First, we create a pattern interceptor that sends a request to our account service, initializes the dispatcher, and makes a request.
 
 {% tabs %}
 {% tab title="C# .NET" %}
@@ -464,7 +468,7 @@ const response = accountServiceSession.acceptGatewayRequest(requestJson);
 
 
 
-And then the only thing left is the message service. We create a `messageServiceSession`. This service only needs to implement its features and then accept the incoming requests.
+And then the only thing left is the message service. We create a `messageServiceSession`. This service only needs to implement its features and then accept incoming requests.
 
 {% tabs %}
 {% tab title="C# .NET" %}
@@ -594,7 +598,9 @@ const response = messageServiceSession.acceptGatewayRequest(requestJson);
 {% endtab %}
 {% endtabs %}
 
-### Error handling
+
+
+## Error handling
 
 Forwarding sessions have built-in support for gathering errors from all levels of the service-to-service flow. In other words, errors from outgoing calls are automatically added to the handler's response. In the sample we've created above, if we were to send an empty message into the message service, the original caller would receive an Error that would look similar to this in JSON:
 
@@ -640,7 +646,7 @@ So the errors from deeper into the service-to-service call will be stored inside
 
 
 
-### Fully working single file sample
+## Fully working single file sample
 
 Below is everything put together in a working sample with imports. In this sample, the HTTP calls have been simplified to direct references into the created sessions.
 

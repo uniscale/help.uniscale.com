@@ -19,6 +19,8 @@ You can find similar complete code samples with running instructions in our GitH
 
 You can find a guide with correct SDK information for your generated languages in your solution or service's SDK Portal in Uniscale.
 
+
+
 ## Implementing the endpoint logic
 
 Your SDK is built with the endpoints that you have defined.  In order to get started with your backend you will need to implement the logic of the endpoint and create an interceptor for it that you register inside `PlatformSession`.&#x20;
@@ -222,6 +224,8 @@ app()
 
 Now there is a server running with PlatformSession ready to be injected/passed.
 
+
+
 ## Create network endpoint
 
 With the server running and SDK endpoint logic implemented into your session, you're still missing the network endpoint. You will only need to be able to inject/pass an instance of PlatformSession into your controller/ network endpoint definition. Then inside your network endpoint, you need to pass the GatewayRequest JSON data into the session's acceptGatewayRequest function and return the output of that function in JSON.&#x20;
@@ -234,7 +238,7 @@ These endpoints can be created using any library or protocol that fits your need
 
 {% tabs %}
 {% tab title="C# .NET" %}
-For basic ASP.NET WebAPI, this means injecting the PlatformSession into your controller and creating single HTTP endpoint that serves the app based on the created instance of PlatformSession.
+For basic ASP.NET WebAPI, this means injecting the PlatformSession into your controller and creating a single HTTP endpoint that serves the app based on the created instance of PlatformSession.
 
 {% code title="GatewayController.cs" %}
 ```csharp
@@ -271,7 +275,7 @@ public class GatewayController : ControllerBase
 {% endtab %}
 
 {% tab title="Python" %}
-For our Quart app this means defining the single endpoint route using the PlatformSession. And then simply starting the app.
+For our Quart app, this means defining the single endpoint route using the PlatformSession. And then simply starting the app.
 
 {% code title="app.py" %}
 ```python
@@ -294,7 +298,7 @@ if __name__ == "__main__":
 {% endtab %}
 
 {% tab title="Java" %}
-For basic Spring Boot Api this means injecting the PlatformSession into your controller and creating single HTTP endpoint that serves the app based on the created instance of PlatformSession.
+For basic Spring Boot API, this means injecting the PlatformSession into your controller and creating a single HTTP endpoint that serves the app based on the created instance of PlatformSession.
 
 {% code title="GatewayController.java" %}
 ```java
@@ -330,7 +334,7 @@ public class GatewayController {
 {% endtab %}
 
 {% tab title="TypeScript" %}
-For basic express Api this means matching all routes, creating single HTTP endpoint that serves the app based on the created instance of PlatformSession.
+For basic express API, this means matching all routes and creating a single HTTP endpoint that serves the app based on the created instance of PlatformSession.
 
 ```typescript
 // Sample implementation for demo. Please note that this is just one showcase
@@ -353,4 +357,4 @@ app.all("/", async (req, res) => {
 {% endtab %}
 {% endtabs %}
 
-And with just a couple of steps like that, we have created a backend that can be easily called with a front-end client that was created based on [quick-start-front-end-with-uniscale-sdk](quick-start-front-end-with-uniscale-sdk/ "mention").
+With just a couple of steps like that, we have created a backend that can be easily called with a front-end client that was created based on [quick-start-front-end-with-uniscale-sdk](quick-start-front-end-with-uniscale-sdk/ "mention").

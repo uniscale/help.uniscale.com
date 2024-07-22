@@ -19,7 +19,7 @@ These are all valid day-to-day questions and to provide an answer to them, the s
 Each of the following elements can be inspected for their dependencies via the action menu or various other quick-access UI explained below:
 
 * Technical use cases
-* Use case flows ( Standalone and technical )
+* Use case flows (Standalone and technical)
 * Endpoints
 * Aggregates
 * Value Objects
@@ -27,7 +27,7 @@ Each of the following elements can be inspected for their dependencies via the a
 
 ### Upstream vs downstream
 
-There are 2 types of dependency in software development and in Uniscale:
+There are 2 types of dependency in software development and Uniscale:
 
 "Who is dependent on me" - <mark style="color:purple;">**`upstream dependency`**</mark>
 

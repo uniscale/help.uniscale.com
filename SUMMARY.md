@@ -30,7 +30,7 @@
     * [Tenancy](using-uniscale/documentation/service-modeling/tenancy.md)
     * [Validations](using-uniscale/documentation/service-modeling/validations.md)
     * [Properties & Terminologies](using-uniscale/documentation/service-modeling/properties-and-terminologies.md)
-    * [Data Contract Composition](using-uniscale/documentation/service-modeling/data-contract-composition.md)
+    * [Data contract composition](using-uniscale/documentation/service-modeling/data-contract-composition.md)
     * [Composite Aggregate Identifiers](using-uniscale/documentation/service-modeling/composite-aggregate-identifiers.md)
   * [Service revisions](using-uniscale/documentation/service-revisions.md)
 * [Implementation](using-uniscale/implementation/README.md)

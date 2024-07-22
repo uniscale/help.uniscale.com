@@ -8,10 +8,10 @@ description: >-
 
 ## Introduction to services
 
-In Uniscale, Services are created for two possible usages. For a solution or as a standalone service.
+In Uniscale, services are created for two possible uses. For a solution or as a standalone service.
 
 * <mark style="color:purple;">**`Solution-owned-services`**</mark> are, as the name suggests, services created only to provide functionality within the bounded context of a solution. Their functionality is exposed via revisions to all the modules inside the owning solution.
-* <mark style="color:purple;">**`Standalone services`**</mark> are the specification of an individual service without any links into it's surrounding eco-system.
+* <mark style="color:purple;">**`Standalone services`**</mark> are the specification of an individual service without any links to its surrounding eco-system.
 
 <figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
@@ -24,8 +24,6 @@ In Uniscale, Services are created for two possible usages. For a solution or as 
 ## Service Composition: Understanding the Key Elements
 
 Services are multifaceted, incorporating various elements that work cohesively to deliver functionality. This article delves into the primary components involved in service design, their application, objectives, and underlying principles. By dissecting these elements, we aim to provide a clearer understanding of what goes into creating a robust service.
-
-
 
 ```
 // Example of a service with various levels of namespaces 
@@ -44,6 +42,8 @@ Service
    └─ Namespace
       └─ Property group
 ```
+
+
 
 <figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
@@ -72,9 +72,9 @@ Account (root level)
 
 Namespaces are subject to the [locking/unlocking/readying](../../specification/module-revision.md) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
-The name of a namespace is strictly managed through locking and unlocking while the description is easily editable. The reason being that the namespace forms the location of endpoints and data contracts all the way into the SDK so changing a namespace name structurally changes the location of things in the SDK.
+The name of a namespace is strictly managed through locking and unlocking while the description is easily editable. The reason is that the namespace forms the location of endpoints and data contracts all the way into the SDK so changing a namespace name structurally changes the location of things in the SDK.
 
-***
+
 
 ## Use cases
 
@@ -100,7 +100,7 @@ They are use cases owned and maintained by the service itself.
 
 ### Technical use cases&#x20;
 
-The technical use case does not describe how the end user interacts. It rather is a group of flows that the services exposes as a larger group of functionality that belongs together. For instance, a use case for a service could be mail-sending management where it exposes flows for sending mail, checking the status of sent emails, and for instance hourly stats.
+The technical use case does not describe how the end user interacts. It rather is a group of flows that the services expose as a larger group of functionality that belongs together. For instance, a use case for a service could be mail-sending management where it exposes flows for sending mail, checking the status of sent emails, and for instance hourly stats.
 
 It does not describe the end-user functionality, that will always be described through a module but it describes a larger set of technical functionality that the service wants to expose to its users (developers for other services/frontends).
 
@@ -110,7 +110,7 @@ It does not describe the end-user functionality, that will always be described t
 
 UCs are subject to the [locking/unlocking/readying](../service-revisions.md#lockable-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
-***
+
 
 ## Use case flows&#x20;
 
@@ -118,7 +118,7 @@ Different types of flows (technical/standalone) form the specification of endpoi
 
 ### Standalone use case flow
 
-Use case flows (UCF), as the name suggests, can be used in one or more functional use cases (end user flows) if service to module or as a single standalone flow against another service (if service to service)
+Use case flows (UCF), as the name suggests, can be used in one or more functional use cases if service to a module or as a single standalone flow against another service (if service to service)
 
 A functional UCF contains:
 
@@ -141,6 +141,8 @@ A  technical UCF contains:&#x20;
 #### Revision cycle & update cycle
 
 UCFs are subject to the [locking/unlocking/readying](../service-revisions.md#lockable-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
+
+
 
 <figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
@@ -180,6 +182,8 @@ Depending on the type, an endpoint can contain **one** ( Message) or **two** pay
 
 <figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
+
+
 ## Error codes
 
 Once your endpoints are configured and set up with their payloads, they can be enriched with more configuration on how they will interact with outside systems or requests.
@@ -197,7 +201,7 @@ If you use the Uniscale session and interceptors the error response management i
 
 <figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
-***
+
 
 ## Data contracts
 
@@ -206,6 +210,8 @@ Structuring your data can be done in multiple ways in Uniscale, and as such we h
 #### Revision cycle & update cycle
 
 Data contracts are subject to the [completion](../service-revisions.md#completion-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
+
+
 
 <figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
@@ -229,11 +235,13 @@ In Uniscale, aggregates have by default an aggregate identifier created automati
 
 <figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
+
+
 <figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 ### Value objects&#x20;
 
-Value objects represent data contracts that are slightly different that aggregates. They are unique by content and as such and they can be quite simple in structure or even standalone.&#x20;
+Value objects represent data contracts that are slightly different from aggregates. They are unique in content and as such they can be quite simple in structure or even standalone.&#x20;
 
 Value objects are placed under a namespace which acts as its owner.
 
@@ -244,28 +252,30 @@ Value objects are placed under a namespace which acts as its owner.
 
 There are 2 types of value objects
 
-* type alias: a type alias is a native type with a specific meaning (ex. Gender). For instance if an endpoint wants to use a native type as its input/output it must declare a type alias value object and use that.&#x20;
+* type alias: a type alias is a native type with a specific meaning (ex. Gender). For instance, if an endpoint wants to use a native type as its input/output it must declare a type alias value object and use that.&#x20;
 * type structure: a nested structure of properties  (ex. SearchPayload). This is encountered in situations where the request of an endpoint is a fixed structure that is always the same but it is not necessarily an aggregate.
 
 
 
-Value objects can be referred to as other aggregates, value objects and property groups. Editing them anywhere in the interface will also update the source of truth at its origin.
+Value objects can be referred to as other aggregates, value objects, and property groups. Editing them anywhere in the interface will also update the source of truth at its origin.
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2024-04-16 at 17.04.46.png" alt=""><figcaption></figcaption></figure>
+
+
 
 <figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 ### Property groups
 
-Once further into your modelling, you will reuse certain properties from across various aggregates and value objects, also with different cardinalities in mind. Exploring such scenarios, we can have:&#x20;
+Once further into your modeling, you will reuse certain properties from across various aggregates and value objects, also with different cardinalities in mind. Exploring such scenarios, we can have:&#x20;
 
 Example:
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2024-04-16 at 17.05.00.png" alt=""><figcaption></figcaption></figure>
 
-Property groups can be explained as a way of composing data from different value objects and aggregates to be used in Endpoint payloads. The only place and main place to use property groups is as a payload for  endpoints, being in a **Message** or a **Request-response** situation.
+Property groups can be explained as a way of composing data from different value objects and aggregates to be used in Endpoint payloads. The only place and main place to use property groups is as a payload for endpoints, being in a **Message** or a **Request-response** situation.
 
-***
+
 
 ## Native type system
 
@@ -274,7 +284,7 @@ A **native data type** is a classification of data that tells the library genera
 <table><thead><tr><th width="164">Native type</th><th>Represents</th><th>Example</th></tr></thead><tbody><tr><td>GUID </td><td>a uniquely generated identifier</td><td>c5f364fa-1d39-4de5-abdf-c1e6a54d05a6</td></tr><tr><td>terminology</td><td>Collection of terms</td><td><p><code>{</code></p><p><code>dk :"Denmark",</code><br><code>no: "Norway",</code></p><p><code>...</code><br><code>}</code></p></td></tr><tr><td>date </td><td>Day-month-year</td><td>2022-09-27</td></tr><tr><td>datetime</td><td>Date with timestamp</td><td>2022-09-27 18:00:00.000</td></tr><tr><td>boolean </td><td>logical true or false</td><td>true, false</td></tr><tr><td>float </td><td>fractional numbers</td><td>64bit floats </td></tr><tr><td>integer </td><td>whole number</td><td>64bit integers</td></tr><tr><td>string </td><td>A sequence of characters</td><td>"hello world"</td></tr></tbody></table>
 
 {% hint style="info" %}
-Note: UTF is used as an variable-length character encoding standard.
+aNote: UTF is used as a variable-length character encoding standard.
 {% endhint %}
 
 

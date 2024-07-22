@@ -1,10 +1,10 @@
 ---
 description: >-
-  Welcome! On this page, you will learn how to use the SDK with your front-end
+  On this page, you will learn how to use the SDK with your front-end
   application.
 ---
 
-# Quick Start: Front-end with Uniscale SDK
+# Quick start: Front-end with Uniscale SDK
 
 This tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [library-implementation-basics](../library-implementation-basics/ "mention")
 
@@ -32,6 +32,8 @@ npm i @uniscale-sdk/ActorCharacter-Messagethreads@1.0.6
 ## Tutorial: Using the SDK with your front-end application
 
 Following this tutorial will help you set up a dispatcher for handling requests that communicate with the endpoints provided in the specification. A similar approach is used in this demo project: [https://github.com/uniscale/demo-ts-frontend](https://github.com/uniscale/demo-ts-frontend)
+
+
 
 ### Step 1: Implement the dispatcher&#x20;
 
@@ -61,6 +63,8 @@ If you have a multitenant environment, you can specify the required identifier h
       .withDataTenant("Customer 1 data tenant")
 }
 </code></pre>
+
+
 
 ### Step 2: Add interceptors
 
@@ -106,6 +110,8 @@ const initializeDispatcher = async (): Promise<DispatcherSession> => {
 }
 ```
 
+
+
 ### Step 3: Using the dispatcher&#x20;
 
 At the base of your application, call your initialize function to get the dispatcher:
@@ -125,6 +131,8 @@ const messages = await dispatcher.request(GetDirectMessageList.with(userIdentifi
 ## Tutorial: Using sample data from the SDK
 
 If you want to use the endpoints provided by the SDK but don't yet have a working backend, you can register message interceptors in your dispatcher to return sample data instead of calling the real service.
+
+
 
 ### Step 1: Add mock interceptors to the dispatcher
 
@@ -153,6 +161,8 @@ const initializeDispatcher = async (): Promise<DispatcherSession> => {
       .withDataTenant("Customer 1 data tenant")
 }
 ```
+
+
 
 ### Step 2: Call the endpoint
 

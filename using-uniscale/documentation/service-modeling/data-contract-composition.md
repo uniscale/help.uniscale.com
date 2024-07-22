@@ -5,19 +5,21 @@ description: >-
   lists when dealing with graph data
 ---
 
-# Data Contract Composition
+# Data contract composition
 
-### **Building Blocks of Data Modeling at Uniscale**
+## **Building blocks of data modeling at Uniscale**
 
 In the world of software development, data modeling is a fundamental aspect that underpins the structure and organization of information. Uniscale utilizes a distinct approach to data contracts, leveraging three primary compositions: value objects, aggregates, and property groups. This article delves into each composition, illustrating their roles and significance within the Uniscale ecosystem.
 
-### Understanding Data Contracts
+
+
+## Understanding Data contracts
 
 Before we dive into the compositions, let's clarify the concept of data contracts. A data contract is a formal agreement that defines the structure, content, and validation rules for data exchanged between different components of a system. These contracts ensure data consistency, integrity, and reliability across the entire application landscape. The main forms of data contracts when modeling at Uniscale are Aggregates and Value Objects. both contracts define a series of properties that constitute an entity or object. it is also important to note that these properties can also be value objects and or aggregates. for example, you could have an employee aggregate with a property for a supervisor who would take on the structure of the aggregate employee.
 
 
 
-**Aggregates: Mirroring the Data Layer**
+### **Aggregates: Mirroring the Data Layer**
 
 Aggregates are the cornerstone of data modeling. They encapsulate related data elements, often representing entities or tables within a database. These objects typically include unique identifiers (such as primary keys) and properties that define the characteristics of the entity. Aggregates are the foundation for creating a structured and meaningful representation of the data layer within a software system.
 
@@ -29,7 +31,7 @@ Aggregates are the cornerstone of data modeling. They encapsulate related data e
 
 
 
-**Value Objects: Lightweight Data Carriers**
+### **Value Objects: Lightweight Data Carriers**
 
 Value Objects are designed for agility and data transfer. They represent a collection of values that are treated as a whole. Unlike Aggregates, Value Objects lack a unique identity. They are often used to populate API resources, enabling the movement of data between different components or systems. When a Value Object reaches its destination, its values can be used to populate an Aggregate, thereby bridging the gap between data representation and storage.
 
@@ -39,7 +41,9 @@ Value Objects are designed for agility and data transfer. They represent a colle
 
 </div>
 
-### Uniscale's Data Contract Ecosystem
+
+
+## Uniscale's Data contract ecosystem
 
 The combination of Aggregates, Value Objects, and Property Groups forms a robust ecosystem for managing data within Uniscale. Aggregates provide a reliable representation of the database schema, while Value Objects ensure efficient data transfer between components. Property Groups keep data organized and easily accessible, making the codebase easier to understand and maintain.
 
@@ -55,11 +59,11 @@ This cohesive approach offers numerous benefits:
 
 
 
-### Handling Graph Data
+## Handling Graph Data
 
 Graph data, with its interconnected nodes and relationships, is invaluable for representing complex systems. However, when it comes to data contracts, particularly for APIs or data exchange formats, traditional nested structures can become unwieldy and inefficient. An alternative approach, modeling graph data as flat lists with parent references, offers a compelling solution.
 
-**The Nested Data Conundrum**
+### **The Nested Data Conundrum**
 
 Nested data structures often mirror the inherent hierarchy of graphs. A node might contain child nodes, which in turn contain their own children, and so on. While this approach seems intuitive, it can quickly lead to several challenges:
 
@@ -124,4 +128,4 @@ Using a similar example as that illustrated above, the same data graph would loo
 ]
 ```
 
-Flattening graph data contracts provides a powerful strategy for simplifying complex relationships, enhancing flexibility, and improving performance. While it requires a shift in thinking, the benefits often outweigh the initial adjustment, making it a valuable tool in data modeling . Whether you're designing APIs, data exchange formats, or simply managing complex data structures, consider the power of flattening to streamline your work and unlock the true potential of your graph data whilst using Uniscale
+Flattening graph data contracts provides a powerful strategy for simplifying complex relationships, enhancing flexibility, and improving performance. While it requires a shift in thinking, the benefits often outweigh the initial adjustment, making it a valuable tool in data modeling. Whether you're designing APIs, data exchange formats, or simply managing complex data structures, consider the power of flattening to streamline your work and unlock the true potential of your graph data whilst using Uniscale

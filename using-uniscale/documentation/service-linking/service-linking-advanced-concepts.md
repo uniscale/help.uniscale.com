@@ -48,7 +48,7 @@ Once all service flows have been connected to a service, the list will be empty.
 
 You can enable to see the linked ones as well via the top filter. You are now ready to create any new services that you have designed and export the changes to any existing services. By exporting you will start a new revision of the service and prepare it will all the newly defined flows.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>The service linking tab after all service flows have been linked</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (5).png" alt=""><figcaption><p>The service linking tab after all service flows have been linked</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2024-04-26 at 13.25.30.png" alt=""><figcaption><p>The filtering options in the left side of service linking page</p></figcaption></figure>
 

@@ -10,7 +10,7 @@ In the `Modeling view` under the `Technical view`, when adding properties, you c
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-04-23 at 14.54.21.png" alt=""><figcaption></figcaption></figure>
 
-### Property Validations
+## Property Validations
 
 Property validations are crucial for various native object types to ensure data integrity and compliance with business rules. The types of validations include:
 
@@ -23,16 +23,18 @@ Property validations are crucial for various native object types to ensure data 
   * Limit content to permissible characters.
 * **Date & Datetime**:
   * Check values are within an acceptable logical range.
-  * Ensure chronological order for series of dates (start date comes before end date).
+  * Ensure chronological order for a series of dates (start date comes before end date).
   * Verify correct formatting according to application standards.
 
-To begin adding a validation, click the **property** of interest to access the sidebar, then navigate to the settings tab. It's important to note that only properties labeled with a Property Type of **`Native type`** can have validations set. Once this is confirmed, select the _**data type**_ that matches one of the previously listed validation types. The process is detailed below.
+To begin adding a validation, click the **property** of interest to access the sidebar, then navigate to the settings tab. It's important to note that only properties labeled with a Property Type **`Native type`** can have validations set. Once this is confirmed, select the _**data type**_ that matches one of the previously listed validation types. The process is detailed below.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-04-23 at 15.05.42.png" alt="" width="185"><figcaption></figcaption></figure>
 
-### Validation Tab
 
-With the validation tab visible, under the field restrictions, we do see a couple of extra options listed below as&#x20;
+
+## Validation Tab
+
+With the validation tab visible, under the field restrictions, we do see a couple of extra options listed below as:
 
 * No validation
 * Forced validation
@@ -40,8 +42,15 @@ With the validation tab visible, under the field restrictions, we do see a coupl
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-04-23 at 15.22.58.png" alt="" width="373"><figcaption></figcaption></figure>
 
-1. The first option is as self explanatory as we would expect. No validation would be applied to the property.&#x20;
-2. The second option _**Forced validation**_ displays a restriction option with the ability to add a restriction based on the type of validation selected**.**
+## No validation
+
+The first option is as self-explanatory as we would expect. No validation would be applied to the property.&#x20;
+
+
+
+### Forced validation
+
+The second option _**Forced validation**_ displays a restriction option with the ability to add a restriction based on the type of validation selected**.**
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-04-23 at 15.38.34.png" alt="" width="370"><figcaption></figcaption></figure>
 
@@ -65,7 +74,7 @@ In the above screenshot, expanded options for date and time validation ensure in
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-05-15 at 11.55.18.png" alt=""><figcaption><p>Date time validation with interval type Floating date window</p></figcaption></figure>
 
-The screenshot above offers an in-depth look at advanced date and time validation options available within the platform. These options extend beyond simple date restrictions to provide a higher degree of control and specificity. Users can define date ranges to ensure inputs fall within a particular timeframe, enforce specific date and time formats to maintain consistency, and apply sophisticated conditional logic—such as requiring that a date be a weekday or excluding holidays. The floating date window does not have a specific or fixed day, week, month or year with time in regards to the range selection.&#x20;
+The screenshot above offers an in-depth look at the advanced date and time validation options available within the platform. These options extend beyond simple date restrictions to provide a higher degree of control and specificity. Users can define date ranges to ensure inputs fall within a particular timeframe, enforce specific date and time formats to maintain consistency, and apply sophisticated conditional logic—such as requiring that a date be a weekday or excluding holidays. The floating date window does not have a specific or fixed day, week, month, or year with time in regards to the range selection.&#x20;
 
 
 
@@ -75,8 +84,10 @@ The screenshot above demonstrates the advanced date and time validation options 
 
 
 
-3. The third and last option _**Validation options**_ adds a few extra options besides the Restriction option as seen in the second option. The extra options when selected are also applied to the property as seen below.&#x20;
+### Validation options
+
+The third and last option _**Validation options**_ adds a few extra options besides the Restriction option as seen in the second option. The extra options when selected are also applied to the property as seen below.&#x20;
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-04-23 at 15.55.20.png" alt="" width="371"><figcaption></figcaption></figure>
 
-**Overall, property validations across these native object types are fundamental to ensuring that data stored and processed by applications meet defined constraints and business rules. Adding these validations can significantly reduce errors, enhance data quality, and provide a better user experience.**
+Overall, property validations across these native object types are fundamental to ensuring that data stored and processed by applications meet defined constraints and business rules. Adding these validations can significantly reduce errors, enhance data quality, and provide a better user experience.

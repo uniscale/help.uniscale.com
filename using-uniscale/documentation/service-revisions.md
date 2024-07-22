@@ -59,7 +59,7 @@ Exploring step by step the process, we have :
 
 <figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
-Namespaces, technical use case flows, and use case flows are all process items that are relevant to what the end goal of the service is. As such, rather than a completion intention, they have a "is this final", or "is this locked" cycle.
+Namespaces, technical use case flows, and use case flows are all process items that are relevant to the end goal of the service. As such, rather than a completion intention, they have a "is this final", or "is this locked" cycle.
 
 
 

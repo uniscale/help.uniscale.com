@@ -1,23 +1,27 @@
 ---
 description: >-
   This section speaks on what composite aggregate identifiers are, design and
-  implementation considerations, tradeoffs when using them and most importantly,
-  how to utilize them in UNISCALE
+  implementation considerations, tradeoffs when using them, and most
+  importantly, how to utilize them in Uniscale
 ---
 
 # Composite Aggregate Identifiers
 
-### What are Composite Aggregate Identifiers?
+## What are Composite Aggregate Identifiers?
 
 In the realm of data modeling and domain-driven design (DDD), a composite aggregate identifier is a unique identifier composed of multiple attributes or values. Unlike simple identifiers like UUIDs or auto-incrementing integers, composite identifiers leverage the combination of two or more fields to guarantee the uniqueness of an entity or aggregate within a system.
 
-### Why Use Composite Aggregate Identifiers?
+
+
+## Why Use Composite Aggregate Identifiers?
 
 **Business Meaning**: Composite identifiers often carry inherent business meaning, reflecting the relationships or attributes that define a specific entity. For example, an appointment item's identifier might consist of the roomNumber and appointmentDateTime.
 
 **Flexibility**: They allow for more nuanced identification schemes compared to simple identifiers. This is particularly useful in complex domains where entities might be uniquely determined by combinations of factors.
 
 **Data Integrity**: Composite identifiers can help enforce business rules and constraints by encoding them directly into the identification mechanism.
+
+
 
 ### Design Considerations
 
@@ -54,11 +58,11 @@ After opening up a service to model and you have set up your initial namespace. 
 
 <figure><img src="../../../.gitbook/assets/step1-alt.png" alt=""><figcaption><p>Figure 1</p></figcaption></figure>
 
-For the cases of an already existing service that has been modeled, you can alternatively create the aggregate as shown in step labelled <mark style="color:red;">1</mark> and <mark style="color:red;">2</mark> in _Figure 2_
+For the cases of an already existing service that has been modeled, you can alternatively create the aggregate as shown in steps labeled <mark style="color:red;">1</mark> and <mark style="color:red;">2</mark> in _Figure 2_
 
 <figure><img src="../../../.gitbook/assets/step-1.png" alt=""><figcaption><p>Figure 2</p></figcaption></figure>
 
-Upon selecting aggregate in step labelled <mark style="color:red;">2</mark>, you will be provided with a data component to allow you to define the name of your aggregate that we later see as _**Appointment**_ on step <mark style="color:red;">3</mark> in figure 2.
+Upon selecting aggregate in step labeled <mark style="color:red;">2</mark>, you will be provided with a data component to allow you to define the name of your aggregate that we later see as _**Appointment**_ in step <mark style="color:red;">3</mark> in figure 2.
 
 <figure><img src="../../../.gitbook/assets/step-2.png" alt=""><figcaption><p>Figure 3</p></figcaption></figure>
 
@@ -66,7 +70,7 @@ Upon selecting aggregate in step labelled <mark style="color:red;">2</mark>, you
 
 <figure><img src="../../../.gitbook/assets/step-3.png" alt=""><figcaption><p>Figure 4</p></figcaption></figure>
 
-Click on the aggregate identifier as illustrated in step <mark style="color:red;">1</mark> of F_igure 4._ this will open a side panel on the right that will offer some extra settings/options to set for the identifier selected. at this point, toggle the single or composite action as shown in step <mark style="color:red;">2</mark> of _Figure 4_ which will then allow you to add the properties that comprise your composite aggregate identifier from the **+** button below on _Figure 5_
+Click on the aggregate identifier as illustrated in step <mark style="color:red;">1</mark> of F_igure 4._ This will open a side panel on the right that will offer some extra settings/options to set for the identifier selected. at this point, toggle the single or composite action as shown in step <mark style="color:red;">2</mark> of _Figure 4_ which will then allow you to add the properties that comprise your composite aggregate identifier from the **+** button below in _Figure 5_
 
 <figure><img src="../../../.gitbook/assets/step-4.png" alt=""><figcaption><p>Figure 5</p></figcaption></figure>
 
