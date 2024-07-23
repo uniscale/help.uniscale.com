@@ -15,11 +15,7 @@ In Uniscale, services are created for two possible uses. For a solution or as a 
 
 <figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-
-
-## Overall structure
-
-<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+***
 
 ## Service Composition: Understanding the Key Elements
 
@@ -44,8 +40,6 @@ Service
 ```
 
 
-
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 ## Namespaces
 
@@ -78,7 +72,7 @@ The name of a namespace is strictly managed through locking and unlocking while 
 
 ## Use cases
 
-Use cases ( UC) come in two forms <mark style="color:purple;background-color:purple;">**`Functional`**</mark> and <mark style="color:purple;background-color:purple;">**`technical`**</mark>.&#x20;
+Use cases (UC) come in two forms <mark style="color:purple;background-color:purple;">**`Functional`**</mark> and <mark style="color:purple;background-color:purple;">**`technical`**</mark>.&#x20;
 
 Functional UCs paint a more general picture of how a user might interact with your business to reach their goals. Instead of focusing on technical detail, it’s a cause-and-effect description of different inputs.
 
@@ -109,6 +103,8 @@ It does not describe the end-user functionality, that will always be described t
 #### Revision cycle & update cycle
 
 UCs are subject to the [locking/unlocking/readying](../service-revisions.md#lockable-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
+
+***
 
 
 
@@ -142,9 +138,7 @@ A  technical UCF contains:&#x20;
 
 UCFs are subject to the [locking/unlocking/readying](../service-revisions.md#lockable-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
-
-
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+***
 
 ## Endpoints
 
@@ -211,9 +205,7 @@ Structuring your data can be done in multiple ways in Uniscale, and as such we h
 
 Data contracts are subject to the [completion](../service-revisions.md#completion-cycle) process within a revision. This means that editors of a service can manage the content via each of those statuses as needed.&#x20;
 
-
-
-<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+***
 
 ### Aggregates
 
@@ -235,9 +227,7 @@ In Uniscale, aggregates have by default an aggregate identifier created automati
 
 <figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
-
-
-<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+***
 
 ### Value objects&#x20;
 
@@ -261,9 +251,7 @@ Value objects can be referred to as other aggregates, value objects, and propert
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2024-04-16 at 17.04.46.png" alt=""><figcaption></figcaption></figure>
 
-
-
-<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+***
 
 ### Property groups
 

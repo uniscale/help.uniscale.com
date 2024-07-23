@@ -25,11 +25,7 @@ In this video you will get a short introduction to the structure of a specificat
 Video: Uniscale Describe: Solution Design Flow
 {% endembed %}
 
-
-
-
-
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+***
 
 ## Solution
 
@@ -41,9 +37,7 @@ In Uniscale, we provide various elements to describe and structure your solution
 
 <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Illustration of the elements of a solution and how they are related.</p></figcaption></figure>
 
-
-
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+***
 
 ## Module
 
@@ -99,8 +93,6 @@ This prevents the need for separate projects that are tightly coupled and must b
 
 
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
 ## Pages
 
 {% hint style="info" %}
@@ -113,9 +105,7 @@ Use pages to break down the structure of your solution. In the image below, you 
 
 Creating pages is part of the detailed specification that is described further here: [detailed-specification.md](../detailed-specification.md "mention")
 
-
-
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+***
 
 ### Sections
 
@@ -130,9 +120,7 @@ A section can be further broken down into:
 * **Sibling section**: A section that can be added on the same level as others.&#x20;
 * **Child section**: A subsection to a section for further breaking down the structure.
 
-
-
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+***
 
 ## Functional use case
 
@@ -183,7 +171,7 @@ UX flows describe the detailed behaviors within functional use cases.
 
 <figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+***
 
 ### Functional acceptance criteria
 
@@ -206,8 +194,6 @@ You can use our generative AI to help suggest acceptance criteria. Learn more he
 
 
 ***
-
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ### **Service flow**
 
