@@ -1,7 +1,7 @@
 ---
 description: >-
   Find what you are looking for by browsing the different articles in the Help
-  Center and watch the explainer video.
+  Center and watching the explainer video.
 cover: .gitbook/assets/LinkedIn_Cover_Private (1).png
 coverY: 0
 layout:
@@ -22,15 +22,36 @@ layout:
 
 # Welcome to Uniscale!
 
+## **Overview**
+
+* [#what-is-uniscale](./#what-is-uniscale "mention")**:** Get a quick introduction.
+* [#how-to-work-with-uniscale](./#how-to-work-with-uniscale "mention"): Learn the concept of the "Uniscale Method".
+* [#take-a-product-tour](./#take-a-product-tour "mention"): Explore Uniscale for yourself.
+* [#start-using-uniscale](./#start-using-uniscale "mention"): Learn how to use Uniscale.
+
+{% hint style="info" %}
+We offer all a 30-day free trial including consulting with our product specialists.&#x20;
+{% endhint %}
+
+
+
 ## **What is Uniscale?**
 
-With Uniscale you will empower your organization with seamless domain-driven specification, documentation, and implementation. You will be able to ensure stakeholders are always in sync through a single source of truth, reducing misunderstandings and miscommunications. Additionally, you can guarantee that implementations perfectly match functional requirements every time.
+With Uniscale you will empower your organization with seamless domain-driven specification, documentation, and implementation. You will be able to ensure stakeholders are always in sync through a single source of truth, reducing misunderstandings and miscommunications.&#x20;
 
 {% embed url="https://www.youtube.com/watch?v=anL_ge_y5H0" %}
 Video: Intro to Uniscale
 {% endembed %}
 
-### Product tour
+
+
+## How to work with Uniscale
+
+Discover the Uniscale Method and how to effectively leverage our approach throughout the software development journey: [uniscale-method.md](getting-started/uniscale-method.md "mention")
+
+
+
+## Take a product tour
 
 For a detailed overview, check our product tour of a demo solution below.
 
@@ -42,9 +63,14 @@ You can create a free Uniscale account to explore this Uniscale demo solution on
 
 
 
-## **What do you need help with?**
+## Start using Uniscale
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>GET STARTED</strong></td><td align="center"><p>Read more on how to get started using </p><p>your Uniscale account!</p></td><td><a href=".gitbook/assets/image (34).png">image (34).png</a></td><td><a href="getting-started/quick-start-guide.md">quick-start-guide.md</a></td></tr><tr><td align="center"><strong>NEED SOME GUIDANCE</strong></td><td align="center"><p>Read the article on best practices</p><p> when using Uniscale.</p></td><td><a href=".gitbook/assets/image (35).png">image (35).png</a></td><td><a href="getting-started/how-to-replicate-your-project.md">how-to-replicate-your-project.md</a></td></tr><tr><td align="center"><strong>BOOK AN ONBOARDING CALL</strong></td><td align="center"><p>Maximize your use of Uniscale with</p><p>the assistance of our CX team.</p></td><td><a href=".gitbook/assets/image (36).png">image (36).png</a></td><td><a href="https://www.uniscale.com/onboarding">https://www.uniscale.com/onboarding</a></td></tr><tr><td align="center"><strong>WORKSPACE ADMINISTRATION</strong></td><td align="center">See how to share your solutions, invite others, and change settings.</td><td><a href=".gitbook/assets/image (1) (1) (1) (1).png">image (1) (1) (1) (1).png</a></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+Here is how to get started with Uniscale:
+
+* Head to [https://app.uniscale.com/](https://app.uniscale.com/) to sign up for your 30-day free trial.
+* [quick-start-guide.md](getting-started/quick-start-guide.md "mention"): Walk through the steps of describing a new product.
+* [how-to-replicate-your-project.md](getting-started/how-to-replicate-your-project.md "mention"): Learn how to replicate your existing product.
+* Need help? Book a time with our product specialists: [https://www.uniscale.com/onboarding](https://www.uniscale.com/onboarding)
 
 
 

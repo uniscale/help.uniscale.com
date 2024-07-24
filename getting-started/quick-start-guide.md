@@ -16,7 +16,7 @@ Get a quick introduction and watch our product video here: [#what-is-uniscale](.
 Before kick-starting your Uniscale journey you should:
 
 1. [Create an account](https://help.uniscale.com/account-and-preferences/create-an-account)
-2. [Create a workspace](https://help.uniscale.com/workspace-administration/manage-workspaces/create-a-workspace)
+2. [Create a workspace](https://help.uniscale.com/workspace-administration/manage-workspaces/create-a-workspace) - Get a free 30-day trial
 3. [Invite to a workspace](https://help.uniscale.com/workspace-administration/manage-workspaces/invite-to-a-workspace)
 
 When this is done, you are ready to follow the guide below on how to build better software.
