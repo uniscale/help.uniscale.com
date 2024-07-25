@@ -8,7 +8,7 @@ description: >-
 
 ## **Introduction**
 
-Automatically generate technical documentation and SDKs that align perfectly with your functional product specifications, saving time and reducing errors.
+Implementation is the last of the three phases in the [uniscale-method.md](../../getting-started/uniscale-method.md "mention").&#x20;
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-07-09 at 12.07.44 (1).png" alt=""><figcaption></figcaption></figure>
 

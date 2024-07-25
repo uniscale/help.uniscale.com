@@ -8,7 +8,7 @@ description: >-
 
 ## Introduction
 
-Specification is the second of three phases in the [uniscale-method.md](../../getting-started/uniscale-method.md "mention").This is where you begin to model your services and outline the needed requirements to specify the technical functionality of your solution.
+Documentation is the second of three phases in the [uniscale-method.md](../../getting-started/uniscale-method.md "mention"). This is where you begin to model your services and outline the needed requirements to specify the technical functionality of your solution.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-07-09 at 12.02.57.png" alt=""><figcaption></figcaption></figure>
 
