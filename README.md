@@ -49,7 +49,7 @@ Video: Intro to Uniscale
 
 Discover the Uniscale Method and how to effectively leverage our approach throughout the software development journey: [uniscale-method.md](getting-started/uniscale-method.md "mention")
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Phases of the Uniscale Method</p></figcaption></figure>
 
 
 
@@ -71,6 +71,7 @@ Here is how to get started with Uniscale:
 
 * Head to [https://app.uniscale.com/](https://app.uniscale.com/) to sign up for your 30-day free trial.
 * [quick-start-guide.md](getting-started/quick-start-guide.md "mention"): Walk through the steps of describing a new product.
+* [tutorial-create-an-mvp.md](getting-started/tutorial-create-an-mvp.md "mention"): Learn to create a sample project.
 * [how-to-replicate-your-project.md](getting-started/how-to-replicate-your-project.md "mention"): Learn how to replicate your existing product.
 * Need help? Book a time with our product specialists: [https://www.uniscale.com/onboarding](https://www.uniscale.com/onboarding)
 

@@ -8,10 +8,10 @@ description: Learn how to model your services
 
 In this article, we will dive further into how you can model your services.
 
+{% embed url="https://www.youtube.com/watch?v=ITWeHW91fnY" %}
+
 * [service-basics](../service-basics/ "mention"): Will explain the key elements to model your service.
 * [service-linking-advanced-concepts.md](../service-linking/service-linking-advanced-concepts.md "mention"): Will explain how to define your service boundaries and build your archiecture.
-
-
 
 ## Model your services
 
