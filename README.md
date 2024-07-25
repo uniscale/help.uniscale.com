@@ -24,7 +24,7 @@ layout:
 
 ## **Overview**
 
-* [#what-is-uniscale](./#what-is-uniscale "mention")**:** Get a quick introduction.
+* [#what-is-uniscale](./#what-is-uniscale "mention"): Get a quick introduction.
 * [#how-to-work-with-uniscale](./#how-to-work-with-uniscale "mention"): Learn the concept of the "Uniscale Method".
 * [#take-a-product-tour](./#take-a-product-tour "mention"): Explore Uniscale for yourself.
 * [#start-using-uniscale](./#start-using-uniscale "mention"): Learn how to use Uniscale.
