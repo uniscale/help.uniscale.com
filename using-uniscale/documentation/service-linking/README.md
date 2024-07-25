@@ -12,9 +12,9 @@ This article assumes that you have covered knowledge around [specification](../.
 
 Service linking allows you to define a service outside-in. It gives you the possibility to first define the requirements that the defined functionality has for the specified service before diving into the details of how to model the service.&#x20;
 
-Having a look at the following illustration, we recognise the specification elements, and individually the Services on the side of it. Within the solution, there are UX flows that require functionality from the service and as such, it will be provided via Use case flows from the service.
+Having a look at the following illustration, we recognize the specification elements, and individually the Services on the side of it. Within the solution, there are UX flows that require functionality from the service and as such, it will be provided via Use case flows from the service.
 
-<figure><img src="../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-07-25 at 10.05.17.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -104,7 +104,7 @@ This change is irreversible so make sure you do this once all your specification
 
 Inside the service editor of a solution-owned service, the tab "Functional view" will now be active.
 
-Here, a filtered representation of the solution specification is shown with only the items that link to the service. In essence, acting as an overview of all the dependencies the service has towards the solution.
+Here, a filtered representation of the solution specification is shown with only the items that link to the service. In essence, it acts as an overview of all the dependencies the service has for the solution.
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2024-04-16 at 16.56.52.png" alt=""><figcaption></figcaption></figure>
 
@@ -112,7 +112,7 @@ Here, a filtered representation of the solution specification is shown with only
 
 ## Next steps
 
-The next step in this process is to go over the technical modeling of your use case flows, enrich them with endpoints, and model their payloads.  This is a quite complex task but we have plenty of guides to go through each step.
+The next step in this process is to review the technical modeling of your use case flows, enrich them with endpoints, and model their payloads.  This is a quite complex task but we have plenty of guides to go through each step.
 
 If you haven't done so:
 
