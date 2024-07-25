@@ -30,7 +30,7 @@ Or **discard** the entire conversation, which will close the channel with the AI
 
 Once a reply is provided, it will come in the following format:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. The reply of the AI
 2. Input to continue the conversation based on the answer provided

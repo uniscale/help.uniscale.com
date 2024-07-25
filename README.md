@@ -49,6 +49,8 @@ Video: Intro to Uniscale
 
 Discover the Uniscale Method and how to effectively leverage our approach throughout the software development journey: [uniscale-method.md](getting-started/uniscale-method.md "mention")
 
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 
 
 ## Take a product tour
