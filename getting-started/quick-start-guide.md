@@ -8,6 +8,8 @@ description: In this guide, we will show you the basics of getting started with 
 
 Get a quick introduction and watch our product video here: [#what-is-uniscale](../#what-is-uniscale "mention")
 
+In this article, we will walk through the phases of the [uniscale-method.md](uniscale-method.md "mention")
+
 
 
 ## Get started <a href="#get-started" id="get-started"></a>
@@ -61,7 +63,7 @@ Things you may include:
 * High-level requirements
 * High-level end-user behavior
 
-This is typically defined by the Founder, Visionary, Product Owner, or someone who understands the [solution](https://help.uniscale.com/using-uniscale/specification/solution-basics).
+This is typically defined by the Founder, Visionary, Product Owner, or someone who understands the solution.
 
 </details>
 
@@ -69,16 +71,7 @@ This is typically defined by the Founder, Visionary, Product Owner, or someone w
 
 <summary>Describe your high-level specification</summary>
 
-Begin with an introduction to your solution:&#x20;
-
-1. What: A solution description including a few high-level functionalities.
-2. Why: The purpose and motivation
-3. Who: Who will be using your product? List the various actors.
-4. High-level requirements
-
-For a detailed overview of how to describe your specification: [high-level-specification](../using-uniscale/specification/high-level-specification/ "mention")
-
-You can also use our [template-solution-description.md](../using-uniscale/specification/high-level-specification/template-solution-description.md "mention")t to help you better structure and articulate your solution.
+Begin with an introduction to your solution. We have made a template for you to use here: [#describe-your-high-level-specification](../using-uniscale/specification/high-level-specification/#describe-your-high-level-specification "mention")
 
 </details>
 
@@ -88,7 +81,7 @@ You can also use our [template-solution-description.md](../using-uniscale/specif
 
 1. Define and create your modules: For best practices on what modules to create, visit this article: [#module](../using-uniscale/specification/solution-basics/#module "mention")
 2. Describe your modules: Write a short description and include the relevant high-level functionalities and actors related to this module. See [#create-and-describe-your-first-modules](../using-uniscale/specification/high-level-specification/#create-and-describe-your-first-modules "mention")for more details.
-3. Describe the high-level end-user behavior: This is done by creating a `Functional use case` inside your module. See [#describe-the-user-behavior-with-functional-use-cases](../using-uniscale/specification/detailed-specification.md#describe-the-user-behavior-with-functional-use-cases "mention")for more details.
+3. Describe the high-level end-user behavior: This is done by creating an `Functional use case` inside your module. See [#describe-the-user-behavior-with-functional-use-cases](../using-uniscale/specification/detailed-specification.md#describe-the-user-behavior-with-functional-use-cases "mention")for more details.
 4. Enrich your `Functional use case` with `Acceptance criteria.`&#x20;
 
 For a detailed overview of how to describe your specification: [high-level-specification](../using-uniscale/specification/high-level-specification/ "mention")
@@ -98,12 +91,6 @@ For a detailed overview of how to describe your specification: [high-level-speci
 {% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyGOAVoZxLdRIG6ti7yXqlbs&v=xtzqXVHMjpM" %}
 Tutorial: High-level specification
 {% endembed %}
-
-#### **Next steps**
-
-* Learn how to approve and lock your modules: [module-revision.md](../using-uniscale/specification/module-revision.md "mention")
-* Generate the SDK: [introduction-to-sdk](../using-uniscale/implementation/introduction-to-sdk/ "mention")
-* Continue to [#detailed-documentation](quick-start-guide.md#detailed-documentation "mention")
 
 
 
@@ -122,7 +109,7 @@ This is where you will start to design how the actual product will look and feel
 
 For this part, you will involve a product designer (eg. UX/UI designer) who will start to break down the high-level specification and design the product.
 
-Learn here how to invite people:[invite-to-uniscale.md](../workspace-administration/invite-to-uniscale.md "mention")
+Learn here how to invite people: [invite-to-uniscale.md](../workspace-administration/invite-to-uniscale.md "mention")
 
 </details>
 
@@ -145,12 +132,6 @@ Watch the video below or read more here: [detailed-specification.md](../using-un
 {% embed url="https://www.youtube.com/watch?index=2&list=PL5utFq0uexyGOAVoZxLdRIG6ti7yXqlbs&v=m2ZrQtW60Vc" %}
 Tutorial: Detailed specification
 {% endembed %}
-
-#### **Next steps**
-
-* Learn how to approve and lock your modules:[module-revision.md](../using-uniscale/specification/module-revision.md "mention")
-* Generate the SDK: [introduction-to-sdk](../using-uniscale/implementation/introduction-to-sdk/ "mention")
-* Proceed to [#phase-2-service-linking](quick-start-guide.md#phase-2-service-linking "mention")
 
 ***
 
@@ -184,10 +165,6 @@ Watch the video below or read more here: [service-linking](../using-uniscale/doc
 
 </details>
 
-#### Next step
-
-* Proceed to further document your services in [#phase-3-documentation](quick-start-guide.md#phase-3-documentation "mention")
-
 ***
 
 
@@ -204,7 +181,7 @@ The documentation also referred to as Technical documentation, is where you defi
 
 <details>
 
-<summary>Introduction to high level documentation</summary>
+<summary>Introduction to high-level documentation</summary>
 
 The documentation often referred to as "Technical Documentation," is where the focus shifts to the technical details of your product.
 
@@ -261,7 +238,7 @@ This part includes:
 
 <img src="../.gitbook/assets/image (1) (3).png" alt="Preview of modelling view tab for the &#x22;Account&#x22; service in the Demo solution" data-size="original">
 
-See a detailed guide to describing your documentation: [service-basics](../using-uniscale/documentation/service-basics/ "mention")
+See a detailed guide to describing your documentation: [service-basics](../using-uniscale/documentation/service-basics/ "mention") and [service-modeling](../using-uniscale/documentation/service-modeling/ "mention")
 
 </details>
 
