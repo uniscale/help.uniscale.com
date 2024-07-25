@@ -128,8 +128,6 @@ Now we will generate the SDK and begin the technical implementation. For a detai
 
 With the sample project described in Uniscale, it is time to begin the technical implementation.&#x20;
 
-{% embed url="https://www.youtube.com/watch?v=nFra8I6CuJI" %}
-
 * Learn how to utilize the Uniscale SDK: [library-implementation-basics](../using-uniscale/implementation/library-implementation-basics/ "mention")
 * Integrate Uniscale with your IDE: [ide-plugins](../using-uniscale/implementation/ide-plugins/ "mention")
 * Find the relevant article based on your intention: [implementation](../using-uniscale/implementation/ "mention")
