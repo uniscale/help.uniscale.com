@@ -10,11 +10,13 @@ description: >-
 
 The purpose of this article is to create a minimum viable product called "UserSolution" in Uniscale. You can follow along and replicate the steps in your Uniscale workspace.
 
-What you will learn:
+The article will walk you through the phases of the [uniscale-method.md](uniscale-method.md "mention"):
 
-1. [specification](../using-uniscale/specification/ "mention"): Write the product specification.
-2. [documentation](../using-uniscale/documentation/ "mention"): Create and model the service needed.
+1. [specification](../using-uniscale/specification/ "mention"): Write the functional specification.
+2. [documentation](../using-uniscale/documentation/ "mention"): Link your UX flows to a service and model the service.
 3. [implementation](../using-uniscale/implementation/ "mention"): Generate the Uniscale SDK and implement it into your IDE.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Uniscale Method</p></figcaption></figure>
 
 
 
