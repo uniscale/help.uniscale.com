@@ -138,6 +138,16 @@ Congratulations! We have now fully implemented the solution "UserSolution".&#x20
 
 
 
+## Create a revision
+
+As with any product, you will likely have several product releases with fixes and improvements. In Uniscale, this is done by creating a new revision.
+
+You can either create a new [module-revision.md](../using-uniscale/specification/module-revision.md "mention")or [service-revisions.md](../using-uniscale/documentation/service-revisions.md "mention") depending on what you are updating.&#x20;
+
+Note that for every new revision, you will generate a new SDK
+
+
+
 ## Build your solution
 
 You are now ready to build your solution in Uniscale:
