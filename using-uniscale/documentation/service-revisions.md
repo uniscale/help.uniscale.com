@@ -6,20 +6,85 @@ description: Learn the concept and steps for service revisions.
 
 ## Introduction
 
+With Uniscale, you can create revisions for each service, allowing you to compare revisions and get a historical overview of changes. Furthermore, your revisions will have their own approval flow.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-29 at 14.21.32.png" alt=""><figcaption><p>Service editor: Changelog</p></figcaption></figure>
+
+In this article, we will explore two areas:
+
+* [#service-locking-and-approving](service-revisions.md#service-locking-and-approving "mention"): Learn how to utilize this functionality.
+* [#concept-service-revision](service-revisions.md#concept-service-revision "mention"): Understand the concept behind revisions.
+
+
+
+## How to: Service revisions <a href="#service-locking-and-approving" id="service-locking-and-approving"></a>
+
+### Service locking and approving <a href="#service-locking-and-approving" id="service-locking-and-approving"></a>
+
+You will lock and approve each service revision as you want to keep track of your changes over time.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-29 at 14.36.47.gif" alt=""><figcaption><p>Service editor: Ready and approve revision</p></figcaption></figure>
+
+1. Select "Ready all"
+2. In the overview, select "Set all to ready"
+3. Select "Approve"
+   1. Give your revision a title. Note that it will automatically get a version number.
+   2. Optional: Add a description.
+   3. Click "Submit"
+
+
+
+### Create a new revision
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-29 at 14.37.20.png" alt=""><figcaption><p>Service editor: Start new revision</p></figcaption></figure>
+
+To start a new revision:
+
+1. Click "Start new revision"
+2. Give your revision a title. Note that it will automatically get a version number.
+3. Optional: Add a description.
+4. Click "Submit"
+
+
+
+### Service changelog
+
+To view the changelog, click the "clock" icon in the upper right corner.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-29 at 14.44.44.gif" alt=""><figcaption><p>Service editor: Changelog</p></figcaption></figure>
+
+You can select and compare each of your revisions and get an overview of all changes.
+
+Each color will represent the type of change:
+
+* <mark style="color:green;">Green</mark>: Added
+* <mark style="color:purple;">Purple</mark>: Modified
+* <mark style="color:red;">Red</mark>: Deleted
+
+
+
+### Explore previous revisions
+
+To explore each of your previous service revisions, click on the name of your revision in the upper right corner.&#x20;
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-29 at 14.49.20.png" alt=""><figcaption><p>Service editor: Previous revisions</p></figcaption></figure>
+
+***
+
+## Concept: Service revision
+
 Within the cycles of modeling and producing well-written documentation, you will find yourself completing items and getting them to a stage where you can lock things in place before a revision.
 
 To do so in a better manner, we have provided each item in your documentation with its lifecycle related to its meaning.
 
 For that, we distinguish between:
 
-* "items" that are to be reused (endpoints, data contracts, properties).
+* Items to be reused (endpoints, data contracts, properties).
 * items that are single declarations (namespaces, Use case flows, Technical use cases)
 
-As a whole, a service has revisions and is approved. This is symbolized via the revisions dropdown where you can see a list of your past revisions titles and numbers.
+<details>
 
-
-
-Listing the structure of a service, we can have:
+<summary>Listing the structure of a service, we can have the following items:</summary>
 
 * namespaces
 * technical use cases
@@ -31,15 +96,17 @@ Listing the structure of a service, we can have:
   * property groups&#x20;
   * properties
 
-{% hint style="info" %}
 For a more detailed breakdown, read [service-basics](service-basics/ "mention")
-{% endhint %}
 
-Each of them is subjected to a lifecycle, with different meanings.
+</details>
+
+
+
+Each item is subjected to a lifecycle, with different meanings.
 
 <figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
-## Processes
+
 
 ### Completion cycle
 
@@ -47,7 +114,7 @@ Each of them is subjected to a lifecycle, with different meanings.
 
 Endpoints, data contracts, and properties are considered items that are agnostic of the entire status of the service. As a whole, they can be "completed" before the overall approval status and as such, their cycle reflects their state of being "done" or "completed".
 
-Exploring step by step the process, we have :
+Exploring step by step the process, we have:
 
 * When a new item is created, it is in the status of "**`draft`**"
 * Afterward, with new changes done, it goes into "**`edited`**"
@@ -74,7 +141,7 @@ Exploring step by step the process, we have:&#x20;
 
 
 
-## Approval of the service & revisions
+### Approval of the service & revisions
 
 Service approval is a collation of all the above processes and loops. Let's take a conceptual example of that scenario, with images to visually represent the state at all times.
 
@@ -95,18 +162,6 @@ Service approval is a collation of all the above processes and loops. Let's take
 <figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 
-
-## Revisions
-
-Revisions represent changes done to your service with the intent to release functionality around your projects. Revisions can be as big or as small as you need.&#x20;
-
-In the interface, any revision looks like the following:
-
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
-
-Each revision will be given a name when created and a description. This can be edited until the revision is approved at the end.
-
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 ### Service timeline
 
