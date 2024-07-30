@@ -2,7 +2,7 @@
 description: Learn how to use the SDK in your backend to handle endpoints.
 ---
 
-# Tutorial: Using SDK in backend to handle endpoints
+# Using SDK in backend to handle endpoints
 
 On this page, you will learn how to use the SDK with your back-end application. The tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [library-implementation-basics](library-implementation-basics/ "mention").
 
@@ -357,4 +357,4 @@ app.all("/", async (req, res) => {
 {% endtab %}
 {% endtabs %}
 
-With just a couple of steps like that, we have created a backend that can be easily called with a front-end client that was created based on [quick-start-front-end-with-uniscale-sdk](quick-start-front-end-with-uniscale-sdk/ "mention").
+With just a couple of steps like that, we have created a backend that can be easily called with a front-end client that was created based on [front-end-with-uniscale-sdk](front-end-with-uniscale-sdk/ "mention").
