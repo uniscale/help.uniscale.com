@@ -280,7 +280,7 @@ This is the toolbox that the developers can use to build the product. The toolbo
 
 4. Select "Save changes". This will start generating the SDK.
 
-Read the detailed steps here: [introduction-to-sdk](../using-uniscale/implementation/introduction-to-sdk/ "mention")
+Read the detailed steps here: [sdk-basics](../using-uniscale/implementation/sdk-basics/ "mention")
 
 </details>
 

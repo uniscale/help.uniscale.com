@@ -112,7 +112,7 @@ We have completed the technical documentation and are ready to begin the impleme
 
 ## SDK generation
 
-Now we will generate the SDK and begin the technical implementation. For a detailed walkthrough, please check [#generating-the-sdk](../using-uniscale/implementation/introduction-to-sdk/#generating-the-sdk "mention")
+Now we will generate the SDK and begin the technical implementation. For a detailed walkthrough, please check [#generating-the-sdk](../using-uniscale/implementation/sdk-basics/#generating-the-sdk "mention")
 
 1. Go to the SDK Portal
 2. Libraries setup:

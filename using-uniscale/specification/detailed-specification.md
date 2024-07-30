@@ -106,5 +106,5 @@ UX flows are the lowest level of detail in your functional specification. When t
 ## Next steps
 
 * Approve your first revision: [module-revision.md](module-revision.md "mention")
-* Generate the SDK: [introduction-to-sdk](../implementation/introduction-to-sdk/ "mention")
+* Generate the SDK: [sdk-basics](../implementation/sdk-basics/ "mention")
 * Proceed to [service-linking](../documentation/service-linking/ "mention")

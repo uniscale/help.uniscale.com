@@ -16,7 +16,7 @@ Implementation is the last of the three phases in the [uniscale-method.md](../..
 
 Here you will automatically generate and have access to an SDK library with a set of code snippets based on the documentation you have defined for your solution and services.
 
-<table><thead><tr><th width="130"></th><th></th></tr></thead><tbody><tr><td>What</td><td>Collection of tools, code samples, and documentation that will be used by developers to build your solution.</td></tr><tr><td>Why</td><td>Allows for a decoupled backend and frontend and helps your developers to write better code.</td></tr><tr><td>Who</td><td>Software Developer</td></tr><tr><td>Outcome</td><td>Fully generated SDK library in the language of your choice.</td></tr><tr><td>How</td><td><a data-mention href="introduction-to-sdk/#generating-the-sdk">#generating-the-sdk</a></td></tr></tbody></table>
+<table><thead><tr><th width="130"></th><th></th></tr></thead><tbody><tr><td>What</td><td>Collection of tools, code samples, and documentation that will be used by developers to build your solution.</td></tr><tr><td>Why</td><td>Allows for a decoupled backend and frontend and helps your developers to write better code.</td></tr><tr><td>Who</td><td>Software Developer</td></tr><tr><td>Outcome</td><td>Fully generated SDK library in the language of your choice.</td></tr><tr><td>How</td><td><a data-mention href="sdk-basics/#generating-the-sdk">#generating-the-sdk</a></td></tr></tbody></table>
 
 
 
@@ -30,6 +30,6 @@ Here, you will write and implement your code in the Code Editor, utilizing our I
 
 ## Begin implementation
 
-* For an overview and introduction: [introduction-to-sdk](introduction-to-sdk/ "mention")
+* For an overview and introduction: [sdk-basics](sdk-basics/ "mention")
 * To learn about how to implement: [library-implementation-basics](library-implementation-basics/ "mention")
 * Lastly, to learn how to integrate Uniscale with your IDE: [ide-plugins](ide-plugins/ "mention")

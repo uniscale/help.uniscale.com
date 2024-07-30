@@ -33,7 +33,7 @@ You will lock and approve each service revision as you want to keep track of you
    3. Click "Submit"
 
 {% hint style="info" %}
-Once you have approved a revision, you can head to the SDK Portal to generate an updated SDK: [#generating-the-sdk](../implementation/introduction-to-sdk/#generating-the-sdk "mention")
+Once you have approved a revision, you can head to the SDK Portal to generate an updated SDK: [#generating-the-sdk](../implementation/sdk-basics/#generating-the-sdk "mention")
 {% endhint %}
 
 
