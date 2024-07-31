@@ -71,9 +71,4 @@
 
 ## Resources
 
-* [Website](https://www.uniscale.com/)
-* [Contact Sales](https://www.uniscale.com/book-a-meeting)
-* [Submit an idea](https://share-eu1.hsforms.com/1E\_9PYP09SbCA89scOVOEnQfzj5t)
-* [Report a bug](https://share-eu1.hsforms.com/1-mnpYzXSSwKrf41lsEavTgfzj5t)
-* [Book onboarding](https://www.uniscale.com/onboarding)
 * [Changelog](resources/change-log.md)
