@@ -88,11 +88,11 @@ For a detailed overview of how to describe your specification: [high-level-speci
 
 </details>
 
-{% embed url="https://www.youtube.com/watch?list=PL5utFq0uexyGOAVoZxLdRIG6ti7yXqlbs&v=xtzqXVHMjpM" %}
+
+
+{% embed url="https://www.youtube.com/watch?v=32OUrimYeFM" %}
 Tutorial: High-level specification
 {% endembed %}
-
-
 
 ### Detailed specification
 

@@ -40,7 +40,9 @@ We offer all a 30-day free trial including consulting with our product specialis
 With Uniscale you will empower your organization with seamless domain-driven specification, documentation, and implementation. You will be able to ensure stakeholders are always in sync through a single source of truth, reducing misunderstandings and miscommunications.&#x20;
 
 {% embed url="https://www.youtube.com/watch?v=anL_ge_y5H0" %}
-Video: Intro to Uniscale
+
+{% embed url="https://www.youtube.com/watch?v=uMOum-2SrU0" %}
+Intro to Uniscale
 {% endembed %}
 
 
