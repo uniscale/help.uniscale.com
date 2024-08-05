@@ -129,13 +129,13 @@ Watch the video below or read more here: [detailed-specification.md](../using-un
 
 </details>
 
-{% embed url="https://www.youtube.com/watch?index=2&list=PL5utFq0uexyGOAVoZxLdRIG6ti7yXqlbs&v=m2ZrQtW60Vc" %}
+
+
+{% embed url="https://www.youtube.com/watch?v=kpZzeOFHG2Q" %}
 Tutorial: Detailed specification
 {% endembed %}
 
 ***
-
-
 
 ## Phase 2: Service linking
 

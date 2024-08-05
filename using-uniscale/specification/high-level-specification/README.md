@@ -48,8 +48,10 @@ Focus on describing the key challenge and purpose of your specification and leav
 
 ## Describe your high-level specification
 
-{% embed url="https://www.youtube.com/watch?index=1&list=PL5utFq0uexyGOAVoZxLdRIG6ti7yXqlbs&v=xtzqXVHMjpM" %}
-Video: Tutorial: High-level specification
+
+
+{% embed url="https://www.youtube.com/watch?v=32OUrimYeFM" %}
+Tutorial: High-level specification
 {% endembed %}
 
 To help you get started, here are some inspirations for what to include in your specifications.
@@ -170,7 +172,7 @@ You can read more here: [#functional-use-case](../solution-basics/#functional-us
 
 
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-07-02 at 10.05.54.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/CleanShot 2024-07-02 at 10.05.54.png" alt="" data-size="original">
 
 
 

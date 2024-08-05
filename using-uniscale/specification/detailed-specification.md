@@ -25,10 +25,6 @@ At this stage, your idea is ready to make the transition from "abstract" to "con
 To begin describing the detailed specification, we recommend familiarizing yourself with the elements in a solution. These are all explained here: [solution-basics](solution-basics/ "mention")
 {% endhint %}
 
-{% embed url="https://www.youtube.com/watch?v=m2ZrQtW60Vc" %}
-Video: Tutorial: Detailed specification
-{% endembed %}
-
 {% hint style="info" %}
 **Create visuals for your modules**
 
@@ -36,6 +32,10 @@ If you haven't already, a good place to start is by inserting images with mockup
 {% endhint %}
 
 
+
+{% embed url="https://www.youtube.com/watch?v=kpZzeOFHG2Q" %}
+Tutorial: Detailed specification
+{% endembed %}
 
 ### Break down the structure of your solution
 
