@@ -61,9 +61,11 @@ For a detailed overview, check our product tour of a demo solution below.
 You can create a free Uniscale account to explore this Uniscale demo solution on your own.
 {% endhint %}
 
-{% embed url="https://www.youtube.com/watch?index=3&list=PL5utFq0uexyH_ZLFRByWZJUUQtfA6z1LH&v=ulH6WXko67o" %}
 
 
+{% embed url="https://www.youtube.com/watch?v=-1BYX90lAG8" %}
+Product tour: Uniscale Demo Solution
+{% endembed %}
 
 ## Start using Uniscale
 
