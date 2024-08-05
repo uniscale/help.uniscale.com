@@ -6,8 +6,10 @@ description: Lean how to leverage generative AI when describing your specificati
 
 Watch the video below for an in-depth guide on using the Uniscale AI add-on to help you write your functional specifications
 
-{% embed url="https://www.youtube.com/watch?v=Sb0TiNOEhdc" %}
-How to use the Uniscale AI: tutorial
+
+
+{% embed url="https://www.youtube.com/watch?v=o0vyXx_0p9A" %}
+Interactive AI suggestions in the solution editor
 {% endembed %}
 
 {% hint style="info" %}
