@@ -12,7 +12,7 @@ Check the **"Functional Specifications: step-by-step"** **video** for a more det
 
 
 
-{% embed url="https://www.youtube.com/watch?v=J58GjG8Ukgc" %}
+{% embed url="https://www.youtube.com/watch?v=AfJzgcJ7hhs" %}
 Functional specifications: Step-by-step
 {% endembed %}
 
