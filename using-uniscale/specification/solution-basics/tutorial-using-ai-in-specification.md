@@ -97,8 +97,8 @@ Watch the tutorial video below for a detailed guide on how to effectively use th
 
 
 
-{% embed url="https://www.youtube.com/watch?v=kYkgKyUPDkw" %}
-Using the Uniscale AI for Acceptance Criteria: tutorial
+{% embed url="https://www.youtube.com/watch?v=tFxbnC_Kyi0" %}
+Tutorial: Generative AI for acceptance criteria
 {% endembed %}
 
 
