@@ -91,6 +91,14 @@ In some instances, you will notice a more specific AI custom prompt.&#x20;
 _Note: we are working to add more._
 {% endhint %}
 
+
+
+{% embed url="https://www.youtube.com/watch?v=bqaykyuRWV8" %}
+Tutorial: Using AI in Specification
+{% endembed %}
+
+###
+
 ### AI-generated acceptance criteria
 
 Watch the tutorial video below for a detailed guide on how to effectively use the AI acceptance criteria feature.
