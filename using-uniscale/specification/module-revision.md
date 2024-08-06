@@ -193,6 +193,15 @@ You iteratively define your module's functionality by starting, specifying, and 
 
 #### Want more of a deep dive? Watch this video and see the module flow process exemplified:&#x20;
 
-{% embed url="https://youtu.be/Bc3auFzvn10" %}
-Video explainer&#x20;
+
+
+{% embed url="https://www.youtube.com/watch?v=0Gz0xAGuf7E" %}
+Uniscale Describe: First module revision specification
 {% endembed %}
+
+
+
+{% embed url="https://www.youtube.com/watch?v=NCi44znHNmM" %}
+Uniscale Describe: Second module revision specification
+{% endembed %}
+
