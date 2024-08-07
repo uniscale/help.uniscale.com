@@ -39,8 +39,6 @@ We offer all a 30-day free trial including consulting with our product specialis
 
 With Uniscale you will empower your organization with seamless domain-driven specification, documentation, and implementation. You will be able to ensure stakeholders are always in sync through a single source of truth, reducing misunderstandings and miscommunications.&#x20;
 
-{% embed url="https://www.youtube.com/watch?v=anL_ge_y5H0" %}
-
 {% embed url="https://www.youtube.com/watch?v=uMOum-2SrU0" %}
 Intro to Uniscale
 {% endembed %}
@@ -52,8 +50,6 @@ Intro to Uniscale
 Discover the Uniscale Method and how to effectively leverage our approach throughout the software development journey: [uniscale-method.md](getting-started/uniscale-method.md "mention")
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Phases of the Uniscale Method</p></figcaption></figure>
-
-
 
 ## Take a product tour
 
