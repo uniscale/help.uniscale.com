@@ -33,17 +33,13 @@ layout:
 We offer all a 30-day free trial including consulting with our product specialists.&#x20;
 {% endhint %}
 
-
-
 ## **What is Uniscale?**
 
 With Uniscale you will empower your organization with seamless domain-driven specification, documentation, and implementation. You will be able to ensure stakeholders are always in sync through a single source of truth, reducing misunderstandings and miscommunications.&#x20;
 
-{% embed url="https://www.youtube.com/watch?v=uMOum-2SrU0" %}
+{% embed url="https://youtu.be/anL_ge_y5H0" %}
 Intro to Uniscale
 {% endembed %}
-
-
 
 ## How to work with Uniscale
 
@@ -61,7 +57,7 @@ You can create a free Uniscale account to explore this Uniscale demo solution on
 
 
 
-{% embed url="https://www.youtube.com/watch?v=-1BYX90lAG8" %}
+{% embed url="https://youtu.be/ulH6WXko67o" %}
 Product tour: Uniscale Demo Solution
 {% endembed %}
 

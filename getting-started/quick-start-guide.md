@@ -90,7 +90,7 @@ For a detailed overview of how to describe your specification: [high-level-speci
 
 
 
-{% embed url="https://www.youtube.com/watch?v=32OUrimYeFM" %}
+{% embed url="https://youtu.be/xtzqXVHMjpM" %}
 Tutorial: High-level specification
 {% endembed %}
 
@@ -131,7 +131,7 @@ Watch the video below or read more here: [detailed-specification.md](../using-un
 
 
 
-{% embed url="https://www.youtube.com/watch?v=kpZzeOFHG2Q" %}
+{% embed url="https://youtu.be/m2ZrQtW60Vc" %}
 Tutorial: Detailed specification
 {% endembed %}
 
@@ -301,6 +301,4 @@ Depending on how you plan to use the SDK, we have created dedicated articles to 
 
 
 
-{% embed url="https://www.youtube.com/watch?v=BhD1fGm9ZKo" %}
-Tutorial: Uniscale SDK
-{% endembed %}
+{% embed url="https://youtu.be/nFra8I6CuJI" %}

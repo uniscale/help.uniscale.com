@@ -8,7 +8,7 @@ Watch the video below for an in-depth guide on using the Uniscale AI add-on to h
 
 
 
-{% embed url="https://www.youtube.com/watch?v=o0vyXx_0p9A" %}
+{% embed url="https://youtu.be/DkOaLZmD0W8" %}
 Interactive AI suggestions in the solution editor
 {% endembed %}
 
@@ -93,11 +93,11 @@ _Note: we are working to add more._
 
 
 
-{% embed url="https://www.youtube.com/watch?v=bqaykyuRWV8" %}
+{% embed url="https://youtu.be/Sb0TiNOEhdc" %}
 Tutorial: Using AI in Specification
 {% endembed %}
 
-###
+
 
 ### AI-generated acceptance criteria
 
@@ -105,7 +105,7 @@ Watch the tutorial video below for a detailed guide on how to effectively use th
 
 
 
-{% embed url="https://www.youtube.com/watch?v=tFxbnC_Kyi0" %}
+{% embed url="https://youtu.be/kYkgKyUPDkw" %}
 Tutorial: Generative AI for acceptance criteria
 {% endembed %}
 

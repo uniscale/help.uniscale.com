@@ -50,7 +50,7 @@ Focus on describing the key challenge and purpose of your specification and leav
 
 
 
-{% embed url="https://www.youtube.com/watch?v=32OUrimYeFM" %}
+{% embed url="https://youtu.be/xtzqXVHMjpM" %}
 Tutorial: High-level specification
 {% endembed %}
 

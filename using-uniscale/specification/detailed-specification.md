@@ -33,7 +33,7 @@ If you haven't already, a good place to start is by inserting images with mockup
 
 
 
-{% embed url="https://www.youtube.com/watch?v=kpZzeOFHG2Q" %}
+{% embed url="https://youtu.be/m2ZrQtW60Vc" %}
 Tutorial: Detailed specification
 {% endembed %}
 

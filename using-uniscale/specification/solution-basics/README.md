@@ -7,6 +7,8 @@ description: >-
 
 # Solution basics
 
+
+
 {% hint style="info" %}
 This article will explain each of the elements in Uniscale that allows you to describe and structure your specification. \
 \
@@ -21,9 +23,13 @@ In this article, we will explain each of the elements in Uniscale that allows yo
 
 In this video you will get a short introduction to the structure of a specification:&#x20;
 
-{% embed url="https://www.youtube.com/watch?v=SHpHH7qhk3Q" %}
-Video: Uniscale Describe: Solution Design Flow
+
+
+{% embed url="https://youtu.be/SHpHH7qhk3Q" %}
+Uniscale Describe: Solution Design Flow
 {% endembed %}
+
+
 
 ***
 
@@ -160,6 +166,8 @@ For every User Interface (UI) element there is a UI designer note where your des
 </details>
 
 <figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### UX Product notes
 

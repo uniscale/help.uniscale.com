@@ -195,13 +195,9 @@ You iteratively define your module's functionality by starting, specifying, and 
 
 
 
-{% embed url="https://www.youtube.com/watch?v=0Gz0xAGuf7E" %}
+{% embed url="https://youtu.be/VZkJOCtMGfI" %}
 Uniscale Describe: First module revision specification
 {% endembed %}
 
 
-
-{% embed url="https://www.youtube.com/watch?v=NCi44znHNmM" %}
-Uniscale Describe: Second module revision specification
-{% endembed %}
 
