@@ -11,6 +11,29 @@ description: >-
 
 ***
 
+After a relaxing holiday period, we are again back at it and have released some amazing updates to our product:
+
+
+
+## Week 33 (August 12)
+
+**New features:**
+
+* New module revision flow
+* Interface settings with the option for a floating editor toolbar in solution & service design
+
+**Improvements:**
+
+* Improves the module revision selector & previous module revision display
+* Filters to show only the content that has changed in the selected module revision
+* Filters to show solution & module content according to the user’s role
+* Allows the user to copy the URL to any solution design entity in read-only state
+
+**Bug fixes:**
+
+* Fixes entity description not always being updated when viewing an older revision (MP-1361)
+* Other minor bug fixes and performance optimization
+
 ## Week 26 (July 1)
 
 **New features:**
