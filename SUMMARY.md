@@ -33,6 +33,7 @@
     * [Properties & Terminologies](using-uniscale/documentation/service-modeling/properties-and-terminologies.md)
     * [Data contract composition](using-uniscale/documentation/service-modeling/data-contract-composition.md)
     * [Composite Aggregate Identifiers](using-uniscale/documentation/service-modeling/composite-aggregate-identifiers.md)
+    * [Namespace parameters](using-uniscale/documentation/service-modeling/namespace-parameters.md)
   * [Service revisions](using-uniscale/documentation/service-revisions.md)
 * [Implementation](using-uniscale/implementation/README.md)
   * [SDK basics](using-uniscale/implementation/sdk-basics/README.md)
