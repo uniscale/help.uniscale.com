@@ -18,3 +18,4 @@ In this article, we will dive further into how you can model your services.
 * [properties-and-terminologies.md](properties-and-terminologies.md "mention")
 * [data-contract-composition.md](data-contract-composition.md "mention")
 * [composite-aggregate-identifiers.md](composite-aggregate-identifiers.md "mention")
+* [namespace-parameters.md](namespace-parameters.md "mention")
