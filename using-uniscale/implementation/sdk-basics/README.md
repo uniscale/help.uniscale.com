@@ -2,7 +2,7 @@
 description: Learn how to get started with the Uniscale SDK.
 ---
 
-# Introduction to SDK
+# SDK basics
 
 ## Introduction to SDK
 
@@ -26,7 +26,7 @@ Services can be made in the languages most capable of delivering the functionali
 
 #### **Navigate to the SDK Portal**
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-06-18 at 10.57.17@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-08-14 at 13.10.11.png" alt=""><figcaption><p>SDK Tab</p></figcaption></figure>
 
 
 
@@ -34,7 +34,7 @@ Services can be made in the languages most capable of delivering the functionali
 
 From the left menu, select the solution services and languages that suit your needs.
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-06-18 at 10.57.02@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-08-14 at 13.12.10.png" alt=""><figcaption><p>Libraries setup</p></figcaption></figure>
 
 #### ‍‍Supported languages
 
@@ -44,6 +44,7 @@ We provide a choice of languages to generate your SDK. Currently, we support the
 * Java
 * Python
 * TypeScript‍
+* PHP
 
 
 
@@ -53,7 +54,7 @@ Uniscale hosts the generated library in a repository accessed through the common
 
 Using the credentials provided in the SDK menu you will be able to pull the library into your development project and pull any new versions from the same repository when future iterations are made.
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-06-18 at 11.03.29@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-08-14 at 13.13.32.png" alt=""><figcaption><p>Uniscale SDK</p></figcaption></figure>
 
 ### **Supported package managers**
 
