@@ -13,9 +13,23 @@ description: >-
 
 After a relaxing holiday period, we are again back at it and have released some amazing updates to our product:
 
+## Week 33 (August 19)
+
+**New features:**
+
+* Clicked on the service/module block opens the editor
+
+**Improvements:**
+
+* Clicked on the solution name opens the editor
+
+**Bug fixes:**
+
+*   Minor UX improvement
 
 
-## Week 33 (August 12)
+
+## Week 32 (August 12)
 
 **New features:**
 
