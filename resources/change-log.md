@@ -18,14 +18,18 @@ After a relaxing holiday period, we are again back at it and have released some 
 **New features:**
 
 * Clicked on the service/module block opens the editor
+* Elements can now be moved across modules
 
 **Improvements:**
 
 * Clicked on the solution name opens the editor
+* Performance improvements on triggering ready all functionality&#x20;
+* Namespace parameters functionality improvements
 
 **Bug fixes:**
 
-*   Minor UX improvement
+* Minor UX improvement
+*   SDK and snapshot bug fixes
 
 
 
