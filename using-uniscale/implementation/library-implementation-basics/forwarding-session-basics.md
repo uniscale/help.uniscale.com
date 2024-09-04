@@ -152,6 +152,45 @@ if (createdUser.isSuccess())
 else console.log(createdUser.error?.toLongString())
 ```
 {% endtab %}
+
+{% tab title="PHP" %}
+```php
+<?php
+
+use Ramsey\Uuid\Uuid;
+use Uniscale\Uniscaledemo\Account\Functionality\ServiceToModule\Account\Registration\GetOrRegister;
+use Uniscale\Http\Result;
+use Uniscale\Models\BackendActions\GatewayRequest;
+use Uniscale\Platform\Platform;
+use Uniscale\Uniscaledemo\Account\Patterns as UniscaleDemoAccountPattern;
+
+// Set up interceptors for the patterns
+$clientSession = Platform::builder()
+    ->withInterceptors(function ($interceptor) {
+        $interceptor->interceptPattern(
+            UniscaleDemoAccountPattern::$pattern,
+            function ($input, $ctx) {
+                $requestJson = GatewayRequest::from($input, $ctx)->toJson();
+                // This call should end up in acceptGatewayRequest of the account
+                // session that we create in a later sample.
+                return sendToAccountService($requestJson);
+            }
+        );
+    })->build();
+
+// Initialize a DispatcherSession with your solution id
+$dispatcher = $clientSession->asSolution(Uuid::fromString('ac43912b-50cf-439a-9652-b378b197d80a'));
+
+// Make the call to create a new user
+$createdUser = $dispatcher->request(GetOrRegister::with('AwesomeUserHandle'));
+
+if ($createdUser->isSuccess()) {
+    echo "We created user with id: " . $createdUser->getValue()->userIdentifier;
+} else {
+    echo $createdUser->getError()->toLongString();
+}
+```
+{% endtab %}
 {% endtabs %}
 
 
@@ -445,6 +484,85 @@ const accountServiceSession = await sessionBuilder
 const response = accountServiceSession.acceptGatewayRequest(requestJson);
 ```
 {% endtab %}
+
+{% tab title="PHP" %}
+```php
+<?php
+
+use Ramsey\Uuid\Uuid;
+use Uniscale\Http\Result;
+use Uniscale\Models\BackendActions\GatewayRequest;
+use Uniscale\Platform\Platform;
+use Uniscale\Uniscaledemo\Account\Account\UserFull;
+use Uniscale\Uniscaledemo\Account\Functionality\ServiceToModule\Account\Registration\GetOrRegister;
+use Uniscale\Uniscaledemo\Messages\Messages\UserTag;
+use Uniscale\Uniscaledemo\Messages\Messages\WelcomeUserInput;
+use Uniscale\Uniscaledemo\Messages\Patterns as UniscaleDemoMessagesPattern;
+use Uniscale\Uniscaledemo\Messages_1_0\Functionality\Servicetoservice\Messages\Notificationfunctionality\Welcomemessage\WelcomeUser;
+
+$sessionBuilder = Platform::builder();
+
+// Prepare for outgoing message calls from the account service
+$messageForwardingSessionBuilder = $sessionBuilder
+    ->forwardingSessionBuilder(Uuid::fromString('60888f37-1665-416e-a70f-09332a24f7bd'))
+    ->withInterceptors(function ($interceptor) {
+        $interceptor->interceptPattern(
+            UniscaleDemoMessagesPattern::$pattern,
+            function ($input, $ctx) {
+                $requestJson = GatewayRequest::from($input, $ctx)->toJson();
+                // This call should end up in AcceptGatewayRequest of the message
+                // session that we create in a later sample.
+                $response = sendToMessageService($requestJson);
+                return $response;
+            }
+        );
+    })
+    ->build();
+
+// Handle incoming calls for the account service
+$accountServiceSession = $sessionBuilder
+    ->withInterceptors(function ($interceptor) use ($messageForwardingSessionBuilder) {
+        $interceptor->interceptRequest(
+            GetOrRegister::ALL_FEATURE_USAGES,
+            GetOrRegister::handle(function ($input, $ctx) use ($messageForwardingSessionBuilder) {
+                // For demo, we'll create a sample user as variable.
+                $created = new UserFull();
+                $created->handle = $input;
+                $created->userIdentifier = Uuid::uuid4();
+
+                // Request message service to celebrate new user.
+                $message = "we registered " . $created->handle;
+                $dispatcher = $messageForwardingSessionBuilder->forTransaction($ctx->transactionId);
+
+
+                $sendResult = $dispatcher->request(
+                    WelcomeUser::with(WelcomeUserInput::fromObject(
+                        (object)['welcomedUser' => UserTag::fromObject(
+                            (object)[
+                                'by' => $created->userIdentifier,
+                                'at' => new DateTime(),
+                            ]),
+                            'message' => $message]))
+                );
+
+                if (!$sendResult->isSuccess()) {
+                    return Result::internalServerError(
+                        "Demo.GeneralError",
+                        "Failed calling message service: SendMessage"
+                    );
+                }
+
+                // Response
+                return Result::ok($created);
+            })
+        );
+    })
+    ->build();
+
+// The endpoint of sendToAccountService.
+$response = $accountServiceSession->acceptGatewayRequest($requestJson);
+```
+{% endtab %}
 {% endtabs %}
 
 
@@ -550,6 +668,31 @@ const messageServiceSession = await Platform.builder()
 
 // The endpoint of sendToMessageService.
 const response = messageServiceSession.acceptGatewayRequest(requestJson);
+```
+{% endtab %}
+
+{% tab title="PHP" %}
+```php
+<?php
+
+use Uniscale\Platform\Platform;
+use Uniscale\Uniscaledemo\Messages_1_0\Functionality\Servicetoservice\Messages\Notificationfunctionality\Welcomemessage\WelcomeUser;
+
+// Create a simple message service session that we can call later in a sample
+$messageServiceSession = Platform::builder()
+    ->withInterceptors(function ($interceptor) {
+        $interceptor->interceptMessage(
+            WelcomeUser::ALL_FEATURE_USAGES,
+            WelcomeUser::handleDirect(function ($input, $ctx) {
+                // Send the message into console as a test.
+                echo "Message: " . $input->message . " By: " . ($input->welcomedUser->by ?? '') . "\n";
+            })
+        );
+    })
+    ->build();
+
+// The endpoint of sendToMessageService.
+$response = $messageServiceSession->acceptGatewayRequest($requestJson);
 ```
 {% endtab %}
 {% endtabs %}
@@ -671,7 +814,7 @@ var createdUser = await dispatcher.Request(
     GetOrRegister.With("AwesomeUserHandle"));
 Console.WriteLine(createdUser.Success
     ? $"We created user with id: {createdUser.Value.UserIdentifier}"
-    : createdUser.Error.ToLongString());import uuid
+    : createdUser.Error.ToLongString());
 ```
 {% endcode %}
 {% endtab %}
@@ -1074,6 +1217,129 @@ if (createdUser.isSuccess())
     `We created user with id: ${createdUser.value?.userIdentifier}`,
   )
 else console.log(createdUser.error?.toLongString())
+```
+{% endtab %}
+
+{% tab title="PHP" %}
+```php
+<?php
+
+use Ramsey\Uuid\Uuid;
+use Uniscale\Http\Result;
+use Uniscale\Models\BackendActions\GatewayRequest;
+use Uniscale\Platform\Platform;
+use Uniscale\Uniscaledemo\Account\Account\UserFull;
+use Uniscale\Uniscaledemo\Account\Patterns as UniscaleDemoAccountPattern;
+use Uniscale\Uniscaledemo\Messages\Messages\UserTag;
+use Uniscale\Uniscaledemo\Messages\Messages\WelcomeUserInput;
+use Uniscale\Uniscaledemo\Messages\Patterns as UniscaleDemoMessagesPattern;
+use Uniscale\Uniscaledemo\Messages_1_0\Functionality\Servicetoservice\Messages\Notificationfunctionality\Welcomemessage\WelcomeUser;
+
+require 'vendor/autoload.php';
+
+// Create a simple message service session that we can call later in a sample
+$messageServiceSession = Platform::builder()
+    ->withInterceptors(function ($interceptor) {
+        $interceptor->interceptMessage(
+            WelcomeUser::ALL_FEATURE_USAGES,
+            WelcomeUser::handleDirect(function ($input, $ctx) {
+                // Send the message into console as a test.
+                echo "Message: " . $input->message . " By: " . ($input->welcomedUser->by ?? '') . "\n";
+            })
+        );
+    })
+    ->build();
+
+// Initialize builder for forwarding and service sessions, keep them linked.
+$sessionBuilder = Platform::builder();
+
+// Prepare for outgoing message calls from the account service
+$messageForwardingSessionBuilder = $sessionBuilder
+    // This uuid is the service id of your message service.
+    ->forwardingSessionBuilder(Uuid::fromString('60888f37-1665-416e-a70f-09332a24f7bd'))
+    ->withInterceptors(function ($interceptor) use ($messageServiceSession) {
+        $interceptor->interceptPattern(
+            UniscaleDemoMessagesPattern::$pattern,
+            function ($input, $ctx) use ($messageServiceSession) {
+                $requestJson = GatewayRequest::from($input, $ctx)->toJson();
+                // This could just as easily be an HTTP call
+                $response = $messageServiceSession->acceptGatewayRequest($requestJson);
+                return $response;
+            }
+        );
+    })
+    ->build();
+
+// Handle incoming calls for the account service
+$accountServiceSession = $sessionBuilder
+    ->withInterceptors(function ($interceptor) use ($messageForwardingSessionBuilder) {
+        $interceptor->interceptRequest(
+            GetOrRegister::ALL_FEATURE_USAGES,
+            GetOrRegister::handle(function ($input, $ctx) use ($messageForwardingSessionBuilder) {
+                // For demo, we'll create a sample user as variable.
+                $created = new UserFull();
+                $created->handle = $input;
+                $created->userIdentifier = Uuid::uuid4();
+
+                // Request message service to celebrate new user.
+                $message = "we registered " . $created->handle;
+                $dispatcher = $messageForwardingSessionBuilder->forTransaction($ctx->transactionId);
+
+
+                $sendResult = $dispatcher->request(
+                    WelcomeUser::with(WelcomeUserInput::fromObject(
+                        (object)['welcomedUser' => UserTag::fromObject(
+                            (object)[
+                                'by' => $created->userIdentifier,
+                                'at' => new DateTime(),
+                            ]),
+                            'message' => $message]))
+                );
+
+                if (!$sendResult->isSuccess()) {
+                    return Result::internalServerError(
+                        "Demo.GeneralError",
+                        "Failed calling message service: SendMessage"
+                    );
+                }
+
+                // Response
+                return Result::ok($created);
+            })
+        );
+    })
+    ->build();
+
+// And finally we can define the client
+$clientSession = Platform::builder()
+    ->withInterceptors(function ($interceptor) use ($accountServiceSession) {
+        $interceptor->interceptPattern(
+            UniscaleDemoAccountPattern::$pattern,
+            function ($input, $ctx) use ($accountServiceSession) {
+                $requestJson = GatewayRequest::from($input, $ctx)->toJson();
+                // This could just as easily be an HTTP call
+                $response = $accountServiceSession->acceptGatewayRequest($requestJson);
+                return $response;
+            }
+        );
+    })
+    ->build();
+
+$dispatcher = $clientSession->asSolution(
+    // This uuid is the id of your solution.
+    Uuid::fromString('ac43912b-50cf-439a-9652-b378b197d80a')
+);
+
+// And for sample we make the call to create a new user
+$createdUser = $dispatcher->request(
+    GetOrRegister::with("AwesomeUserHandle")
+);
+
+if ($createdUser->isSuccess()) {
+    echo "We created user with id: " . $createdUser->getValue()->userIdentifier . "\n";
+} else {
+    echo $createdUser->getError()->toLongString() . "\n";
+}
 ```
 {% endtab %}
 {% endtabs %}

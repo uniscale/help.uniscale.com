@@ -199,6 +199,56 @@ const session = await Platform.builder()
 ```
 {% endcode %}
 {% endtab %}
+
+{% tab title="PHP" %}
+Starter for session initialisation. Create from the builder and define interceptors.
+
+{% code lineNumbers="true" fullWidth="true" %}
+```php
+<?php
+use Uniscale\Platform\Platform;
+
+$platformSession = Platform::builder()
+  // Set up interceptors for the endpoints
+  ->withInterceptors(function ($i) {
+    // Implementation in later samples
+  })
+  // And build the session
+  ->build();
+```
+{% endcode %}
+
+While you can get started with just interceptors, the session initialization allows you to define more functionality on a general level.
+
+{% code lineNumbers="true" %}
+```php
+<?php
+use Uniscale\Logging\ILogger;
+use Uniscale\Platform\Platform;
+use Uniscale\Platform\Types\RequestInspector;
+use Uniscale\Platform\Types\ResponseInspector;
+
+class MyLogger implements ILogger { ... }
+
+class MyRequestInspector implements RequestInspector { ... }
+
+class MyResponseInspector implements ResponseInspector { ... }
+
+$this->platformSession = Platform::builder()
+  // Set up interceptors for the endpoints
+  ->withInterceptors(function ($i) {
+    // Implementation in later samples
+  })
+  // Define functionality for logging throughout
+  ->onLogMessage(new MyLogger())
+  // Inspect requested and returned objects
+  ->inspectRequests(new MyRequestInspector())
+  ->inspectResponses(new MyResponseInspector())
+  // And build the session
+  ->build();
+```
+{% endcode %}
+{% endtab %}
 {% endtabs %}
 
 
@@ -542,6 +592,99 @@ const session = await Platform.builder()
 ```
 {% endcode %}
 {% endtab %}
+
+{% tab title="PHP" %}
+In typical situation you can write interceptors for each endpoint
+
+{% code lineNumbers="true" fullWidth="true" %}
+```php
+<?php
+
+use Uniscale\Http\Result;
+use Uniscale\Platform\Platform;
+use Uniscale\Uniscaledemo\Account\Account\UserFull;
+use Uniscale\Uniscaledemo\Account\Functionality\ServiceToModule\Account\Registration\GetOrRegister;
+use Uniscale\Uniscaledemo\Messages\Patterns as MessagePatterns;
+use Uniscale\Uniscaledemo\Messages_1_0\ErrorCodes;
+use Uniscale\Utilisation\Types\FeatureContext;
+
+$builder = Platform::builder();
+
+// Set up interceptors for the endpoints
+$builder->withInterceptors(function ($interceptor) {
+    $interceptor->interceptRequest(
+        GetOrRegister::ALL_FEATURE_USAGES,
+        GetOrRegister::handle(function (string $input, FeatureContext $ctx) {
+            return Result::ok(UserFull::samples()->defaultSample());
+        })
+    );
+
+    // You can also intercept with patterns
+    $interceptor->interceptMessage(
+        MessagePatterns::$messages->sendMessage->allMessageUsages,
+        MessagePatterns::$messages->sendMessage->handle(function ($input, FeatureContext $ctx) {
+            // You can validate and use defined error codes on return
+            if (empty($input['message'])) {
+                return Result::badRequest(ErrorCodes::$messages->invalidMessageLength);
+            }
+            if ($ctx->characters->performer->terminology === "Term.Admin") {
+                echo "Admin sent a message: " . $input['message'];
+            } else {
+                echo $input['by'] . " sent a message: " . $input['message'];
+            }
+            return Result::ok();
+        })
+    );
+});
+
+$session = $builder->build();
+```
+{% endcode %}
+
+\
+However there are some cases where it makes more sense to have one implementation for group of endpoints, like for example in your frontend when calling specific backend service for all endpoints under the messages namespace. We stay out of your way and **allow you to choose your preferred authentication and transport mechanisms**.
+
+{% code lineNumbers="true" %}
+```php
+<?php
+
+use Uniscale\Http\Result;
+use Uniscale\Models\BackendActions\GatewayRequest;
+use Uniscale\Platform\Platform;
+use Uniscale\Uniscaledemo\Messages\Patterns as MessagePatterns;
+use Uniscale\Utilisation\Types\FeatureContext;
+
+$builder = Platform::builder();
+
+// Set up interceptors for the patterns
+$builder->withInterceptors(function ($interceptor) {
+    $interceptor->interceptPattern(
+        MessagePatterns::$messages->pattern,
+        function ($input, FeatureContext $ctx) {
+            // By creating GatewayRequest JSON, the receiving end can simply
+            // handle incoming call with session.acceptGatewayRequest()
+            $json = GatewayRequest::from($input, $ctx)->toJson();
+            $responseJson = sendToMessageService($json);
+            // The response needs to be serialized into the Result class
+            return Result::fromJson($responseJson);
+        }
+    );
+
+    // You can also intercept all (remaining) calls to a general endpoint
+    $interceptor->interceptPattern(
+        "*",
+        function ($input, $ctx) {
+            $request = GatewayRequest::from($input, $ctx);
+            $responseJson = callGeneralServiceEndpoint($request);
+            return Result::fromJson($responseJson);
+        }
+    );
+});
+
+$session = $builder->build();
+```
+{% endcode %}
+{% endtab %}
 {% endtabs %}
 
 
@@ -831,11 +974,88 @@ const session = await Platform.builder()
   })
   .build()
 
-
 // In your endpoint handler (Http endpoint or similar)
 const result = await session.acceptGatewayRequest(requestJson)
 return result.toJson()
 
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="PHP" %}
+The typical case for creating a request and creating a GatewayRequest from it.
+
+{% code lineNumbers="true" fullWidth="true" %}
+```php
+<?php
+
+use Ramsey\Uuid\Uuid;
+use Uniscale\Http\Result;
+use Uniscale\Models\BackendActions\GatewayRequest;
+use Uniscale\Platform\Platform;
+use Uniscale\Uniscaledemo\Account\Functionality\ServiceToModule\Account\Registration\GetOrRegister;
+
+$builder = Platform::builder();
+
+// Set up interceptors for the patterns
+$builder->withInterceptors(function ($interceptor) {
+    // Set up your PlatformSession as in above samples
+    // For example sending all to GeneralServiceEndpoint
+    $interceptor->interceptPattern(
+        "*",
+        function ($input, $ctx) {
+            $request = GatewayRequest::from($input, $ctx);
+            $responseJson = callGeneralServiceEndpoint($request);
+            return Result::fromJson($responseJson);
+        }
+    );
+});
+
+$session = $builder->build();
+
+// Initialize a DispatcherSession with a solution id of your choice
+$dispatcher = $session->asSolution(Uuid::fromString('fb344616-794e-4bd7-b81a-fb1e3361701f'));
+
+// Create a new user and check if we got a successful response
+$result = $dispatcher->request(GetOrRegister::with('myAwesomeUserHandle'));
+
+if ($result->isSuccess()) {
+    echo "User: id=" . $result->getValue()->identifier;
+    return;
+}
+echo "Failed with: " . $result->getError()->toLongString();
+```
+{% endcode %}
+
+And a quick sample on how one would receive such request.
+
+{% code lineNumbers="true" %}
+```php
+<?php
+
+use Uniscale\Uniscaledemo\Account\Functionality\ServiceToModule\Account\Registration\GetOrRegister;
+use Uniscale\Http\Result;
+use Uniscale\Platform\Platform;
+use Uniscale\Uniscaledemo\Account\Account\UserFull;
+
+$builder = Platform::builder();
+
+// Set up interceptors for the requests
+$builder->withInterceptors(function ($interceptor) {
+    $interceptor->interceptRequest(
+        GetOrRegister::ALL_FEATURE_USAGES,
+        GetOrRegister::handle(function ($input, $ctx) {
+            return Result::ok(UserFull::samples()->defaultSample());
+        })
+    );
+});
+
+$session = $builder->build();
+
+// In your endpoint handler (Http endpoint or similar)
+$requestJson = file_get_contents('php://input'); // Assuming the request JSON is sent via POST
+$result = $session->acceptGatewayRequest($requestJson);
+echo $result->toJson();
 ```
 {% endcode %}
 {% endtab %}

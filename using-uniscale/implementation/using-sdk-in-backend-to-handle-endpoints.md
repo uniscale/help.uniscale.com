@@ -220,6 +220,102 @@ const app = async () => {
 app()
 ```
 {% endtab %}
+
+{% tab title="PHP" %}
+To create a backend web application in PHP, you can use a framework like Laravel or a micro-framework like Slim. Here, we'll use Slim to keep it simple and straightforward.
+
+First, install Slim and other necessary packages using Composer:
+
+```
+composer require slim/slim "^4.0"
+composer require slim/psr7
+composer require nyholm/psr7
+composer require uniscale-sdk/actorcharacter-messagethreads
+```
+
+Next, create a `PlatformSessionManager.php` file to handle the PlatformSession initialization:
+
+```php
+<?php
+
+use Ramsey\Uuid\Uuid;
+use Uniscale\Http\Result;
+use Uniscale\Platform\Platform;
+use Uniscale\Platform\PlatformSession;
+use Uniscale\Uniscaledemo\Account\Account\UserFull;
+use Uniscale\Uniscaledemo\Account\Functionality\ServiceToModule\Account\Registration\GetOrRegister;
+use Uniscale\Utilisation\Types\FeatureContext;
+
+class PlatformSessionManager
+{
+    public static PlatformSession $platformSession;
+
+    public static function initializePlatformSession(): void
+    {
+        self::$platformSession = Platform::builder()
+            ->withInterceptors(function ($interceptor) {
+                $interceptor->interceptRequest(
+                    GetOrRegister::ALL_FEATURE_USAGES,
+                    GetOrRegister::handle(function (string $input, FeatureContext $ctx) {
+                        return Result::ok(UserFull::samples()->defaultSample());
+                    })
+                );
+            })
+            ->build();
+    }
+}
+```
+
+Then, create a [`server.php`](https://vscode-file/vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) file to set up the Slim application and initialize the PlatformSession:
+
+```php
+<?php
+
+require 'vendor/autoload.php';
+
+use Psr\Http\Message\ResponseInterface as Response;
+use Psr\Http\Message\ServerRequestInterface as Request;
+use Slim\Factory\AppFactory;
+
+// Initialize the PlatformSession
+PlatformSessionManager::initializePlatformSession();
+
+$app = AppFactory::create();
+
+// Middleware to parse JSON bodies
+$app->addBodyParsingMiddleware();
+
+// CORS Middleware
+$app->add(function (Request $request, $handler) {
+    $response = $handler->handle($request);
+    return $response
+        ->withHeader('Access-Control-Allow-Origin', '*')
+        ->withHeader('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Accept, Origin, Authorization')
+        ->withHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
+});
+
+// Define a sample endpoint
+$app->post('/register', function (Request $request, Response $response) {
+    $body = $request->getParsedBody();
+    $requestJson = json_encode($body);
+    $result = PlatformSessionManager::$platformSession
+        ->acceptGatewayRequest($requestJson);
+    
+    $responseBody = $result->isSuccess()
+        ? ['userIdentifier' => $result->getValue()->userIdentifier]
+        : ['error' => $result->getError()->toLongString()];
+
+    $response->getBody()->write(json_encode($responseBody));
+    return $response->withHeader('Content-Type', 'application/json');
+});
+
+// Start the server
+$app->run();
+```
+
+This sets up a Slim application, initializes the PlatformSession, and defines a sample endpoint `/register` . The endpoint handles a POST request to register a user and returns the user identifier or an error message.\
+To run this script you will need to specify the host `php -S localhost:8080 server.php`
+{% endtab %}
 {% endtabs %}
 
 Now there is a server running with PlatformSession ready to be injected/passed.
@@ -354,6 +450,31 @@ app.all("/", async (req, res) => {
   }
 })
 ```
+{% endtab %}
+
+{% tab title="PHP" %}
+Here's a PHP sample that you can add to `server.php` before `$app->run();`. It matches all routes and creates a single HTTP endpoint that serves the app based on the created instance of `PlatformSession`:
+
+```php
+// Match all routes and create a single HTTP endpoint
+$app->any('/', function (Request $request, Response $response) {
+    $body = $request->getParsedBody();
+    $requestJson = json_encode($body);
+
+    try {
+        $value = PlatformSessionManager::$platformSession->acceptGatewayRequest($requestJson);
+        $responseBody = $value->toJson();
+        $response->getBody()->write($responseBody);
+        return $response->withHeader('Content-Type', 'application/json')->withStatus(200);
+    } catch (Exception $e) {
+        error_log($e->getMessage());
+        $response->getBody()->write(json_encode(['error' => $e->getMessage()]));
+        return $response->withHeader('Content-Type', 'application/json')->withStatus(500);
+    }
+});
+```
+
+This code defines a single endpoint that matches all routes. The endpoint processes the incoming request, passes it to the `PlatformSession`, and returns the result as JSON. If an error occurs, it logs the error and returns a 500 status with the error message.
 {% endtab %}
 {% endtabs %}
 
