@@ -13,6 +13,16 @@ description: >-
 
 After a relaxing holiday period, we are again back at it and have released some amazing updates to our product:
 
+## Week 34 - PHP support
+
+We have now added support for generating the Uniscale SDK in PHP.
+
+To learn more: [library-implementation](../using-uniscale/implementation/library-implementation/ "mention")
+
+<figure><img src="../.gitbook/assets/PHP-logo.svg.png" alt="" width="375"><figcaption><p>Uniscale now supports PHP</p></figcaption></figure>
+
+
+
 ## Week 33 (August 19)
 
 **New features:**
