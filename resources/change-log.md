@@ -18,7 +18,9 @@ After a relaxing holiday period, we are again back at it and have released some 
 **New features:**
 
 * Clicked on the service/module block opens the editor
-* Elements can now be moved across modules
+*   Elements can now be moved across modules
+
+    <figure><img src="../.gitbook/assets/CleanShot 2024-09-19 at 14.18.06@2x.png" alt=""><figcaption><p>Move elements across modules</p></figcaption></figure>
 
 **Improvements:**
 
@@ -37,7 +39,10 @@ After a relaxing holiday period, we are again back at it and have released some 
 
 **New features:**
 
-* New module revision flow
+* New module revision flow [module-revision.md](../using-uniscale/specification/module-revision.md "mention")
+
+<figure><img src="../.gitbook/assets/CleanShot 2024-09-19 at 14.20.49@2x.png" alt=""><figcaption><p>New module revision overview</p></figcaption></figure>
+
 * Interface settings with the option for a floating editor toolbar in solution & service design
 
 **Improvements:**
