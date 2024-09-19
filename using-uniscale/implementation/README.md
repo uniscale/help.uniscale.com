@@ -24,12 +24,12 @@ Here you will automatically generate and have access to an SDK library with a se
 
 Here, you will write and implement your code in the Code Editor, utilizing our IDE plugin to enhance your coding efficiency and quality.
 
-<table><thead><tr><th width="131"></th><th></th></tr></thead><tbody><tr><td>What</td><td>Involves writing and integrating code based on the specified functional and technical requirements defined inside Uniscale.</td></tr><tr><td>Why</td><td>Provides a seamless coding experience due to the IDE plugin.</td></tr><tr><td>Who</td><td>Software Developer</td></tr><tr><td>Outcome</td><td>Implement the required code to build your solution according to the functional and technical specifications within Uniscale.</td></tr><tr><td>How</td><td><a data-mention href="library-implementation-basics/">library-implementation-basics</a></td></tr></tbody></table>
+<table><thead><tr><th width="131"></th><th></th></tr></thead><tbody><tr><td>What</td><td>Involves writing and integrating code based on the specified functional and technical requirements defined inside Uniscale.</td></tr><tr><td>Why</td><td>Provides a seamless coding experience due to the IDE plugin.</td></tr><tr><td>Who</td><td>Software Developer</td></tr><tr><td>Outcome</td><td>Implement the required code to build your solution according to the functional and technical specifications within Uniscale.</td></tr><tr><td>How</td><td><a data-mention href="library-implementation/">library-implementation</a></td></tr></tbody></table>
 
 
 
 ## Begin implementation
 
 * For an overview and introduction: [sdk-basics](sdk-basics/ "mention")
-* To learn about how to implement: [library-implementation-basics](library-implementation-basics/ "mention")
+* To learn about how to implement: [library-implementation](library-implementation/ "mention")
 * Lastly, to learn how to integrate Uniscale with your IDE: [ide-plugins](ide-plugins/ "mention")

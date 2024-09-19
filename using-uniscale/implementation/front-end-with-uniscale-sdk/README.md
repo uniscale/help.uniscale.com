@@ -4,9 +4,9 @@ description: >-
   application.
 ---
 
-# Quick start: Front-end with Uniscale SDK
+# Front-end with Uniscale SDK
 
-This tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [library-implementation-basics](../library-implementation-basics/ "mention")
+This tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [library-implementation](../library-implementation/ "mention")
 
 
 

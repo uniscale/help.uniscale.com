@@ -38,16 +38,16 @@
 * [Implementation](using-uniscale/implementation/README.md)
   * [SDK basics](using-uniscale/implementation/sdk-basics/README.md)
     * [SDK portal overview](using-uniscale/implementation/sdk-basics/sdk-portal-overview.md)
-  * [Library implementation basics](using-uniscale/implementation/library-implementation-basics/README.md)
-    * [Forwarding session basics](using-uniscale/implementation/library-implementation-basics/forwarding-session-basics.md)
-  * [Front-end with Uniscale SDK](using-uniscale/implementation/front-end-with-uniscale-sdk/README.md)
-    * [React with Uniscale SDK](using-uniscale/implementation/front-end-with-uniscale-sdk/react-with-uniscale-sdk.md)
-  * [Using SDK in backend to handle endpoints](using-uniscale/implementation/using-sdk-in-backend-to-handle-endpoints.md)
-  * [Using SDK for service to service](using-uniscale/implementation/using-sdk-for-service-to-service.md)
+  * [Library implementation](using-uniscale/implementation/library-implementation/README.md)
+    * [Forwarding session](using-uniscale/implementation/library-implementation/forwarding-session.md)
   * [IDE plugins](using-uniscale/implementation/ide-plugins/README.md)
     * [Visual Studio Code](using-uniscale/implementation/ide-plugins/visual-studio-code.md)
     * [Visual Studio](using-uniscale/implementation/ide-plugins/visual-studio.md)
     * [JetBrains IDEs](using-uniscale/implementation/ide-plugins/jetbrains-ides.md)
+  * [Front-end with Uniscale SDK](using-uniscale/implementation/front-end-with-uniscale-sdk/README.md)
+    * [React with Uniscale SDK](using-uniscale/implementation/front-end-with-uniscale-sdk/react-with-uniscale-sdk.md)
+  * [Using SDK in backend to handle endpoints](using-uniscale/implementation/using-sdk-in-backend-to-handle-endpoints.md)
+  * [Using SDK for service to service](using-uniscale/implementation/using-sdk-for-service-to-service.md)
 
 ## ACCOUNT & PREFERENCES
 

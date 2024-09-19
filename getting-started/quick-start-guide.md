@@ -292,7 +292,7 @@ Once the SDK is generated, the instructions for how to utilize show on the scree
 
 Depending on how you plan to use the SDK, we have created dedicated articles to guide you:
 
-* [library-implementation-basics](../using-uniscale/implementation/library-implementation-basics/ "mention")
+* [library-implementation](../using-uniscale/implementation/library-implementation/ "mention")
 * [front-end-with-uniscale-sdk](../using-uniscale/implementation/front-end-with-uniscale-sdk/ "mention")
 * [using-sdk-in-backend-to-handle-endpoints.md](../using-uniscale/implementation/using-sdk-in-backend-to-handle-endpoints.md "mention")
 * [using-sdk-for-service-to-service.md](../using-uniscale/implementation/using-sdk-for-service-to-service.md "mention")

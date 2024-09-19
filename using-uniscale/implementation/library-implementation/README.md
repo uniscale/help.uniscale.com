@@ -2,7 +2,7 @@
 description: Learn about the library generated via Uniscale.
 ---
 
-# Library implementation basics
+# Library implementation
 
 ### Prerequisites
 
@@ -19,6 +19,14 @@ You now have the SDK at hand and you're wondering how to get started. To utilize
 Our sessions come bundled with support for client-server usage and request forwarding tools for when you're working with multiple services at once. Interceptors make life easy for you defining exactly what needs to be implemented and what data you have in use. On top of that with pattern interceptors, you can implement a bunch at a time. This allows you to implement your authentication and transport mechanisms in a way that works for you.
 
 You can use the library to test out and prototype your service interfaces ahead of building your service by using the generated sample data. When you have finished your implementation, you move from samples into proper implementations without having to change the interactions.
+
+
+
+## IDE plugin
+
+We offer a variety of IDE plugins to seamlessly integrate Uniscale with your code editors, enhancing and streamlining your interaction with the Uniscale SDK.&#x20;
+
+To learn more: [ide-plugins](../ide-plugins/ "mention")
 
 
 
@@ -1061,7 +1069,7 @@ echo $result->toJson();
 {% endtab %}
 {% endtabs %}
 
-You can use the created dispatcher to make multiple requests and fetch Terminologies that you have defined into your model. You can find a more complex sample of how forwarding works in [forwarding-session-basics.md](forwarding-session-basics.md "mention").
+You can use the created dispatcher to make multiple requests and fetch Terminologies that you have defined into your model. You can find a more complex sample of how forwarding works in [forwarding-session.md](forwarding-session.md "mention").
 
 ***
 

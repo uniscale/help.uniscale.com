@@ -4,7 +4,7 @@ description: Learn how to use the SDK in your backend to handle endpoints.
 
 # Using SDK in backend to handle endpoints
 
-On this page, you will learn how to use the SDK with your back-end application. The tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [library-implementation-basics](library-implementation-basics/ "mention").
+On this page, you will learn how to use the SDK with your back-end application. The tutorial uses Uniscale's Message Threads demo solution as its base. For more detailed information on the SDK, see [library-implementation](library-implementation/ "mention").
 
 You can find similar complete code samples with running instructions in our GitHub for every language:
 
